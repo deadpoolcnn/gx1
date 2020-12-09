@@ -15,21 +15,13 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 233,
+      "i": 1307,
       "p": {
         "displayName": "bg01",
         "image": "assets/junminronghe/bg01.png",
-        "position": {
-          "x": 960,
-          "y": 540
-        },
         "anchor": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "scale": {
-          "x": 1,
-          "y": 1
+          "x": 0,
+          "y": 0
         },
         "width": 1920,
         "height": 1080
@@ -44,12 +36,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 234,
+      "i": 1308,
       "p": {
         "displayName": "top_title",
         "image": "assets/junminronghe/top_title.png",
         "host": {
-          "__i": 233
+          "__i": 1307
         },
         "position": {
           "x": 960,
@@ -65,13 +57,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 235,
+      "i": 1309,
       "p": {
         "parent": {
-          "__i": 234
+          "__i": 1308
         },
         "host": {
-          "__i": 234
+          "__i": 1308
         },
         "position": {
           "x": 962.92761,
@@ -93,85 +85,74 @@
     },
     {
       "c": "ht.Node",
-      "i": 236,
+      "i": 1310,
       "p": {
         "displayName": "zt",
         "image": "assets/junminronghe/zt.png",
         "host": {
-          "__i": 233
+          "__i": 1307
         },
         "position": {
-          "x": 941.31415,
-          "y": 745
+          "x": 962.83864,
+          "y": 774
         },
         "width": 1576,
         "height": 1248
       },
       "s": {
-        "layout.v": "center",
-        "layout.h": "center",
+        "layout.v": "top",
+        "layout.h": "left",
         "2d.selectable": false,
         "image.stretch": "centerUniform"
       }
     },
     {
       "c": "ht.Node",
-      "i": 237,
+      "i": 1311,
       "p": {
         "displayName": "yun",
         "parent": {
-          "__i": 236
+          "__i": 1310
         },
         "image": "assets/junminronghe/yun.png",
         "host": {
-          "__i": 236
+          "__i": 1310
         },
         "position": {
-          "x": 952.36513,
-          "y": 511
-        },
-        "width": 180,
-        "height": 100
-      },
-      "s": {
-        "layout.v": "center",
-        "layout.h": "center"
+          "x": 973.88962,
+          "y": 540
+        }
       }
     },
     {
       "c": "ht.Block",
-      "i": 238,
+      "i": 1312,
       "p": {
         "displayName": "nav",
-        "host": {
-          "__i": 236
-        },
         "position": {
-          "x": 941.31415,
-          "y": 461.00002
+          "x": 962.83864,
+          "y": 490.00002
         },
         "width": 1494.55099,
         "height": 640.76535
       },
       "s": {
         "interactive": true,
-        "2d.selectable": false,
-        "layout.h": "center",
-        "layout.v": "center"
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 239,
+      "i": 1313,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 307.03866,
-          "y": 491.61735
+          "x": 328.56315,
+          "y": 520.61735
         },
         "width": 226,
         "height": 234
@@ -193,16 +174,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 240,
+      "i": 1314,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 1158.82634,
-          "y": 257.61735
+          "x": 1180.35083,
+          "y": 286.61735
         },
         "width": 226,
         "height": 234
@@ -223,16 +204,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 241,
+      "i": 1315,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 634.78966,
-          "y": 520.82979
+          "x": 656.31415,
+          "y": 549.82979
         },
         "width": 226,
         "height": 234
@@ -253,16 +234,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 242,
+      "i": 1316,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 747.78966,
-          "y": 664.38266
+          "x": 769.31415,
+          "y": 693.38266
         },
         "width": 226,
         "height": 234
@@ -283,16 +264,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 243,
+      "i": 1317,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 1158.82634,
-          "y": 595.61735
+          "x": 1180.35083,
+          "y": 624.61735
         },
         "width": 226,
         "height": 234
@@ -313,16 +294,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 244,
+      "i": 1318,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 1575.58964,
-          "y": 346
+          "x": 1597.11413,
+          "y": 375
         },
         "width": 226,
         "height": 234
@@ -343,16 +324,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 245,
+      "i": 1319,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 1456.58964,
-          "y": 632.82979
+          "x": 1478.11413,
+          "y": 661.82979
         },
         "width": 226,
         "height": 234
@@ -373,16 +354,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 246,
+      "i": 1320,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 709.54889,
-          "y": 275.08979
+          "x": 731.07338,
+          "y": 304.08979
         },
         "width": 226,
         "height": 234
@@ -403,14 +384,14 @@
     },
     {
       "c": "ht.Text",
-      "i": 247,
+      "i": 1321,
       "p": {
         "parent": {
-          "__i": 246
+          "__i": 1320
         },
         "position": {
-          "x": 709.54889,
-          "y": 212.91472
+          "x": 731.07338,
+          "y": 237.91472
         },
         "width": 226,
         "height": 52.17055
@@ -432,16 +413,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 248,
+      "i": 1322,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 238
+          "__i": 1312
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
-          "x": 1343.58964,
-          "y": 408.82979
+          "x": 1365.11413,
+          "y": 437.82979
         },
         "width": 226,
         "height": 234
@@ -463,14 +444,14 @@
     },
     {
       "c": "ht.Text",
-      "i": 249,
+      "i": 1323,
       "p": {
         "parent": {
-          "__i": 248
+          "__i": 1322
         },
         "position": {
-          "x": 1343.58964,
-          "y": 348.53207
+          "x": 1365.11413,
+          "y": 377.53207
         },
         "width": 226,
         "height": 52.17055
@@ -492,7 +473,7 @@
       }
     }
   ],
-  "modified": "Wed Dec 09 2020 15:54:25 GMT+0800 (China Standard Time)",
+  "modified": "Wed Dec 09 2020 10:43:45 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": 0,
     "y": 0,

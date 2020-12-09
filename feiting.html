@@ -23,14 +23,49 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation();
 
                 ht.Default.xhrLoad('displays/junminronghe/feiting.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
+                    scaleBgCircle(dataModel)
+                    // lineFlow(dataModel)
                 });
             }
+
+            function scaleBgCircle(dm) {
+                const ftroll = dm.getDataByTag("ft_roll");
+                ftroll.setAnimation({
+                    expandWidth: {
+                        property: "width",
+                        from: ftroll.getWidth() -30, 
+                        to: ftroll.getWidth() + 100,
+                        next: "collapseWidth"
+                    },
+                    collapseWidth: {
+                        property: "width",
+                        from: ftroll.getWidth() + 100, 
+                        to: ftroll.getWidth() -30,
+                        next: "expandWidth"
+                    },
+                    expandHeight: {
+                        property: "height",
+                        from: ftroll.getHeight() -30, 
+                        to: ftroll.getHeight() + 100,
+                        next: "collapseHeight"
+                    },
+                    collapseHeight: {
+                        property: "height",
+                        from: ftroll.getHeight() + 100, 
+                        to: ftroll.getHeight() -30,
+                        next: "expandHeight"
+                    },
+                    start: ["expandWidth", "expandHeight"]
+                })
+            }
+
         </script>
     </head>
     <body onload='setTimeout(init, 300)'>

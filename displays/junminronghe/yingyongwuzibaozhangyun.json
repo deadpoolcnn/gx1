@@ -11,7 +11,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 233,
+      "i": 15759,
       "p": {
         "displayName": "bj",
         "image": "assets/junminronghe/bj.png",
@@ -31,11 +31,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 234,
+      "i": 15763,
       "p": {
         "displayName": "title",
         "host": {
-          "__i": 233
+          "__i": 15759
         },
         "position": {
           "x": 20.36189,
@@ -46,18 +46,16 @@
       },
       "s": {
         "layout.v": "top",
-        "layout.h": "center",
-        "select.color": "rgba(26,189,156,0)",
-        "2d.selectable": false
+        "layout.h": "center"
       }
     },
     {
       "c": "ht.Block",
-      "i": 235,
+      "i": 15760,
       "p": {
         "displayName": "进入云平台",
         "parent": {
-          "__i": 234
+          "__i": 15763
         },
         "position": {
           "x": 862.53578,
@@ -68,22 +66,16 @@
       },
       "s": {
         "layout.v": "top",
-        "layout.h": "right",
-        "select.color": "rgba(26,189,156,0)",
-        "onClick": "__ht__function(event, data, view) {\nalert(\"正在开发中...\")\n}",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "interactive": true,
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}"
+        "layout.h": "right"
       }
     },
     {
       "c": "ht.Node",
-      "i": 236,
+      "i": 15761,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 235
+          "__i": 15760
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -93,17 +85,14 @@
         },
         "width": 66,
         "height": 26
-      },
-      "s": {
-        "select.color": "rgba(26,189,156,0)"
       }
     },
     {
       "c": "ht.Text",
-      "i": 237,
+      "i": 15762,
       "p": {
         "parent": {
-          "__i": 235
+          "__i": 15760
         },
         "position": {
           "x": 824.13474,
@@ -113,21 +102,20 @@
       "s": {
         "text": "进入云平台",
         "text.color": "rgb(51,153,255)",
-        "text.font": "bold 20px Microsoft YaHei",
-        "text.shadow.color": "rgba(26,189,156,0)"
+        "text.font": "bold 20px Microsoft YaHei"
       }
     },
     {
       "c": "ht.Node",
-      "i": 238,
+      "i": 15764,
       "p": {
         "displayName": "title",
         "parent": {
-          "__i": 234
+          "__i": 15763
         },
         "image": "assets/junminronghe/title.png",
         "host": {
-          "__i": 233
+          "__i": 15759
         },
         "position": {
           "x": 20.36189,
@@ -140,17 +128,16 @@
         "2d.movable": false,
         "fullscreen.gap": 0,
         "2d.selectable": false,
-        "layout.v": "top",
-        "select.color": "rgba(26,189,156,0)"
+        "layout.v": "top"
       }
     },
     {
       "c": "ht.Node",
-      "i": 239,
+      "i": 15765,
       "p": {
         "displayName": "logo",
         "parent": {
-          "__i": 234
+          "__i": 15763
         },
         "image": "assets/junminronghe/logo.png",
         "position": {
@@ -161,17 +148,16 @@
         "height": 58.8738
       },
       "s": {
-        "2d.visible": false,
-        "select.color": "rgba(26,189,156,0)"
+        "2d.visible": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 240,
+      "i": 15766,
       "p": {
         "displayName": "title-yywz",
         "parent": {
-          "__i": 234
+          "__i": 15763
         },
         "image": "assets/junminronghe/title-yywz.png",
         "position": {
@@ -180,18 +166,15 @@
         },
         "width": 517,
         "height": 38
-      },
-      "s": {
-        "select.color": "rgba(26,189,156,0)"
       }
     },
     {
       "c": "ht.Block",
-      "i": 241,
+      "i": 15767,
       "p": {
         "displayName": "介绍",
         "host": {
-          "__i": 233
+          "__i": 15759
         },
         "position": {
           "x": 119.93676,
@@ -202,18 +185,16 @@
       },
       "s": {
         "layout.v": "top",
-        "layout.h": "center",
-        "2d.movable": false,
-        "select.color": "rgba(26,189,156,0)"
+        "layout.h": "center"
       }
     },
     {
       "c": "ht.Node",
-      "i": 242,
+      "i": 15768,
       "p": {
         "displayName": "top-box",
         "parent": {
-          "__i": 241
+          "__i": 15767
         },
         "image": "assets/junminronghe/top-box.png",
         "position": {
@@ -226,11 +207,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 243,
+      "i": 15769,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 241
+          "__i": 15767
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -250,11 +231,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 244,
+      "i": 31044,
       "p": {
         "displayName": "平台",
         "host": {
-          "__i": 233
+          "__i": 15759
         },
         "position": {
           "x": -14.63811,
@@ -265,18 +246,16 @@
       },
       "s": {
         "layout.v": "center",
-        "layout.h": "center",
-        "2d.movable": false,
-        "select.color": "rgba(26,189,156,0)"
+        "layout.h": "center"
       }
     },
     {
       "c": "ht.Node",
-      "i": 245,
+      "i": 30752,
       "p": {
         "displayName": "pingtai-bj",
         "parent": {
-          "__i": 244
+          "__i": 31044
         },
         "image": "assets/junminronghe/pingtai-bj.png",
         "position": {
@@ -289,10 +268,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 246,
+      "i": 30754,
       "p": {
         "parent": {
-          "__i": 244
+          "__i": 31044
         },
         "position": {
           "x": -9.63811,
@@ -308,11 +287,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 247,
+      "i": 32780,
       "p": {
         "displayName": "wzpingtai",
         "parent": {
-          "__i": 244
+          "__i": 31044
         },
         "image": "assets/junminronghe/wzpingtai.png",
         "position": {
@@ -325,11 +304,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 248,
+      "i": 33420,
       "p": {
         "displayName": "保障云",
         "host": {
-          "__i": 233
+          "__i": 15759
         },
         "position": {
           "x": -796.63812,
@@ -340,18 +319,16 @@
       },
       "s": {
         "layout.v": "top",
-        "layout.h": "left",
-        "2d.movable": false,
-        "select.color": "rgba(26,189,156,0)"
+        "layout.h": "left"
       }
     },
     {
       "c": "ht.Node",
-      "i": 249,
+      "i": 15770,
       "p": {
         "displayName": "left-box",
         "parent": {
-          "__i": 248
+          "__i": 33420
         },
         "image": "assets/junminronghe/left-box.png",
         "position": {
@@ -364,10 +341,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 250,
+      "i": 15771,
       "p": {
         "parent": {
-          "__i": 248
+          "__i": 33420
         },
         "position": {
           "x": -796.63811,
@@ -383,11 +360,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 251,
+      "i": 15772,
       "p": {
         "displayName": "icon-jiantou",
         "parent": {
-          "__i": 248
+          "__i": 33420
         },
         "image": "assets/junminronghe/icon-jiantou.png",
         "position": {
@@ -400,10 +377,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 252,
+      "i": 15774,
       "p": {
         "parent": {
-          "__i": 248
+          "__i": 33420
         },
         "position": {
           "x": -796.63867,
@@ -415,10 +392,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 253,
+      "i": 15775,
       "p": {
         "parent": {
-          "__i": 252
+          "__i": 15774
         },
         "position": {
           "x": -803.08177,
@@ -446,11 +423,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 254,
+      "i": 15776,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 252
+          "__i": 15774
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -471,11 +448,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 255,
+      "i": 33421,
       "p": {
         "displayName": "左侧四块",
         "host": {
-          "__i": 233
+          "__i": 15759
         },
         "position": {
           "x": -492.29649,
@@ -486,21 +463,17 @@
       },
       "s": {
         "layout.h": "left",
-        "layout.v": "top",
-        "2d.movable": false,
-        "select.color": "rgba(250,250,250,0)",
-        "2d.selectable": false
+        "layout.v": "top"
       }
     },
     {
       "c": "ht.Node",
-      "i": 256,
+      "i": 32781,
       "p": {
         "displayName": "jiantou",
         "parent": {
-          "__i": 255
+          "__i": 33421
         },
-        "tag": "jiantou1",
         "image": "assets/junminronghe/jiantou.png",
         "rotation": 1.5708,
         "position": {
@@ -509,20 +482,16 @@
         },
         "width": 49,
         "height": 47
-      },
-      "s": {
-        "select.color": "rgba(250,250,250,0)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 257,
+      "i": 21308,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 255
+          "__i": 33421
         },
-        "tag": "yiqing",
         "image": "symbols/junminronghe/pingtai.json",
         "position": {
           "x": -508.33348,
@@ -534,24 +503,16 @@
         },
         "width": 160,
         "height": 220
-      },
-      "s": {
-        "select.color": "rgba(250,250,250,0)",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}"
       }
     },
     {
       "c": "ht.Node",
-      "i": 258,
+      "i": 21315,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 255
+          "__i": 33421
         },
-        "tag": "jiuzai",
         "image": "symbols/junminronghe/pingtai.json",
         "position": {
           "x": -458.76809,
@@ -564,26 +525,18 @@
         "width": 160,
         "height": 220
       },
-      "s": {
-        "select.color": "rgba(250,250,250,0)",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}"
-      },
       "a": {
         "name": "救灾紧急物资需要"
       }
     },
     {
       "c": "ht.Node",
-      "i": 259,
+      "i": 21316,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 255
+          "__i": 33421
         },
-        "tag": "jijiu",
         "image": "symbols/junminronghe/pingtai.json",
         "position": {
           "x": -433.27644,
@@ -592,26 +545,18 @@
         "width": 160,
         "height": 220
       },
-      "s": {
-        "select.color": "rgba(250,250,250,0)",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}"
-      },
       "a": {
         "name": "急救紧急物资需要"
       }
     },
     {
       "c": "ht.Node",
-      "i": 260,
+      "i": 21317,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 255
+          "__i": 33421
         },
-        "tag": "zhengfu",
         "image": "symbols/junminronghe/pingtai.json",
         "position": {
           "x": -385.12093,
@@ -624,24 +569,17 @@
         "width": 160,
         "height": 220
       },
-      "s": {
-        "select.color": "rgba(250,250,250,0)",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}"
-      },
       "a": {
         "name": "政府捐助物资需要"
       }
     },
     {
       "c": "ht.Block",
-      "i": 261,
+      "i": 33422,
       "p": {
         "displayName": "右侧四块",
         "host": {
-          "__i": 233
+          "__i": 15759
         },
         "position": {
           "x": 618.70355,
@@ -652,21 +590,17 @@
       },
       "s": {
         "layout.h": "right",
-        "layout.v": "top",
-        "2d.movable": false,
-        "select.color": "rgba(250,250,250,0)",
-        "2d.selectable": false
+        "layout.v": "top"
       }
     },
     {
       "c": "ht.Node",
-      "i": 262,
+      "i": 32782,
       "p": {
         "displayName": "jiantou",
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
-        "tag": "jiantou2",
         "image": "assets/junminronghe/jiantou.png",
         "rotation": 1.5708,
         "position": {
@@ -679,20 +613,16 @@
         },
         "width": 49,
         "height": 47
-      },
-      "s": {
-        "select.color": "rgba(250,250,250,0)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 263,
+      "i": 27860,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
-        "tag": "zhuanyong",
         "image": "symbols/junminronghe/pingtai.json",
         "position": {
           "x": 476.39433,
@@ -705,26 +635,18 @@
         "width": 160,
         "height": 220
       },
-      "s": {
-        "select.color": "rgba(250,250,250,0)",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}"
-      },
       "a": {
         "name": "物资专用储备仓库"
       }
     },
     {
       "c": "ht.Node",
-      "i": 264,
+      "i": 27861,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
-        "tag": "caigou",
         "image": "symbols/junminronghe/pingtai.json",
         "position": {
           "x": 683.71046,
@@ -737,26 +659,18 @@
         "width": 160,
         "height": 220
       },
-      "s": {
-        "select.color": "rgba(250,250,250,0)",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}"
-      },
       "a": {
         "name": "物资采购供应平台"
       }
     },
     {
       "c": "ht.Node",
-      "i": 265,
+      "i": 27862,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
-        "tag": "peisong",
         "image": "symbols/junminronghe/pingtai.json",
         "position": {
           "x": 391.8691,
@@ -769,26 +683,18 @@
         "width": 160,
         "height": 220
       },
-      "s": {
-        "select.color": "rgba(250,250,250,0)",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}"
-      },
       "a": {
         "name": "物资调用配送平台"
       }
     },
     {
       "c": "ht.Node",
-      "i": 266,
+      "i": 27863,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
-        "tag": "lunhuan",
         "image": "symbols/junminronghe/pingtai.json",
         "position": {
           "x": 687.04983,
@@ -801,23 +707,16 @@
         "width": 160,
         "height": 220
       },
-      "s": {
-        "select.color": "rgba(250,250,250,0)",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}"
-      },
       "a": {
         "name": "物资轮换更新平台"
       }
     },
     {
       "c": "ht.Block",
-      "i": 267,
+      "i": 28588,
       "p": {
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
         "position": {
           "x": 759.17621,
@@ -825,17 +724,14 @@
         },
         "width": 313.52124,
         "height": 89.82811
-      },
-      "s": {
-        "select.color": "rgba(26,189,156,0)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 268,
+      "i": 28582,
       "p": {
         "parent": {
-          "__i": 267
+          "__i": 28588
         },
         "position": {
           "x": 753.61247,
@@ -863,11 +759,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 269,
+      "i": 28584,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 267
+          "__i": 28588
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -888,11 +784,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 270,
+      "i": 28581,
       "p": {
         "displayName": "dian",
         "parent": {
-          "__i": 267
+          "__i": 28588
         },
         "image": "assets/junminronghe/dian.png",
         "position": {
@@ -905,10 +801,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 271,
+      "i": 28589,
       "p": {
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
         "position": {
           "x": 803.94167,
@@ -916,17 +812,14 @@
         },
         "width": 223.99024,
         "height": 226.6909
-      },
-      "s": {
-        "select.color": "rgba(26,189,156,0)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 272,
+      "i": 28590,
       "p": {
         "parent": {
-          "__i": 271
+          "__i": 28589
         },
         "position": {
           "x": 802.26925,
@@ -954,11 +847,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 273,
+      "i": 28591,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 271
+          "__i": 28589
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -979,11 +872,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 274,
+      "i": 28592,
       "p": {
         "displayName": "dian",
         "parent": {
-          "__i": 271
+          "__i": 28589
         },
         "image": "assets/junminronghe/dian.png",
         "position": {
@@ -996,10 +889,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 275,
+      "i": 28596,
       "p": {
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
         "position": {
           "x": 718.91554,
@@ -1007,17 +900,14 @@
         },
         "width": 394.04244,
         "height": 108.34545
-      },
-      "s": {
-        "select.color": "rgba(26,189,156,0)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 276,
+      "i": 28597,
       "p": {
         "parent": {
-          "__i": 275
+          "__i": 28596
         },
         "position": {
           "x": 710.87298,
@@ -1045,11 +935,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 277,
+      "i": 28598,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 275
+          "__i": 28596
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1070,11 +960,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 278,
+      "i": 28599,
       "p": {
         "displayName": "dian",
         "parent": {
-          "__i": 275
+          "__i": 28596
         },
         "image": "assets/junminronghe/dian.png",
         "position": {
@@ -1087,10 +977,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 279,
+      "i": 28889,
       "p": {
         "parent": {
-          "__i": 261
+          "__i": 33422
         },
         "position": {
           "x": 791.1868,
@@ -1098,17 +988,14 @@
         },
         "width": 249.50001,
         "height": 163.12165
-      },
-      "s": {
-        "select.color": "rgba(26,189,156,0)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 280,
+      "i": 28890,
       "p": {
         "parent": {
-          "__i": 279
+          "__i": 28889
         },
         "position": {
           "x": 808.28806,
@@ -1136,11 +1023,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 281,
+      "i": 28891,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 279
+          "__i": 28889
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1161,11 +1048,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 282,
+      "i": 28892,
       "p": {
         "displayName": "dian",
         "parent": {
-          "__i": 279
+          "__i": 28889
         },
         "image": "assets/junminronghe/dian.png",
         "position": {
@@ -1177,7 +1064,7 @@
       }
     }
   ],
-  "modified": "Wed Dec 09 2020 18:09:55 GMT+0800 (China Standard Time)",
+  "modified": "Tue Dec 08 2020 17:53:08 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
