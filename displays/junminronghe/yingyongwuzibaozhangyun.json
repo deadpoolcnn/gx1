@@ -47,7 +47,8 @@
       "s": {
         "layout.v": "top",
         "layout.h": "center",
-        "select.color": "rgba(26,189,156,0)"
+        "select.color": "rgba(26,189,156,0)",
+        "2d.selectable": false
       }
     },
     {
@@ -69,10 +70,11 @@
         "layout.v": "top",
         "layout.h": "right",
         "select.color": "rgba(26,189,156,0)",
-        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
+        "onClick": "__ht__function(event, data, view) {\nalert(\"正在开发中...\")\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
-        "interactive": true
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "interactive": true,
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}"
       }
     },
     {
@@ -1175,7 +1177,7 @@
       }
     }
   ],
-  "modified": "Wed Dec 09 2020 17:57:09 GMT+0800 (中国标准时间)",
+  "modified": "Wed Dec 09 2020 18:09:55 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
