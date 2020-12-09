@@ -1,0 +1,51 @@
+{
+  "modified": "Thu Dec 03 2020 17:29:59 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    }
+  ],
+  "width": 370,
+  "height": 92,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/beidouyun/serve2.png",
+      "displayName": "serve2",
+      "rect": [
+        2,
+        9,
+        368,
+        78
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "智能分析系统"
+      },
+      "color": "#32d3eb",
+      "font": "20px sans-serif, Arial",
+      "rect": [
+        140.69683,
+        39,
+        162.19866,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "assets/beidouyun/cloud.png",
+      "displayName": "cloud",
+      "rect": [
+        101.78563,
+        50.27949,
+        25.6853,
+        24.3681
+      ]
+    }
+  ]
+}

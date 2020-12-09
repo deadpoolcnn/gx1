@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Preview Display</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="custom/images/favicon.ico?v=2" />
+        <style>
+            html, body {
+                padding: 0px;
+                margin: 0px;
+            }
+        </style>
+
+        <script src='libs/core/ht.js'></script>
+        <script src='libs/plugin/ht-edgetype.js'></script>
+        <script src='libs/plugin/ht-obj.js'></script>
+        <script src='libs/core/ht-ui.js'></script>
+        <script src='libs/plugin/ht-vector.js'></script>
+        <script src="libs/plugin/ht-animation.js"></script>
+
+        <script>
+            function init() {
+                dataModel = new ht.DataModel();
+                graphView = new ht.graph.GraphView(dataModel);
+                graphView.addToDOM();
+                dataModel.enableAnimation();
+
+                ht.Default.xhrLoad('displays/junminronghe/wurenji.json', function(text) {
+                    var json = ht.Default.parse(text);
+                    if(json.title) document.title = json.title;
+                    dataModel.deserialize(json);
+                    graphView.fitContent(true);
+
+                    videoPlay(dataModel);
+                    arrowAni(dataModel);
+                });
+
+                function videoPlay(dm) {
+                    const video = dm.getDataByTag("video1");
+                    const bofang = dm.getDataByTag("bofang");
+                    const shipin = dm.getDataByTag("shipin");
+
+                    bofang.s('onClick',()=>{
+                        bofang.s('2d.visible',false);
+                        shipin.s('2d.visible',false);
+                        video.s('2d.visible',true);
+                        video.a('src','video/wurenji.m4v')
+                        video.a('status','2');
+                    })
+                    shipin.s('onClick',()=>{
+                        bofang.s('2d.visible',false);
+                        shipin.s('2d.visible',false);
+                        video.s('2d.visible',true);
+                        video.a('src','video/wurenji.m4v')
+                        video.a('status','2');
+                    })
+                }
+
+                function arrowAni(dm) {
+                    const jiantou1 = dm.getDataByTag('jiantou1');
+                    const jiantou2 = dm.getDataByTag('jiantou2');
+                    const jiantou3 = dm.getDataByTag('jiantou3');
+
+                    jiantou1.setAnimation({
+                        move: {
+                            from: jiantou1.getY(),
+                            to: jiantou1.getY() - 20,
+                            duration: 1500,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setPosition(this.getPosition().x,value);
+                            }
+                        },
+                        start: ["move"]
+                    })
+                    jiantou2.setAnimation({
+                        move: {
+                            from: jiantou2.getY(),
+                            to: jiantou2.getY() + 20,
+                            duration: 1500,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setPosition(this.getPosition().x,value);
+                            }
+                        },
+                        start: ["move"]
+                    })
+                    jiantou3.setAnimation({
+                        move: {
+                            from: jiantou3.getX(),
+                            to: jiantou3.getX() + 20,
+                            duration: 1500,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setPosition(value,this.getPosition().y);
+                            }
+                        },
+                        start: ["move"]
+                    })
+                }
+            }
+        </script>
+    </head>
+    <body onload='setTimeout(init, 300)'>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Preview Display</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="custom/images/favicon.ico?v=2" />
+        <style>
+            html, body {
+                padding: 0px;
+                margin: 0px;
+            }
+        </style>
+
+        <script src='libs/core/ht.js'></script>
+        <script src='libs/plugin/ht-edgetype.js'></script>
+        <script src='libs/plugin/ht-obj.js'></script>
+        <script src='libs/core/ht-ui.js'></script>
+        <script src='libs/plugin/ht-vector.js'></script>
+        <script src="libs/plugin/ht-animation.js"></script>
+
+        <script>
+            function init() {
+                dataModel = new ht.DataModel();
+                graphView = new ht.graph.GraphView(dataModel);
+                graphView.addToDOM();
+                ht.Default.xhrLoad('displays/junminronghe/xuejiangyun.json', function(text) {
+                    var json = ht.Default.parse(text);
+                    if(json.title) document.title = json.title;
+                    dataModel.deserialize(json);
+                    graphView.fitContent(true);
+                    videoPlay(dataModel)
+                });
+            }
+            function videoPlay(dm) {
+                    const video = dm.getDataByTag("video");
+                    const bofang = dm.getDataByTag("bofang");
+                    const shipin = dm.getDataByTag("xuejiangyun");
+                    bofang.s('onClick',()=>{
+                        bofang.s('2d.visible',false);
+                        shipin.s('2d.visible',false);
+                        video.s('2d.visible',true);
+                        video.a('src','video/xuejiangyun.m4v')
+                        video.a('status','2');
+                    })
+                    shipin.s('onClick',()=>{
+                        bofang.s('2d.visible',false);
+                        shipin.s('2d.visible',false);
+                        video.s('2d.visible',true);
+                        video.a('src','video/xuejiangyun.m4v')
+                        video.a('status','2');
+                    })
+                }
+        </script>
+    </head>
+    <body onload='setTimeout(init, 300)'>
+    </body>
+</html>

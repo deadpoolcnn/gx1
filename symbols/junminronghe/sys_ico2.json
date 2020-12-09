@@ -1,0 +1,63 @@
+{
+  "modified": "Thu Dec 03 2020 16:20:33 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "defaultValue": "大数据快报",
+      "name": "名称"
+    },
+    {
+      "attr": "name2",
+      "valueType": "String",
+      "name": "名称2"
+    }
+  ],
+  "width": 271,
+  "height": 261,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/beidouyun/sys_bg2.png",
+      "displayName": "sys_bg2",
+      "rect": [
+        0,
+        0,
+        271,
+        261
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "大数据快报"
+      },
+      "align": "center",
+      "color": "#05cfdc",
+      "font": "20px sans-serif, Arial",
+      "rect": [
+        68.48379,
+        120.5,
+        134.03242,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name2",
+        "value": ""
+      },
+      "align": "center",
+      "color": "#05cfdc",
+      "font": "20px sans-serif, Arial",
+      "rect": [
+        68.48379,
+        143.5,
+        134.03242,
+        50
+      ]
+    }
+  ]
+}

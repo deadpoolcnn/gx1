@@ -1,0 +1,51 @@
+{
+  "modified": "Thu Dec 03 2020 17:30:02 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    }
+  ],
+  "width": 196,
+  "height": 92,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/beidouyun/serve.png",
+      "displayName": "serve",
+      "rect": [
+        11.5,
+        0,
+        173,
+        92
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "糖业云"
+      },
+      "color": "#32d3eb",
+      "font": "20px sans-serif, Arial",
+      "rect": [
+        76.69683,
+        39,
+        66.9764,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "assets/beidouyun/cloud.png",
+      "displayName": "cloud",
+      "rect": [
+        40.78563,
+        50.27949,
+        25.6853,
+        24.3681
+      ]
+    }
+  ]
+}

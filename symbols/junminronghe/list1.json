@@ -1,0 +1,64 @@
+{
+  "modified": "Thu Dec 03 2020 18:00:10 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    }
+  ],
+  "width": 200,
+  "height": 130,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/CCB2019/tongyong/itembg.png",
+      "displayName": "itembg",
+      "rect": [
+        27.4443,
+        63.74941,
+        147.02211,
+        35.79669
+      ]
+    },
+    {
+      "type": "image",
+      "name": "assets/CCB2019/tongyong/num_bg.png",
+      "visible": false,
+      "displayName": "num_bg2",
+      "rect": [
+        10.73053,
+        24.04244,
+        180.32632,
+        69.60531
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "光云监控"
+      },
+      "align": "center",
+      "color": "#32d3eb",
+      "font": "20px sans-serif, Arial",
+      "rect": [
+        15.60781,
+        28.19204,
+        173.44904,
+        38.80796
+      ]
+    },
+    {
+      "type": "image",
+      "name": "assets/beidouyun/icoPart1.png",
+      "displayName": "icoPart1",
+      "rect": [
+        26.38831,
+        16.45586,
+        148.0781,
+        80.73618
+      ]
+    }
+  ]
+}

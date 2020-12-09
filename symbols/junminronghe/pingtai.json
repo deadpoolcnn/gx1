@@ -1,0 +1,47 @@
+{
+  "modified": "Tue Dec 08 2020 11:16:55 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "defaultValue": "疫情紧急物资需要",
+      "name": "名称"
+    }
+  ],
+  "width": 160,
+  "height": 220,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/junminronghe/box.png",
+      "pixelPerfect": true,
+      "displayName": "box",
+      "anchorX": 0.68913,
+      "anchorY": -0.05101,
+      "rect": [
+        8.9641,
+        30.27743,
+        142.0718,
+        179.59981
+      ]
+    },
+    {
+      "type": "components/ht/text/textBox.json",
+      "displayName": "textBox",
+      "rect": [
+        39.67497,
+        26.046,
+        80.65006,
+        47.66121
+      ],
+      "content": {
+        "func": "attr@name",
+        "value": "疫情紧急物资需要"
+      },
+      "autoScale": false,
+      "font": "18px sans-serif, Arial",
+      "color": "#ffffff",
+      "lineHeight": 22
+    }
+  ]
+}

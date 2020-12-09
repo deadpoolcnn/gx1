@@ -1,0 +1,89 @@
+{
+  "modified": "Thu Dec 03 2020 15:47:35 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "defaultValue": "我的任务",
+      "name": "文字"
+    },
+    {
+      "attr": "image",
+      "valueType": "Image",
+      "name": "图片"
+    },
+    {
+      "attr": "text2",
+      "valueType": "String",
+      "name": "文字2"
+    }
+  ],
+  "width": 200,
+  "height": 200,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/beidouyun/ball_small.png",
+      "displayName": "ball_small",
+      "rect": [
+        24.5,
+        0,
+        153,
+        153
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@image",
+        "value": "assets/beidouyun/icon_arg.png"
+      },
+      "displayName": "renwu",
+      "rect": [
+        62.5,
+        23,
+        77,
+        77
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "智慧农业系统"
+      },
+      "align": "center",
+      "vAlign": "top",
+      "color": "#05cfdc",
+      "font": "22px Microsoft YaHei",
+      "anchorX": 1.12542,
+      "anchorY": 0.39766,
+      "rect": [
+        0,
+        120.98147,
+        200,
+        28.01853
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text2",
+        "value": ""
+      },
+      "align": "center",
+      "vAlign": "top",
+      "color": "#05cfdc",
+      "font": "22px Microsoft YaHei",
+      "displayName": "text2",
+      "anchorX": 1.12542,
+      "anchorY": 0.39766,
+      "rect": [
+        0,
+        149,
+        200,
+        28.01853
+      ]
+    }
+  ]
+}

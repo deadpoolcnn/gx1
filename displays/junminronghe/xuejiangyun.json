@@ -1,0 +1,4055 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 198,
+      "p": {
+        "displayName": "bj-xuejiangyun",
+        "image": "assets/junminronghe/bj-xuejiangyun.png",
+        "position": {
+          "x": 432.54538,
+          "y": 174.39504
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "2d.movable": false,
+        "fullscreen": "fill",
+        "fullscreen.lock": "v",
+        "fullscreen.gap": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 199,
+      "p": {
+        "displayName": "进入云平台",
+        "position": {
+          "x": 1278.32653,
+          "y": -325.60496
+        },
+        "width": 176.80204,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 200,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 199
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1333.72751,
+          "y": -325.60497
+        },
+        "width": 66,
+        "height": 26
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 201,
+      "p": {
+        "parent": {
+          "__i": 199
+        },
+        "position": {
+          "x": 1239.92549,
+          "y": -325.60497
+        }
+      },
+      "s": {
+        "text": "进入云平台",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 202,
+      "p": {
+        "displayName": "寻找康复血液",
+        "position": {
+          "x": -45.82646,
+          "y": 463.25937
+        },
+        "width": 1039.25635,
+        "height": 517.72864
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "bottom",
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 203,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -31.97969,
+          "y": 229.39505
+        },
+        "width": 203.66793
+      },
+      "s": {
+        "text": "寻找新冠康复血液",
+        "text.color": "#2ad5f4",
+        "text.font": "bold 24px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 204,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -45.82646,
+          "y": 583.77683
+        },
+        "width": 1039.25634,
+        "height": 276.69367,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -390.29791,
+              "y": 445.42999
+            },
+            {
+              "x": 309.04768,
+              "y": 445.42999
+            },
+            {
+              "x": 473.80171,
+              "y": 722.12366
+            },
+            {
+              "x": -565.45462,
+              "y": 722.12366
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "shape.background": "rgba(10,34,74,0.6)",
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.gradient.color": "rgba(41,108,242,0.48)",
+        "shape.gradient": "linear.south",
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 205,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -45.82646,
+          "y": 719.12366
+        },
+        "width": 1039.25634,
+        "height": 6
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#00bcf8",
+        "shape.border.color": "#979797",
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 206,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -239.92099,
+          "y": 466.65274
+        },
+        "width": 139.59045,
+        "height": 160.04768
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 207,
+      "p": {
+        "displayName": "icon-ds",
+        "parent": {
+          "__i": 206
+        },
+        "image": "assets/xiaoimg/icon-ds.png",
+        "position": {
+          "x": -239.92099,
+          "y": 466.65275
+        },
+        "width": 139.59046,
+        "height": 160.04769
+      },
+      "s": {
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 208,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 206
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -239.92099,
+          "y": 471.65275
+        },
+        "width": 98,
+        "height": 84
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "血浆捐献者自主分发传播招募",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 209,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -38.79436,
+          "y": 466.65273
+        },
+        "width": 139.59048,
+        "height": 160.04771
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 210,
+      "p": {
+        "displayName": "icon-ds",
+        "parent": {
+          "__i": 209
+        },
+        "image": "assets/xiaoimg/icon-ds.png",
+        "position": {
+          "x": -38.79436,
+          "y": 466.65272
+        },
+        "width": 139.59048,
+        "height": 160.04771
+      },
+      "s": {
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 211,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 209
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -38.79436,
+          "y": 471.65272
+        },
+        "width": 98,
+        "height": 84
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "捐献点分布地图及导航指引",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 212,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": 162.15626,
+          "y": 466.85454
+        },
+        "width": 139.23846,
+        "height": 159.6441
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 213,
+      "p": {
+        "displayName": "icon-ds",
+        "parent": {
+          "__i": 212
+        },
+        "image": "assets/xiaoimg/icon-ds.png",
+        "position": {
+          "x": 162.15626,
+          "y": 466.85455
+        },
+        "width": 139.23846,
+        "height": 159.6441
+      },
+      "s": {
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 214,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 212
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 162.15626,
+          "y": 466.85455
+        },
+        "width": 98,
+        "height": 84
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "预约献血",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 215,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -138.58388,
+          "y": 615.54018
+        },
+        "width": 139.59047,
+        "height": 160.04768
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 216,
+      "p": {
+        "displayName": "icon-ds",
+        "parent": {
+          "__i": 215
+        },
+        "image": "assets/xiaoimg/icon-ds.png",
+        "position": {
+          "x": -138.58389,
+          "y": 615.54017
+        },
+        "width": 139.59046,
+        "height": 160.04769
+      },
+      "s": {
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 217,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 215
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -138.58389,
+          "y": 620.54017
+        },
+        "width": 98,
+        "height": 84
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "献浆点动态新增",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 218,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": 61.54846,
+          "y": 615.54017
+        },
+        "width": 139.59048,
+        "height": 160.04771
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 219,
+      "p": {
+        "displayName": "icon-ds",
+        "parent": {
+          "__i": 218
+        },
+        "image": "assets/xiaoimg/icon-ds.png",
+        "position": {
+          "x": 61.54846,
+          "y": 615.54014
+        },
+        "width": 139.59048,
+        "height": 160.04771
+      },
+      "s": {
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 220,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 218
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 61.54846,
+          "y": 620.54014
+        },
+        "width": 98,
+        "height": 84
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "捐献点动态实时公告",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 221,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": 261.50481,
+          "y": 615.74197
+        },
+        "width": 139.23846,
+        "height": 159.6441
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 222,
+      "p": {
+        "displayName": "icon-ds",
+        "parent": {
+          "__i": 221
+        },
+        "image": "assets/xiaoimg/icon-ds.png",
+        "position": {
+          "x": 261.5048,
+          "y": 615.742
+        },
+        "width": 139.23846,
+        "height": 159.6441
+      },
+      "s": {
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 223,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 221
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 261.5048,
+          "y": 615.742
+        },
+        "width": 98,
+        "height": 84
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "预约登记实时看板与响应",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 224,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -338.71623,
+          "y": 615.54018
+        },
+        "width": 139.59047,
+        "height": 160.04768
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 225,
+      "p": {
+        "displayName": "icon-ds",
+        "parent": {
+          "__i": 224
+        },
+        "image": "assets/xiaoimg/icon-ds.png",
+        "position": {
+          "x": -338.71623,
+          "y": 615.54017
+        },
+        "width": 139.59046,
+        "height": 160.04769
+      },
+      "s": {
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 226,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 224
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -338.71623,
+          "y": 620.54017
+        },
+        "width": 98,
+        "height": 84
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "相关捐献条件",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 227,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": 171.00566,
+          "y": 300.50996
+        },
+        "width": 160,
+        "height": 54
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 228,
+      "p": {
+        "parent": {
+          "__i": 227
+        },
+        "position": {
+          "x": 171.00567,
+          "y": 300.50995
+        },
+        "width": 160,
+        "height": 54
+      },
+      "s": {
+        "shape": "rect",
+        "opacity": 1,
+        "shape.background": "rgba(17,107,234,0.25) ",
+        "shape.border.width": 4,
+        "shape.border.color": "#163B79",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(25,64,164,0.12)",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 229,
+      "p": {
+        "parent": {
+          "__i": 227
+        },
+        "position": {
+          "x": 99.13844,
+          "y": 281.04932
+        },
+        "width": 12,
+        "height": 12
+      },
+      "s": {
+        "shape": "rect",
+        "opacity": 1,
+        "shape.background": "#8FFAFF ",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 230,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 227
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 175.38811,
+          "y": 303.50996
+        },
+        "width": 136.49934,
+        "height": 39.39077
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "大众分享传播招募",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "left"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 231,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -31.97969,
+          "y": 300.50996
+        },
+        "width": 159.86723,
+        "height": 54
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 232,
+      "p": {
+        "parent": {
+          "__i": 231
+        },
+        "position": {
+          "x": -31.97969,
+          "y": 300.50996
+        },
+        "width": 159.86724,
+        "height": 54
+      },
+      "s": {
+        "shape": "rect",
+        "opacity": 1,
+        "shape.background": "rgba(17,107,234,0.25) ",
+        "shape.border.width": 4,
+        "shape.border.color": "#163B79",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(25,64,164,0.12)",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 233,
+      "p": {
+        "parent": {
+          "__i": 231
+        },
+        "position": {
+          "x": -103.91331,
+          "y": 281.04933
+        },
+        "width": 12,
+        "height": 12
+      },
+      "s": {
+        "shape": "rect",
+        "opacity": 1,
+        "shape.background": "#8FFAFF ",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 234,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 231
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -27.16363,
+          "y": 303.50996
+        },
+        "width": 135.49934,
+        "height": 39.39077
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "布置在医院现场的易拉宝",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "left"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 235,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -557.15246,
+          "y": 477.60688
+        },
+        "anchor": {
+          "x": -1.47735,
+          "y": 3.77957
+        },
+        "width": 159.86722,
+        "height": 54
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 236,
+      "p": {
+        "parent": {
+          "__i": 235
+        },
+        "position": {
+          "x": -241.03886,
+          "y": 300.50995
+        },
+        "width": 159.86722,
+        "height": 54
+      },
+      "s": {
+        "shape": "rect",
+        "opacity": 1,
+        "shape.background": "rgba(17,107,234,0.25) ",
+        "shape.border.width": 4,
+        "shape.border.color": "#163B79",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(25,64,164,0.12)",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 237,
+      "p": {
+        "parent": {
+          "__i": 235
+        },
+        "position": {
+          "x": -312.97247,
+          "y": 281.04932
+        },
+        "width": 12,
+        "height": 12
+      },
+      "s": {
+        "shape": "rect",
+        "opacity": 1,
+        "shape.background": "#8FFAFF ",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 238,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 235
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -236.2228,
+          "y": 303.50995
+        },
+        "width": 135.49933,
+        "height": 39.39077
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "给医院、患者家属分享的微信卡片",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 24,
+        "ht.textAlign": "left"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 239,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -37.62849,
+          "y": 362.8233
+        },
+        "width": 413.03242,
+        "height": 68.62669
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 240,
+      "p": {
+        "parent": {
+          "__i": 239
+        },
+        "position": {
+          "x": 165.8715,
+          "y": 349.67229
+        },
+        "width": 6.03242,
+        "height": 2.92869,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 162.85529,
+              "y": 348.20794
+            },
+            {
+              "x": 166.05528,
+              "y": 351.13664
+            },
+            {
+              "x": 168.88771,
+              "y": 348.20794
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 241,
+      "p": {
+        "parent": {
+          "__i": 239
+        },
+        "position": {
+          "x": -241.1285,
+          "y": 350.67229
+        },
+        "width": 6.03242,
+        "height": 2.92869,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -244.14471,
+              "y": 349.20794
+            },
+            {
+              "x": -240.94472,
+              "y": 352.13664
+            },
+            {
+              "x": -238.11229,
+              "y": 349.20794
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 242,
+      "p": {
+        "parent": {
+          "__i": 239
+        },
+        "position": {
+          "x": -241.1285,
+          "y": 395.67229
+        },
+        "width": 6.03242,
+        "height": 2.92869,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -244.14471,
+              "y": 394.20794
+            },
+            {
+              "x": -240.94472,
+              "y": 397.13664
+            },
+            {
+              "x": -238.11229,
+              "y": 394.20794
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 243,
+      "p": {
+        "parent": {
+          "__i": 239
+        },
+        "position": {
+          "x": -25.1285,
+          "y": 349.67229
+        },
+        "width": 6.03242,
+        "height": 2.92869,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -28.14471,
+              "y": 348.20794
+            },
+            {
+              "x": -24.94472,
+              "y": 351.13664
+            },
+            {
+              "x": -22.11229,
+              "y": 348.20794
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1,
+        "shape.border.cap": "round"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 244,
+      "p": {
+        "parent": {
+          "__i": 239
+        },
+        "position": {
+          "x": -36.93521,
+          "y": 367.66436
+        },
+        "width": 407.39412,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 166.76185,
+              "y": 367.66436
+            },
+            {
+              "x": -240.63227,
+              "y": 367.66436
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 245,
+      "p": {
+        "parent": {
+          "__i": 239
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -24.97969,
+          "y": 348.08716
+        },
+        "width": 39.15441,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -5.40249,
+              "y": 348.08716
+            },
+            {
+              "x": -44.5569,
+              "y": 348.08716
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 246,
+      "p": {
+        "parent": {
+          "__i": 239
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 166.02031,
+          "y": 348.08716
+        },
+        "width": 39.15441,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 185.59751,
+              "y": 348.08716
+            },
+            {
+              "x": 146.4431,
+              "y": 348.08716
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 247,
+      "p": {
+        "parent": {
+          "__i": 239
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -240.97969,
+          "y": 362.61837
+        },
+        "width": 68.21683,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -206.87128,
+              "y": 362.61837
+            },
+            {
+              "x": -216.65988,
+              "y": 362.61837
+            },
+            {
+              "x": -275.08811,
+              "y": 362.61837
+            },
+            {
+              "x": -275.08811,
+              "y": 362.61837
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 248,
+      "p": {
+        "parent": {
+          "__i": 202
+        },
+        "position": {
+          "x": -41.09458,
+          "y": 548.46541
+        },
+        "width": 853.26652,
+        "height": 147.13561
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 249,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "position": {
+          "x": 316.90551,
+          "y": 547.69475
+        },
+        "width": 137.26632,
+        "height": 142.21423,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 248.27235,
+              "y": 476.58764
+            },
+            {
+              "x": 305.88664,
+              "y": 476.58764
+            },
+            {
+              "x": 385.53867,
+              "y": 618.80187
+            },
+            {
+              "x": 334.50414,
+              "y": 618.80187
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(5,250,246)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 250,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "position": {
+          "x": 161.48276,
+          "y": 616.06029
+        },
+        "width": 46.25316,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 184.60934,
+              "y": 616.06029
+            },
+            {
+              "x": 138.35618,
+              "y": 616.06029
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(5,250,246)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 251,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "position": {
+          "x": -38.51724,
+          "y": 616.06029
+        },
+        "width": 46.25316,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -15.39066,
+              "y": 616.06029
+            },
+            {
+              "x": -61.64382,
+              "y": 616.06029
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(5,250,246)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 252,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "position": {
+          "x": -238.51724,
+          "y": 616.06029
+        },
+        "width": 46.25316,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -215.39066,
+              "y": 616.06029
+            },
+            {
+              "x": -261.64382,
+              "y": 616.06029
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(5,250,246)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 253,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -399.09449,
+          "y": 547.69475
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 137.26632,
+        "height": 142.21423,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -467.72765,
+              "y": 476.58764
+            },
+            {
+              "x": -412.41911,
+              "y": 476.58764
+            },
+            {
+              "x": -330.46133,
+              "y": 618.80187
+            },
+            {
+              "x": -381.49586,
+              "y": 618.80187
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(5,250,246)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 254,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "position": {
+          "x": -138.51724,
+          "y": 481.06029
+        },
+        "width": 46.25316,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -115.39066,
+              "y": 481.06029
+            },
+            {
+              "x": -161.64382,
+              "y": 481.06029
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(5,250,246)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 255,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "position": {
+          "x": 59.48276,
+          "y": 481.06029
+        },
+        "width": 46.25316,
+        "height": 0,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 82.60934,
+              "y": 481.06029
+            },
+            {
+              "x": 36.35618,
+              "y": 481.06029
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(5,250,246)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 256,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "rotation": -0.43633,
+        "position": {
+          "x": 333.99072,
+          "y": 525.96541
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 12.1356,
+        "height": 10.05912
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(0,246,250)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 257,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 159.99072,
+          "y": 615.96541
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 12.1356,
+        "height": 10.05912
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(0,246,250)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 258,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -40.00928,
+          "y": 615.96541
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 12.1356,
+        "height": 10.05912
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(0,246,250)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 259,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -239.00928,
+          "y": 615.96541
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 12.1356,
+        "height": 10.05912
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(0,246,250)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 260,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "rotation": 0.43633,
+        "position": {
+          "x": -423.00928,
+          "y": 540.96541
+        },
+        "width": 12.1356,
+        "height": 10.05912
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(0,246,250)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 261,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -138.00928,
+          "y": 480.96541
+        },
+        "scale": {
+          "x": -1,
+          "y": -1
+        },
+        "width": 12.1356,
+        "height": 10.05912
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(0,246,250)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 262,
+      "p": {
+        "parent": {
+          "__i": 248
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": 59.99072,
+          "y": 480.96541
+        },
+        "scale": {
+          "x": -1,
+          "y": -1
+        },
+        "width": 12.1356,
+        "height": 10.05912
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(0,246,250)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 263,
+      "p": {
+        "displayName": "血浆云视频",
+        "position": {
+          "x": 881.93781,
+          "y": 19.20643
+        },
+        "width": 554,
+        "height": 347.59188
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "top",
+        "layout.h": "right",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 264,
+      "p": {
+        "displayName": "video",
+        "parent": {
+          "__i": 263
+        },
+        "tag": "video",
+        "image": "symbols/smartPolitics/video.json",
+        "position": {
+          "x": 879.73654,
+          "y": 40.56269
+        },
+        "width": 512.09499,
+        "height": 251.65114
+      },
+      "s": {
+        "2d.visible": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 265,
+      "p": {
+        "parent": {
+          "__i": 263
+        },
+        "position": {
+          "x": 873.48031,
+          "y": -129.58951
+        },
+        "width": 126.73306
+      },
+      "s": {
+        "text": "血浆云视频",
+        "text.color": "#2ad5f4",
+        "text.font": "bold 24px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 266,
+      "p": {
+        "displayName": "shipinkuang",
+        "parent": {
+          "__i": 263
+        },
+        "image": "assets/junminronghe/shipinkuang.png",
+        "position": {
+          "x": 881.93781,
+          "y": 43.00237
+        },
+        "width": 554,
+        "height": 300
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 267,
+      "p": {
+        "displayName": "xuejiangyun",
+        "parent": {
+          "__i": 263
+        },
+        "tag": "xuejiangyun",
+        "image": "assets/junminronghe/xuejiangyun.png",
+        "position": {
+          "x": 879.31349,
+          "y": 41.04076
+        },
+        "width": 497.26536,
+        "height": 244.67106
+      },
+      "s": {
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 268,
+      "p": {
+        "displayName": "bofang",
+        "parent": {
+          "__i": 263
+        },
+        "tag": "bofang",
+        "image": "assets/junminronghe/bofang.png",
+        "position": {
+          "x": 1109.23161,
+          "y": 543.82186
+        },
+        "anchor": {
+          "x": 3.17802,
+          "y": 6.35199
+        },
+        "width": 86,
+        "height": 86
+      },
+      "s": {
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 269,
+      "p": {
+        "displayName": "冷链监控",
+        "position": {
+          "x": 881.93781,
+          "y": 460.77283
+        },
+        "width": 773.6444,
+        "height": 512.75557
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "bottom",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 270,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 906.85976,
+          "y": 229.39505
+        },
+        "width": 199.17243
+      },
+      "s": {
+        "text": "全过程的冷链监控",
+        "text.color": "#2ad5f4",
+        "text.font": "bold 24px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 271,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 873.33729,
+          "y": 486.31475
+        },
+        "width": 610.95312,
+        "height": 337.75124
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 272,
+      "p": {
+        "parent": {
+          "__i": 271
+        },
+        "position": {
+          "x": 572.73375,
+          "y": 402.59648
+        },
+        "width": 9.74607,
+        "height": 105.57926
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 273,
+      "p": {
+        "parent": {
+          "__i": 272
+        },
+        "position": {
+          "x": 573.11724,
+          "y": 399.80685
+        },
+        "width": 0.76705,
+        "height": 100,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 573.50077,
+              "y": 349.80685
+            },
+            {
+              "x": 572.73372,
+              "y": 449.80685
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 274,
+      "p": {
+        "parent": {
+          "__i": 272
+        },
+        "position": {
+          "x": 570.85026,
+          "y": 452.50122
+        },
+        "anchor": {
+          "x": 0.30675,
+          "y": 0.5
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 9.74607,
+        "height": 5.76978
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 275,
+      "p": {
+        "parent": {
+          "__i": 271
+        },
+        "position": {
+          "x": 795.73373,
+          "y": 382.95855
+        },
+        "width": 10,
+        "height": 68.30339
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 276,
+      "p": {
+        "parent": {
+          "__i": 275
+        },
+        "position": {
+          "x": 796.11724,
+          "y": 381.80685
+        },
+        "width": 0.76705,
+        "height": 66,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 796.50077,
+              "y": 348.80685
+            },
+            {
+              "x": 795.73372,
+              "y": 414.80685
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 277,
+      "p": {
+        "parent": {
+          "__i": 275
+        },
+        "position": {
+          "x": 796.43781,
+          "y": 408.44864
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 278,
+      "p": {
+        "parent": {
+          "__i": 271
+        },
+        "rotation": 1.0472,
+        "position": {
+          "x": 936.22041,
+          "y": 399.64289
+        },
+        "width": 10,
+        "height": 203.35888
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 279,
+      "p": {
+        "parent": {
+          "__i": 278
+        },
+        "rotation": 1.0472,
+        "position": {
+          "x": 937.95259,
+          "y": 399.28418
+        },
+        "width": 0.76705,
+        "height": 200,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 938.33611,
+              "y": 299.28418
+            },
+            {
+              "x": 937.56906,
+              "y": 499.28418
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 280,
+      "p": {
+        "parent": {
+          "__i": 278
+        },
+        "rotation": 1.0472,
+        "position": {
+          "x": 850.76155,
+          "y": 448.98264
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 281,
+      "p": {
+        "parent": {
+          "__i": 271
+        },
+        "rotation": -1.58825,
+        "position": {
+          "x": 634.19664,
+          "y": 323.21826
+        },
+        "width": 10.10319,
+        "height": 35.8433
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 282,
+      "p": {
+        "parent": {
+          "__i": 281
+        },
+        "rotation": -1.58825,
+        "position": {
+          "x": 631.27005,
+          "y": 322.95933
+        },
+        "width": 0.76705,
+        "height": 30,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 631.65357,
+              "y": 307.95933
+            },
+            {
+              "x": 630.88652,
+              "y": 337.95933
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 283,
+      "p": {
+        "parent": {
+          "__i": 281
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 643.36762,
+          "y": 323.66342
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 284,
+      "p": {
+        "parent": {
+          "__i": 271
+        },
+        "position": {
+          "x": 578.93118,
+          "y": 581.63436
+        },
+        "width": 10,
+        "height": 45.03624
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 285,
+      "p": {
+        "parent": {
+          "__i": 284
+        },
+        "position": {
+          "x": 579.31469,
+          "y": 579.11627
+        },
+        "width": 0.76705,
+        "height": 40,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 579.69821,
+              "y": 559.11627
+            },
+            {
+              "x": 578.93116,
+              "y": 599.11627
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "#32D3EB",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 286,
+      "p": {
+        "parent": {
+          "__i": 284
+        },
+        "position": {
+          "x": 579.63524,
+          "y": 595.49086
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 287,
+      "p": {
+        "parent": {
+          "__i": 271
+        },
+        "position": {
+          "x": 768.13776,
+          "y": 649.80684
+        },
+        "width": 170.04099,
+        "height": 10.76703
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 288,
+      "p": {
+        "parent": {
+          "__i": 287
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 768.11724,
+          "y": 649.80685
+        },
+        "width": 0.76705,
+        "height": 160,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 768.50077,
+              "y": 569.80685
+            },
+            {
+              "x": 767.73372,
+              "y": 729.80685
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 289,
+      "p": {
+        "parent": {
+          "__i": 287
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 691.77885,
+          "y": 650.12741
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 290,
+      "p": {
+        "parent": {
+          "__i": 287
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 844.49667,
+          "y": 650.89446
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 291,
+      "p": {
+        "parent": {
+          "__i": 271
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1139.9656,
+          "y": 596.85985
+        },
+        "width": 108.61646,
+        "height": 77.69654
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 292,
+      "p": {
+        "parent": {
+          "__i": 291
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": 1173.43034,
+          "y": 597.55162
+        },
+        "width": 0.76705,
+        "height": 100,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1173.81387,
+              "y": 547.55162
+            },
+            {
+              "x": 1173.04682,
+              "y": 647.55162
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 293,
+      "p": {
+        "parent": {
+          "__i": 291
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1140.04682,
+          "y": 646.55162
+        },
+        "width": 0.76705,
+        "height": 66,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1140.43034,
+              "y": 613.55162
+            },
+            {
+              "x": 1139.66329,
+              "y": 679.55162
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 294,
+      "p": {
+        "parent": {
+          "__i": 291
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1109.77889,
+          "y": 646.87218
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 295,
+      "p": {
+        "parent": {
+          "__i": 291
+        },
+        "position": {
+          "x": 1174.51795,
+          "y": 551.21323
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 296,
+      "p": {
+        "parent": {
+          "__i": 271
+        },
+        "rotation": -1.58825,
+        "position": {
+          "x": 733.53327,
+          "y": 322.80392
+        },
+        "width": 10.10319,
+        "height": 35.97987
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 297,
+      "p": {
+        "parent": {
+          "__i": 296
+        },
+        "rotation": -1.58825,
+        "position": {
+          "x": 736.52608,
+          "y": 322.94229
+        },
+        "width": 0.50033,
+        "height": 30,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 736.77625,
+              "y": 307.94229
+            },
+            {
+              "x": 736.27592,
+              "y": 337.94229
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "rgb(15,69,122)",
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 298,
+      "p": {
+        "parent": {
+          "__i": 296
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 724.29401,
+          "y": 323.76805
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 299,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 573.68903,
+          "y": 326.72886
+        },
+        "width": 100,
+        "height": 118.08986
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 300,
+      "p": {
+        "displayName": "weizhi",
+        "parent": {
+          "__i": 299
+        },
+        "image": "assets/junminronghe/weizhi.png",
+        "position": {
+          "x": 573.68905,
+          "y": 317.68394
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 301,
+      "p": {
+        "parent": {
+          "__i": 299
+        },
+        "position": {
+          "x": 663.44974,
+          "y": 369.82617
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 66.69705,
+        "height": 26.81038
+      },
+      "s": {
+        "text": "中转终端",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 302,
+      "p": {
+        "parent": {
+          "__i": 299
+        },
+        "position": {
+          "x": 611.44062,
+          "y": 339.97566
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 28.29609,
+        "height": 21.71449
+      },
+      "s": {
+        "text": "位置",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 303,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 684.07259,
+          "y": 318.80478
+        },
+        "width": 64.08675,
+        "height": 60
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 304,
+      "p": {
+        "displayName": "wang",
+        "parent": {
+          "__i": 303
+        },
+        "image": "assets/junminronghe/wang.png",
+        "position": {
+          "x": 683.47082,
+          "y": 318.80479
+        },
+        "width": 50,
+        "height": 60
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 305,
+      "p": {
+        "parent": {
+          "__i": 303
+        },
+        "position": {
+          "x": 770.86977,
+          "y": 316.43085
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 64.08675
+      },
+      "s": {
+        "text": "LoRa",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 24px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 306,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 795.18562,
+          "y": 332.20173
+        },
+        "width": 100,
+        "height": 129.66627
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 307,
+      "p": {
+        "displayName": "wendu",
+        "parent": {
+          "__i": 306
+        },
+        "image": "assets/junminronghe/wendu.png",
+        "position": {
+          "x": 795.18562,
+          "y": 317.3686
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 308,
+      "p": {
+        "parent": {
+          "__i": 306
+        },
+        "position": {
+          "x": 911.12784,
+          "y": 367.29335
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 81.24431
+      },
+      "s": {
+        "text": "采集终端",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 309,
+      "p": {
+        "parent": {
+          "__i": 306
+        },
+        "position": {
+          "x": 855.94818,
+          "y": 340.17331
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 40.50238,
+        "height": 21.71449
+      },
+      "s": {
+        "text": "温度",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 310,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 1254.31078,
+          "y": 335.15085
+        },
+        "anchor": {
+          "x": 3.95072,
+          "y": 0.68116
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 311,
+      "p": {
+        "displayName": "guangmin",
+        "parent": {
+          "__i": 310
+        },
+        "image": "assets/junminronghe/guangmin.png",
+        "position": {
+          "x": 909.23876,
+          "y": 317.03485
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 312,
+      "p": {
+        "parent": {
+          "__i": 310
+        },
+        "position": {
+          "x": 970.50307,
+          "y": 339.62473
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 40.50238,
+        "height": 21.71449
+      },
+      "s": {
+        "text": "光敏",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 313,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 1023.92744,
+          "y": 326.05202
+        },
+        "width": 100,
+        "height": 117.36685
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 314,
+      "p": {
+        "displayName": "shidu",
+        "parent": {
+          "__i": 313
+        },
+        "image": "assets/junminronghe/shidu.png",
+        "position": {
+          "x": 1023.92746,
+          "y": 317.3686
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 315,
+      "p": {
+        "parent": {
+          "__i": 313
+        },
+        "position": {
+          "x": 1115.7281,
+          "y": 368.88577
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 67.78106,
+        "height": 26.64571
+      },
+      "s": {
+        "text": "采集终端",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 316,
+      "p": {
+        "parent": {
+          "__i": 313
+        },
+        "position": {
+          "x": 1085.69,
+          "y": 340.1733
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 40.50238,
+        "height": 21.71449
+      },
+      "s": {
+        "text": "湿度",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 317,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 548.2948,
+          "y": 738.51703
+        },
+        "anchor": {
+          "x": 0.64436,
+          "y": 1.17559
+        },
+        "width": 82.53026,
+        "height": 121.68434
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 318,
+      "p": {
+        "displayName": "xinhao",
+        "parent": {
+          "__i": 317
+        },
+        "image": "assets/junminronghe/xinhao.png",
+        "position": {
+          "x": 536.38037,
+          "y": 635.30837
+        },
+        "width": 82.53026,
+        "height": 79.68439
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 319,
+      "p": {
+        "parent": {
+          "__i": 317
+        },
+        "position": {
+          "x": 611.77494,
+          "y": 687.40903
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 56.51806
+      },
+      "s": {
+        "text": "CDMA",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 320,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 647.29445,
+          "y": 738.51715
+        },
+        "anchor": {
+          "x": 0.64436,
+          "y": 1.17559
+        },
+        "width": 82.53026,
+        "height": 121.6844
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 321,
+      "p": {
+        "displayName": "xinhao",
+        "parent": {
+          "__i": 320
+        },
+        "image": "assets/junminronghe/xinhao.png",
+        "position": {
+          "x": 635.38037,
+          "y": 635.30837
+        },
+        "scale": {
+          "x": -1,
+          "y": 1
+        },
+        "width": 82.53026,
+        "height": 79.68439
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 322,
+      "p": {
+        "parent": {
+          "__i": 320
+        },
+        "position": {
+          "x": 694.01433,
+          "y": 687.40907
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 43.27078
+      },
+      "s": {
+        "text": "GSM",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 323,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 696.27448,
+          "y": 487.78869
+        },
+        "width": 329.62976,
+        "height": 138.62068
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 324,
+      "p": {
+        "displayName": "che",
+        "parent": {
+          "__i": 323
+        },
+        "image": "assets/junminronghe/che.png",
+        "position": {
+          "x": 696.2745,
+          "y": 487.78869
+        },
+        "width": 329.62977,
+        "height": 138.62068
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 325,
+      "p": {
+        "parent": {
+          "__i": 323
+        },
+        "position": {
+          "x": 745.35378,
+          "y": 487.66668
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 70.09019
+      },
+      "s": {
+        "text": "生命快线",
+        "text.color": "rgb(212,0,0)",
+        "text.font": "bold 14px Microsoft YaHei",
+        "text.shadow.color": "rgb(212,0,0)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 326,
+      "p": {
+        "parent": {
+          "__i": 269
+        },
+        "position": {
+          "x": 964.55687,
+          "y": 605.30122
+        },
+        "width": 258.54132,
+        "height": 166.97091
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 327,
+      "p": {
+        "parent": {
+          "__i": 326
+        },
+        "position": {
+          "x": 966.35487,
+          "y": 559.90871
+        },
+        "width": 128.95984,
+        "height": 76.18591
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 328,
+      "p": {
+        "displayName": "yun",
+        "parent": {
+          "__i": 327
+        },
+        "image": "assets/junminronghe/yun.png",
+        "position": {
+          "x": 966.35489,
+          "y": 557.63794
+        },
+        "width": 128.95984,
+        "height": 71.64436
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 329,
+      "p": {
+        "parent": {
+          "__i": 327
+        },
+        "position": {
+          "x": 1090.04245,
+          "y": 565.78092
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 93.17551,
+        "height": 54.16795
+      },
+      "s": {
+        "text": "云端监管平台",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "14px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 330,
+      "p": {
+        "displayName": "shouji",
+        "parent": {
+          "__i": 326
+        },
+        "image": "assets/junminronghe/shouji.png",
+        "position": {
+          "x": 878.23876,
+          "y": 658.71987
+        },
+        "width": 85.90513,
+        "height": 60.13359
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 331,
+      "p": {
+        "displayName": "diannao",
+        "parent": {
+          "__i": 326
+        },
+        "image": "assets/junminronghe/diannao.png",
+        "position": {
+          "x": 959.61014,
+          "y": 658.42001
+        },
+        "width": 85.04838,
+        "height": 59.53387
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 332,
+      "p": {
+        "displayName": "bijiben",
+        "parent": {
+          "__i": 326
+        },
+        "image": "assets/junminronghe/bijiben.png",
+        "position": {
+          "x": 1050.92825,
+          "y": 658.68258
+        },
+        "width": 85.7986,
+        "height": 60.05902
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 333,
+      "p": {
+        "displayName": "wifi",
+        "parent": {
+          "__i": 326
+        },
+        "image": "assets/junminronghe/wifi.png",
+        "position": {
+          "x": 878.23876,
+          "y": 615.56146
+        },
+        "width": 28.84359,
+        "height": 20.19052
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 334,
+      "p": {
+        "displayName": "wifi",
+        "parent": {
+          "__i": 326
+        },
+        "image": "assets/junminronghe/wifi.png",
+        "position": {
+          "x": 959.23876,
+          "y": 615.56146
+        },
+        "width": 28.84359,
+        "height": 20.19052
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 335,
+      "p": {
+        "displayName": "wifi",
+        "parent": {
+          "__i": 326
+        },
+        "image": "assets/junminronghe/wifi.png",
+        "position": {
+          "x": 1052.23876,
+          "y": 615.56146
+        },
+        "width": 28.84359,
+        "height": 20.19052
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 336,
+      "p": {
+        "displayName": "lianwang",
+        "parent": {
+          "__i": 269
+        },
+        "image": "assets/junminronghe/lianwang.png",
+        "position": {
+          "x": 1178.71385,
+          "y": 454.23389
+        },
+        "width": 180.09227,
+        "height": 180.09227
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 337,
+      "p": {
+        "displayName": "介绍",
+        "position": {
+          "x": 423.76001,
+          "y": -225.60496
+        },
+        "width": 1690,
+        "height": 120
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 338,
+      "p": {
+        "displayName": "kuang4",
+        "parent": {
+          "__i": 337
+        },
+        "image": "assets/junminronghe/kuang4.png",
+        "position": {
+          "x": 423.76,
+          "y": -225.60496
+        },
+        "width": 1690,
+        "height": 120
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 339,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 337
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 419.833,
+          "y": -223.60496
+        },
+        "width": 1622.61428,
+        "height": 93.50719
+      },
+      "a": {
+        "ht.content": "“中生·穿越智慧浆云+血浆医药”项目是在广西贺州市政府的大力推动下，按照广西壮族自治区“以资源换产业发展血液制品行业”的原则和贺州东融先行示范区的发展战略，作为广西未来生物制药产业升级的重点项目来投入建设的。项目由国资委引导出资并整合国内相关行业领先技术研发企业成立广西智慧浆云生物技术公司，与中生集团进行战略合作，围绕未来剩余血浆业务管理需求定向建设智慧型生物产业园区。",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 340,
+      "p": {
+        "displayName": "相关指标",
+        "position": {
+          "x": -32.73447,
+          "y": 20.66213
+        },
+        "width": 809.71698,
+        "height": 344.68142
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 341,
+      "p": {
+        "parent": {
+          "__i": 340
+        },
+        "position": {
+          "x": -33.72108,
+          "y": -126.67858
+        },
+        "width": 107.48277
+      },
+      "s": {
+        "text": "相关指标",
+        "text.color": "#2ad5f4",
+        "text.font": "bold 24px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 342,
+      "p": {
+        "parent": {
+          "__i": 340
+        },
+        "position": {
+          "x": -312.59294,
+          "y": 123.00284
+        },
+        "width": 250,
+        "height": 140
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"newTab.html\"\n}",
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "select.padding": 0,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 343,
+      "p": {
+        "displayName": "zhibiao",
+        "parent": {
+          "__i": 342
+        },
+        "image": "symbols/junminronghe/zhibiao.json",
+        "position": {
+          "x": -125.09294,
+          "y": 49.36704
+        },
+        "anchor": {
+          "x": 1.25,
+          "y": -0.02597
+        },
+        "width": 250,
+        "height": 140
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 344,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 342
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -312.59294,
+          "y": 94.00259
+        },
+        "width": 77.48384,
+        "height": 44
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "一周新采浆员分析",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 20,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 345,
+      "p": {
+        "parent": {
+          "__i": 340
+        },
+        "position": {
+          "x": -24.24186,
+          "y": 105.89764
+        },
+        "anchor": {
+          "x": 0.53421,
+          "y": 0.37782
+        },
+        "width": 250,
+        "height": 140
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"newTab.html\"\n}",
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "select.padding": 0,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 346,
+      "p": {
+        "displayName": "zhibiao",
+        "parent": {
+          "__i": 345
+        },
+        "image": "symbols/junminronghe/zhibiao.json",
+        "position": {
+          "x": 154.70565,
+          "y": 49.36704
+        },
+        "anchor": {
+          "x": 1.25,
+          "y": -0.02597
+        },
+        "width": 250,
+        "height": 140
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 347,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 345
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -31.97969,
+          "y": 93.00259
+        },
+        "width": 74.9337,
+        "height": 44
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "供浆员年龄分析",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 20,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 348,
+      "p": {
+        "parent": {
+          "__i": 340
+        },
+        "position": {
+          "x": 247.00424,
+          "y": 107.67284
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.3905
+        },
+        "width": 250,
+        "height": 140
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"newTab.html\"\n}",
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "select.padding": 0,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 349,
+      "p": {
+        "displayName": "zhibiao",
+        "parent": {
+          "__i": 348
+        },
+        "image": "symbols/junminronghe/zhibiao.json",
+        "position": {
+          "x": 434.50423,
+          "y": 49.36704
+        },
+        "anchor": {
+          "x": 1.25,
+          "y": -0.02597
+        },
+        "width": 250,
+        "height": 140
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 350,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 348
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 247.00423,
+          "y": 93.00259
+        },
+        "width": 73.61137,
+        "height": 44
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "采浆登记地区分布",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 20,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 351,
+      "p": {
+        "displayName": "块",
+        "parent": {
+          "__i": 340
+        },
+        "position": {
+          "x": -312.47314,
+          "y": -26.99715
+        },
+        "width": 250,
+        "height": 140
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"newTab.html\"\n}",
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "select.padding": 0,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 352,
+      "p": {
+        "displayName": "zhibiao",
+        "parent": {
+          "__i": 351
+        },
+        "image": "symbols/junminronghe/zhibiao.json",
+        "position": {
+          "x": -124.97314,
+          "y": -100.63295
+        },
+        "anchor": {
+          "x": 1.25,
+          "y": -0.02597
+        },
+        "width": 250,
+        "height": 140
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 353,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 351
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -314.71569,
+          "y": -56.29477
+        },
+        "width": 81.72934,
+        "height": 44
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "一周新增发证",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 20,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 354,
+      "p": {
+        "parent": {
+          "__i": 340
+        },
+        "position": {
+          "x": -32.67456,
+          "y": -47.29295
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.35503
+        },
+        "width": 250,
+        "height": 140
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"newTab.html\"\n}",
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "select.padding": 0,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 355,
+      "p": {
+        "displayName": "zhibiao",
+        "parent": {
+          "__i": 354
+        },
+        "image": "symbols/junminronghe/zhibiao.json",
+        "position": {
+          "x": 154.82544,
+          "y": -100.63295
+        },
+        "anchor": {
+          "x": 1.25,
+          "y": -0.02597
+        },
+        "width": 250,
+        "height": 140
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 356,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 354
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -33.72108,
+          "y": -56.29477
+        },
+        "width": 79.66653,
+        "height": 44
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "一周采浆人次",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 20,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 357,
+      "p": {
+        "parent": {
+          "__i": 340
+        },
+        "position": {
+          "x": 247.12402,
+          "y": -38.41415
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.41845
+        },
+        "width": 250,
+        "height": 140
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"newTab.html\"\n}",
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "select.padding": 0,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 358,
+      "p": {
+        "displayName": "zhibiao",
+        "parent": {
+          "__i": 357
+        },
+        "image": "symbols/junminronghe/zhibiao.json",
+        "position": {
+          "x": 434.62403,
+          "y": -100.63295
+        },
+        "anchor": {
+          "x": 1.25,
+          "y": -0.02597
+        },
+        "width": 250,
+        "height": 140
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 359,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 357
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 247.00423,
+          "y": -56.29477
+        },
+        "width": 80.01655,
+        "height": 44
+      },
+      "a": {
+        "ht.autoScalue": false,
+        "ht.content": "一周采浆血量",
+        "ht.color": "rgb(247,247,247)",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.lineHeight": 20,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 360,
+      "p": {
+        "displayName": "title",
+        "position": {
+          "x": 432.54538,
+          "y": -325.60495
+        },
+        "width": 1920,
+        "height": 80
+      },
+      "s": {
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 361,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 360
+        },
+        "image": "assets/junminronghe/title.png",
+        "position": {
+          "x": 432.54537,
+          "y": -325.60496
+        },
+        "width": 1920,
+        "height": 80
+      },
+      "s": {
+        "fullscreen.gap": 0,
+        "2d.selectable": false,
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 362,
+      "p": {
+        "displayName": "logo",
+        "parent": {
+          "__i": 360
+        },
+        "image": "assets/junminronghe/logo.png",
+        "position": {
+          "x": -432.90533,
+          "y": -325.60497
+        },
+        "width": 144.62477,
+        "height": 58.8738
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 363,
+      "p": {
+        "parent": {
+          "__i": 360
+        },
+        "position": {
+          "x": 423.76001,
+          "y": -320.60496
+        },
+        "width": 133.15713
+      },
+      "s": {
+        "text": "血浆云",
+        "text.font": "bold 44px Microsoft YaHei",
+        "text.color": "rgb(51,153,255)"
+      }
+    }
+  ],
+  "modified": "Tue Dec 08 2020 15:04:13 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": -565.45464,
+    "y": -365.60496,
+    "width": 1958.00002,
+    "height": 1087.72865
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "modified": "Tue Dec 08 2020 09:31:11 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    },
+    {
+      "attr": "num",
+      "valueType": "String",
+      "name": "数值"
+    }
+  ],
+  "width": 560,
+  "height": 320,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/junminronghe/di-zhibiao.png",
+      "displayName": "di-zhibiao",
+      "rect": [
+        60,
+        90.50001,
+        440,
+        200
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(22,50,122,0.2)",
+      "borderWidth": 2,
+      "borderColor": "#235B9C",
+      "gradient": "spread.vertical",
+      "gradientColor": "rgba(22,50,122,0.2)",
+      "pixelPerfect": true,
+      "displayName": "left2",
+      "rect": [
+        141.25,
+        29.50001,
+        272,
+        122
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "#3D9EFE",
+      "pixelPerfect": true,
+      "points": [
+        152.25,
+        29.50001,
+        141.25,
+        29.50001,
+        141.25,
+        46.50001
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "#3D9EFE",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "points": [
+        416.25,
+        32.50001,
+        399.25,
+        32.50001,
+        399.25,
+        43.50001
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "#3D9EFE",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "points": [
+        413.25,
+        134.48984,
+        402.25,
+        134.48984,
+        402.25,
+        151.48984
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "#3D9EFE",
+      "pixelPerfect": true,
+      "rotation": -1.5708,
+      "points": [
+        155.25,
+        137.48984,
+        138.25,
+        137.48984,
+        138.25,
+        148.48984
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "modified": "Thu Mar 19 2020 15:56:14 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ht.content",
+      "valueType": "Multiline",
+      "name": "editor.content"
+    },
+    {
+      "attr": "ht.autoScalue",
+      "valueType": "Boolean",
+      "name": "UIAutoScale"
+    },
+    {
+      "attr": "ht.wordBreak",
+      "valueType": "Boolean",
+      "name": "UIWordBreak"
+    },
+    {
+      "attr": "ht.font",
+      "valueType": "Font",
+      "name": "UIFont"
+    },
+    {
+      "attr": "ht.textAlign",
+      "valueType": "Align",
+      "name": "editor.valuetype.align"
+    },
+    {
+      "attr": "ht.vAlign",
+      "valueType": "VAlign",
+      "name": "editor.valuetype.valign"
+    },
+    {
+      "attr": "ht.color",
+      "valueType": "Color",
+      "name": "editor.color"
+    },
+    {
+      "attr": "ht.lineHeight",
+      "valueType": "PositiveNumber",
+      "name": "UILineHeight"
+    },
+    {
+      "attr": "ht.background",
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    {
+      "attr": "ht.padding",
+      "valueType": "String",
+      "name": "UIPadding"
+    },
+    {
+      "attr": "ht.fillContent",
+      "valueType": "Boolean",
+      "name": "UIFillContent"
+    },
+    {
+      "attr": "ht.scrollable",
+      "valueType": "Boolean",
+      "name": "可滚动"
+    },
+    {
+      "attr": "ht.translateX",
+      "valueType": "Number",
+      "name": "横向偏移值"
+    },
+    {
+      "attr": "ht.translateY",
+      "valueType": "Number",
+      "name": "纵向偏移值"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "boundExtend": 5,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "components/ht/text/textBox.json",
+      "displayName": "textBox",
+      "rotation": 6.28319,
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.textBoxInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.textBoxInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.textBoxInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nht.vector.textBoxInteractor.onScroll.apply(this, arguments);\n}",
+      "content": {
+        "func": "attr@ht.content",
+        "value": "HT Vector"
+      },
+      "autoScale": {
+        "func": "attr@ht.autoScalue",
+        "value": true
+      },
+      "wordBreak": {
+        "func": "attr@ht.wordBreak",
+        "value": false
+      },
+      "font": {
+        "func": "attr@ht.font",
+        "value": "14px sans-serif, Arial"
+      },
+      "textAlign": {
+        "func": "attr@ht.textAlign",
+        "value": "left"
+      },
+      "vAlign": {
+        "func": "attr@ht.vAlign",
+        "value": "middle"
+      },
+      "color": {
+        "func": "attr@ht.color",
+        "value": "rgb(61,61,61)"
+      },
+      "lineHeight": {
+        "func": "attr@ht.lineHeight",
+        "value": 18
+      },
+      "background": {
+        "func": "attr@ht.background",
+        "value": null
+      },
+      "padding": {
+        "func": "attr@ht.padding",
+        "value": "0"
+      },
+      "fillContent": {
+        "func": "attr@ht.fillContent",
+        "value": false
+      },
+      "scrollable": {
+        "func": "attr@ht.scrollable",
+        "value": false
+      },
+      "translateX": {
+        "func": "attr@ht.translateX",
+        "value": 0
+      },
+      "translateY": {
+        "func": "attr@ht.translateY",
+        "value": 0
+      },
+      "borderWidth": 1,
+      "borderColor": null,
+      "borderRadius": "5"
+    }
+  ]
+}

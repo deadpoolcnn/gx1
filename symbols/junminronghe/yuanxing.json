@@ -1,0 +1,62 @@
+{
+  "modified": "Fri Nov 27 2020 10:53:33 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "defaultValue": "我的任务",
+      "name": "文字"
+    },
+    {
+      "attr": "image",
+      "valueType": "Image",
+      "name": "图片"
+    }
+  ],
+  "width": 200,
+  "height": 200,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/junminronghe/yuan.png",
+      "displayName": "yuan",
+      "rect": [
+        8.5,
+        8.5,
+        183,
+        183
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@image",
+        "value": "assets/junminronghe/renwu.png"
+      },
+      "displayName": "renwu",
+      "rect": [
+        78,
+        63,
+        44,
+        44
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "我的任务"
+      },
+      "color": "rgb(255,252,252)",
+      "font": "16px Microsoft YaHei",
+      "anchorX": 1.12542,
+      "anchorY": 0.39766,
+      "rect": [
+        66.9195,
+        101,
+        66.161,
+        50
+      ]
+    }
+  ]
+}

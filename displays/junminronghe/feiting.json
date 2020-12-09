@@ -1,0 +1,658 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "zoomable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 350,
+      "p": {
+        "displayName": "bg_ft",
+        "image": "assets/feitingyun/bg_ft.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "fullscreen": "fill",
+        "fullscreen.lock": "h",
+        "fullscreen.gap": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 351,
+      "p": {
+        "displayName": "进入云平台",
+        "host": {
+          "__i": 350
+        },
+        "position": {
+          "x": 840.3322,
+          "y": -499.56573
+        },
+        "width": 176.802,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 352,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 351
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 895.73319,
+          "y": -499.56574
+        },
+        "width": 66,
+        "height": 26
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 353,
+      "p": {
+        "parent": {
+          "__i": 351
+        },
+        "position": {
+          "x": 801.93117,
+          "y": -499.56574
+        }
+      },
+      "s": {
+        "text": "进入云平台",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 354,
+      "p": {
+        "displayName": "介绍",
+        "host": {
+          "__i": 350
+        },
+        "position": {
+          "x": 574.57253,
+          "y": -213.70358
+        },
+        "width": 554.71729,
+        "height": 281.32089
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 355,
+      "p": {
+        "displayName": "ft_border1",
+        "parent": {
+          "__i": 354
+        },
+        "image": "assets/feitingyun/ft_border1.png",
+        "position": {
+          "x": 574.57256,
+          "y": -213.70358
+        },
+        "width": 554.71727,
+        "height": 281.3209
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 356,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 354
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 573.78138,
+          "y": -210.59132
+        },
+        "width": 463.58794,
+        "height": 183.73617
+      },
+      "a": {
+        "ht.content": "飞艇应用云在边境地区部署长期滞空的飞艇，搭载各类侦查装备，至少提供光电侦查、通信基站、地理信息测绘、光电红外装备或小型雷达等4类应用。目标数据至少服务边防部队、公安、边海防、自然资源、农业、林业等9个部门。",
+        "ht.font": "20px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 36,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 357,
+      "p": {
+        "displayName": "feiting-title",
+        "image": "assets/feitingyun/feiting-title.png",
+        "host": {
+          "__i": 350
+        },
+        "position": {
+          "x": 2.52816,
+          "y": -495.06565
+        },
+        "width": 477,
+        "height": 53
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 358,
+      "p": {
+        "host": {
+          "__i": 350
+        },
+        "position": {
+          "x": 574.57251,
+          "y": 143.13802
+        },
+        "width": 554.71729,
+        "height": 331.83981
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 359,
+      "p": {
+        "displayName": "srceen2",
+        "parent": {
+          "__i": 358
+        },
+        "image": "assets/feitingyun/srceen2.jpg",
+        "position": {
+          "x": 573.25012,
+          "y": 139.97526
+        },
+        "width": 479.06424,
+        "height": 269.87286
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 360,
+      "p": {
+        "displayName": "ft_border2",
+        "parent": {
+          "__i": 358
+        },
+        "image": "assets/feitingyun/ft_border2.png",
+        "position": {
+          "x": 574.57254,
+          "y": 143.13802
+        },
+        "width": 554.71727,
+        "height": 331.8398
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 361,
+      "p": {
+        "displayName": "中间",
+        "host": {
+          "__i": 350
+        },
+        "position": {
+          "x": -269.98569,
+          "y": 33.87665
+        },
+        "width": 742.95782,
+        "height": 548.36256
+      },
+      "s": {
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 362,
+      "p": {
+        "displayName": "ft_roll",
+        "parent": {
+          "__i": 361
+        },
+        "image": "assets/feitingyun/ft_roll.png",
+        "position": {
+          "x": -240.50678,
+          "y": 70.62935
+        },
+        "width": 684,
+        "height": 439
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 363,
+      "p": {
+        "displayName": "ft_line_top",
+        "parent": {
+          "__i": 361
+        },
+        "image": "assets/feitingyun/ft_line_top.png",
+        "position": {
+          "x": -297.06768,
+          "y": -165.80463
+        },
+        "width": 458,
+        "height": 149
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 364,
+      "p": {
+        "displayName": "ft_line_mid",
+        "parent": {
+          "__i": 361
+        },
+        "image": "assets/feitingyun/ft_line_mid.png",
+        "position": {
+          "x": -159.06768,
+          "y": -46.30463
+        },
+        "width": 182,
+        "height": 90
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 365,
+      "p": {
+        "displayName": "ft_line_left",
+        "parent": {
+          "__i": 361
+        },
+        "image": "assets/feitingyun/ft_line_left.png",
+        "position": {
+          "x": -400.20741,
+          "y": 94.42988
+        },
+        "width": 226,
+        "height": 196
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 366,
+      "p": {
+        "displayName": "ft_line_right",
+        "parent": {
+          "__i": 361
+        },
+        "image": "assets/feitingyun/ft_line_right.png",
+        "position": {
+          "x": -192.70741,
+          "y": 102.12935
+        },
+        "width": 205,
+        "height": 196
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 367,
+      "p": {
+        "displayName": "ft-ico",
+        "parent": {
+          "__i": 361
+        },
+        "image": "symbols/junminronghe/ft-ico.json",
+        "position": {
+          "x": -551.4646,
+          "y": -122.6895
+        },
+        "width": 180,
+        "height": 180
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 368,
+      "p": {
+        "displayName": "ft-ico",
+        "parent": {
+          "__i": 361
+        },
+        "image": "symbols/junminronghe/ft-ico.json",
+        "position": {
+          "x": -551.4646,
+          "y": 202.12935
+        },
+        "width": 180,
+        "height": 180
+      },
+      "a": {
+        "image": "assets/feitingyun/ft_ico3.png",
+        "name": "应用终端"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 369,
+      "p": {
+        "displayName": "ft-ico",
+        "parent": {
+          "__i": 361
+        },
+        "image": "symbols/junminronghe/ft-ico.json",
+        "position": {
+          "x": -53.28927,
+          "y": 218.05793
+        },
+        "width": 180,
+        "height": 180
+      },
+      "a": {
+        "image": "assets/feitingyun/ft_ico4.png",
+        "name": "移动上网设备"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 370,
+      "p": {
+        "displayName": "ft-ico",
+        "parent": {
+          "__i": 361
+        },
+        "image": "symbols/junminronghe/ft-ico.json",
+        "position": {
+          "x": -48.28927,
+          "y": -112.6895
+        },
+        "width": 180,
+        "height": 180
+      },
+      "a": {
+        "image": "assets/feitingyun/ft_ico2.png",
+        "name": "云服务器"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 371,
+      "p": {
+        "displayName": "ft_cloud",
+        "parent": {
+          "__i": 361
+        },
+        "image": "assets/feitingyun/ft_cloud.png",
+        "position": {
+          "x": -299.70741,
+          "y": 26.43908
+        },
+        "width": 201,
+        "height": 195
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 372,
+      "p": {
+        "host": {
+          "__i": 350
+        },
+        "position": {
+          "x": -641.4646,
+          "y": -319.55229
+        },
+        "width": 379.51826,
+        "height": 185.1608
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 373,
+      "p": {
+        "displayName": "feiting_fig",
+        "parent": {
+          "__i": 372
+        },
+        "image": "assets/feitingyun/feiting_fig.png",
+        "position": {
+          "x": -622.0783,
+          "y": -307.14734
+        },
+        "width": 340.74565,
+        "height": 160.35089
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 374,
+      "p": {
+        "displayName": "feiting_fig",
+        "parent": {
+          "__i": 372
+        },
+        "image": "assets/feitingyun/feiting_fig.png",
+        "position": {
+          "x": -728.54326,
+          "y": -363.81247
+        },
+        "width": 205.36094,
+        "height": 96.64044
+      },
+      "s": {
+        "opacity": 0.7
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 375,
+      "p": {
+        "host": {
+          "__i": 350
+        },
+        "position": {
+          "x": -0.31833,
+          "y": 466.69304
+        },
+        "width": 1695.13055,
+        "height": 70.6553
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "bottom",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 376,
+      "p": {
+        "displayName": "ft-kuang",
+        "parent": {
+          "__i": 375
+        },
+        "image": "symbols/junminronghe/ft-kuang.json",
+        "position": {
+          "x": -732.88363,
+          "y": 467.02068
+        },
+        "width": 230,
+        "height": 70
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 377,
+      "p": {
+        "displayName": "ft-kuang",
+        "parent": {
+          "__i": 375
+        },
+        "image": "symbols/junminronghe/ft-kuang.json",
+        "position": {
+          "x": -488.6952,
+          "y": 466.3654
+        },
+        "width": 230,
+        "height": 70
+      },
+      "a": {
+        "name": "巡逻车实时监控"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 378,
+      "p": {
+        "displayName": "ft-kuang",
+        "parent": {
+          "__i": 375
+        },
+        "image": "symbols/junminronghe/ft-kuang.json",
+        "position": {
+          "x": -244.50678,
+          "y": 466.3654
+        },
+        "width": 230,
+        "height": 70
+      },
+      "a": {
+        "name": "巡逻船实时监控"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 379,
+      "p": {
+        "displayName": "ft-kuang",
+        "parent": {
+          "__i": 375
+        },
+        "image": "symbols/junminronghe/ft-kuang.json",
+        "position": {
+          "x": -0.31835,
+          "y": 467.02068
+        },
+        "width": 230,
+        "height": 70
+      },
+      "a": {
+        "name": "监控报警时段分析"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 380,
+      "p": {
+        "displayName": "ft-kuang",
+        "parent": {
+          "__i": 375
+        },
+        "image": "symbols/junminronghe/ft-kuang.json",
+        "position": {
+          "x": 243.87008,
+          "y": 467.02068
+        },
+        "width": 230,
+        "height": 70
+      },
+      "a": {
+        "name": "近一周告警次数分析"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 381,
+      "p": {
+        "displayName": "ft-kuang",
+        "parent": {
+          "__i": 375
+        },
+        "image": "symbols/junminronghe/ft-kuang.json",
+        "position": {
+          "x": 488.05851,
+          "y": 467.02068
+        },
+        "width": 230,
+        "height": 70
+      },
+      "a": {
+        "name": "事件查看"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 382,
+      "p": {
+        "displayName": "ft-kuang",
+        "parent": {
+          "__i": 375
+        },
+        "image": "symbols/junminronghe/ft-kuang.json",
+        "position": {
+          "x": 732.24694,
+          "y": 466.3654
+        },
+        "width": 230,
+        "height": 70
+      },
+      "a": {
+        "name": "历史检测视频"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 383,
+      "p": {
+        "host": {
+          "__i": 360
+        },
+        "position": {
+          "x": 574.57256,
+          "y": 333.05793
+        },
+        "width": 160.27921
+      },
+      "s": {
+        "text": "云平台界面",
+        "text.color": "#FFFFFF",
+        "text.font": "22px sans-serif, Arial",
+        "text.align": "center"
+      }
+    }
+  ],
+  "modified": "Wed Dec 09 2020 09:53:52 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": -960,
+    "y": -540,
+    "width": 1920,
+    "height": 1080
+  }
+}
