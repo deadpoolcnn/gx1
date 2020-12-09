@@ -12,7 +12,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 2136,
+      "i": 4346,
       "p": {
         "displayName": "bj",
         "image": "assets/junminronghe/bj.png",
@@ -32,12 +32,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 2137,
+      "i": 4347,
       "p": {
         "displayName": "title",
         "image": "assets/junminronghe/title.png",
         "host": {
-          "__i": 2136
+          "__i": 4346
         },
         "position": {
           "x": 20.36189,
@@ -55,11 +55,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2138,
+      "i": 4348,
       "p": {
         "displayName": "tg",
         "parent": {
-          "__i": 2137
+          "__i": 4347
         },
         "image": "assets/junminronghe/tg.png",
         "position": {
@@ -70,11 +70,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2139,
+      "i": 4349,
       "p": {
         "displayName": "进入云平台",
         "host": {
-          "__i": 2136
+          "__i": 4346
         },
         "position": {
           "x": 862.53577,
@@ -90,11 +90,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2140,
+      "i": 4350,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 2139
+          "__i": 4349
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -108,10 +108,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2141,
+      "i": 4351,
       "p": {
         "parent": {
-          "__i": 2139
+          "__i": 4349
         },
         "position": {
           "x": 824.13474,
@@ -126,31 +126,26 @@
     },
     {
       "c": "ht.Block",
-      "i": 2142,
+      "i": 4352,
       "p": {
         "displayName": "无人机云平台",
-        "host": {
-          "__i": 2136
-        },
         "position": {
-          "x": 53.06393,
+          "x": -108.35503,
           "y": 153.91459
         },
-        "width": 1668.14252,
+        "width": 1345.30459,
         "height": 789.03928
       },
       "s": {
-        "layout.v": "bottom",
-        "layout.h": "left",
         "2d.selectable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 2143,
+      "i": 4353,
       "p": {
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "position": {
           "x": -152.74511,
@@ -192,15 +187,16 @@
         "shape.background": "rgba(10,34,74,0)",
         "shape.border.color": null,
         "shape.gradient.color": "rgba(41,108,242,0.48)",
-        "shape.gradient": "linear.south"
+        "shape.gradient": "linear.south",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2144,
+      "i": 4354,
       "p": {
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "position": {
           "x": -155.71533,
@@ -212,15 +208,16 @@
       "s": {
         "shape": "rect",
         "shape.background": "#00bcf8",
-        "shape.border.color": "#979797"
+        "shape.border.color": "#979797",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2145,
+      "i": 4355,
       "p": {
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "position": {
           "x": -557.38215,
@@ -228,15 +225,18 @@
         },
         "width": 142.07179,
         "height": 179.59981
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2146,
+      "i": 4356,
       "p": {
         "displayName": "box",
         "parent": {
-          "__i": 2145
+          "__i": 4355
         },
         "image": "assets/junminronghe/box.png",
         "position": {
@@ -249,14 +249,17 @@
         },
         "width": 142.0718,
         "height": 179.59981
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2147,
+      "i": 4357,
       "p": {
         "parent": {
-          "__i": 2145
+          "__i": 4355
         },
         "position": {
           "x": -563.7678,
@@ -280,10 +283,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2148,
+      "i": 4358,
       "p": {
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "position": {
           "x": -293.75465,
@@ -291,15 +294,18 @@
         },
         "width": 142.07179,
         "height": 179.59981
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2149,
+      "i": 4359,
       "p": {
         "displayName": "box",
         "parent": {
-          "__i": 2148
+          "__i": 4358
         },
         "image": "assets/junminronghe/box.png",
         "position": {
@@ -312,15 +318,18 @@
         },
         "width": 142.0718,
         "height": 179.59981
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2150,
+      "i": 4360,
       "p": {
         "displayName": "AI人工智能平台",
         "parent": {
-          "__i": 2148
+          "__i": 4358
         },
         "position": {
           "x": -300.79198,
@@ -344,10 +353,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2151,
+      "i": 4361,
       "p": {
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "position": {
           "x": -30.12715,
@@ -355,15 +364,18 @@
         },
         "width": 142.07179,
         "height": 179.59981
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2152,
+      "i": 4362,
       "p": {
         "displayName": "box",
         "parent": {
-          "__i": 2151
+          "__i": 4361
         },
         "image": "assets/junminronghe/box.png",
         "position": {
@@ -376,14 +388,17 @@
         },
         "width": 142.0718,
         "height": 179.59981
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2153,
+      "i": 4363,
       "p": {
         "parent": {
-          "__i": 2151
+          "__i": 4361
         },
         "position": {
           "x": -37.96463,
@@ -407,10 +422,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2154,
+      "i": 4364,
       "p": {
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "position": {
           "x": 233.50035,
@@ -422,15 +437,18 @@
         },
         "width": 142.07179,
         "height": 179.59981
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2155,
+      "i": 4365,
       "p": {
         "displayName": "box",
         "parent": {
-          "__i": 2154
+          "__i": 4364
         },
         "image": "assets/junminronghe/box.png",
         "position": {
@@ -443,14 +461,17 @@
         },
         "width": 142.0718,
         "height": 179.59981
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2156,
+      "i": 4366,
       "p": {
         "parent": {
-          "__i": 2154
+          "__i": 4364
         },
         "position": {
           "x": 226.86273,
@@ -474,11 +495,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2157,
+      "i": 4367,
       "p": {
         "displayName": "jiantou",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "tag": "jiantou2",
         "image": "assets/junminronghe/jiantou.png",
@@ -488,15 +509,18 @@
         },
         "width": 49,
         "height": 47
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2158,
+      "i": 4368,
       "p": {
         "displayName": "dikuang",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "image": "symbols/junminronghe/dikuang.json",
         "position": {
@@ -505,15 +529,21 @@
         },
         "width": 140,
         "height": 80
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2159,
+      "i": 4369,
       "p": {
         "displayName": "dikuang",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "image": "symbols/junminronghe/dikuang.json",
         "position": {
@@ -523,17 +553,23 @@
         "width": 140,
         "height": 80
       },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      },
       "a": {
         "name": "国土测绘"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2160,
+      "i": 4370,
       "p": {
         "displayName": "dikuang",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "image": "symbols/junminronghe/dikuang.json",
         "position": {
@@ -543,17 +579,23 @@
         "width": 140,
         "height": 80
       },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      },
       "a": {
         "name": "河道巡检"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2161,
+      "i": 4371,
       "p": {
         "displayName": "dikuang",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "image": "symbols/junminronghe/dikuang.json",
         "position": {
@@ -563,17 +605,23 @@
         "width": 140,
         "height": 80
       },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      },
       "a": {
         "name": "石油化工"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2162,
+      "i": 4372,
       "p": {
         "displayName": "dikuang",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "image": "symbols/junminronghe/dikuang.json",
         "position": {
@@ -583,17 +631,23 @@
         "width": 140,
         "height": 80
       },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      },
       "a": {
         "name": "电力巡检"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2163,
+      "i": 4373,
       "p": {
         "displayName": "dikuang",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "image": "symbols/junminronghe/dikuang.json",
         "position": {
@@ -603,17 +657,23 @@
         "width": 140,
         "height": 80
       },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      },
       "a": {
         "name": "森林防火"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2164,
+      "i": 4374,
       "p": {
         "displayName": "dikuang",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "image": "symbols/junminronghe/dikuang.json",
         "position": {
@@ -623,17 +683,23 @@
         "width": 140,
         "height": 80
       },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      },
       "a": {
         "name": "交通管理"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2165,
+      "i": 4375,
       "p": {
         "displayName": "dikuang",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "image": "symbols/junminronghe/dikuang.json",
         "position": {
@@ -643,17 +709,23 @@
         "width": 140,
         "height": 80
       },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      },
       "a": {
         "name": "应急抢险"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2166,
+      "i": 4376,
       "p": {
         "displayName": "jiantou",
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "tag": "jiantou3",
         "image": "assets/junminronghe/jiantou.png",
@@ -664,14 +736,17 @@
         },
         "width": 49,
         "height": 47
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2167,
+      "i": 4377,
       "p": {
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "position": {
           "x": -721.00732,
@@ -679,15 +754,18 @@
         },
         "width": 120,
         "height": 149.70038
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2168,
+      "i": 4378,
       "p": {
         "displayName": "yingyong",
         "parent": {
-          "__i": 2167
+          "__i": 4377
         },
         "image": "assets/junminronghe/yingyong.png",
         "position": {
@@ -696,14 +774,17 @@
         },
         "width": 120,
         "height": 120
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2169,
+      "i": 4379,
       "p": {
         "parent": {
-          "__i": 2167
+          "__i": 4377
         },
         "position": {
           "x": -610.97285,
@@ -718,15 +799,16 @@
       "s": {
         "text": "行业应用",
         "text.color": "rgb(252,252,252)",
-        "text.font": "bold 20px Microsoft YaHei"
+        "text.font": "bold 20px Microsoft YaHei",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2170,
+      "i": 4380,
       "p": {
         "parent": {
-          "__i": 2142
+          "__i": 4352
         },
         "position": {
           "x": -175.47537,
@@ -741,10 +823,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2171,
+      "i": 4381,
       "p": {
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "position": {
           "x": -334.43909,
@@ -752,15 +834,18 @@
         },
         "width": 200,
         "height": 216.90339
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2172,
+      "i": 4382,
       "p": {
         "displayName": "tongxin",
         "parent": {
-          "__i": 2171
+          "__i": 4381
         },
         "image": "assets/junminronghe/tongxin.png",
         "position": {
@@ -769,14 +854,17 @@
         },
         "width": 200,
         "height": 200
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2173,
+      "i": 4383,
       "p": {
         "parent": {
-          "__i": 2171
+          "__i": 4381
         },
         "position": {
           "x": -334.43909,
@@ -787,15 +875,16 @@
       "s": {
         "text": "4/5G移动通信",
         "text.color": "rgb(252,252,252)",
-        "text.font": "bold 20px Microsoft YaHei"
+        "text.font": "bold 20px Microsoft YaHei",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2174,
+      "i": 4384,
       "p": {
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "position": {
           "x": 317.12613,
@@ -803,15 +892,18 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2175,
+      "i": 4385,
       "p": {
         "displayName": "kuang",
         "parent": {
-          "__i": 2174
+          "__i": 4384
         },
         "image": "assets/junminronghe/kuang.png",
         "position": {
@@ -820,14 +912,17 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2176,
+      "i": 4386,
       "p": {
         "parent": {
-          "__i": 2174
+          "__i": 4384
         },
         "position": {
           "x": 317.23977,
@@ -839,15 +934,16 @@
         "text": "5G通信适配器",
         "text.color": "#2ad5f4",
         "text.font": "20px sans-serif, Arial",
-        "text.align": "center"
+        "text.align": "center",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2177,
+      "i": 4387,
       "p": {
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "position": {
           "x": -668.41777,
@@ -855,15 +951,18 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2178,
+      "i": 4388,
       "p": {
         "displayName": "kuang",
         "parent": {
-          "__i": 2177
+          "__i": 4387
         },
         "image": "assets/junminronghe/kuang.png",
         "position": {
@@ -872,14 +971,17 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2179,
+      "i": 4389,
       "p": {
         "parent": {
-          "__i": 2177
+          "__i": 4387
         },
         "position": {
           "x": -668.30413,
@@ -891,15 +993,16 @@
         "text": "5G空中走廊",
         "text.color": "#2ad5f4",
         "text.font": "20px sans-serif, Arial",
-        "text.align": "center"
+        "text.align": "center",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2180,
+      "i": 4390,
       "p": {
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "position": {
           "x": 317.23977,
@@ -907,15 +1010,18 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2181,
+      "i": 4391,
       "p": {
         "displayName": "kuang",
         "parent": {
-          "__i": 2180
+          "__i": 4390
         },
         "image": "assets/junminronghe/kuang.png",
         "position": {
@@ -924,14 +1030,17 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2182,
+      "i": 4392,
       "p": {
         "parent": {
-          "__i": 2180
+          "__i": 4390
         },
         "position": {
           "x": 317.3534,
@@ -943,15 +1052,16 @@
         "text": "地面控制",
         "text.color": "#2ad5f4",
         "text.font": "20px sans-serif, Arial",
-        "text.align": "center"
+        "text.align": "center",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2183,
+      "i": 4393,
       "p": {
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "position": {
           "x": 317.35339,
@@ -963,15 +1073,18 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2184,
+      "i": 4394,
       "p": {
         "displayName": "kuang",
         "parent": {
-          "__i": 2183
+          "__i": 4393
         },
         "image": "assets/junminronghe/kuang.png",
         "position": {
@@ -980,14 +1093,17 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2185,
+      "i": 4395,
       "p": {
         "parent": {
-          "__i": 2183
+          "__i": 4393
         },
         "position": {
           "x": 317.46704,
@@ -999,15 +1115,16 @@
         "text": "任务工单",
         "text.color": "#2ad5f4",
         "text.font": "20px sans-serif, Arial",
-        "text.align": "center"
+        "text.align": "center",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2186,
+      "i": 4396,
       "p": {
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "position": {
           "x": 317.46704,
@@ -1015,15 +1132,18 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2187,
+      "i": 4397,
       "p": {
         "displayName": "kuang",
         "parent": {
-          "__i": 2186
+          "__i": 4396
         },
         "image": "assets/junminronghe/kuang.png",
         "position": {
@@ -1032,14 +1152,17 @@
         },
         "width": 165.17911,
         "height": 70
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2188,
+      "i": 4398,
       "p": {
         "parent": {
-          "__i": 2186
+          "__i": 4396
         },
         "position": {
           "x": 317.58068,
@@ -1051,15 +1174,16 @@
         "text": "隐患告警",
         "text.color": "#2ad5f4",
         "text.font": "20px sans-serif, Arial",
-        "text.align": "center"
+        "text.align": "center",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2189,
+      "i": 4399,
       "p": {
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "position": {
           "x": -21.84055,
@@ -1067,15 +1191,18 @@
         },
         "width": 120,
         "height": 149.30166
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2190,
+      "i": 4400,
       "p": {
         "displayName": "wurenji",
         "parent": {
-          "__i": 2189
+          "__i": 4399
         },
         "image": "assets/junminronghe/wurenji.png",
         "position": {
@@ -1084,14 +1211,17 @@
         },
         "width": 120,
         "height": 120
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2191,
+      "i": 4401,
       "p": {
         "parent": {
-          "__i": 2189
+          "__i": 4399
         },
         "position": {
           "x": -19.08793,
@@ -1107,10 +1237,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2192,
+      "i": 4402,
       "p": {
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "position": {
           "x": -20.28815,
@@ -1118,15 +1248,18 @@
         },
         "width": 120,
         "height": 147.05345
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2193,
+      "i": 4403,
       "p": {
         "displayName": "app",
         "parent": {
-          "__i": 2192
+          "__i": 4402
         },
         "image": "assets/junminronghe/app.png",
         "position": {
@@ -1135,14 +1268,17 @@
         },
         "width": 120,
         "height": 120
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 2194,
+      "i": 4404,
       "p": {
         "parent": {
-          "__i": 2192
+          "__i": 4402
         },
         "position": {
           "x": 4.02323,
@@ -1162,11 +1298,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2195,
+      "i": 4405,
       "p": {
         "displayName": "1",
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "image": "assets/junminronghe/jiantou1.png",
         "position": {
@@ -1175,15 +1311,18 @@
         },
         "width": 120.35405,
         "height": 94.62952
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2196,
+      "i": 4406,
       "p": {
         "displayName": "2",
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "image": "assets/junminronghe/jiantou2.png",
         "position": {
@@ -1192,15 +1331,18 @@
         },
         "width": 119.52744,
         "height": 93.97959
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2197,
+      "i": 4407,
       "p": {
         "displayName": "3",
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "image": "assets/junminronghe/jiantou3.png",
         "position": {
@@ -1213,15 +1355,18 @@
         },
         "width": 120.00438,
         "height": 94.35459
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2198,
+      "i": 4408,
       "p": {
         "displayName": "1",
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "image": "assets/junminronghe/jiantou1.png",
         "rotation": 3.14159,
@@ -1231,15 +1376,18 @@
         },
         "width": 120.35405,
         "height": 94.62952
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2199,
+      "i": 4409,
       "p": {
         "displayName": "jiantou",
         "parent": {
-          "__i": 2170
+          "__i": 4380
         },
         "tag": "jiantou1",
         "image": "assets/junminronghe/jiantou.png",
@@ -1250,66 +1398,18 @@
         },
         "width": 49,
         "height": 47
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 2200,
-      "p": {
-        "parent": {
-          "__i": 2142
-        },
-        "position": {
-          "x": 739.63519,
-          "y": 322.2327
-        },
-        "width": 295,
-        "height": 360
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 2201,
-      "p": {
-        "displayName": "zhihuizx",
-        "parent": {
-          "__i": 2200
-        },
-        "image": "assets/junminronghe/zhihuizx.png",
-        "position": {
-          "x": 739.63517,
-          "y": 302.23269
-        },
-        "width": 295,
-        "height": 320
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 2202,
-      "p": {
-        "parent": {
-          "__i": 2200
-        },
-        "position": {
-          "x": 759.63517,
-          "y": 477.23269
-        },
-        "width": 219.27276
       },
       "s": {
-        "text": "无人机集中指挥中心",
-        "text.font": "20px Microsoft YaHei",
-        "text.color": "#2ad5f4"
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2203,
+      "i": 4413,
       "p": {
         "displayName": "功能模块",
         "host": {
-          "__i": 2136
+          "__i": 4346
         },
         "position": {
           "x": -859.96134,
@@ -1326,11 +1426,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2204,
+      "i": 4414,
       "p": {
         "displayName": "yuanxing",
         "parent": {
-          "__i": 2203
+          "__i": 4413
         },
         "image": "symbols/junminronghe/yuanxing.json",
         "position": {
@@ -1357,11 +1457,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2205,
+      "i": 4415,
       "p": {
         "displayName": "yuanxing",
         "parent": {
-          "__i": 2203
+          "__i": 4413
         },
         "image": "symbols/junminronghe/yuanxing.json",
         "position": {
@@ -1388,11 +1488,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2206,
+      "i": 4416,
       "p": {
         "displayName": "yuanxing",
         "parent": {
-          "__i": 2203
+          "__i": 4413
         },
         "image": "symbols/junminronghe/yuanxing.json",
         "position": {
@@ -1423,11 +1523,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2207,
+      "i": 4417,
       "p": {
         "displayName": "yuanxing",
         "parent": {
-          "__i": 2203
+          "__i": 4413
         },
         "image": "symbols/junminronghe/yuanxing.json",
         "position": {
@@ -1458,11 +1558,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2208,
+      "i": 4418,
       "p": {
         "displayName": "yuanxing",
         "parent": {
-          "__i": 2203
+          "__i": 4413
         },
         "image": "symbols/junminronghe/yuanxing.json",
         "position": {
@@ -1493,11 +1593,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2209,
+      "i": 4419,
       "p": {
         "displayName": "yuanxing",
         "parent": {
-          "__i": 2203
+          "__i": 4413
         },
         "image": "symbols/junminronghe/yuanxing.json",
         "position": {
@@ -1528,11 +1628,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2210,
+      "i": 4420,
       "p": {
         "displayName": "介绍",
         "host": {
-          "__i": 2136
+          "__i": 4346
         },
         "position": {
           "x": 96.13474,
@@ -1543,16 +1643,17 @@
       },
       "s": {
         "layout.v": "top",
-        "layout.h": "left"
+        "layout.h": "left",
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2211,
+      "i": 4421,
       "p": {
         "displayName": "kuang4",
         "parent": {
-          "__i": 2210
+          "__i": 4420
         },
         "image": "assets/junminronghe/kuang4.png",
         "position": {
@@ -1561,15 +1662,18 @@
         },
         "width": 1690,
         "height": 120
+      },
+      "s": {
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2212,
+      "i": 4422,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2210
+          "__i": 4420
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1578,6 +1682,9 @@
         },
         "width": 1606.23459,
         "height": 93.50719
+      },
+      "s": {
+        "2d.selectable": false
       },
       "a": {
         "ht.content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
@@ -1589,11 +1696,78 @@
     },
     {
       "c": "ht.Block",
-      "i": 2213,
+      "i": 4410,
+      "p": {
+        "host": {
+          "__i": 4346
+        },
+        "position": {
+          "x": 739.63519,
+          "y": 322.2327
+        },
+        "width": 295,
+        "height": 360
+      },
+      "s": {
+        "layout.h": "right",
+        "layout.v": "topbottom"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4411,
+      "p": {
+        "displayName": "zhihuizx",
+        "parent": {
+          "__i": 4410
+        },
+        "image": "assets/junminronghe/zhihuizx.png",
+        "host": {
+          "__i": 4346
+        },
+        "position": {
+          "x": 739.63517,
+          "y": 302.23269
+        },
+        "width": 295,
+        "height": 320
+      },
+      "s": {
+        "layout.h": "right",
+        "layout.v": "topbottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 4412,
+      "p": {
+        "parent": {
+          "__i": 4410
+        },
+        "host": {
+          "__i": 4346
+        },
+        "position": {
+          "x": 759.63517,
+          "y": 477.23269
+        },
+        "width": 219.27276
+      },
+      "s": {
+        "text": "无人机集中指挥中心",
+        "text.font": "20px Microsoft YaHei",
+        "text.color": "#2ad5f4",
+        "layout.h": "right",
+        "layout.v": "scale"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 4423,
       "p": {
         "displayName": "视频",
         "host": {
-          "__i": 2136
+          "__i": 4346
         },
         "position": {
           "x": 701.6532,
@@ -1610,11 +1784,14 @@
     },
     {
       "c": "ht.Text",
-      "i": 2214,
+      "i": 4424,
       "p": {
         "displayName": "无人机运控管理服务云相关视频",
         "parent": {
-          "__i": 2213
+          "__i": 4423
+        },
+        "host": {
+          "__i": 4346
         },
         "position": {
           "x": 704.8809,
@@ -1625,18 +1802,23 @@
       "s": {
         "text": "无人机运控管理服务云相关视频",
         "text.font": "20px Microsoft YaHei",
-        "text.color": "#2ad5f4"
+        "text.color": "#2ad5f4",
+        "layout.h": "right",
+        "layout.v": "top"
       }
     },
     {
       "c": "ht.Block",
-      "i": 2215,
+      "i": 4425,
       "p": {
         "displayName": "shipin",
         "parent": {
-          "__i": 2213
+          "__i": 4423
         },
         "tag": "shipin",
+        "host": {
+          "__i": 4346
+        },
         "position": {
           "x": 701.6532,
           "y": -37.28947
@@ -1651,16 +1833,18 @@
         "select.padding": 0,
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "layout.h": "right",
+        "layout.v": "top"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2216,
+      "i": 4426,
       "p": {
         "displayName": "kuang3",
         "parent": {
-          "__i": 2215
+          "__i": 4425
         },
         "image": "assets/junminronghe/kuang3.png",
         "position": {
@@ -1673,11 +1857,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2217,
+      "i": 4427,
       "p": {
         "displayName": "shipin",
         "parent": {
-          "__i": 2215
+          "__i": 4425
         },
         "image": "assets/junminronghe/shipin.jpg",
         "position": {
@@ -1690,14 +1874,17 @@
     },
     {
       "c": "ht.Node",
-      "i": 2218,
+      "i": 4428,
       "p": {
         "displayName": "video",
         "parent": {
-          "__i": 2213
+          "__i": 4423
         },
         "tag": "video1",
         "image": "symbols/smartPolitics/video.json",
+        "host": {
+          "__i": 4346
+        },
         "position": {
           "x": 701.65318,
           "y": -40.37569
@@ -1710,7 +1897,9 @@
         "interactive": true,
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "layout.h": "right",
+        "layout.v": "top"
       },
       "a": {
         "src": "http://vjs.zencdn.net/v/oceans.mp4"
@@ -1718,14 +1907,17 @@
     },
     {
       "c": "ht.Node",
-      "i": 2219,
+      "i": 4429,
       "p": {
         "displayName": "bofang",
         "parent": {
-          "__i": 2213
+          "__i": 4423
         },
         "tag": "bofang",
         "image": "assets/junminronghe/bofang.png",
+        "host": {
+          "__i": 4346
+        },
         "position": {
           "x": 701.65317,
           "y": -37.28947
@@ -1740,11 +1932,13 @@
         "select.padding": 0,
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "layout.h": "right",
+        "layout.v": "top"
       }
     }
   ],
-  "modified": "Tue Dec 08 2020 15:05:57 GMT+0800 (China Standard Time)",
+  "modified": "Wed Dec 09 2020 16:29:47 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.96136,
     "y": -515.56574,
