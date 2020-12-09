@@ -23,14 +23,281 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation();
 
                 ht.Default.xhrLoad('displays/junminronghe/yingyongwuzibaozhangyun.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
+                    
+                    arrowAni(dataModel);
+                    platformAni(dataModel)
                 });
+
+                function arrowAni(dm) {
+                    const jiantou1 = dm.getDataByTag('jiantou1');
+                    const jiantou2 = dm.getDataByTag('jiantou2');
+
+                    jiantou1.setAnimation({
+                        move: {
+                            from: jiantou1.getX(),
+                            to: jiantou1.getX() - 20,
+                            duration: 1500,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setPosition(value,this.getPosition().y);
+                            }
+                        },
+                        start: ["move"]
+                    })
+                    jiantou2.setAnimation({
+                        move: {
+                            from: jiantou2.getX(),
+                            to: jiantou2.getX() + 20,
+                            duration: 1500,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setPosition(value,this.getPosition().y);
+                            }
+                        },
+                        start: ["move"]
+                    })
+                }
+
+
+                function platformAni(dm) {
+                    const yiqing = dm.getDataByTag('yiqing')
+                    const jiuzai = dm.getDataByTag('jiuzai')
+                    const jijiu = dm.getDataByTag('jijiu')
+                    const zhengfu = dm.getDataByTag('zhengfu')
+                    const zhuanyong = dm.getDataByTag('zhuanyong')
+                    const caigou = dm.getDataByTag('caigou')
+                    const peisong = dm.getDataByTag('peisong')
+                    const lunhuan = dm.getDataByTag('lunhuan')
+
+                    
+                    yiqing.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: yiqing.getWidth(), 
+                            to: yiqing.getWidth() - 10,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: yiqing.getWidth() - 10, 
+                            to: yiqing.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: yiqing.getHeight(), 
+                            to: yiqing.getHeight() - 20,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: yiqing.getHeight() - 20, 
+                            to: yiqing.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+
+                    jiuzai.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: jiuzai.getWidth(), 
+                            to: jiuzai.getWidth() - 10,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: jiuzai.getWidth() - 10, 
+                            to: jiuzai.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: jiuzai.getHeight(), 
+                            to: jiuzai.getHeight() - 20,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: jiuzai.getHeight() - 20, 
+                            to: jiuzai.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    jijiu.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: jijiu.getWidth(), 
+                            to: jijiu.getWidth() - 10,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: jijiu.getWidth() - 10, 
+                            to: jijiu.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: jijiu.getHeight(), 
+                            to: jijiu.getHeight() - 20,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: jijiu.getHeight() - 20, 
+                            to: jijiu.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    zhengfu.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: zhengfu.getWidth(), 
+                            to: zhengfu.getWidth() - 10,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: zhengfu.getWidth() - 10, 
+                            to: zhengfu.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: zhengfu.getHeight(), 
+                            to: zhengfu.getHeight() - 10,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: zhengfu.getHeight() - 10, 
+                            to: zhengfu.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    zhuanyong.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: zhuanyong.getWidth(), 
+                            to: zhuanyong.getWidth() - 10,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: zhuanyong.getWidth() - 10, 
+                            to: zhuanyong.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: zhuanyong.getHeight(), 
+                            to: zhuanyong.getHeight() - 20,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: zhuanyong.getHeight() - 20, 
+                            to: zhuanyong.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    caigou.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: caigou.getWidth(), 
+                            to: caigou.getWidth() - 10,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: caigou.getWidth() - 10, 
+                            to: caigou.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: caigou.getHeight(), 
+                            to: caigou.getHeight() - 20,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: caigou.getHeight() - 20, 
+                            to: caigou.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    peisong.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: peisong.getWidth(), 
+                            to: peisong.getWidth() - 10,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: peisong.getWidth() - 10, 
+                            to: peisong.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: peisong.getHeight(), 
+                            to: peisong.getHeight() - 20,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: peisong.getHeight() - 20, 
+                            to: peisong.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    lunhuan.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: lunhuan.getWidth(), 
+                            to: lunhuan.getWidth() - 10,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: lunhuan.getWidth() - 10, 
+                            to: lunhuan.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: lunhuan.getHeight(), 
+                            to: lunhuan.getHeight() - 10,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: lunhuan.getHeight() - 10, 
+                            to: lunhuan.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                }
             }
+
+            
         </script>
     </head>
     <body onload='setTimeout(init, 300)'>
