@@ -142,53 +142,96 @@
             function airshipAnimation(dm) {
                 const feitingFigFirst = dm.getDataByTag('feiting_fig_first')
                 const feitingSecond = dm.getDataByTag('feiting_fig_second')
-                feitingFigFirst.setAnimation({
-                    up: {
-                        from: feitingFigFirst.getPosition().y - 25, 
-                        to: feitingFigFirst.getPosition().y + 25,
-                        duration: 15000,
-                        easing: "Linear",
-                        next: "down",
-                        onUpdate: function(value) {
-                            this.setPosition(this.getPosition().y, value);
-                        }
-                    },
-                    down: {
-                        from: feitingFigFirst.getPosition().y + 25, 
-                        to: feitingFigFirst.getPosition().y - 25,
-                        easing: "Linear",
-                        duration: 15000,
-                        next: "up",
-                        onUpdate: function(value) {
-                            this.setPosition(this.getPosition().y, value);
-                        }
-                    },
-                    start: ["up"]
-                });
+                const firstBeginX = feitingFigFirst._position.x
+                const firstBeginY = feitingFigFirst._position.y
+                const secondBeginX = feitingSecond._position.x
+                const secondBeginY = feitingSecond._position.y
+                var isFirstDown = true
+                var isFirstUp = false
+                var isSecondDown = true
+                var isSecondUp = false
+                setInterval(() => {
+                    const firstBeforeX = feitingFigFirst._position.x
+                    const firstBeforeY = feitingFigFirst._position.y
+                    const secondBeforeX = feitingSecond._position.x
+                    const secondBeforeY = feitingSecond._position.y
+                    if (firstBeforeY >= -250) {
+                        isFirstUp = true
+                        isFirstDown = false
+                    } else if (firstBeforeY <= firstBeginY) {
+                        isFirstUp = false
+                        isFirstDown = true
+                    }
+                    
+                    if (secondBeforeY >= -270) {
+                        isSecondUp = true
+                        isSecondDown = false
+                    } else if (secondBeforeY <= secondBeginY) {
+                        isSecondUp = false
+                        isSecondDown = true
+                    }
 
-                feitingSecond.setAnimation({
-                    up: {
-                        from: feitingFigFirst.getPosition().y - 60, 
-                        to: feitingFigFirst.getPosition().y + 40,
-                        duration: 20000,
-                        easing: "Linear",
-                        next: "down",
-                        onUpdate: function(value) {
-                            this.setPosition(this.getPosition().y, value);
-                        }
-                    },
-                    down: {
-                        from: feitingFigFirst.getPosition().y + 40, 
-                        to: feitingFigFirst.getPosition().y - 60,
-                        easing: "Linear",
-                        duration: 20000,
-                        next: "up",
-                        onUpdate: function(value) {
-                            this.setPosition(this.getPosition().y, value);
-                        }
-                    },
-                    start: ["up"]
-                });
+                    if (isFirstDown) {
+                        feitingFigFirst.setPosition({x: firstBeforeX - 0.2, y: firstBeforeY + 0.2})
+                    } else if (isFirstUp) {
+                        feitingFigFirst.setPosition({x: firstBeforeX + 0.2, y: firstBeforeY - 0.2})
+                    }
+
+                    if (isSecondDown) {
+                        feitingSecond.setPosition({x:secondBeforeX - 0.15,y:secondBeforeY + 0.15})
+                    } else if (isSecondUp) {
+                        feitingSecond.setPosition({x:secondBeforeX + 0.15,y:secondBeforeY - 0.15})
+                    }
+                }, 50);
+
+                // -------=--
+                // feitingFigFirst.setAnimation({
+                //     up: {
+                //         from: feitingFigFirst.getPosition().y - 25, 
+                //         to: feitingFigFirst.getPosition().y + 25,
+                //         duration: 15000,
+                //         easing: "Linear",
+                //         next: "down",
+                //         onUpdate: function(value) {
+                //             this.setPosition(this.getPosition().y, value);
+                //         }
+                //     },
+                //     down: {
+                //         from: feitingFigFirst.getPosition().y + 25, 
+                //         to: feitingFigFirst.getPosition().y - 25,
+                //         easing: "Linear",
+                //         duration: 15000,
+                //         next: "up",
+                //         onUpdate: function(value) {
+                //             this.setPosition(this.getPosition().y, value);
+                //         }
+                //     },
+                //     start: ["up"]
+                // });
+
+                // feitingSecond.setAnimation({
+                //     up: {
+                //         from: feitingFigFirst.getPosition().y - 60, 
+                //         to: feitingFigFirst.getPosition().y + 40,
+                //         duration: 20000,
+                //         easing: "Linear",
+                //         next: "down",
+                //         onUpdate: function(value) {
+                //             this.setPosition(this.getPosition().y, value);
+                //         }
+                //     },
+                //     down: {
+                //         from: feitingFigFirst.getPosition().y + 40, 
+                //         to: feitingFigFirst.getPosition().y - 60,
+                //         easing: "Linear",
+                //         duration: 20000,
+                //         next: "up",
+                //         onUpdate: function(value) {
+                //             this.setPosition(this.getPosition().y, value);
+                //         }
+                //     },
+                //     start: ["up"]
+                // });
             }
         </script>
     </head>
