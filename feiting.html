@@ -193,7 +193,8 @@
                 //         easing: "Linear",
                 //         next: "down",
                 //         onUpdate: function(value) {
-                //             this.setPosition(this.getPosition().y, value);
+                //             // this.setPosition(this.getPosition().y, value);
+                //             this.setPosition({x: feitingFigFirst.getPosition().x - 0.05, y: value});
                 //         }
                 //     },
                 //     down: {
@@ -203,7 +204,8 @@
                 //         duration: 15000,
                 //         next: "up",
                 //         onUpdate: function(value) {
-                //             this.setPosition(this.getPosition().y, value);
+                //             // this.setPosition(this.getPosition().y, value);
+                //             this.setPosition({x: feitingFigFirst.getPosition().x + 0.05, y: value});
                 //         }
                 //     },
                 //     start: ["up"]
@@ -211,23 +213,25 @@
 
                 // feitingSecond.setAnimation({
                 //     up: {
-                //         from: feitingFigFirst.getPosition().y - 60, 
-                //         to: feitingFigFirst.getPosition().y + 40,
+                //         from: feitingSecond.getPosition().y - 10, 
+                //         to: feitingSecond.getPosition().y + 40,
                 //         duration: 20000,
                 //         easing: "Linear",
                 //         next: "down",
                 //         onUpdate: function(value) {
-                //             this.setPosition(this.getPosition().y, value);
+                //             // this.setPosition(this.getPosition().y, value);
+                //             this.setPosition({x: feitingSecond.getPosition().x - 0.08, y: value});
                 //         }
                 //     },
                 //     down: {
-                //         from: feitingFigFirst.getPosition().y + 40, 
-                //         to: feitingFigFirst.getPosition().y - 60,
+                //         from: feitingSecond.getPosition().y + 40, 
+                //         to: feitingSecond.getPosition().y - 10,
                 //         easing: "Linear",
                 //         duration: 20000,
                 //         next: "up",
                 //         onUpdate: function(value) {
-                //             this.setPosition(this.getPosition().y, value);
+                //             // this.setPosition(this.getPosition().y, value);
+                //             this.setPosition({x: feitingSecond.getPosition().x + 0.08, y: value});
                 //         }
                 //     },
                 //     start: ["up"]
