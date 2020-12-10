@@ -50,62 +50,6 @@
       }
     },
     {
-      "c": "ht.Block",
-      "i": 285,
-      "p": {
-        "displayName": "进入云平台",
-        "parent": {
-          "__i": 284
-        },
-        "position": {
-          "x": 862.53578,
-          "y": -474.56573
-        },
-        "width": 176.80204,
-        "height": 50
-      },
-      "s": {
-        "layout.v": "top",
-        "layout.h": "right"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 286,
-      "p": {
-        "displayName": "jinru",
-        "parent": {
-          "__i": 285
-        },
-        "image": "assets/junminronghe/jinru.png",
-        "rotation": 3.14159,
-        "position": {
-          "x": 917.93676,
-          "y": -474.56574
-        },
-        "width": 66,
-        "height": 26
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 287,
-      "p": {
-        "parent": {
-          "__i": 285
-        },
-        "position": {
-          "x": 824.13474,
-          "y": -474.56574
-        }
-      },
-      "s": {
-        "text": "进入云平台",
-        "text.color": "rgb(51,153,255)",
-        "text.font": "bold 20px Microsoft YaHei"
-      }
-    },
-    {
       "c": "ht.Text",
       "i": 288,
       "p": {
@@ -262,6 +206,62 @@
         "text.font": "bold 34px arial",
         "text.color": "rgb(255,255,255)",
         "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 285,
+      "p": {
+        "displayName": "进入云平台",
+        "host": {
+          "__i": 283
+        },
+        "position": {
+          "x": 862.53578,
+          "y": -474.56573
+        },
+        "width": 176.80204,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 286,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 285
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 917.93676,
+          "y": -474.56574
+        },
+        "width": 66,
+        "height": 26
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 287,
+      "p": {
+        "parent": {
+          "__i": 285
+        },
+        "position": {
+          "x": 824.13474,
+          "y": -474.56574
+        }
+      },
+      "s": {
+        "text": "进入云平台",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei"
       }
     },
     {
@@ -424,9 +424,72 @@
       "s": {
         "2d.visible": false
       }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2351,
+      "p": {
+        "displayName": "返回",
+        "host": {
+          "__i": 283
+        },
+        "position": {
+          "x": -840.02291,
+          "y": -475.56574
+        },
+        "width": 173.45129,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面开发中..')\nwindow.location.href = \"01daohangye.html\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2352,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 2351
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "position": {
+          "x": -893.74859,
+          "y": -476.56576
+        },
+        "width": 66,
+        "height": 26
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 2353,
+      "p": {
+        "parent": {
+          "__i": 2351
+        },
+        "position": {
+          "x": -803.29728,
+          "y": -475.56575
+        }
+      },
+      "s": {
+        "text": "返回",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei"
+      }
     }
   ],
-  "modified": "Thu Dec 10 2020 17:57:19 GMT+0800 (China Standard Time)",
+  "modified": "Thu Dec 10 2020 18:07:11 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
