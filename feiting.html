@@ -30,8 +30,10 @@
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
-                    scaleBgCircle(dataModel)
+                    // scaleBgCircle(dataModel)
                     lineFlow(dataModel)
+                    cloudAnimation(dataModel)
+                    airshipAnimation(dataModel)
                 });
             }
 
@@ -42,6 +44,7 @@
                         property: "width",
                         from: ftroll.getWidth() -30, 
                         to: ftroll.getWidth() + 100,
+                        frames: 35,
                         next: "collapseWidth"
                     },
                     collapseWidth: {
@@ -92,6 +95,101 @@
                 }, 50)
             }
 
+            // 中间云朵动画
+            function cloudAnimation(dm) {
+                const cloudBlock = dm.getDataByTag('ft_cloud_block')
+                cloudBlock.s('opacity', 1)
+                // var isHide = true
+                // var isShow = false
+                // setInterval(function() {
+                //     var beforeOpacity = cloudBlock.s('opacity')
+                //     if (beforeOpacity <= 0.3) {
+                //         isHide = true
+                //         isShow = false
+                //     }else if (beforeOpacity >=1) {
+                //         isShow = true
+                //         isHide = false
+                //     }
+                //     if (isHide) {
+                //         cloudBlock.s('opacity',beforeOpacity + 0.02 )
+                //     } else if (isShow) {
+                //         cloudBlock.s('opacity',beforeOpacity - 0.02 )
+                //     }
+                // }, 50)
+                cloudBlock.setAnimation({
+                    hide: {
+                            property: "opacity",
+                            accessType: "style", 
+                            from: 1, 
+                            to: 0.2,
+                            duration: 3000,
+                            next: "show"
+                        },
+                        show: {
+                            property: "opacity",
+                            accessType: "style", 
+                            from: 0.2, 
+                            to: 1,
+                            duration: 4000,
+                            next: "hide"
+                        },
+                        start: ["hide"]
+                })
+
+            }
+
+            // 左上角飞艇动画
+            function airshipAnimation(dm) {
+                const feitingFigFirst = dm.getDataByTag('feiting_fig_first')
+                const feitingSecond = dm.getDataByTag('feiting_fig_second')
+                feitingFigFirst.setAnimation({
+                    up: {
+                        from: feitingFigFirst.getPosition().y - 25, 
+                        to: feitingFigFirst.getPosition().y + 25,
+                        frames: 180,
+                        easing: "Linear",
+                        next: "down",
+                        onUpdate: function(value) {
+                            this.setPosition(this.getPosition().y, value);
+                        }
+                    },
+                    down: {
+                        from: feitingFigFirst.getPosition().y + 25, 
+                        to: feitingFigFirst.getPosition().y - 25,
+                        easing: "Linear",
+                        frames: 200,
+                        next: "up",
+                        onUpdate: function(value) {
+                            this.setPosition(this.getPosition().y, value);
+                        }
+                    },
+                    start: ["up"]
+                });
+
+                feitingSecond.setAnimation({
+                    up: {
+                        from: feitingFigFirst.getPosition().y - 10, 
+                        to: feitingFigFirst.getPosition().y + 10,
+                        frames: 250,
+                        easing: "Linear",
+                        next: "down",
+                        onUpdate: function(value) {
+                            this.setPosition(this.getPosition().y, value);
+                        }
+                    },
+                    down: {
+                        from: feitingFigFirst.getPosition().y + 10, 
+                        to: feitingFigFirst.getPosition().y - 10,
+                        easing: "Linear",
+                        frames: 250,
+                        next: "up",
+                        onUpdate: function(value) {
+                            this.setPosition(this.getPosition().y, value);
+                        }
+                    },
+                    start: ["up"]
+                });
+            }
         </script>
     </head>
     <body onload='setTimeout(init, 300)'>
