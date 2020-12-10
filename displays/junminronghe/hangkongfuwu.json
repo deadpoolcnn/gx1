@@ -1,0 +1,3658 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "zoomable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 459,
+      "p": {
+        "displayName": "bj",
+        "image": "assets/junminronghe/bj.png",
+        "position": {
+          "x": 20.36189,
+          "y": 24.43426
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "2d.movable": false,
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "fullscreen.lock": "v"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 460,
+      "p": {
+        "displayName": "title",
+        "image": "assets/junminronghe/title.png",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": 20.36189,
+          "y": -475.56574
+        },
+        "width": 1920,
+        "height": 80
+      },
+      "s": {
+        "2d.movable": false,
+        "fullscreen.gap": 0,
+        "2d.selectable": false,
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 461,
+      "p": {
+        "displayName": "tg",
+        "parent": {
+          "__i": 460
+        },
+        "image": "assets/junminronghe/hangkongfuwu/title-hangkong .png",
+        "position": {
+          "x": 20.36189,
+          "y": -475.56574
+        }
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 462,
+      "p": {
+        "displayName": "进入云平台",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": 862.53577,
+          "y": -474.56573
+        },
+        "width": 176.802,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 463,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 462
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 917.93676,
+          "y": -474.56574
+        },
+        "width": 66,
+        "height": 26
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 464,
+      "p": {
+        "parent": {
+          "__i": 462
+        },
+        "position": {
+          "x": 824.13474,
+          "y": -474.56574
+        }
+      },
+      "s": {
+        "text": "进入云平台",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 465,
+      "p": {
+        "displayName": "功能模块",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": -813.74902,
+          "y": 42.58348
+        },
+        "width": 203,
+        "height": 998.29844
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 466,
+      "p": {
+        "displayName": "yuanxing",
+        "parent": {
+          "__i": 465
+        },
+        "image": "symbols/junminronghe/yuanxing.json",
+        "position": {
+          "x": -1062.52025,
+          "y": -365.97854
+        },
+        "anchor": {
+          "x": -1.05482,
+          "y": 0.56617
+        },
+        "width": 160,
+        "height": 160
+      },
+      "a": {
+        "image": "assets/junminronghe/hangkongfuwu/icon-jiuyuan.png",
+        "name": "救援介绍"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 467,
+      "p": {
+        "displayName": "yuanxing",
+        "parent": {
+          "__i": 465
+        },
+        "image": "symbols/junminronghe/yuanxing.json",
+        "position": {
+          "x": -813.74902,
+          "y": -216.56574
+        },
+        "width": 160,
+        "height": 160
+      },
+      "a": {
+        "name": "机型介绍",
+        "image": "assets/junminronghe/hangkongfuwu/icon-jixing.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 468,
+      "p": {
+        "displayName": "yuanxing",
+        "parent": {
+          "__i": 465
+        },
+        "image": "symbols/junminronghe/yuanxing.json",
+        "position": {
+          "x": -607.02425,
+          "y": -67.52895
+        },
+        "anchor": {
+          "x": 1.79203,
+          "y": 0.47523
+        },
+        "width": 160,
+        "height": 160
+      },
+      "a": {
+        "name": "全国布局",
+        "image": "assets/junminronghe/hangkongfuwu/icon-buju.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 469,
+      "p": {
+        "displayName": "yuanxing",
+        "parent": {
+          "__i": 465
+        },
+        "image": "symbols/junminronghe/yuanxing.json",
+        "position": {
+          "x": -607.02425,
+          "y": 85.94112
+        },
+        "anchor": {
+          "x": 1.79203,
+          "y": 0.47523
+        },
+        "width": 160,
+        "height": 160
+      },
+      "a": {
+        "name": "收费标准",
+        "image": "assets/junminronghe/hangkongfuwu/icon-shoufei.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 470,
+      "p": {
+        "displayName": "yuanxing",
+        "parent": {
+          "__i": 465
+        },
+        "image": "symbols/junminronghe/yuanxing.json",
+        "position": {
+          "x": -607.02422,
+          "y": 240.40122
+        },
+        "anchor": {
+          "x": 1.79203,
+          "y": 0.47523
+        },
+        "width": 160,
+        "height": 160
+      },
+      "a": {
+        "name": "医疗网络",
+        "image": "assets/junminronghe/hangkongfuwu/icon-yiliao.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 471,
+      "p": {
+        "displayName": "bg方框",
+        "parent": {
+          "__i": 465
+        },
+        "image": "assets/junminronghe/hangkongfuwu/bg方框.png",
+        "position": {
+          "x": -813.74905,
+          "y": 449.2327
+        },
+        "width": 203,
+        "height": 185
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 472,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 465
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -813.74905,
+          "y": 415.61905
+        },
+        "width": 89.10527,
+        "height": 93.50719
+      },
+      "a": {
+        "ht.content": "金汇救援",
+        "ht.font": "bold 30px sans-serif, Arial",
+        "ht.color": "#00f6ff",
+        "ht.lineHeight": 36,
+        "ht.autoScalue": false,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 473,
+      "p": {
+        "displayName": "介绍",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": 97.56243,
+          "y": -383.68726
+        },
+        "width": 1593.54272,
+        "height": 95.75699
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 474,
+      "p": {
+        "displayName": "kuang4",
+        "parent": {
+          "__i": 473
+        },
+        "image": "assets/junminronghe/hangkongfuwu/top_box.png",
+        "position": {
+          "x": 97.56243,
+          "y": -383.68726
+        },
+        "width": 1593.54273,
+        "height": 95.75699
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 475,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 473
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 86.13716,
+          "y": -382.09131
+        },
+        "width": 1514.55826,
+        "height": 74.61639
+      },
+      "a": {
+        "ht.content": "广西军民一体化应急救援航空服务云旨在以专业医疗构型的直升机作为运输载体，通过与全国院前急救单位及医院的全面合作，构建一个覆盖全国的、立体化的直升机航空医疗 救援网络，为社会大众提供“及时响应和常态化的”紧急医疗和应急救援服务。",
+        "ht.font": "20px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 32,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 476,
+      "p": {
+        "displayName": "title2",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": -180.28975,
+          "y": -291.56574
+        },
+        "width": 933.69675,
+        "height": 38.32085
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 477,
+      "p": {
+        "parent": {
+          "__i": 476
+        },
+        "position": {
+          "x": -191.67965,
+          "y": -288.72272
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 211.11972,
+        "height": 38.32085
+      },
+      "s": {
+        "text": "全国救援信息网络",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "#00f6ff",
+        "text.font": "24px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 478,
+      "p": {
+        "displayName": "点线",
+        "parent": {
+          "__i": 476
+        },
+        "image": "assets/junminronghe/hangkongfuwu/点线.png",
+        "position": {
+          "x": -472.63811,
+          "y": -291.56574
+        },
+        "width": 349,
+        "height": 10
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 479,
+      "p": {
+        "displayName": "点线",
+        "parent": {
+          "__i": 476
+        },
+        "image": "assets/junminronghe/hangkongfuwu/点线.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 112.05863,
+          "y": -291.56574
+        },
+        "width": 349,
+        "height": 10
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 480,
+      "p": {
+        "displayName": "right1",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": 620.8338,
+          "y": -143.56575
+        },
+        "width": 547,
+        "height": 286
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 481,
+      "p": {
+        "parent": {
+          "__i": 480
+        },
+        "position": {
+          "x": 458.99978,
+          "y": -261.5623
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 149.0641,
+        "height": 38.32085
+      },
+      "s": {
+        "text": "云平台界面",
+        "type": "text",
+        "text.color": "#00f6ff",
+        "text.font": "24px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 482,
+      "p": {
+        "displayName": "kuangjia1",
+        "parent": {
+          "__i": 480
+        },
+        "image": "assets/junminronghe/hangkongfuwu/kuangjia1.png",
+        "position": {
+          "x": 620.83379,
+          "y": -143.56574
+        },
+        "width": 547,
+        "height": 286
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 483,
+      "p": {
+        "displayName": "slide",
+        "parent": {
+          "__i": 480
+        },
+        "image": "symbols/junminronghe/slide.json",
+        "position": {
+          "x": 632.3338,
+          "y": -119.2857
+        },
+        "width": 524,
+        "height": 217
+      },
+      "a": {
+        "offset": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 484,
+      "p": {
+        "displayName": "right2",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": 624.48428,
+          "y": 281.58347
+        },
+        "width": 554.30096,
+        "height": 470
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 485,
+      "p": {
+        "displayName": "kuangjia2",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/kuangjia2.png",
+        "position": {
+          "x": 620.8338,
+          "y": 281.58348
+        },
+        "width": 547,
+        "height": 470
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 486,
+      "p": {
+        "displayName": "guangxiditu",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/guangxiditu.png",
+        "position": {
+          "x": 645.33379,
+          "y": 290.0937
+        },
+        "width": 498,
+        "height": 364
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 487,
+      "p": {
+        "displayName": "圆",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/circle.png",
+        "position": {
+          "x": 780.13477,
+          "y": 223.15088
+        },
+        "width": 243,
+        "height": 243
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 488,
+      "p": {
+        "displayName": "圆",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/circle.png",
+        "position": {
+          "x": 665.07384,
+          "y": 238.2327
+        },
+        "width": 243,
+        "height": 243
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 489,
+      "p": {
+        "displayName": "圆",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/circle.png",
+        "position": {
+          "x": 770.13477,
+          "y": 382.7327
+        },
+        "width": 243,
+        "height": 243
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 490,
+      "p": {
+        "displayName": "圆",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/circle.png",
+        "position": {
+          "x": 573.85297,
+          "y": 366.86545
+        },
+        "width": 243,
+        "height": 243
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 491,
+      "p": {
+        "displayName": "圆",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/circle.png",
+        "position": {
+          "x": 665.07384,
+          "y": 238.2327
+        },
+        "width": 243,
+        "height": 243
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 492,
+      "p": {
+        "displayName": "yuandian-g",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/yuandian-g.png",
+        "position": {
+          "x": 397.56004,
+          "y": 146.77076
+        },
+        "width": 14,
+        "height": 15
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 493,
+      "p": {
+        "displayName": "yuandian",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/yuandian-r.png",
+        "position": {
+          "x": 643.5741,
+          "y": 361.36545
+        },
+        "width": 14,
+        "height": 15
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 494,
+      "p": {
+        "displayName": "yuandian",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/yuandian-r.png",
+        "position": {
+          "x": 776.13493,
+          "y": 196.74347
+        },
+        "width": 14,
+        "height": 15
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 495,
+      "p": {
+        "displayName": "yuandian",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/yuandian-r.png",
+        "position": {
+          "x": 717.33985,
+          "y": 252.86545
+        },
+        "width": 14,
+        "height": 15
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 496,
+      "p": {
+        "displayName": "yuandian",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/yuandian-r.png",
+        "position": {
+          "x": 781.13477,
+          "y": 400.11175
+        },
+        "width": 14,
+        "height": 15
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 497,
+      "p": {
+        "displayName": "yuandian",
+        "parent": {
+          "__i": 484
+        },
+        "image": "assets/junminronghe/hangkongfuwu/yuandian-r.png",
+        "position": {
+          "x": 397.56004,
+          "y": 126.82897
+        },
+        "width": 14,
+        "height": 15
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 498,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 486.73138,
+          "y": 125.19153
+        },
+        "anchor": {
+          "x": 1.12542,
+          "y": 0.39766
+        },
+        "width": 66.161,
+        "height": 16
+      },
+      "s": {
+        "text": "基地",
+        "type": "text",
+        "text.color": "rgb(255,252,252)",
+        "text.font": "13px sans-serif",
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 499,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 486.73138,
+          "y": 145.71344
+        },
+        "anchor": {
+          "x": 1.12542,
+          "y": 0.39766
+        },
+        "width": 66.161,
+        "height": 16
+      },
+      "s": {
+        "text": "救援范围",
+        "type": "text",
+        "text.color": "rgb(255,252,252)",
+        "text.font": "13px sans-serif",
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 500,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 777.81495,
+          "y": 179.22391
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "桂林市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 501,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 850.31518,
+          "y": 247.28542
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "贺州市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 502,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 714.53289,
+          "y": 240.15266
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "柳州市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 503,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 618.51397,
+          "y": 247.28542
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "河池市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 504,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 541.25402,
+          "y": 307.9532
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "百色市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 505,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 641.25428,
+          "y": 345.71314
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "南宁市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 506,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 714.53289,
+          "y": 313.55921
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "来宾市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 507,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 756.31521,
+          "y": 339.43827
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "贵港市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 508,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 828.81544,
+          "y": 326.49874
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "梧州市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 509,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 780.81511,
+          "y": 385.65266
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "玉林市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 510,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 700.52029,
+          "y": 409.53172
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "钦州市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 511,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 714.53289,
+          "y": 454.15266
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "北海市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 512,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 626.17925,
+          "y": 447.15266
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "防城港市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 513,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 583.17977,
+          "y": 396.59219
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 42.99948,
+        "height": 25.87906
+      },
+      "s": {
+        "text": "崇左市",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 514,
+      "p": {
+        "parent": {
+          "__i": 484
+        },
+        "position": {
+          "x": 458.99978,
+          "y": 73.58692
+        },
+        "anchor": {
+          "x": 0.44605,
+          "y": 0.57419
+        },
+        "width": 149.0641,
+        "height": 38.32085
+      },
+      "s": {
+        "text": "广西救援布局",
+        "type": "text",
+        "text.color": "#00f6ff",
+        "text.font": "24px sans-serif",
+        "opacity": 1,
+        "text.shadow.color": null
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 515,
+      "p": {
+        "displayName": "map",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": -206.14197,
+          "y": 68.43426
+        },
+        "width": 946,
+        "height": 722
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 516,
+      "p": {
+        "displayName": "map",
+        "parent": {
+          "__i": 515
+        },
+        "image": "assets/junminronghe/hangkongfuwu/map.png",
+        "position": {
+          "x": -206.14197,
+          "y": 68.43426
+        },
+        "width": 946,
+        "height": 722
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 517,
+      "p": {
+        "displayName": "未布机",
+        "parent": {
+          "__i": 515
+        },
+        "image": "assets/junminronghe/hangkongfuwu/weibuji.png",
+        "position": {
+          "x": -267.1711,
+          "y": 47.19972
+        },
+        "width": 768,
+        "height": 503
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 518,
+      "p": {
+        "displayName": "tuli",
+        "parent": {
+          "__i": 515
+        },
+        "image": "symbols/junminronghe/tuli.json",
+        "position": {
+          "x": -574.7954,
+          "y": 347.61175
+        },
+        "width": 92,
+        "height": 105
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 519,
+      "p": {
+        "parent": {
+          "__i": 515
+        },
+        "position": {
+          "x": -147.63986,
+          "y": 94.52572
+        },
+        "width": 712.49303,
+        "height": 548.67945
+      },
+      "s": {
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 520,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -472.63811,
+          "y": -79.18988
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "新疆",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\ndataModel = view.getDataModel();\n    var quanguo = dataModel.getDataByTag('quanguo');\n    var xinjiang = dataModel.getDataByTag('mengxj');\n    var fasanxian = dataModel.getDataByTag('fasanxian');\n     quanguo.s('opacity', 1);\n     xinjiang.s('opacity', 0);\n     fasanxian.s('2d.visible', false);\n     ht.Default.startAnim({\n                                duration: 300,\n                                finishFunc: function() {\n                                    quanguo.s('opacity', 0);\n                                },\n                                action: (v, t) => {\n                                    quanguo.s('opacity',1-v);\n                                }\n                            });\n     ht.Default.startAnim({\n                                duration: 300,\n                                finishFunc: function() {\n                                    xinjiang.s('opacity', 1);\n                                },\n                                action: (v, t) => {\n                                    xinjiang.s('opacity',v);\n                                }\n                            });\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 521,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -472.63811,
+          "y": 70.7439
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "西藏",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 522,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -290.38636,
+          "y": -33.40983
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "甘肃",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 523,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -90.74455,
+          "y": -38.40983
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "内蒙古",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 524,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -216.63454,
+          "y": 156.67982
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "四川",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\ndataModel = view.getDataModel();\n    var quanguo = dataModel.getDataByTag('quanguo');\n    var sichuan = dataModel.getDataByTag('mengsc');\n    var fasanxian = dataModel.getDataByTag('fasanxian');\n     quanguo.s('opacity', 1);\n     sichuan.s('opacity', 0);\n     fasanxian.s('2d.visible', false);\n     ht.Default.startAnim({\n                                duration: 500,\n                                finishFunc: function() {\n                                    quanguo.s('opacity', 0);\n                                },\n                                action: (v, t) => {\n                                    quanguo.s('opacity',1-v);\n                                }\n                            });\n     ht.Default.startAnim({\n                                duration: 400,\n                                finishFunc: function() {\n                                    sichuan.s('opacity', 1);\n                                },\n                                action: (v, t) => {\n                                    sichuan.s('opacity',v);\n                                }\n                            });\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 525,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -236.98582,
+          "y": 252.86545
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "云南",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 526,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -135.02063,
+          "y": 214.66904
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "贵州",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 527,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -99.49912,
+          "y": 82.40432
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "陕西",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 528,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -124.93787,
+          "y": 164.61935
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "重庆",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 529,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -44.96574,
+          "y": 135.36729
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "湖北",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial",
+        "2d.gray": true,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\ndataModel = view.getDataModel();\n    var quanguo = dataModel.getDataByTag('quanguo');\n    var hubei = dataModel.getDataByTag('menghb');\n    var fasanxian = dataModel.getDataByTag('fasanxian');\n     quanguo.s('opacity', 1);\n     hubei.s('opacity', 0);\n     fasanxian.s('2d.visible', false);\n     ht.Default.startAnim({\n                                duration: 500,\n                                finishFunc: function() {\n                                    quanguo.s('opacity', 0);\n                                },\n                                action: (v, t) => {\n                                    quanguo.s('opacity',1-v);\n                                }\n                            });\n     ht.Default.startAnim({\n                                duration: 400,\n                                finishFunc: function() {\n                                    hubei.s('opacity', 1);\n                                },\n                                action: (v, t) => {\n                                    hubei.s('opacity',v);\n                                }\n                            });\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 530,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -51.03861,
+          "y": 204.24347
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "湖南",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 531,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -103.77238,
+          "y": 266.79635
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "广西",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 532,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": 10.03708,
+          "y": 209.66904
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "江西",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 533,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": 45.49375,
+          "y": 132.35682
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "安徽",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\ndataModel = view.getDataModel();\n    var quanguo = dataModel.getDataByTag('quanguo');\n    var anhui = dataModel.getDataByTag('mengah');\n    var fasanxian = dataModel.getDataByTag('fasanxian');\n     quanguo.s('opacity', 1);\n     anhui.s('opacity', 0);\n     fasanxian.s('2d.visible', false);\n     ht.Default.startAnim({\n                                duration: 500,\n                                finishFunc: function() {\n                                    quanguo.s('opacity', 0);\n                                },\n                                action: (v, t) => {\n                                    quanguo.s('opacity',1-v);\n                                }\n                            });\n     ht.Default.startAnim({\n                                duration: 400,\n                                finishFunc: function() {\n                                    anhui.s('opacity', 1);\n                                },\n                                action: (v, t) => {\n                                    anhui.s('opacity',v);\n                                }\n                            });\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 534,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -28.24805,
+          "y": 92.02572
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "河南",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 535,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -38.85585,
+          "y": 15.05838
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "山西",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 536,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -144.78337,
+          "y": 32.34409
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "宁夏",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 537,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": 10.03708,
+          "y": 1.68469
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "河北",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 538,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": 177.3584,
+          "y": -164.18988
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "黑龙江",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 539,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": 170.88041,
+          "y": -99.814
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "吉林",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 540,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": 22.45815,
+          "y": -42.40631
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "辽宁",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 541,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -79.64324,
+          "y": -12.25039
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "北京",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\ndataModel = view.getDataModel();\n    var quanguo = dataModel.getDataByTag('quanguo');\n    var beijing = dataModel.getDataByTag('mengbj');\n    var fasanxian = dataModel.getDataByTag('fasanxian');\n     quanguo.s('opacity', 1);\n     beijing.s('opacity', 0);\n     fasanxian.s('2d.visible', false);\n     ht.Default.startAnim({\n                                duration: 500,\n                                finishFunc: function() {\n                                    quanguo.s('opacity', 0);\n                                },\n                                action: (v, t) => {\n                                    quanguo.s('opacity',1-v);\n                                }\n                            });\n     ht.Default.startAnim({\n                                duration: 400,\n                                finishFunc: function() {\n                                    beijing.s('opacity', 1);\n                                },\n                                action: (v, t) => {\n                                    beijing.s('opacity',v);\n                                }\n                            });\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 542,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -58.39499,
+          "y": 70.58683
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "山东",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 543,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -31.38147,
+          "y": 107.18619
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "江苏",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 544,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -21.67744,
+          "y": 190.77879
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "浙江",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 545,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -50.56387,
+          "y": 245.46553
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "福建",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 546,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -145.65564,
+          "y": 295.08855
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "广东",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\ndataModel = view.getDataModel();\n    var quanguo = dataModel.getDataByTag('quanguo');\n    var guangdong = dataModel.getDataByTag('menggd');\n    var fasanxian = dataModel.getDataByTag('fasanxian');\n     quanguo.s('opacity', 1);\n     guangdong.s('opacity', 0);\n     fasanxian.s('2d.visible', false);\n     ht.Default.startAnim({\n                                duration: 500,\n                                finishFunc: function() {\n                                    quanguo.s('opacity', 0);\n                                },\n                                action: (v, t) => {\n                                    quanguo.s('opacity',1-v);\n                                }\n                            });\n     ht.Default.startAnim({\n                                duration: 400,\n                                finishFunc: function() {\n                                    guangdong.s('opacity', 1);\n                                },\n                                action: (v, t) => {\n                                    guangdong.s('opacity',v);\n                                }\n                            });\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 547,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": 10.2114,
+          "y": 284.76801
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "台湾",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 548,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -181.90389,
+          "y": 374.40077
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "海南",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 549,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": -304.48233,
+          "y": 21.71997
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "青海",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\ndataModel = view.getDataModel();\n    var quanguo = dataModel.getDataByTag('quanguo');\n    var qinghai = dataModel.getDataByTag('mengqh');\n    var fasanxian = dataModel.getDataByTag('fasanxian');\n     quanguo.s('opacity', 1);\n     qinghai.s('opacity', 0);\n     fasanxian.s('2d.visible', false);\n     ht.Default.startAnim({\n                                duration: 500,\n                                finishFunc: function() {\n                                    quanguo.s('opacity', 0);\n                                },\n                                action: (v, t) => {\n                                    quanguo.s('opacity',1-v);\n                                }\n                            });\n     ht.Default.startAnim({\n                                duration: 400,\n                                finishFunc: function() {\n                                    qinghai.s('opacity', 1);\n                                },\n                                action: (v, t) => {\n                                    qinghai.s('opacity',v);\n                                }\n                            });\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 550,
+      "p": {
+        "parent": {
+          "__i": 519
+        },
+        "position": {
+          "x": 27.45815,
+          "y": 152.30608
+        },
+        "anchor": {
+          "x": -1.21488,
+          "y": 1.17714
+        },
+        "width": 62.49651,
+        "height": 31.24825
+      },
+      "s": {
+        "text": "上海",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px sans-serif, Arial",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\ndataModel = view.getDataModel();\n    var quanguo = dataModel.getDataByTag('quanguo');\n    var beijing = dataModel.getDataByTag('mengbj');\n    var fasanxian = dataModel.getDataByTag('fasanxian');\n     quanguo.s('opacity', 1);\n     beijing.s('opacity', 0);\n     fasanxian.s('2d.visible', false);\n     ht.Default.startAnim({\n                                duration: 500,\n                                finishFunc: function() {\n                                    quanguo.s('opacity', 0);\n                                },\n                                action: (v, t) => {\n                                    quanguo.s('opacity',1-v);\n                                }\n                            });\n     ht.Default.startAnim({\n                                duration: 400,\n                                finishFunc: function() {\n                                    beijing.s('opacity', 1);\n                                },\n                                action: (v, t) => {\n                                    beijing.s('opacity',v);\n                                }\n                            });\n}"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 551,
+      "p": {
+        "parent": {
+          "__i": 515
+        },
+        "position": {
+          "x": -63.62885,
+          "y": 102.64985
+        },
+        "width": 469.01854,
+        "height": 512.4312
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 552,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 165.88041,
+          "y": -148.56575
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 553,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 154.40244,
+          "y": -84.18988
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 554,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 111.8289,
+          "y": -49.03396
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 555,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 9.24549,
+          "y": -17.7857
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 556,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -103.96498,
+          "y": -22.7857
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 557,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -54.4963,
+          "y": 30.39679
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 558,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -6.68047,
+          "y": 16.71997
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 559,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 33.13843,
+          "y": 60.05152
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 560,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 59.25482,
+          "y": 98.02845
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 561,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 30.16894,
+          "y": 147.35088
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 562,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -42.77875,
+          "y": 107.64984
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 563,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -63.25087,
+          "y": 148.99522
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 564,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 39.54428,
+          "y": 239.36442
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 565,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -60.97531,
+          "y": 288.12234
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 566,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 25.36189,
+          "y": -7.7857
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 567,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": 67.96141,
+          "y": 185.24347
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 568,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -4.96292,
+          "y": 225.29317
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 569,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -69.72988,
+          "y": 219.30609
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 570,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -152.63986,
+          "y": 177.30394
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 571,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -149.78337,
+          "y": 228.74029
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 572,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -236.98582,
+          "y": 169.90432
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 573,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -252.8828,
+          "y": 266.2327
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 574,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -110.97813,
+          "y": 353.86545
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 575,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -121.99281,
+          "y": 280.58347
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 576,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -116.99281,
+          "y": 94.90432
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 577,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -162.63986,
+          "y": 44.4732
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 578,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -103.96498,
+          "y": -22.7857
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 579,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -293.13811,
+          "y": -27.7857
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 580,
+      "p": {
+        "parent": {
+          "__i": 551
+        },
+        "position": {
+          "x": -293.13811,
+          "y": -27.7857
+        },
+        "width": 10,
+        "height": 10
+      },
+      "s": {
+        "shape": "oval",
+        "opacity": 1,
+        "shape.background": "#fffd6f",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 581,
+      "p": {
+        "parent": {
+          "__i": 515
+        },
+        "position": {
+          "x": -85.74936,
+          "y": 154.91574
+        },
+        "width": 378.26653,
+        "height": 423.89941
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 582,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -268.88262,
+          "y": 167.88442
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 583,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -166.26888,
+          "y": 169.90432
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 584,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -143.78337,
+          "y": 279.2327
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 585,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -88.28686,
+          "y": 303.11175
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 586,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -107.53512,
+          "y": 339.61175
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 587,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -121.97813,
+          "y": 358.86545
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 588,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -32.85585,
+          "y": 280.58347
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 589,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -19.71749,
+          "y": 268.48958
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 590,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -1.75451,
+          "y": 271.2327
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 591,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -19.71749,
+          "y": 283.58347
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 592,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 30.36189,
+          "y": 253.36545
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 593,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 65.25482,
+          "y": 225.74029
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 594,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 64.25482,
+          "y": 206.30609
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 595,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -114.96498,
+          "y": 158.99142
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 596,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -80.72988,
+          "y": 148.67982
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 597,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -49.97531,
+          "y": 153.90432
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 598,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -21.21117,
+          "y": 158.99142
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 599,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 3.00021,
+          "y": 186.04492
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 600,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 78.96141,
+          "y": 193.24347
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 601,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 93.8584,
+          "y": 161.99522
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 602,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 72.96141,
+          "y": 150.99142
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 603,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 97.38391,
+          "y": 131.14663
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 604,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 82.742,
+          "y": 123.14663
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 605,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 17.53077,
+          "y": 115.64984
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 606,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 24.16894,
+          "y": 99.64984
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 607,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 28.54428,
+          "y": 78.7439
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 608,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -31.77875,
+          "y": 70.7439
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 609,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -92.72988,
+          "y": 97.90432
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 610,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -136.74737,
+          "y": 93.02845
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 611,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -107.53512,
+          "y": 29.71997
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 612,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -70.72988,
+          "y": 31.4732
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 613,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -22.24805,
+          "y": 19.71997
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 614,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 11.53077,
+          "y": 58.7802
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 615,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 58.25482,
+          "y": 37.34409
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 616,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 36.36189,
+          "y": 24.71997
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 617,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 16.03708,
+          "y": -2.7857
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 618,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": -2.99979,
+          "y": -19.7857
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 619,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 94.742,
+          "y": -49.03396
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 620,
+      "p": {
+        "displayName": "地标",
+        "parent": {
+          "__i": 581
+        },
+        "image": "assets/junminronghe/hangkongfuwu/dibiao.png",
+        "position": {
+          "x": 65.25482,
+          "y": 107.14663
+        },
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 621,
+      "p": {
+        "displayName": "nav",
+        "host": {
+          "__i": 459
+        },
+        "position": {
+          "x": -178.53029,
+          "y": 492.7327
+        },
+        "width": 1014.21567,
+        "height": 81
+      },
+      "s": {
+        "layout.v": "bottom",
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 622,
+      "p": {
+        "parent": {
+          "__i": 621
+        },
+        "position": {
+          "x": -644.13812,
+          "y": 492.7327
+        },
+        "width": 83,
+        "height": 81
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 623,
+      "p": {
+        "displayName": "bg fnav",
+        "parent": {
+          "__i": 622
+        },
+        "image": "assets/junminronghe/hangkongfuwu/bg fnav.png",
+        "position": {
+          "x": -644.13811,
+          "y": 492.7327
+        },
+        "width": 83,
+        "height": 81
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 624,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 622
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -644.13811,
+          "y": 496.45589
+        },
+        "width": 64.84271,
+        "height": 62.56733
+      },
+      "a": {
+        "ht.content": "通航业务",
+        "ht.font": "bold 24px sans-serif, Arial",
+        "ht.color": "#bcfdff",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 625,
+      "p": {
+        "displayName": "箭头",
+        "parent": {
+          "__i": 621
+        },
+        "image": "assets/junminronghe/hangkongfuwu/箭头.png",
+        "position": {
+          "x": -583.2954,
+          "y": 492.7327
+        },
+        "width": 17,
+        "height": 12
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 626,
+      "p": {
+        "displayName": "dikuang",
+        "parent": {
+          "__i": 621
+        },
+        "image": "symbols/junminronghe/dikuang.json",
+        "position": {
+          "x": -494.19901,
+          "y": 492.7327
+        },
+        "width": 142,
+        "height": 50
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 627,
+      "p": {
+        "displayName": "dikuang",
+        "parent": {
+          "__i": 621
+        },
+        "image": "symbols/junminronghe/dikuang.json",
+        "position": {
+          "x": -344.23408,
+          "y": 492.7327
+        },
+        "width": 142,
+        "height": 50
+      },
+      "a": {
+        "pic": "assets/junminronghe/hangkongfuwu/zulin.png",
+        "name": "直升机租赁"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 628,
+      "p": {
+        "displayName": "dikuang",
+        "parent": {
+          "__i": 621
+        },
+        "image": "symbols/junminronghe/dikuang.json",
+        "position": {
+          "x": -195.93787,
+          "y": 492.7327
+        },
+        "width": 142,
+        "height": 50
+      },
+      "a": {
+        "pic": "assets/junminronghe/hangkongfuwu/peixun.png",
+        "name": "私营照培训"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 629,
+      "p": {
+        "displayName": "dikuang",
+        "parent": {
+          "__i": 621
+        },
+        "image": "symbols/junminronghe/dikuang.json",
+        "position": {
+          "x": -43.96498,
+          "y": 492.7327
+        },
+        "width": 142,
+        "height": 50
+      },
+      "a": {
+        "pic": "assets/junminronghe/hangkongfuwu/weixiu.png",
+        "name": "机务维修"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 630,
+      "p": {
+        "displayName": "dikuang",
+        "parent": {
+          "__i": 621
+        },
+        "image": "symbols/junminronghe/dikuang.json",
+        "position": {
+          "x": 106.3584,
+          "y": 492.7327
+        },
+        "width": 142,
+        "height": 50
+      },
+      "a": {
+        "pic": "assets/junminronghe/hangkongfuwu/kongzhong.png",
+        "name": "空中游览"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 631,
+      "p": {
+        "displayName": "dikuang",
+        "parent": {
+          "__i": 621
+        },
+        "image": "symbols/junminronghe/dikuang.json",
+        "position": {
+          "x": 257.57755,
+          "y": 492.7327
+        },
+        "width": 142,
+        "height": 50
+      },
+      "a": {
+        "pic": "assets/junminronghe/hangkongfuwu/tuandui.png",
+        "name": "专业团队"
+      }
+    }
+  ],
+  "modified": "Thu Dec 10 2020 11:29:18 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": -939.63811,
+    "y": -515.56574,
+    "width": 1920,
+    "height": 1080
+  }
+}

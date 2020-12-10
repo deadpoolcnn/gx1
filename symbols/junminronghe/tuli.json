@@ -1,0 +1,129 @@
+{
+  "modified": "Wed Dec 09 2020 16:14:01 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name1",
+      "valueType": "String",
+      "defaultValue": "省份",
+      "name": "文字1"
+    },
+    {
+      "attr": "name2",
+      "valueType": "String",
+      "defaultValue": "布机范围",
+      "name": "文字2"
+    },
+    {
+      "attr": "name3",
+      "valueType": "String",
+      "defaultValue": "基地",
+      "name": "文字3"
+    },
+    {
+      "attr": "image",
+      "valueType": "Image",
+      "name": "图片"
+    }
+  ],
+  "width": 92,
+  "height": 105,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/junminronghe/hangkongfuwu/bg图例.png",
+      "displayName": "bg图例",
+      "rect": [
+        0,
+        0,
+        92,
+        105
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name3",
+        "value": "基地"
+      },
+      "color": "rgb(255,252,252)",
+      "font": "13px sans-serif",
+      "anchorX": 1.12542,
+      "anchorY": 0.39766,
+      "rect": [
+        25.839,
+        73.04749,
+        66.161,
+        16
+      ]
+    },
+    {
+      "type": "image",
+      "name": "assets/junminronghe/hangkongfuwu/地标.png",
+      "displayName": "地标",
+      "rect": [
+        6.98622,
+        73.04749,
+        12,
+        16
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#fffd6f",
+      "borderColor": "#979797",
+      "rect": [
+        7.98622,
+        16.83362,
+        10,
+        10
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#2c6cf7",
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": "#5137dd",
+      "rect": [
+        8.50172,
+        43.96985,
+        10,
+        10.74627
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name2",
+        "value": "布机范围"
+      },
+      "color": "rgb(255,252,252)",
+      "font": "13px sans-serif",
+      "anchorX": 1.12542,
+      "anchorY": 0.39766,
+      "rect": [
+        25.839,
+        41.34299,
+        66.161,
+        16
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name1",
+        "value": "省份"
+      },
+      "color": "rgb(255,252,252)",
+      "font": "13px sans-serif",
+      "anchorX": 1.12542,
+      "anchorY": 0.39766,
+      "rect": [
+        25.839,
+        13.83362,
+        66.161,
+        16
+      ]
+    }
+  ]
+}
