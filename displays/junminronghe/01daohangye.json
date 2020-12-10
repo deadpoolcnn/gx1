@@ -15,17 +15,13 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 1015,
+      "i": 233,
       "p": {
         "displayName": "bg01",
         "image": "assets/junminronghe/bg01.png",
         "position": {
           "x": 960,
           "y": 540
-        },
-        "anchor": {
-          "x": 0.5,
-          "y": 0.5
         },
         "width": 1920,
         "height": 1080
@@ -40,12 +36,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 1016,
+      "i": 234,
       "p": {
         "displayName": "top_title",
         "image": "assets/junminronghe/top_title.png",
         "host": {
-          "__i": 1015
+          "__i": 233
         },
         "position": {
           "x": 960,
@@ -61,13 +57,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 1017,
+      "i": 235,
       "p": {
         "parent": {
-          "__i": 1016
+          "__i": 234
         },
         "host": {
-          "__i": 1016
+          "__i": 234
         },
         "position": {
           "x": 962.92761,
@@ -89,12 +85,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 1018,
+      "i": 236,
       "p": {
         "displayName": "zt",
         "image": "assets/junminronghe/zt.png",
         "host": {
-          "__i": 1015
+          "__i": 233
         },
         "position": {
           "x": 962.83864,
@@ -112,15 +108,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 1019,
+      "i": 237,
       "p": {
         "displayName": "yun",
         "parent": {
-          "__i": 1018
+          "__i": 236
         },
         "image": "assets/junminronghe/yun.png",
         "host": {
-          "__i": 1018
+          "__i": 236
         },
         "position": {
           "x": 973.88962,
@@ -132,7 +128,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 1020,
+      "i": 238,
       "p": {
         "displayName": "nav",
         "position": {
@@ -149,11 +145,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1021,
+      "i": 239,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -164,7 +160,7 @@
         "height": 234
       },
       "s": {
-        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='xuejiangyun.html'\n}",
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href='xuejiangyun.html'\n}",
         "2d.movable": false,
         "interactive": true,
         "select.color": "rgba(250,250,250,0)",
@@ -180,11 +176,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1022,
+      "i": 240,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -195,7 +191,7 @@
         "height": 234
       },
       "s": {
-        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='xuejiangyun.html'\n}",
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='feiting.html'\n}",
         "interactive": true,
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
@@ -203,18 +199,18 @@
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
       },
       "a": {
-        "name1": "军民一体测绘地理",
-        "name2": "信息应用云",
+        "name1": "广西边境地区",
+        "name2": "飞艇应用云",
         "ico_img": "assets/junminronghe/icon-feiting.png"
       }
     },
     {
       "c": "ht.Node",
-      "i": 1023,
+      "i": 241,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -225,7 +221,7 @@
         "height": 234
       },
       "s": {
-        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='xuejiangyun.html'\n}",
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href='xuejiangyun.html'\n}",
         "interactive": true,
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
@@ -240,11 +236,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1024,
+      "i": 242,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -270,11 +266,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1025,
+      "i": 243,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -300,11 +296,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1026,
+      "i": 244,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -330,11 +326,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1027,
+      "i": 245,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -345,7 +341,7 @@
         "height": 234
       },
       "s": {
-        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='xuejiangyun.html'\n}",
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href='xuejiangyun.html'\n}",
         "interactive": true,
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
@@ -360,11 +356,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1028,
+      "i": 246,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -375,7 +371,7 @@
         "height": 234
       },
       "s": {
-        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='xuejiangyun.html'\n}",
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href='xuejiangyun.html'\n}",
         "interactive": true,
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
@@ -390,10 +386,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 1029,
+      "i": 247,
       "p": {
         "parent": {
-          "__i": 1028
+          "__i": 246
         },
         "position": {
           "x": 731.07338,
@@ -419,11 +415,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1030,
+      "i": 248,
       "p": {
         "displayName": "nav",
         "parent": {
-          "__i": 1020
+          "__i": 238
         },
         "image": "symbols/junminronghe/nav.json",
         "position": {
@@ -450,10 +446,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 1031,
+      "i": 249,
       "p": {
         "parent": {
-          "__i": 1030
+          "__i": 248
         },
         "position": {
           "x": 1365.11413,
@@ -479,7 +475,7 @@
       }
     }
   ],
-  "modified": "Wed Dec 09 2020 18:43:55 GMT+0800 (China Standard Time)",
+  "modified": "Thu Dec 10 2020 09:58:02 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": 0,
     "y": 0,
