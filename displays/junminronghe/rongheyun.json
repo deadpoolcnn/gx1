@@ -1,0 +1,436 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 283,
+      "p": {
+        "displayName": "bj",
+        "image": "assets/junminronghe/bj.png",
+        "position": {
+          "x": 20.36189,
+          "y": 24.43426
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "2d.movable": false,
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "fullscreen.lock": "v"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 284,
+      "p": {
+        "displayName": "title",
+        "host": {
+          "__i": 283
+        },
+        "position": {
+          "x": 20.36189,
+          "y": -475.56573
+        },
+        "width": 1920,
+        "height": 80
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 285,
+      "p": {
+        "displayName": "进入云平台",
+        "parent": {
+          "__i": 284
+        },
+        "position": {
+          "x": 862.53578,
+          "y": -474.56573
+        },
+        "width": 176.80204,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 286,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 285
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 917.93676,
+          "y": -474.56574
+        },
+        "width": 66,
+        "height": 26
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 287,
+      "p": {
+        "parent": {
+          "__i": 285
+        },
+        "position": {
+          "x": 824.13474,
+          "y": -474.56574
+        }
+      },
+      "s": {
+        "text": "进入云平台",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 288,
+      "p": {
+        "parent": {
+          "__i": 284
+        },
+        "position": {
+          "x": 27.19249,
+          "y": -474.56573
+        },
+        "width": 774.44443
+      },
+      "s": {
+        "text": "广西军民融合公共服务云",
+        "text.font": "bold 44px Microsoft YaHei",
+        "text.color": "rgb(51,153,255)",
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 289,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 284
+        },
+        "image": "assets/junminronghe/title.png",
+        "host": {
+          "__i": 283
+        },
+        "position": {
+          "x": 20.36189,
+          "y": -475.56574
+        },
+        "width": 1920,
+        "height": 80
+      },
+      "s": {
+        "2d.movable": false,
+        "fullscreen.gap": 0,
+        "2d.selectable": false,
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 290,
+      "p": {
+        "displayName": "介绍",
+        "host": {
+          "__i": 283
+        },
+        "position": {
+          "x": 35.41874,
+          "y": -338.78336
+        },
+        "width": 1577.43201,
+        "height": 134.82755
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 291,
+      "p": {
+        "displayName": "kuang4",
+        "parent": {
+          "__i": 290
+        },
+        "image": "assets/junminronghe/kuang4.png",
+        "position": {
+          "x": 35.41874,
+          "y": -338.78335
+        },
+        "width": 1577.43205,
+        "height": 134.82755
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 292,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 290
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 35.41874,
+          "y": -330.77338
+        },
+        "width": 1485.5428,
+        "height": 95.15251
+      },
+      "a": {
+        "ht.content": "这个服务平台主要是为广西军民融合级权威的政府公共服务平台，主要是打造自治区及南部战区范围内有关部门、军队、军工单位和民口企业、院校、科研单位、金融机构沟通交流和购买服务产品的桥梁和纽带。重点围绕着军转民用、民企参军服务，及政府工作政策、军民融合理论、活动筹划宣传、新产品技术展示、及新产品技术买卖交易、创业孵化、财政金融流向等一个综合性的、指向标性的服务发布平台。\n\n",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#37e5ff",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.vAlign": "top"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 294,
+      "p": {
+        "displayName": "kfz",
+        "image": "assets/junminronghe/kfz.png",
+        "position": {
+          "x": 79.34076,
+          "y": 175.10485
+        },
+        "width": 1046.19651,
+        "height": 778.65882
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 295,
+      "p": {
+        "position": {
+          "x": 79.34076,
+          "y": -171.38975
+        },
+        "width": 506.94899,
+        "height": 72.16094
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(2,126,250,0)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "spread.horizontal",
+        "shape.gradient.color": "rgb(2,126,250)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 296,
+      "p": {
+        "position": {
+          "x": 78.95563,
+          "y": -169.43501
+        },
+        "width": 470.43011,
+        "height": 68.25146
+      },
+      "s": {
+        "text": "系统开发中……",
+        "text.font": "bold 34px arial",
+        "text.color": "rgb(255,255,255)",
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 297,
+      "p": {
+        "position": {
+          "x": 59.55017,
+          "y": 176.45508
+        },
+        "width": 1101.77771,
+        "height": 775.85062
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 298,
+      "p": {
+        "parent": {
+          "__i": 297
+        },
+        "position": {
+          "x": 20.74702,
+          "y": -209.47023
+        },
+        "width": 506.94899,
+        "height": 4
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(2,126,250,0)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "spread.horizontal",
+        "shape.gradient.color": "rgb(2,246,250)",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 299,
+      "p": {
+        "parent": {
+          "__i": 297
+        },
+        "position": {
+          "x": 20.74702,
+          "y": -137.30928
+        },
+        "width": 506.94899,
+        "height": 4
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(2,126,250,0)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "spread.horizontal",
+        "shape.gradient.color": "rgb(2,246,250)",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 300,
+      "p": {
+        "parent": {
+          "__i": 297
+        },
+        "position": {
+          "x": -355.02972,
+          "y": 315.75427
+        },
+        "width": 10,
+        "height": 497.25222
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#32D3EB",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(49,210,235,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 301,
+      "p": {
+        "parent": {
+          "__i": 297
+        },
+        "position": {
+          "x": -488.33868,
+          "y": 97.11247
+        },
+        "width": 6,
+        "height": 400
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(49,210,235,0.6)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(49,210,235,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 302,
+      "p": {
+        "parent": {
+          "__i": 297
+        },
+        "position": {
+          "x": 605.43902,
+          "y": 147.11247
+        },
+        "width": 10,
+        "height": 300
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(49,210,235,0.6)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(49,210,235,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 303,
+      "p": {
+        "parent": {
+          "__i": 297
+        },
+        "position": {
+          "x": 537.845,
+          "y": 347.40366
+        },
+        "width": 10,
+        "height": 200
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#32D3EB",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(49,210,235,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 293,
+      "p": {
+        "displayName": "tk",
+        "image": "symbols/junminronghe/tk.json",
+        "position": {
+          "x": 27.19249,
+          "y": -101.50964
+        }
+      },
+      "s": {
+        "2d.visible": false
+      }
+    }
+  ],
+  "modified": "Thu Dec 10 2020 17:57:19 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": -939.63811,
+    "y": -515.56574,
+    "width": 1920,
+    "height": 1080
+  }
+}
