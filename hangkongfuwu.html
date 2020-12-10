@@ -46,24 +46,24 @@
                         expandWidth: {
                             property: "width",
                             from: circle1.getWidth(), 
-                            to: circle1.getWidth() - 50,
+                            to: circle1.getWidth() - 30,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle1.getWidth() - 50, 
+                            from: circle1.getWidth() - 30, 
                             to: circle1.getWidth(),
                             next: "expandWidth"
                         },
                         expandHeight: {
                             property: "height",
                             from: circle1.getHeight(), 
-                            to: circle1.getHeight() - 50,
+                            to: circle1.getHeight() - 30,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle1.getHeight() - 50, 
+                            from: circle1.getHeight() - 30, 
                             to: circle1.getHeight(),
                             next: "expandHeight"
                         },
@@ -73,24 +73,24 @@
                         expandWidth: {
                             property: "width",
                             from: circle2.getWidth(), 
-                            to: circle2.getWidth() - 50,
+                            to: circle2.getWidth() - 30,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle2.getWidth() - 50, 
+                            from: circle2.getWidth() - 30, 
                             to: circle2.getWidth(),
                             next: "expandWidth"
                         },
                         expandHeight: {
                             property: "height",
                             from: circle2.getHeight(), 
-                            to: circle2.getHeight() - 50,
+                            to: circle2.getHeight() - 30,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle2.getHeight() - 50, 
+                            from: circle2.getHeight() - 30, 
                             to: circle2.getHeight(),
                             next: "expandHeight"
                         },
@@ -100,24 +100,24 @@
                         expandWidth: {
                             property: "width",
                             from: circle3.getWidth(), 
-                            to: circle3.getWidth() - 50,
+                            to: circle3.getWidth() - 30,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle3.getWidth() - 50, 
+                            from: circle3.getWidth() - 30, 
                             to: circle3.getWidth(),
                             next: "expandWidth"
                         },
                         expandHeight: {
                             property: "height",
                             from: circle3.getHeight(), 
-                            to: circle3.getHeight() - 50,
+                            to: circle3.getHeight() - 30,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle3.getHeight() - 50, 
+                            from: circle3.getHeight() - 30, 
                             to: circle3.getHeight(),
                             next: "expandHeight"
                         },
@@ -127,24 +127,24 @@
                         expandWidth: {
                             property: "width",
                             from: circle4.getWidth(), 
-                            to: circle4.getWidth() - 50,
+                            to: circle4.getWidth() - 30,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle4.getWidth() - 50, 
+                            from: circle4.getWidth() - 30, 
                             to: circle4.getWidth(),
                             next: "expandWidth"
                         },
                         expandHeight: {
                             property: "height",
                             from: circle4.getHeight(), 
-                            to: circle4.getHeight() - 50,
+                            to: circle4.getHeight() - 30,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle4.getHeight() - 50, 
+                            from: circle4.getHeight() - 30, 
                             to: circle4.getHeight(),
                             next: "expandHeight"
                         },
@@ -154,24 +154,24 @@
                         expandWidth: {
                             property: "width",
                             from: circle5.getWidth(), 
-                            to: circle5.getWidth() - 50,
+                            to: circle5.getWidth() - 30,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle5.getWidth() - 50, 
+                            from: circle5.getWidth() - 30, 
                             to: circle5.getWidth(),
                             next: "expandWidth"
                         },
                         expandHeight: {
                             property: "height",
                             from: circle5.getHeight(), 
-                            to: circle5.getHeight() - 50,
+                            to: circle5.getHeight() - 30,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle5.getHeight() - 50, 
+                            from: circle5.getHeight() - 30, 
                             to: circle5.getHeight(),
                             next: "expandHeight"
                         },
@@ -208,13 +208,33 @@
                     }
                 }
 
-                function imgAni(dm){
-                    const slide = dm.getDataByTag('slide_block')
-                    setInterval(() => {
-                        var slideBeforeOffset = slide.a('offset')
-                        slide.a('offset',slideBeforeOffset-1)
-                    },10);
+                // this.timer2 = setTimeout(() => {
+                //         console.log('timeout')
+                //         count = 0;
+                //         // clearInterval()
+                //         timer1();
+                // }, 2000);
+                function timer2() {
+                    setTimeout(() => {
+                        count = 0;
+                        // clearInterval()
+                        imgAni(dataModel)
+                    }, 2000);
                 }
+                function imgAni(dm) {
+                    const slide = dm.getDataByTag('slide_block');
+                    var count = 0;
+                    timer1 = setInterval(() => {
+                        if(count === 510){
+                            clearInterval(timer1)
+                            timer2();
+                        }
+                        count++;
+                        var slideBeforeOffset = slide.a('offset');
+                        slide.a('offset',slideBeforeOffset-1);
+                    },10);   
+                }
+
             }
 
             
