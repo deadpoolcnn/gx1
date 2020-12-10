@@ -23,14 +23,201 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation();
 
                 ht.Default.xhrLoad('displays/junminronghe/hangkongfuwu.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
+                    mapAni(dataModel);
+                    dibiaoAni(dataModel);
+                    imgAni(dataModel);
                 });
+
+                function mapAni(dm) {
+                    const circle1 = dm.getDataByTag('circle1');
+                    const circle2 = dm.getDataByTag('circle2');
+                    const circle3 = dm.getDataByTag('circle3');
+                    const circle4 = dm.getDataByTag('circle4');
+                    const circle5 = dm.getDataByTag('circle5');
+                    
+                    circle1.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: circle1.getWidth(), 
+                            to: circle1.getWidth() - 50,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: circle1.getWidth() - 50, 
+                            to: circle1.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: circle1.getHeight(), 
+                            to: circle1.getHeight() - 50,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: circle1.getHeight() - 50, 
+                            to: circle1.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    circle2.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: circle2.getWidth(), 
+                            to: circle2.getWidth() - 50,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: circle2.getWidth() - 50, 
+                            to: circle2.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: circle2.getHeight(), 
+                            to: circle2.getHeight() - 50,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: circle2.getHeight() - 50, 
+                            to: circle2.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    circle3.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: circle3.getWidth(), 
+                            to: circle3.getWidth() - 50,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: circle3.getWidth() - 50, 
+                            to: circle3.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: circle3.getHeight(), 
+                            to: circle3.getHeight() - 50,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: circle3.getHeight() - 50, 
+                            to: circle3.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    circle4.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: circle4.getWidth(), 
+                            to: circle4.getWidth() - 50,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: circle4.getWidth() - 50, 
+                            to: circle4.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: circle4.getHeight(), 
+                            to: circle4.getHeight() - 50,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: circle4.getHeight() - 50, 
+                            to: circle4.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                    circle5.setAnimation({
+                        expandWidth: {
+                            property: "width",
+                            from: circle5.getWidth(), 
+                            to: circle5.getWidth() - 50,
+                            next: "collapseWidth"
+                        },
+                        collapseWidth: {
+                            property: "width",
+                            from: circle5.getWidth() - 50, 
+                            to: circle5.getWidth(),
+                            next: "expandWidth"
+                        },
+                        expandHeight: {
+                            property: "height",
+                            from: circle5.getHeight(), 
+                            to: circle5.getHeight() - 50,
+                            next: "collapseHeight"
+                        },
+                        collapseHeight: {
+                            property: "height",
+                            from: circle5.getHeight() - 50, 
+                            to: circle5.getHeight(),
+                            next: "expandHeight"
+                        },
+                        start: ["expandWidth", "expandHeight"]
+                    })
+                }
+
+                function dibiaoAni(dm) {
+                    var biaohong = [];
+                    for(let i = 1;i<=39;i++){
+                        var dibiao = dm.getDataByTag('dibiao'+i)
+                        biaohong.push(dibiao)
+                    }
+                    for(let i = 0; i < biaohong.length; i++){
+                        biaohong[i].setAnimation({
+                            hide: {
+                                    property: "opacity",
+                                    accessType: "style", 
+                                    from: 1, 
+                                    to: 0,
+                                    frames: 80,
+                                    next: "show"
+                                },
+                                show: {
+                                    property: "opacity",
+                                    accessType: "style", 
+                                    from: 0, 
+                                    to: 1,
+                                    frames: 80,
+                                    next: "hide"
+                                },
+                            start: ["hide"]
+                        })
+                    }
+                }
+
+                function imgAni(dm){
+                    const slide = dm.getDataByTag('slide_block')
+                    setInterval(() => {
+                        var slideBeforeOffset = slide.a('offset')
+                        slide.a('offset',slideBeforeOffset-1)
+                    },10);
+                }
             }
+
+            
         </script>
     </head>
     <body onload='setTimeout(init, 300)'>
