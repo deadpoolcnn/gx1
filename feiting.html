@@ -31,7 +31,7 @@
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
                     scaleBgCircle(dataModel)
-                    // lineFlow(dataModel)
+                    lineFlow(dataModel)
                 });
             }
 
@@ -64,6 +64,32 @@
                     },
                     start: ["expandWidth", "expandHeight"]
                 })
+            }
+
+            // 中间块线条动画
+            function lineFlow(dm) {
+                const cloudServerLine = dm.getDataByTag("cloud_server_line");
+                const mobileLine = dm.getDataByTag("mobile_line");
+                const applicationTerminalLine = dm.getDataByTag("application_terminal_line");
+                const perceptionCloudLeft = dm.getDataByTag("perception_cloud_line_left");
+                const perceptionCloudRight = dm.getDataByTag("perception_cloud_line_right");
+                
+                setInterval(function() {
+                    var cloudBeforeOffset = cloudServerLine.s('shape.dash.offset')
+                    cloudServerLine.s('shape.dash.offset', cloudBeforeOffset + 2)
+
+                    var mobileBeforeOffset = mobileLine.s('shape.dash.offset')
+                    mobileLine.s('shape.dash.offset', mobileBeforeOffset - 2)
+
+                    var applicationBeforeOffset = applicationTerminalLine.s('shape.dash.offset')
+                    applicationTerminalLine.s('shape.dash.offset', applicationBeforeOffset - 2)
+
+                    var perceptionLeftBeforeOffset = perceptionCloudLeft.s('shape.dash.offset')
+                    perceptionCloudLeft.s('shape.dash.offset', perceptionLeftBeforeOffset + 2)
+
+                    var perceptionRightBeforeOffset = perceptionCloudRight.s('shape.dash.offset')
+                    perceptionCloudRight.s('shape.dash.offset', perceptionRightBeforeOffset - 2)
+                }, 50)
             }
 
         </script>
