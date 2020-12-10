@@ -1,0 +1,103 @@
+{
+  "modified": "Mon Mar 23 2020 15:29:34 GMT+0800 (CST)",
+  "dataBindings": [
+    {
+      "attr": "ht.dataSource",
+      "valueType": "Object",
+      "name": "UIDataSource"
+    },
+    {
+      "attr": "ht.offset",
+      "valueType": "Number",
+      "name": "editor.offset"
+    },
+    {
+      "attr": "ht.vertical",
+      "valueType": "Boolean",
+      "name": "editor.vertical"
+    },
+    {
+      "attr": "ht.itemWidth",
+      "valueType": "Number",
+      "name": "UIItemWidth"
+    },
+    {
+      "attr": "ht.itemHeight",
+      "valueType": "Number",
+      "name": "UIItemHeigth"
+    },
+    {
+      "attr": "ht.gap",
+      "valueType": "Number",
+      "name": "UIItemGap"
+    },
+    {
+      "attr": "ht.drawItem",
+      "valueType": "Function",
+      "name": "UIDrawItem",
+      "extraInfo": {
+        "arguments": [
+          "g",
+          "item",
+          "rect",
+          "data",
+          "view"
+        ]
+      }
+    }
+  ],
+  "width": 120,
+  "height": 200,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "components/ht/ui/carousel2.json",
+      "displayName": "carousel2",
+      "rect": [
+        0,
+        0,
+        120,
+        200
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onDown.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onLeave.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onScroll.apply(this, arguments);\n}",
+      "dataSource": {
+        "func": "attr@ht.dataSource",
+        "value": [
+          "HT for Web",
+          "Hightopo",
+          "HT Vector",
+          "HT 2D Editor"
+        ]
+      },
+      "offset": {
+        "func": "attr@ht.offset",
+        "value": 0
+      },
+      "vertical": {
+        "func": "attr@ht.vertical",
+        "value": true
+      },
+      "itemWidth": {
+        "func": "attr@ht.itemWidth",
+        "value": 100
+      },
+      "itemHeight": {
+        "func": "attr@ht.itemHeight",
+        "value": 30
+      },
+      "gap": {
+        "func": "attr@ht.gap",
+        "value": 8
+      },
+      "drawItem": {
+        "func": "attr@ht.drawItem"
+      }
+    }
+  ]
+}

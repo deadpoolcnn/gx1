@@ -23,14 +23,75 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation();
 
                 ht.Default.xhrLoad('displays/junminronghe/feiting.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
+                    scaleBgCircle(dataModel)
+                    lineFlow(dataModel)
                 });
             }
+
+            function scaleBgCircle(dm) {
+                const ftroll = dm.getDataByTag("ft_roll");
+                ftroll.setAnimation({
+                    expandWidth: {
+                        property: "width",
+                        from: ftroll.getWidth() -30, 
+                        to: ftroll.getWidth() + 100,
+                        next: "collapseWidth"
+                    },
+                    collapseWidth: {
+                        property: "width",
+                        from: ftroll.getWidth() + 100, 
+                        to: ftroll.getWidth() -30,
+                        next: "expandWidth"
+                    },
+                    expandHeight: {
+                        property: "height",
+                        from: ftroll.getHeight() -30, 
+                        to: ftroll.getHeight() + 100,
+                        next: "collapseHeight"
+                    },
+                    collapseHeight: {
+                        property: "height",
+                        from: ftroll.getHeight() + 100, 
+                        to: ftroll.getHeight() -30,
+                        next: "expandHeight"
+                    },
+                    start: ["expandWidth", "expandHeight"]
+                })
+            }
+
+            // 中间块线条动画
+            function lineFlow(dm) {
+                const cloudServerLine = dm.getDataByTag("cloud_server_line");
+                const mobileLine = dm.getDataByTag("mobile_line");
+                const applicationTerminalLine = dm.getDataByTag("application_terminal_line");
+                const perceptionCloudLeft = dm.getDataByTag("perception_cloud_line_left");
+                const perceptionCloudRight = dm.getDataByTag("perception_cloud_line_right");
+                
+                setInterval(function() {
+                    var cloudBeforeOffset = cloudServerLine.s('shape.dash.offset')
+                    cloudServerLine.s('shape.dash.offset', cloudBeforeOffset + 2)
+
+                    var mobileBeforeOffset = mobileLine.s('shape.dash.offset')
+                    mobileLine.s('shape.dash.offset', mobileBeforeOffset - 2)
+
+                    var applicationBeforeOffset = applicationTerminalLine.s('shape.dash.offset')
+                    applicationTerminalLine.s('shape.dash.offset', applicationBeforeOffset - 2)
+
+                    var perceptionLeftBeforeOffset = perceptionCloudLeft.s('shape.dash.offset')
+                    perceptionCloudLeft.s('shape.dash.offset', perceptionLeftBeforeOffset + 2)
+
+                    var perceptionRightBeforeOffset = perceptionCloudRight.s('shape.dash.offset')
+                    perceptionCloudRight.s('shape.dash.offset', perceptionRightBeforeOffset - 2)
+                }, 50)
+            }
+
         </script>
     </head>
     <body onload='setTimeout(init, 300)'>
