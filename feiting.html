@@ -121,14 +121,14 @@
                             property: "opacity",
                             accessType: "style", 
                             from: 1, 
-                            to: 0.2,
+                            to: 0.6,
                             duration: 3000,
                             next: "show"
                         },
                         show: {
                             property: "opacity",
                             accessType: "style", 
-                            from: 0.2, 
+                            from: 0.6, 
                             to: 1,
                             duration: 4000,
                             next: "hide"
@@ -146,7 +146,7 @@
                     up: {
                         from: feitingFigFirst.getPosition().y - 25, 
                         to: feitingFigFirst.getPosition().y + 25,
-                        frames: 180,
+                        duration: 15000,
                         easing: "Linear",
                         next: "down",
                         onUpdate: function(value) {
@@ -157,7 +157,7 @@
                         from: feitingFigFirst.getPosition().y + 25, 
                         to: feitingFigFirst.getPosition().y - 25,
                         easing: "Linear",
-                        frames: 200,
+                        duration: 15000,
                         next: "up",
                         onUpdate: function(value) {
                             this.setPosition(this.getPosition().y, value);
@@ -168,9 +168,9 @@
 
                 feitingSecond.setAnimation({
                     up: {
-                        from: feitingFigFirst.getPosition().y - 10, 
-                        to: feitingFigFirst.getPosition().y + 10,
-                        frames: 250,
+                        from: feitingFigFirst.getPosition().y - 60, 
+                        to: feitingFigFirst.getPosition().y + 40,
+                        duration: 20000,
                         easing: "Linear",
                         next: "down",
                         onUpdate: function(value) {
@@ -178,10 +178,10 @@
                         }
                     },
                     down: {
-                        from: feitingFigFirst.getPosition().y + 10, 
-                        to: feitingFigFirst.getPosition().y - 10,
+                        from: feitingFigFirst.getPosition().y + 40, 
+                        to: feitingFigFirst.getPosition().y - 60,
                         easing: "Linear",
-                        frames: 250,
+                        duration: 20000,
                         next: "up",
                         onUpdate: function(value) {
                             this.setPosition(this.getPosition().y, value);
