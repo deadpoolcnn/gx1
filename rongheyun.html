@@ -23,13 +23,190 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation()
 
                 ht.Default.xhrLoad('displays/junminronghe/rongheyun.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
+
+                    mainBlockAnimation(dataModel)
+                    cloudAnimation(dataModel)
+                    lineFlowAnimation(dataModel)
                 });
+            }
+            // 中间主体动画
+            function mainBlockAnimation(dm) {
+                const mainBlock = dm.getDataByTag('zhuti_block')
+                mainBlock.setAnimation({
+                    hide: {
+                        property: 'opacity',
+                        accessType: 'style',
+                        from: 1,
+                        to: 0.5,
+                        duration: 3100,
+                        next: "show"
+                    },
+                    show: {
+                        property: 'opacity',
+                        accessType: 'style',
+                        from: 0.5,
+                        to: 1,
+                        duration: 3100,
+                        next: "hide"
+
+                    },
+                    start: ['hide']
+                })
+            }
+            // 中间两个云朵动画
+            function cloudAnimation(dm) {
+                const cloudLeft = dm.getDataByTag('cloud_left')
+                const cloudRight = dm.getDataByTag('cloud_right')
+                const cloudLeftXCoordinate = cloudLeft.getPosition().x
+                const cloudRightXCoordinate = cloudRight.getPosition().x
+                cloudLeft.setAnimation({
+                    up: {
+                        from: cloudLeft.getPosition().y,
+                        to: cloudLeft.getPosition().y + 30,
+                        duration: 3100,
+                        easing: 'Linear',
+                        next: 'down',
+                        onUpdate: function(value) {
+                            this.setPosition({x: cloudLeftXCoordinate, y: value})
+                        }
+                    },
+                    down: {
+                        from: cloudLeft.getPosition().y + 30,
+                        to: cloudLeft.getPosition().y,
+                        duration: 3100,
+                        easing: 'Linear',
+                        next: 'up',
+                        onUpdate: function(value) {
+                            this.setPosition({x: cloudLeftXCoordinate, y: value})
+                        }
+                    },
+                    start: ['up']
+                })
+                cloudRight.setAnimation({
+                    down: {
+                        from: cloudRight.getPosition().y,
+                        to: cloudRight.getPosition().y - 30,
+                        duration: 4000,
+                        easing: 'Linear',
+                        next: 'up',
+                        onUpdate: function(value) {
+                            this.setPosition({x: cloudRightXCoordinate, y: value})
+                        }
+                    },
+                    up: {
+                        from: cloudRight.getPosition().y - 30,
+                        to: cloudRight.getPosition().y,
+                        duration: 4000,
+                        easing: 'Linear',
+                        next: 'down',
+                        onUpdate: function(value) {
+                            this.setPosition({x: cloudRightXCoordinate, y: value})
+                        }
+                    },
+                    start: ['down']
+                })
+            }
+            // 线条流动动画
+            function lineFlowAnimation(dm) {
+               const lineLeftFirst = dm.getDataByTag('line_left_first')
+               const lineLeftSecond = dm.getDataByTag('line_left_second')
+               const lineRightFirst = dm.getDataByTag('line_right_first')
+               const lineRightSecond = dm.getDataByTag('line_right_second')
+               const lineLeftFirstXCoordinate = lineLeftFirst.getPosition().x
+               const lineLeftSecondXCoordinate = lineLeftSecond.getPosition().x
+               const lineRightFirstXCoordinate = lineRightFirst.getPosition().x
+               const lineRightSecondXCoordinate = lineRightSecond.getPosition().x
+               lineLeftFirst.setAnimation({
+                up: {
+                        from: lineLeftFirst.getPosition().y + 100,
+                        to: lineLeftFirst.getPosition().y - 150,
+                        duration: 12000,
+                        easing: 'Linear',
+                        next: 'up',
+                        onUpdate: function(value) {
+                            this.setPosition({x: lineLeftFirstXCoordinate, y: value})
+                        }
+                    },
+                    hide: {
+                        property: 'opacity',
+                        accessType: 'style',
+                        from: 1,
+                        to: 0,
+                        duration:12000,
+                        next: "hide"
+                    },
+                    start: ['up', 'hide']
+                })
+                lineLeftSecond.setAnimation({
+                    up: {
+                        from: lineLeftSecond.getPosition().y + 50,
+                        to: lineLeftSecond.getPosition().y - 100,
+                        duration: 9000,
+                        easing: 'Linear',
+                        next: 'up',
+                        onUpdate: function(value) {
+                            this.setPosition({x: lineLeftSecondXCoordinate, y: value})
+                        }
+                    },
+                    hide: {
+                        property: 'opacity',
+                        accessType: 'style',
+                        from: 1,
+                        to: 0,
+                        duration: 9000,
+                        next: "hide"
+                    },
+                    start: ['up', 'hide']
+                })
+                lineRightFirst.setAnimation({
+                up: {
+                        from: lineRightFirst.getPosition().y + 100,
+                        to: lineRightFirst.getPosition().y - 150,
+                        duration: 12000,
+                        easing: 'Linear',
+                        next: 'up',
+                        onUpdate: function(value) {
+                            this.setPosition({x: lineRightFirstXCoordinate, y: value})
+                        }
+                    },
+                    hide: {
+                        property: 'opacity',
+                        accessType: 'style',
+                        from: 1,
+                        to: 0,
+                        duration: 12000,
+                        next: "hide"
+                    },
+                    start: ['up', 'hide']
+                })
+                lineRightSecond.setAnimation({
+                    up: {
+                        from: lineRightSecond.getPosition().y + 50,
+                        to: lineRightSecond.getPosition().y - 100,
+                        duration: 9000,
+                        easing: 'Linear',
+                        next: 'up',
+                        onUpdate: function(value) {
+                            this.setPosition({x: lineRightSecondXCoordinate, y: value})
+                        }
+                    },
+                    hide: {
+                        property: 'opacity',
+                        accessType: 'style',
+                        from: 1,
+                        to: 0,
+                        duration: 9000,
+                        next: "hide"
+                    },
+                    start: ['up', 'hide']
+                })
             }
         </script>
     </head>
