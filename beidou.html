@@ -11,13 +11,6 @@
             }
         </style>
 
-        <!-- <script src='../custom/configs/htconfig.js'></script> -->
-        <!-- <script src='../custom/libs/echarts.js'></script>
-        <script src='../libs/core/ht.js'></script>
-        <script src='../libs/plugin/ht-edgetype.js'></script>
-        <script src='../libs/plugin/ht-obj.js'></script>
-        <script src='../libs/core/ht-ui.js'></script>
-        <script src='../libs/plugin/ht-vector.js'></script> -->
         <script src="libs/core/ht.js"></script>
         <script src="libs/plugin/ht-edgetype.js"></script>
         <script src="libs/plugin/ht-obj.js"></script>
@@ -30,6 +23,7 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation();
 
                 ht.Default.xhrLoad('displays/junminronghe/beidou.json', function(text) {
                     var json = ht.Default.parse(text);

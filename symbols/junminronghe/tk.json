@@ -1,5 +1,5 @@
 {
-  "modified": "Thu Dec 10 2020 16:22:34 GMT+0800 (中国标准时间)",
+  "modified": "Fri Dec 11 2020 09:57:09 GMT+0800 (China Standard Time)",
   "width": 654,
   "height": 215,
   "comps": [
@@ -81,7 +81,11 @@
         129.78285,
         127.50725,
         50
-      ]
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    opa: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 1, \n        to: 0,\n        duration: 1000,\n\n    },\n    start: [\"opa\"]\n})\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"pointer\"\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"pointer\"\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"auto\"\n}"
     },
     {
       "type": "text",
