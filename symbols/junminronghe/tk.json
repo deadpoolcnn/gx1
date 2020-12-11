@@ -1,5 +1,12 @@
 {
-  "modified": "Fri Dec 11 2020 09:57:09 GMT+0800 (China Standard Time)",
+  "modified": "Fri Dec 11 2020 11:02:06 GMT+0800 (China Standard Time)",
+  "dataBindings": [
+    {
+      "attr": "text",
+      "valueType": "String",
+      "defaultValue": "系统建设中，敬请期待..."
+    }
+  ],
   "width": 654,
   "height": 215,
   "comps": [
@@ -49,6 +56,10 @@
       "gradient": "linear.northwest",
       "gradientColor": "rgba(4,94,204,0.5)",
       "pixelPerfect": true,
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.a('text','系统建设中，敬请期待...')\ntk.setAnimation({\n    opa: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 1, \n        to: 0,\n        duration: 1000,\n\n    },\n    start: [\"opa\"]\n})\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"pointer\"\n}",
+      "onHover": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"pointer\"\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"auto\"\n}",
       "closePath": true,
       "points": [
         500.83392,
@@ -82,7 +93,7 @@
         127.50725,
         50
       ],
-      "onClick": "__ht__function(event, data, view, point, width, height) {\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    opa: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 1, \n        to: 0,\n        duration: 1000,\n\n    },\n    start: [\"opa\"]\n})\n}",
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.a('text','系统建设中，敬请期待...')\ntk.setAnimation({\n    opa: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 1, \n        to: 0,\n        duration: 1000,\n\n    },\n    start: [\"opa\"]\n})\n}",
       "onEnter": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"pointer\"\n}",
       "onHover": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"pointer\"\n}",
       "onLeave": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"auto\"\n}"
@@ -103,7 +114,10 @@
     },
     {
       "type": "text",
-      "text": "页面开发中…",
+      "text": {
+        "func": "attr@text",
+        "value": "系统建设中，敬请期待..."
+      },
       "color": "rgb(0,187,255)",
       "font": "bold 20px sans-serif, Arial",
       "pixelPerfect": true,
