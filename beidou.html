@@ -88,7 +88,7 @@
                     if (agricultureSystemBeforScale.x <= 1) {
                         isagricultureSystemEnlarge = true
                         isagricultureSystemNarrow = false
-                    } else if (agricultureSystemBeforScale.x >= 1.2) {
+                    } else if (agricultureSystemBeforScale.x >= 1.1) {
                         isagricultureSystemEnlarge = false
                         isagricultureSystemNarrow = true
                     }
@@ -101,7 +101,7 @@
                     if (sugarIndustrySystemBeforScale.x <= 1) {
                         sugarIndustrySystemEnlarge = true
                         sugarIndustrySystemNarrow = false
-                    } else if (sugarIndustrySystemBeforScale.x >= 1.2) {
+                    } else if (sugarIndustrySystemBeforScale.x >= 1.1) {
                         sugarIndustrySystemEnlarge = false
                         sugarIndustrySystemNarrow = true
                     }
@@ -114,7 +114,7 @@
                     if (refinementManagementBeforScale.x <= 1) {
                         isRefinementManagementEnlarge = true
                         isRefinementManagementNarrow = false
-                    } else if (refinementManagementBeforScale.x >= 1.2) {
+                    } else if (refinementManagementBeforScale.x >= 1.1) {
                         isRefinementManagementEnlarge = false
                         isRefinementManagementNarrow = true
                     }
@@ -127,7 +127,7 @@
                     if (shipsManagementBeforScale.x <= 1) {
                         isShipsManagementEnlarge = true
                         isShipsManagementNarrow = false
-                    } else if (shipsManagementBeforScale.x >= 1.2) {
+                    } else if (shipsManagementBeforScale.x >= 1.1) {
                         isShipsManagementEnlarge = false
                         isShipsManagementNarrow = true
                     }
@@ -140,7 +140,7 @@
                     if (carSuperviseBeforScale.x <= 1) {
                         isCarSuperviseEnlarge = true
                         isCcarSuperviseNarrow = false
-                    } else if (carSuperviseBeforScale.x >= 1.2) {
+                    } else if (carSuperviseBeforScale.x >= 1.1) {
                         isCarSuperviseEnlarge = false
                         isCcarSuperviseNarrow = true
                     }
@@ -149,7 +149,7 @@
                     } else if (isCcarSuperviseNarrow) {
                         carSupervise.setScale({x: carSuperviseBeforScale.x - 0.005, y: carSuperviseBeforScale.y - 0.005})
                     }
-                }, 100);
+                }, 60);
             }
         </script>
     </head>
