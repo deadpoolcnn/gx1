@@ -1,0 +1,102 @@
+{
+  "modified": "Fri Dec 11 2020 15:51:56 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    },
+    {
+      "attr": "state",
+      "valueType": "String",
+      "name": "状态1234"
+    }
+  ],
+  "width": 115,
+  "height": 38,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(9,29,158,0.6)",
+      "borderWidth": 2,
+      "borderColor": "rgb(5,252,248)",
+      "gradientColor": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198)\";\nif(type == '4'){\n    state = \"rgb(255,0,77)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198)\";\n}\nreturn state;\n}",
+        "value": "rgb(5,252,248)"
+      },
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        11.79669,
+        1.26828,
+        7.98609,
+        6.48527,
+        7.98609,
+        34.59445,
+        11.41242,
+        38.59325,
+        103.43712,
+        38.59325,
+        107.01391,
+        33.6339,
+        107.01391,
+        5.60846,
+        103.43712,
+        1.26828
+      ]
+    },
+    {
+      "type": "polygon",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198)\";\nif(type == '4'){\n    state = \"rgb(255,0,77)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198)\";\n}\nreturn state;\n}",
+        "value": "rgb(5,252,248)"
+      },
+      "borderColor": "#979797",
+      "polygonSide": 3,
+      "anchorX": 0.5299,
+      "rect": [
+        11.63885,
+        14.00872,
+        9.11083,
+        11.84408
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "JZ27"
+      },
+      "align": "center",
+      "color": "#FFFFFF",
+      "font": "bold 20px sans-serif, Arial",
+      "shadow": true,
+      "shadowColor": "rgb(5,221,250)",
+      "displayName": "河南",
+      "rect": [
+        7.98609,
+        3.49254,
+        99.02782,
+        34.50746
+      ]
+    },
+    {
+      "type": "polygon",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198)\";\nif(type == '4'){\n    state = \"rgb(255,0,77)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198)\";\n}\nreturn state;\n}",
+        "value": "rgb(5,252,248)"
+      },
+      "borderColor": "#979797",
+      "polygonSide": 3,
+      "anchorX": 0.57386,
+      "anchorY": 0.47825,
+      "rotation": 3.14159,
+      "rect": [
+        91.4069,
+        14.52405,
+        9.11083,
+        11.84408
+      ]
+    }
+  ]
+}
