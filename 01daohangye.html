@@ -70,36 +70,40 @@
                 const yingJiWuZi = dm.getDataByTag('yingjiwuzi')
                 const wuRenJi = dm.getDataByTag('wurenjiguanli')
                 const yingJiJiuYUan = dm.getDataByTag('yingjiliuyuan')
-                const leftIconLinkArray = [
+                const leftIconLinkArray1 = [
                     ceHuiDiLi,
-                    jiaoTong,
-                    gongGongFuWu,
                     beiDou
                 ]
-                const rightIconLinkArray = [
-                    feiTing,
+                const leftIconLinkArray2 = [
+                    jiaoTong,
+                    gongGongFuWu,
+                ]
+                const rightIconLinkArray1 = [
                     xueJiang,
-                    yingJiWuZi,
                     wuRenJi,
+                ]
+                const rightIconLinkArray2 = [
+                    feiTing,
+                    yingJiWuZi,
                     yingJiJiuYUan
                 ]
-                leftIconLinkArray.forEach((item, index) => {
+                leftIconLinkArray1.forEach((item, index) => {
                     item.setAnimation({
                         down: {
-                            from: item.getPosition().y + 10,
-                            to: item.getPosition().y - 10,
-                            duration: 5000,
-                            easing: 'Linear',
+                            from: item.getPosition().y + 5,
+                            to: item.getPosition().y - 5,
+                            duration: 2000,
+                            //easing: 'Linear',
                             next: 'up',
                             onUpdate: function(value) {
                                 this.setPosition({x:item.getPosition().x, y: value })
                             }
                         },
                         up: {
-                            from: item.getPosition().y - 10,
-                            to: item.getPosition().y + 10,
-                            duration: 5000,
-                            easing: 'Linear',
+                            from: item.getPosition().y - 5,
+                            to: item.getPosition().y + 5,
+                            duration: 2000,
+                            //easing: 'Linear',
                             next: 'down',
                             onUpdate: function(value) {
                                 this.setPosition({x: item.getPosition().x, y: value})
@@ -108,29 +112,79 @@
                         start: ['down']
                     })
                 })
-                rightIconLinkArray.forEach((item, index) => {
+                leftIconLinkArray2.forEach((item, index) => {
                     item.setAnimation({
                         down: {
-                            from: item.getPosition().y + 10,
-                            to: item.getPosition().y - 10,
-                            duration: 5000,
-                            easing: 'Linear',
+                            from: item.getPosition().y + 5,
+                            to: item.getPosition().y - 5,
+                            duration: 2000,
+                            //easing: 'Linear',
                             next: 'up',
                             onUpdate: function(value) {
                                 this.setPosition({x:item.getPosition().x, y: value })
                             }
                         },
                         up: {
-                            from: item.getPosition().y - 10,
-                            to: item.getPosition().y + 10,
-                            duration: 5000,
-                            easing: 'Linear',
+                            from: item.getPosition().y - 5,
+                            to: item.getPosition().y + 5,
+                            duration: 2000,
+                            //easing: 'Linear',
                             next: 'down',
                             onUpdate: function(value) {
                                 this.setPosition({x: item.getPosition().x, y: value})
                             }
                         },
                         start: ['up']
+                    })
+                })
+                rightIconLinkArray1.forEach((item, index) => {
+                    item.setAnimation({
+                        down: {
+                            from: item.getPosition().y + 5,
+                            to: item.getPosition().y - 5,
+                            duration: 2000,
+                            //easing: 'Linear',
+                            next: 'up',
+                            onUpdate: function(value) {
+                                this.setPosition({x:item.getPosition().x, y: value })
+                            }
+                        },
+                        up: {
+                            from: item.getPosition().y - 5,
+                            to: item.getPosition().y + 5,
+                            duration: 2000,
+                            //easing: 'Linear',
+                            next: 'down',
+                            onUpdate: function(value) {
+                                this.setPosition({x: item.getPosition().x, y: value})
+                            }
+                        },
+                        start: ['up']
+                    })
+                })
+                rightIconLinkArray2.forEach((item, index) => {
+                    item.setAnimation({
+                        down: {
+                            from: item.getPosition().y + 5,
+                            to: item.getPosition().y - 5,
+                            duration: 2000,
+                            //easing: 'Linear',
+                            next: 'up',
+                            onUpdate: function(value) {
+                                this.setPosition({x:item.getPosition().x, y: value })
+                            }
+                        },
+                        up: {
+                            from: item.getPosition().y - 5,
+                            to: item.getPosition().y + 5,
+                            duration: 2000,
+                            //easing: 'Linear',
+                            next: 'down',
+                            onUpdate: function(value) {
+                                this.setPosition({x: item.getPosition().x, y: value})
+                            }
+                        },
+                        start: ['down']
                     })
                 })
             }
