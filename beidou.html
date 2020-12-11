@@ -30,7 +30,126 @@
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
+
+                    iconScaleAnimation(dataModel)
                 });
+            }
+            
+            // 中心图标缩放动画
+            function iconScaleAnimation(dm) {
+                const agricultureSystem = dm.getDataByTag('agricultureSystem')
+                const sugarIndustrySystem = dm.getDataByTag('sugarIndustrySystem')
+                const refinementManagement = dm.getDataByTag('refinementManagement')
+                const shipsManagement = dm.getDataByTag('shipsManagement')
+                const carSupervise = dm.getDataByTag('carSupervise')
+
+                var isagricultureSystemNarrow = false  //agricultureSystem是否放大
+                var isagricultureSystemEnlarge = true  //agricultureSystem是否缩小
+
+                var sugarIndustrySystemNarrow = false
+                var sugarIndustrySystemEnlarge = true
+
+                var isRefinementManagementNarrow = false
+                var isRefinementManagementEnlarge = true
+
+                var isShipsManagementNarrow = false
+                var isShipsManagementEnlarge = true
+
+                var isCcarSuperviseNarrow = false
+                var isCarSuperviseEnlarge = true
+
+                setInterval(() => {
+                    //agricultureSystem上一次scale值
+                    const agricultureSystemBeforScale = {
+                        x: agricultureSystem.getScaleX(),
+                        y: agricultureSystem.getScaleY()
+                    }
+
+                    const sugarIndustrySystemBeforScale = {
+                        x: sugarIndustrySystem.getScaleX(),
+                        y: sugarIndustrySystem.getScaleY()
+                    }
+
+                    const refinementManagementBeforScale = {
+                        x: refinementManagement.getScaleX(),
+                        y: refinementManagement.getScaleY()
+                    }
+
+                    const shipsManagementBeforScale = {
+                        x: shipsManagement.getScaleX(),
+                        y: shipsManagement.getScaleY()
+                    }
+
+                    const carSuperviseBeforScale = {
+                        x: carSupervise.getScaleX(),
+                        y: carSupervise.getScaleY()
+                    }
+
+                    if (agricultureSystemBeforScale.x <= 1) {
+                        isagricultureSystemEnlarge = true
+                        isagricultureSystemNarrow = false
+                    } else if (agricultureSystemBeforScale.x >= 1.2) {
+                        isagricultureSystemEnlarge = false
+                        isagricultureSystemNarrow = true
+                    }
+                    if (isagricultureSystemEnlarge) {
+                        agricultureSystem.setScale({x: agricultureSystemBeforScale.x + 0.005, y: agricultureSystemBeforScale.y + 0.005})
+                    } else if (isagricultureSystemNarrow) {
+                        agricultureSystem.setScale({x: agricultureSystemBeforScale.x - 0.005, y: agricultureSystemBeforScale.y - 0.005})
+                    }
+
+                    if (sugarIndustrySystemBeforScale.x <= 1) {
+                        sugarIndustrySystemEnlarge = true
+                        sugarIndustrySystemNarrow = false
+                    } else if (sugarIndustrySystemBeforScale.x >= 1.2) {
+                        sugarIndustrySystemEnlarge = false
+                        sugarIndustrySystemNarrow = true
+                    }
+                    if (sugarIndustrySystemEnlarge) {
+                        sugarIndustrySystem.setScale({x: sugarIndustrySystemBeforScale.x + 0.005, y: sugarIndustrySystemBeforScale.y + 0.005})
+                    } else if (sugarIndustrySystemNarrow) {
+                        sugarIndustrySystem.setScale({x: sugarIndustrySystemBeforScale.x - 0.005, y: sugarIndustrySystemBeforScale.y - 0.005})
+                    }
+
+                    if (refinementManagementBeforScale.x <= 1) {
+                        isRefinementManagementEnlarge = true
+                        isRefinementManagementNarrow = false
+                    } else if (refinementManagementBeforScale.x >= 1.2) {
+                        isRefinementManagementEnlarge = false
+                        isRefinementManagementNarrow = true
+                    }
+                    if (isRefinementManagementEnlarge) {
+                        refinementManagement.setScale({x: refinementManagementBeforScale.x + 0.005, y: refinementManagementBeforScale.y + 0.005})
+                    } else if (isRefinementManagementNarrow) {
+                        refinementManagement.setScale({x: refinementManagementBeforScale.x - 0.005, y: refinementManagementBeforScale.y - 0.005})
+                    }
+
+                    if (shipsManagementBeforScale.x <= 1) {
+                        isShipsManagementEnlarge = true
+                        isShipsManagementNarrow = false
+                    } else if (shipsManagementBeforScale.x >= 1.2) {
+                        isShipsManagementEnlarge = false
+                        isShipsManagementNarrow = true
+                    }
+                    if (isShipsManagementEnlarge) {
+                        shipsManagement.setScale({x: shipsManagementBeforScale.x + 0.005, y: shipsManagementBeforScale.y + 0.005})
+                    } else if (isShipsManagementNarrow) {
+                        shipsManagement.setScale({x: shipsManagementBeforScale.x - 0.005, y: shipsManagementBeforScale.y - 0.005})
+                    }
+
+                    if (carSuperviseBeforScale.x <= 1) {
+                        isCarSuperviseEnlarge = true
+                        isCcarSuperviseNarrow = false
+                    } else if (carSuperviseBeforScale.x >= 1.2) {
+                        isCarSuperviseEnlarge = false
+                        isCcarSuperviseNarrow = true
+                    }
+                    if (isCarSuperviseEnlarge) {
+                        carSupervise.setScale({x: carSuperviseBeforScale.x + 0.005, y: carSuperviseBeforScale.y + 0.005})
+                    } else if (isCcarSuperviseNarrow) {
+                        carSupervise.setScale({x: carSuperviseBeforScale.x - 0.005, y: carSuperviseBeforScale.y - 0.005})
+                    }
+                }, 100);
             }
         </script>
     </head>
