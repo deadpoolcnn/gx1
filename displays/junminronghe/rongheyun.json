@@ -11,7 +11,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 677,
+      "i": 288,
       "p": {
         "displayName": "bj",
         "image": "assets/junminronghe/bj.png",
@@ -30,12 +30,24 @@
       }
     },
     {
+      "c": "ht.Node",
+      "i": 308,
+      "p": {
+        "displayName": "kfz",
+        "image": "symbols/junminronghe/kfz.json",
+        "position": {
+          "x": 83.43903,
+          "y": 152.11247
+        }
+      }
+    },
+    {
       "c": "ht.Block",
-      "i": 678,
+      "i": 289,
       "p": {
         "displayName": "title",
         "host": {
-          "__i": 677
+          "__i": 288
         },
         "position": {
           "x": 20.36189,
@@ -50,11 +62,67 @@
       }
     },
     {
+      "c": "ht.Block",
+      "i": 290,
+      "p": {
+        "displayName": "进入云平台",
+        "parent": {
+          "__i": 289
+        },
+        "position": {
+          "x": 862.53578,
+          "y": -474.56573
+        },
+        "width": 176.80204,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 291,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 290
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 917.93676,
+          "y": -474.56574
+        },
+        "width": 66,
+        "height": 26
+      }
+    },
+    {
       "c": "ht.Text",
-      "i": 679,
+      "i": 292,
       "p": {
         "parent": {
-          "__i": 678
+          "__i": 290
+        },
+        "position": {
+          "x": 824.13474,
+          "y": -474.56574
+        }
+      },
+      "s": {
+        "text": "进入云平台",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 293,
+      "p": {
+        "parent": {
+          "__i": 289
         },
         "position": {
           "x": 27.19249,
@@ -71,15 +139,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 680,
+      "i": 294,
       "p": {
         "displayName": "title",
         "parent": {
-          "__i": 678
+          "__i": 289
         },
         "image": "assets/junminronghe/title.png",
         "host": {
-          "__i": 677
+          "__i": 288
         },
         "position": {
           "x": 20.36189,
@@ -97,11 +165,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 681,
+      "i": 295,
       "p": {
         "displayName": "介绍",
         "host": {
-          "__i": 677
+          "__i": 288
         },
         "position": {
           "x": 35.41874,
@@ -117,11 +185,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 682,
+      "i": 296,
       "p": {
         "displayName": "kuang4",
         "parent": {
-          "__i": 681
+          "__i": 295
         },
         "image": "assets/junminronghe/kuang4.png",
         "position": {
@@ -134,11 +202,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 683,
+      "i": 297,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 681
+          "__i": 295
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -159,22 +227,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 684,
+      "i": 298,
       "p": {
-        "displayName": "kfz",
-        "image": "assets/junminronghe/kfz.png",
-        "position": {
-          "x": 79.34076,
-          "y": 175.10485
+        "host": {
+          "__i": 288
         },
-        "width": 1046.19651,
-        "height": 778.65882
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 685,
-      "p": {
         "position": {
           "x": 79.34076,
           "y": -171.38975
@@ -187,13 +244,18 @@
         "shape.background": "rgba(2,126,250,0)",
         "shape.border.color": "#979797",
         "shape.gradient": "spread.horizontal",
-        "shape.gradient.color": "rgb(2,126,250)"
+        "shape.gradient.color": "rgb(2,126,250)",
+        "layout.h": "center",
+        "layout.v": "center"
       }
     },
     {
       "c": "ht.Text",
-      "i": 686,
+      "i": 299,
       "p": {
+        "parent": {
+          "__i": 298
+        },
         "position": {
           "x": 78.95563,
           "y": -169.43501
@@ -210,78 +272,29 @@
     },
     {
       "c": "ht.Block",
-      "i": 687,
+      "i": 300,
       "p": {
-        "displayName": "进入云平台",
         "host": {
-          "__i": 677
+          "__i": 288
         },
-        "position": {
-          "x": 862.53578,
-          "y": -474.56573
-        },
-        "width": 176.80204,
-        "height": 50
-      },
-      "s": {
-        "layout.v": "top",
-        "layout.h": "right"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 688,
-      "p": {
-        "displayName": "jinru",
-        "parent": {
-          "__i": 687
-        },
-        "image": "assets/junminronghe/jinru.png",
-        "rotation": 3.14159,
-        "position": {
-          "x": 917.93676,
-          "y": -474.56574
-        },
-        "width": 66,
-        "height": 26
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 689,
-      "p": {
-        "parent": {
-          "__i": 687
-        },
-        "position": {
-          "x": 824.13474,
-          "y": -474.56574
-        }
-      },
-      "s": {
-        "text": "进入云平台",
-        "text.color": "rgb(51,153,255)",
-        "text.font": "bold 20px Microsoft YaHei"
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 690,
-      "p": {
         "position": {
           "x": 59.55017,
           "y": 176.45508
         },
         "width": 1101.77771,
         "height": 775.85062
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center"
       }
     },
     {
       "c": "ht.Node",
-      "i": 691,
+      "i": 301,
       "p": {
         "parent": {
-          "__i": 690
+          "__i": 300
         },
         "position": {
           "x": 20.74702,
@@ -301,10 +314,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 692,
+      "i": 302,
       "p": {
         "parent": {
-          "__i": 690
+          "__i": 300
         },
         "position": {
           "x": 20.74702,
@@ -324,10 +337,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 693,
+      "i": 303,
       "p": {
         "parent": {
-          "__i": 690
+          "__i": 300
         },
         "position": {
           "x": -355.02972,
@@ -346,10 +359,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 694,
+      "i": 304,
       "p": {
         "parent": {
-          "__i": 690
+          "__i": 300
         },
         "position": {
           "x": -488.33868,
@@ -368,10 +381,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 695,
+      "i": 305,
       "p": {
         "parent": {
-          "__i": 690
+          "__i": 300
         },
         "position": {
           "x": 605.43902,
@@ -390,10 +403,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 696,
+      "i": 306,
       "p": {
         "parent": {
-          "__i": 690
+          "__i": 300
         },
         "position": {
           "x": 537.845,
@@ -412,84 +425,24 @@
     },
     {
       "c": "ht.Node",
-      "i": 697,
+      "i": 307,
       "p": {
         "displayName": "tk",
         "image": "symbols/junminronghe/tk.json",
+        "host": {
+          "__i": 288
+        },
         "position": {
-          "x": 27.19249,
-          "y": -101.50964
+          "x": 59.55017,
+          "y": -139.30928
         }
       },
       "s": {
         "2d.visible": false
       }
-    },
-    {
-      "c": "ht.Block",
-      "i": 698,
-      "p": {
-        "displayName": "返回",
-        "host": {
-          "__i": 677
-        },
-        "position": {
-          "x": -840.02291,
-          "y": -475.56574
-        },
-        "width": 173.45129,
-        "height": 50
-      },
-      "s": {
-        "layout.v": "top",
-        "layout.h": "left",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面开发中..')\nwindow.location.href = \"01daohangye.html\"\n}",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 699,
-      "p": {
-        "displayName": "jinru",
-        "parent": {
-          "__i": 698
-        },
-        "image": "assets/junminronghe/jinru.png",
-        "position": {
-          "x": -893.74859,
-          "y": -476.56576
-        },
-        "width": 66,
-        "height": 26
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 700,
-      "p": {
-        "parent": {
-          "__i": 698
-        },
-        "position": {
-          "x": -803.29728,
-          "y": -475.56575
-        }
-      },
-      "s": {
-        "text": "返回",
-        "text.color": "rgb(51,153,255)",
-        "text.font": "bold 20px Microsoft YaHei"
-      }
     }
   ],
-  "modified": "Fri Dec 11 2020 09:37:50 GMT+0800 (China Standard Time)",
+  "modified": "Fri Dec 11 2020 10:06:43 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
