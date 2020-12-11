@@ -480,9 +480,77 @@
       "s": {
         "2d.visible": false
       }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2518,
+      "p": {
+        "displayName": "返回",
+        "position": {
+          "x": -813.74905,
+          "y": -481.56574
+        }
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面开发中..')\nwindow.location.href = \"01daohangye.html\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2519,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 2518
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "position": {
+          "x": -867.47472,
+          "y": -482.56576
+        },
+        "width": 66,
+        "height": 26
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "opacity": 0.1
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 2520,
+      "p": {
+        "parent": {
+          "__i": 2518
+        },
+        "position": {
+          "x": -777.02341,
+          "y": -481.56575
+        }
+      },
+      "s": {
+        "text": "返回",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "opacity": 0.1
+      }
     }
   ],
-  "modified": "Fri Dec 11 2020 10:10:34 GMT+0800 (China Standard Time)",
+  "modified": "Fri Dec 11 2020 10:17:27 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
