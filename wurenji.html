@@ -99,7 +99,7 @@
                         start: ["move"]
                     })
                 }
-                
+
                 function arrowHideAnimation(dm) {
                     const rightArrow = dm.getDataByTag('rightArrow')
                     const leftArrowFirst = dm.getDataByTag('leftArrowFirst')
@@ -112,16 +112,16 @@
                                 property: 'opacity',
                                 accessType: 'style',
                                 from: 1,
-                                to: 0.5,
-                                duration: 3000,
+                                to: 0.4,
+                                duration: 1500,
                                 next: 'show'
                             },
                             show: {
                                 property: 'opacity',
                                 accessType: 'style',
-                                from: 0.5,
+                                from: 0.4,
                                 to: 1,
-                                duration:3000,
+                                duration:1500,
                                 next: 'hide'
                             },
                             start: ['hide']
