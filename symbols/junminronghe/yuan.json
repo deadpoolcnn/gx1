@@ -1,0 +1,58 @@
+{
+  "modified": "Fri Dec 11 2020 16:06:54 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state",
+      "valueType": "String",
+      "name": "状态1234"
+    }
+  ],
+  "width": 70,
+  "height": 70,
+  "comps": [
+    {
+      "type": "oval",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198,0.4)\";\nif(type == '4'){\n    state = \"rgb(255,0,77,0.4)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255,0.4)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22,0.4)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198,0.4)\";\n}\nreturn state;\n}",
+        "value": "rgba(84,255,198,0.4)"
+      },
+      "borderWidth": 3,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198)\";\nif(type == '4'){\n    state = \"rgb(255,0,77)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198)\";\n}\nreturn state;\n}",
+        "value": "rgb(84,255,198)"
+      },
+      "gradient": "radial.center",
+      "gradientColor": "rgba(84,255,198,0)",
+      "pixelPerfect": true,
+      "rect": [
+        12.34346,
+        19.30836,
+        45.31308,
+        31.38328
+      ]
+    },
+    {
+      "type": "oval",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198,0.2)\";\nif(type == '4'){\n    state = \"rgb(255,0,77,0.2)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255,0.2)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22,0.2)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198,0.2)\";\n}\nreturn state;\n}",
+        "value": "rgba(84,255,201,0.20)"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198)\";\nif(type == '4'){\n    state = \"rgb(255,0,77)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198)\";\n}\nreturn state;\n}",
+        "value": "rgb(84,255,198)"
+      },
+      "gradient": "radial.center",
+      "gradientColor": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198)\";\nif(type == '4'){\n    state = \"rgb(255,0,77)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198)\";\n}\nreturn state;\n}",
+        "value": "rgb(84,255,198)"
+      },
+      "rect": [
+        26.62915,
+        29.20245,
+        16.74172,
+        11.59511
+      ]
+    }
+  ]
+}

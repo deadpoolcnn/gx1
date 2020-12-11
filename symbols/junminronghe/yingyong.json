@@ -1,0 +1,42 @@
+{
+  "modified": "Wed Dec 09 2020 17:25:28 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "defaultValue": "国家节点",
+      "name": "名称"
+    }
+  ],
+  "width": 160,
+  "height": 50,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/junminronghe/fuwu-kuang.png",
+      "displayName": "fuwu-kuang",
+      "rect": [
+        5,
+        3,
+        150,
+        44
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "国家节点"
+      },
+      "align": "center",
+      "color": "#ffffff",
+      "font": "18px sans-serif, Arial",
+      "rect": [
+        5,
+        3,
+        150,
+        44
+      ]
+    }
+  ]
+}
