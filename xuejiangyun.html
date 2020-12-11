@@ -23,6 +23,7 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation();
                 ht.Default.xhrLoad('displays/junminronghe/xuejiangyun.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
