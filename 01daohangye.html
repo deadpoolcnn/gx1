@@ -23,13 +23,116 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation()
 
                 ht.Default.xhrLoad('displays/junminronghe/01daohangye.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
+                    
+                    mainCloudAnimation(dataModel)
+                    iconLinkAnimation(dataModel)
                 });
+            }
+            // 中心云朵动画
+            function mainCloudAnimation(dm) {
+                const mainCloud = dm.getDataByTag('center_cloud_block')
+                mainCloud.setAnimation({
+                    hide: {
+                        property: 'opacity',
+                        accessType: 'style',
+                        from: 1,
+                        to: 0.5,
+                        duration: 4000,
+                        next: 'show'
+                    },
+                    show: {
+                        property: 'opacity',
+                        accessType: 'style',
+                        from: 0.5,
+                        to: 1,
+                        duration: 4000,
+                        next: 'hide'
+                    },
+                    start: ['hide']
+                })
+            }
+
+            // 图标浮动动画
+            function iconLinkAnimation(dm){
+                const ceHuiDiLi = dm.getDataByTag('cehuidilixinxi')
+                const jiaoTong = dm.getDataByTag('jiaotongzhanbei')
+                const gongGongFuWu = dm.getDataByTag('gonggongfuwu')
+                const beiDou = dm.getDataByTag('beidou')
+                const feiTing = dm.getDataByTag('feiting')
+                const xueJiang = dm.getDataByTag('xuejiangyun')
+                const yingJiWuZi = dm.getDataByTag('yingjiwuzi')
+                const wuRenJi = dm.getDataByTag('wurenjiguanli')
+                const yingJiJiuYUan = dm.getDataByTag('yingjiliuyuan')
+                const leftIconLinkArray = [
+                    ceHuiDiLi,
+                    jiaoTong,
+                    gongGongFuWu,
+                    beiDou
+                ]
+                const rightIconLinkArray = [
+                    feiTing,
+                    xueJiang,
+                    yingJiWuZi,
+                    wuRenJi,
+                    yingJiJiuYUan
+                ]
+                leftIconLinkArray.forEach((item, index) => {
+                    item.setAnimation({
+                        down: {
+                            from: item.getPosition().y + 10,
+                            to: item.getPosition().y - 10,
+                            duration: 5000,
+                            easing: 'Linear',
+                            next: 'up',
+                            onUpdate: function(value) {
+                                this.setPosition({x:item.getPosition().x, y: value })
+                            }
+                        },
+                        up: {
+                            from: item.getPosition().y - 10,
+                            to: item.getPosition().y + 10,
+                            duration: 5000,
+                            easing: 'Linear',
+                            next: 'down',
+                            onUpdate: function(value) {
+                                this.setPosition({x: item.getPosition().x, y: value})
+                            }
+                        },
+                        start: ['down']
+                    })
+                })
+                rightIconLinkArray.forEach((item, index) => {
+                    item.setAnimation({
+                        down: {
+                            from: item.getPosition().y + 10,
+                            to: item.getPosition().y - 10,
+                            duration: 5000,
+                            easing: 'Linear',
+                            next: 'up',
+                            onUpdate: function(value) {
+                                this.setPosition({x:item.getPosition().x, y: value })
+                            }
+                        },
+                        up: {
+                            from: item.getPosition().y - 10,
+                            to: item.getPosition().y + 10,
+                            duration: 5000,
+                            easing: 'Linear',
+                            next: 'down',
+                            onUpdate: function(value) {
+                                this.setPosition({x: item.getPosition().x, y: value})
+                            }
+                        },
+                        start: ['up']
+                    })
+                })
             }
         </script>
     </head>
