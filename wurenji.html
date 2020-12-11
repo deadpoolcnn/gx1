@@ -33,6 +33,7 @@
 
                     videoPlay(dataModel);
                     arrowAni(dataModel);
+                    arrowHideAnimation(dataModel);
                 });
 
                 function videoPlay(dm) {
@@ -96,6 +97,35 @@
                             }
                         },
                         start: ["move"]
+                    })
+                }
+                
+                function arrowHideAnimation(dm) {
+                    const rightArrow = dm.getDataByTag('rightArrow')
+                    const leftArrowFirst = dm.getDataByTag('leftArrowFirst')
+                    const leftArrowTop = dm.getDataByTag('leftArrowTop')
+                    const leftArrowBottom = dm.getDataByTag('leftArrowBottom')
+                    const arrowArray = [rightArrow, leftArrowFirst, leftArrowTop, leftArrowBottom]
+                    arrowArray.forEach(item => {
+                        item.setAnimation({
+                            hide: {
+                                property: 'opacity',
+                                accessType: 'style',
+                                from: 1,
+                                to: 0.5,
+                                duration: 3000,
+                                next: 'show'
+                            },
+                            show: {
+                                property: 'opacity',
+                                accessType: 'style',
+                                from: 0.5,
+                                to: 1,
+                                duration:3000,
+                                next: 'hide'
+                            },
+                            start: ['hide']
+                        })
                     })
                 }
             }
