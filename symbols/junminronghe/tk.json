@@ -1,5 +1,5 @@
 {
-  "modified": "Sat Dec 12 2020 17:31:31 GMT+0800 (China Standard Time)",
+  "modified": "Sat Dec 12 2020 19:54:59 GMT+0800 (China Standard Time)",
   "dataBindings": [
     {
       "attr": "text",
@@ -93,7 +93,7 @@
         127.50725,
         50
       ],
-      "onClick": "__ht__function(event, data, view, point, width, height) {\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.a('text','系统建设中，敬请期待...')\ntk.setAnimation({\n    opa: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 1, \n        to: 0,\n        duration: 1000,\n\n    },\n    start: [\"opa\"]\n})\n}",
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.a('text','系统建设中，敬请期待...')\ntk.setAnimation({\n    opa: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 1, \n        to: 0,\n        duration: 500,\n\n    },\n    start: [\"opa\"]\n})\n}",
       "onEnter": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"pointer\"\n}",
       "onHover": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"pointer\"\n}",
       "onLeave": "__ht__function(event, data, view, point, width, height) {\ndocument.body.style.cursor = \"auto\"\n}"
