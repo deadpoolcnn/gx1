@@ -12,7 +12,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 452,
+      "i": 22947,
       "p": {
         "displayName": "bg_ft",
         "image": "assets/feitingyun/bg_ft.jpg",
@@ -22,16 +22,18 @@
       "s": {
         "fullscreen": "fill",
         "fullscreen.lock": "h",
-        "fullscreen.gap": 0
+        "fullscreen.gap": 0,
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 453,
+      "i": 22948,
       "p": {
         "displayName": "进入云平台",
         "host": {
-          "__i": 452
+          "__i": 22947
         },
         "position": {
           "x": 840.3322,
@@ -43,21 +45,23 @@
       "s": {
         "layout.v": "top",
         "layout.h": "right",
-        "select.color": "rgb(247,247,247)",
+        "select.color": "",
         "select.width": 0,
         "interactive": true,
         "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 454,
+      "i": 22949,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 453
+          "__i": 22948
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -67,14 +71,17 @@
         },
         "width": 66,
         "height": 26
+      },
+      "s": {
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 455,
+      "i": 22950,
       "p": {
         "parent": {
-          "__i": 453
+          "__i": 22948
         },
         "position": {
           "x": 801.93117,
@@ -84,16 +91,17 @@
       "s": {
         "text": "进入云平台",
         "text.color": "rgb(51,153,255)",
-        "text.font": "bold 20px Microsoft YaHei"
+        "text.font": "bold 20px Microsoft YaHei",
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 456,
+      "i": 22951,
       "p": {
         "displayName": "介绍",
         "host": {
-          "__i": 452
+          "__i": 22947
         },
         "position": {
           "x": 574.57253,
@@ -105,18 +113,17 @@
       "s": {
         "layout.v": "center",
         "layout.h": "right",
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 457,
+      "i": 22952,
       "p": {
         "displayName": "ft_border1",
         "parent": {
-          "__i": 456
+          "__i": 22951
         },
         "image": "assets/feitingyun/ft_border1.png",
         "position": {
@@ -125,15 +132,19 @@
         },
         "width": 554.71727,
         "height": 281.3209
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 458,
+      "i": 22953,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 456
+          "__i": 22951
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -142,6 +153,10 @@
         },
         "width": 463.58794,
         "height": 183.73617
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
       },
       "a": {
         "ht.content": "飞艇应用云在边境地区部署长期滞空的飞艇，搭载各类侦查装备，至少提供光电侦查、通信基站、地理信息测绘、光电红外装备或小型雷达等4类应用。目标数据至少服务边防部队、公安、边海防、自然资源、农业、林业等9个部门。",
@@ -153,12 +168,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 459,
+      "i": 22954,
       "p": {
         "displayName": "feiting-title",
         "image": "assets/feitingyun/feiting-title.png",
         "host": {
-          "__i": 452
+          "__i": 22947
         },
         "position": {
           "x": 2.52816,
@@ -170,16 +185,16 @@
       "s": {
         "layout.v": "top",
         "layout.h": "center",
-        "select.color": null,
-        "select.width": 0
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 460,
+      "i": 22955,
       "p": {
         "host": {
-          "__i": 452
+          "__i": 22947
         },
         "position": {
           "x": 574.57251,
@@ -191,17 +206,17 @@
       "s": {
         "layout.v": "center",
         "layout.h": "right",
-        "select.color": null,
-        "select.width": 0
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 461,
+      "i": 22956,
       "p": {
         "displayName": "srceen2",
         "parent": {
-          "__i": 460
+          "__i": 22955
         },
         "image": "assets/feitingyun/srceen2.jpg",
         "position": {
@@ -210,15 +225,19 @@
         },
         "width": 479.06424,
         "height": 269.87286
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 462,
+      "i": 22957,
       "p": {
         "displayName": "ft_border2",
         "parent": {
-          "__i": 460
+          "__i": 22955
         },
         "image": "assets/feitingyun/ft_border2.png",
         "position": {
@@ -227,15 +246,19 @@
         },
         "width": 554.71727,
         "height": 331.8398
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 463,
+      "i": 22958,
       "p": {
         "displayName": "中间",
         "host": {
-          "__i": 452
+          "__i": 22947
         },
         "position": {
           "x": -269.98569,
@@ -247,16 +270,17 @@
       "s": {
         "layout.h": "center",
         "layout.v": "center",
-        "2d.selectable": false
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 464,
+      "i": 22959,
       "p": {
         "displayName": "ft_roll",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "tag": "ft_roll",
         "image": "assets/feitingyun/ft_roll.png",
@@ -268,18 +292,17 @@
         "height": 439
       },
       "s": {
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 465,
+      "i": 22960,
       "p": {
         "displayName": "ft_line_top",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "tag": "ft_line_top",
         "image": "assets/feitingyun/ft_line_top.png",
@@ -291,16 +314,17 @@
         "height": 149
       },
       "s": {
-        "2d.visible": false
+        "2d.visible": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 466,
+      "i": 22961,
       "p": {
         "displayName": "ft_line_mid",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "tag": "ft_line_mid",
         "image": "assets/feitingyun/ft_line_mid.png",
@@ -312,16 +336,17 @@
         "height": 90
       },
       "s": {
-        "2d.visible": false
+        "2d.visible": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 467,
+      "i": 22962,
       "p": {
         "displayName": "ft_line_left",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "tag": "ft_line_left",
         "image": "assets/feitingyun/ft_line_left.png",
@@ -333,16 +358,17 @@
         "height": 196
       },
       "s": {
-        "2d.visible": false
+        "2d.visible": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 468,
+      "i": 22963,
       "p": {
         "displayName": "ft_line_right",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "image": "assets/feitingyun/ft_line_right.png",
         "position": {
@@ -353,16 +379,17 @@
         "height": 196
       },
       "s": {
-        "2d.visible": false
+        "2d.visible": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 469,
+      "i": 22964,
       "p": {
         "displayName": "ft-ico",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "image": "symbols/junminronghe/ft-ico.json",
         "position": {
@@ -373,18 +400,17 @@
         "height": 180
       },
       "s": {
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 470,
+      "i": 22965,
       "p": {
         "displayName": "ft-ico",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "image": "symbols/junminronghe/ft-ico.json",
         "position": {
@@ -394,6 +420,10 @@
         "width": 180,
         "height": 180
       },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      },
       "a": {
         "image": "assets/feitingyun/ft_ico3.png",
         "name": "应用终端"
@@ -401,11 +431,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 471,
+      "i": 22966,
       "p": {
         "displayName": "ft-ico",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "image": "symbols/junminronghe/ft-ico.json",
         "position": {
@@ -416,8 +446,8 @@
         "height": 180
       },
       "s": {
-        "select.color": null,
-        "select.width": 0
+        "2d.selectable": false,
+        "2d.movable": false
       },
       "a": {
         "image": "assets/feitingyun/ft_ico4.png",
@@ -426,11 +456,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 472,
+      "i": 22967,
       "p": {
         "displayName": "ft-ico",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "image": "symbols/junminronghe/ft-ico.json",
         "position": {
@@ -441,9 +471,8 @@
         "height": 180
       },
       "s": {
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.selectable": false,
+        "2d.movable": false
       },
       "a": {
         "image": "assets/feitingyun/ft_ico2.png",
@@ -452,11 +481,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 473,
+      "i": 22968,
       "p": {
         "displayName": "ft_cloud_block",
         "parent": {
-          "__i": 463
+          "__i": 22958
         },
         "tag": "ft_cloud_block",
         "image": "assets/feitingyun/ft_cloud.png",
@@ -469,14 +498,12 @@
       },
       "s": {
         "2d.movable": false,
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 474,
+      "i": 22969,
       "p": {
         "displayName": "cloud_server_line",
         "tag": "cloud_server_line",
@@ -536,18 +563,17 @@
         "shape.dash.width": 4,
         "shape.fill.clip.percentage": 0,
         "2d.movable": false,
-        "select.color": null,
-        "select.width": 0
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 475,
+      "i": 22970,
       "p": {
         "displayName": "airship_block",
         "tag": "airship_block",
         "host": {
-          "__i": 452
+          "__i": 22947
         },
         "position": {
           "x": -632.92546,
@@ -557,18 +583,17 @@
         "height": 173.30814
       },
       "s": {
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 476,
+      "i": 22971,
       "p": {
         "displayName": "feiting_fig_first",
         "parent": {
-          "__i": 475
+          "__i": 22970
         },
         "tag": "feiting_fig_first",
         "image": "assets/feitingyun/feiting_fig.png",
@@ -578,15 +603,19 @@
         },
         "width": 340.74565,
         "height": 160.35089
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 477,
+      "i": 22972,
       "p": {
         "displayName": "feiting_fig_second",
         "parent": {
-          "__i": 475
+          "__i": 22970
         },
         "tag": "feiting_fig_second",
         "image": "assets/feitingyun/feiting_fig.png",
@@ -598,15 +627,17 @@
         "height": 96.64044
       },
       "s": {
-        "opacity": 0.7
+        "opacity": 0.7,
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 478,
+      "i": 22973,
       "p": {
         "host": {
-          "__i": 452
+          "__i": 22947
         },
         "position": {
           "x": -0.31833,
@@ -618,16 +649,17 @@
       "s": {
         "layout.h": "left",
         "layout.v": "bottom",
-        "2d.selectable": false
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 479,
+      "i": 22974,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 478
+          "__i": 22973
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -642,18 +674,19 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\n// var dataModel = view.dm();\n// var tk = dataModel.getDataByTag('tk');\n// tk.setAnimation({\n//     show: {\n//         property: \"opacity\",\n//         accessType: \"style\", \n//         from: 0, \n//         to: 1,\n//         duration: 1000,\n\n//     },\n//     start: [\"show\"]\n// })\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 480,
+      "i": 22975,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 478
+          "__i": 22973
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -668,9 +701,10 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\n// var dataModel = view.dm();\n// var tk = dataModel.getDataByTag('tk');\n// tk.setAnimation({\n//     show: {\n//         property: \"opacity\",\n//         accessType: \"style\", \n//         from: 0, \n//         to: 1,\n//         duration: 1000,\n\n//     },\n//     start: [\"show\"]\n// })\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false
       },
       "a": {
         "name": "巡逻车实时监控"
@@ -678,11 +712,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 481,
+      "i": 22976,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 478
+          "__i": 22973
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -697,9 +731,10 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\n// var dataModel = view.dm();\n// var tk = dataModel.getDataByTag('tk');\n// tk.setAnimation({\n//     show: {\n//         property: \"opacity\",\n//         accessType: \"style\", \n//         from: 0, \n//         to: 1,\n//         duration: 1000,\n\n//     },\n//     start: [\"show\"]\n// })\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false
       },
       "a": {
         "name": "巡逻船实时监控"
@@ -707,11 +742,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 482,
+      "i": 22977,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 478
+          "__i": 22973
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -726,9 +761,10 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\n// var dataModel = view.dm();\n// var tk = dataModel.getDataByTag('tk');\n// tk.setAnimation({\n//     show: {\n//         property: \"opacity\",\n//         accessType: \"style\", \n//         from: 0, \n//         to: 1,\n//         duration: 1000,\n\n//     },\n//     start: [\"show\"]\n// })\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false
       },
       "a": {
         "name": "监控报警时段分析"
@@ -736,11 +772,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 483,
+      "i": 22978,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 478
+          "__i": 22973
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -755,9 +791,10 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\n// var dataModel = view.dm();\n// var tk = dataModel.getDataByTag('tk');\n// tk.setAnimation({\n//     show: {\n//         property: \"opacity\",\n//         accessType: \"style\", \n//         from: 0, \n//         to: 1,\n//         duration: 1000,\n\n//     },\n//     start: [\"show\"]\n// })\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false
       },
       "a": {
         "name": "近一周告警次数分析"
@@ -765,11 +802,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 484,
+      "i": 22979,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 478
+          "__i": 22973
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -784,9 +821,10 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\n// var dataModel = view.dm();\n// var tk = dataModel.getDataByTag('tk');\n// tk.setAnimation({\n//     show: {\n//         property: \"opacity\",\n//         accessType: \"style\", \n//         from: 0, \n//         to: 1,\n//         duration: 1000,\n\n//     },\n//     start: [\"show\"]\n// })\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false
       },
       "a": {
         "name": "事件查看"
@@ -794,11 +832,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 485,
+      "i": 22980,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 478
+          "__i": 22973
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -813,9 +851,10 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\n// var dataModel = view.dm();\n// var tk = dataModel.getDataByTag('tk');\n// tk.setAnimation({\n//     show: {\n//         property: \"opacity\",\n//         accessType: \"style\", \n//         from: 0, \n//         to: 1,\n//         duration: 1000,\n\n//     },\n//     start: [\"show\"]\n// })\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false
       },
       "a": {
         "name": "历史检测视频"
@@ -823,10 +862,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 486,
+      "i": 22981,
       "p": {
         "host": {
-          "__i": 462
+          "__i": 22957
         },
         "position": {
           "x": 574.57256,
@@ -839,14 +878,13 @@
         "text.color": "#FFFFFF",
         "text.font": "22px sans-serif, Arial",
         "text.align": "center",
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 487,
+      "i": 22982,
       "p": {
         "displayName": "line_clound",
         "position": {
@@ -915,12 +953,13 @@
         "shape.dash.color": "rgb(17,117,217)",
         "shape.dash.width": 0,
         "shape.border.width.absolute": true,
-        "opacity": 1
+        "opacity": 1,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 488,
+      "i": 22983,
       "p": {
         "displayName": "edge",
         "tag": "edge_1",
@@ -994,12 +1033,13 @@
         "shape.foreground": null,
         "shape.gradient.color": null,
         "interactive": true,
-        "opacity": 0
+        "opacity": 0,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 489,
+      "i": 22984,
       "p": {
         "displayName": "application_terminal_line",
         "tag": "application_terminal_line",
@@ -1041,13 +1081,12 @@
         "shape.dash.color": "rgb(30,131,232)",
         "shape.dash.width": 4,
         "2d.movable": false,
-        "select.color": null,
-        "select.width": 0
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 490,
+      "i": 22985,
       "p": {
         "displayName": "mobile_line",
         "tag": "mobile_line",
@@ -1089,13 +1128,12 @@
         "shape.dash.color": "rgb(24,120,217)",
         "shape.dash.width": 4,
         "2d.movable": false,
-        "select.color": null,
-        "select.width": 0
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 491,
+      "i": 22986,
       "p": {
         "displayName": "perception_cloud_line_left",
         "tag": "perception_cloud_line_left",
@@ -1140,13 +1178,12 @@
         "shape.dash.color": "rgb(24,120,217)",
         "shape.dash.width": 4,
         "2d.movable": false,
-        "select.color": null,
-        "select.width": 0
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 492,
+      "i": 22987,
       "p": {
         "displayName": "perception_cloud_line_right",
         "tag": "perception_cloud_line_right",
@@ -1191,13 +1228,12 @@
         "shape.dash.color": "rgb(24,120,180)",
         "shape.dash.width": 4,
         "2d.movable": false,
-        "select.color": null,
-        "select.width": 0
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 493,
+      "i": 22988,
       "p": {
         "rotation": 0.22689,
         "position": {
@@ -1243,14 +1279,12 @@
         "shape.background": "rgb(0,140,255)",
         "shape.border.color": "rgb(55,159,196)",
         "shape.border.width": 1,
-        "2d.movable": false,
-        "select.color": null,
-        "select.width": 0
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 494,
+      "i": 22989,
       "p": {
         "rotation": -0.12217,
         "position": {
@@ -1296,22 +1330,20 @@
         "shape.background": "rgb(20,153,224)",
         "shape.border.color": "rgb(60,104,166)",
         "shape.border.width": 1,
-        "2d.movable": false,
-        "select.color": null,
-        "select.width": 0
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 495,
+      "i": 22990,
       "p": {
         "displayName": "返回",
         "host": {
-          "__i": 452
+          "__i": 22947
         },
         "position": {
-          "x": -844.88361,
-          "y": -499.56573
+          "x": -860.88361,
+          "y": -504.56573
         },
         "width": 173.45129,
         "height": 50
@@ -1326,55 +1358,60 @@
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 496,
+      "i": 22991,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 495
+          "__i": 22990
         },
         "image": "assets/junminronghe/jinru.png",
         "position": {
-          "x": -898.60928,
-          "y": -500.56575
+          "x": -914.60928,
+          "y": -505.56575
         },
         "width": 66,
         "height": 26
       },
       "s": {
         "opacity": 0.1,
-        "2d.visible": false
+        "2d.visible": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 497,
+      "i": 22992,
       "p": {
         "parent": {
-          "__i": 495
+          "__i": 22990
         },
         "position": {
-          "x": -844.88361,
-          "y": -499.56574
+          "x": -860.88361,
+          "y": -504.56574
         },
         "width": 173.45128
       },
       "s": {
         "text": "返回",
         "text.color": "rgb(5,19,33)",
-        "text.font": "bold 27px Microsoft YaHei",
+        "text.font": "bold 44px Microsoft YaHei",
         "opacity": 0.1,
         "select.color": "",
-        "text.align": "center"
+        "text.align": "center",
+        "2d.movable": false,
+        "text.shadow": true,
+        "text.shadow.color": "rgb(14,15,15)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 498,
+      "i": 22993,
       "p": {
         "displayName": "tk",
         "tag": "tk",
@@ -1389,11 +1426,12 @@
         "select.width": 0,
         "select.padding": 0,
         "opacity": 0,
-        "interactive": true
+        "interactive": true,
+        "2d.movable": false
       }
     }
   ],
-  "modified": "Sat Dec 12 2020 16:06:13 GMT+0800 (中国标准时间)",
+  "modified": "Sat Dec 12 2020 17:25:11 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -960,
     "y": -540,

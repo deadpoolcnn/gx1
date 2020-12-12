@@ -11,7 +11,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 17216,
+      "i": 17806,
       "p": {
         "displayName": "bj",
         "image": "assets/junminronghe/bj.png",
@@ -34,11 +34,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17217,
+      "i": 17807,
       "p": {
         "displayName": "title",
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": 20.36189,
@@ -58,14 +58,14 @@
     },
     {
       "c": "ht.Block",
-      "i": 17218,
+      "i": 17808,
       "p": {
         "displayName": "进入云平台",
         "parent": {
-          "__i": 17217
+          "__i": 17807
         },
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": 862.53578,
@@ -89,11 +89,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17219,
+      "i": 17809,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 17218
+          "__i": 17808
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -112,10 +112,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 17220,
+      "i": 17810,
       "p": {
         "parent": {
-          "__i": 17218
+          "__i": 17808
         },
         "position": {
           "x": 824.13474,
@@ -134,15 +134,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 17221,
+      "i": 17811,
       "p": {
         "displayName": "title",
         "parent": {
-          "__i": 17217
+          "__i": 17807
         },
         "image": "assets/junminronghe/title.png",
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": 20.36189,
@@ -163,11 +163,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17222,
+      "i": 17812,
       "p": {
         "displayName": "logo",
         "parent": {
-          "__i": 17217
+          "__i": 17807
         },
         "image": "assets/junminronghe/logo.png",
         "position": {
@@ -186,11 +186,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17223,
+      "i": 17813,
       "p": {
         "displayName": "title-yywz",
         "parent": {
-          "__i": 17217
+          "__i": 17807
         },
         "image": "assets/junminronghe/title-yywz.png",
         "position": {
@@ -208,11 +208,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17224,
+      "i": 17814,
       "p": {
         "displayName": "介绍",
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": 119.93676,
@@ -232,11 +232,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17225,
+      "i": 17815,
       "p": {
         "displayName": "top-box",
         "parent": {
-          "__i": 17224
+          "__i": 17814
         },
         "image": "assets/junminronghe/top-box.png",
         "position": {
@@ -254,11 +254,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17226,
+      "i": 17816,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 17224
+          "__i": 17814
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -283,11 +283,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17227,
+      "i": 17817,
       "p": {
         "displayName": "平台",
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": -14.63811,
@@ -302,16 +302,17 @@
         "2d.movable": false,
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 17228,
+      "i": 17818,
       "p": {
         "displayName": "pingtai-bj",
         "parent": {
-          "__i": 17227
+          "__i": 17817
         },
         "image": "assets/junminronghe/pingtai-bj.png",
         "position": {
@@ -329,10 +330,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 17229,
+      "i": 17819,
       "p": {
         "parent": {
-          "__i": 17227
+          "__i": 17817
         },
         "position": {
           "x": -9.63811,
@@ -351,11 +352,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17230,
+      "i": 17820,
       "p": {
         "displayName": "wzpingtai",
         "parent": {
-          "__i": 17227
+          "__i": 17817
         },
         "image": "assets/junminronghe/wzpingtai.png",
         "position": {
@@ -373,11 +374,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17231,
+      "i": 17821,
       "p": {
         "displayName": "保障云",
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": -796.63812,
@@ -397,11 +398,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17232,
+      "i": 17822,
       "p": {
         "displayName": "left-box",
         "parent": {
-          "__i": 17231
+          "__i": 17821
         },
         "image": "assets/junminronghe/left-box.png",
         "position": {
@@ -419,10 +420,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 17233,
+      "i": 17823,
       "p": {
         "parent": {
-          "__i": 17231
+          "__i": 17821
         },
         "position": {
           "x": -796.63811,
@@ -441,11 +442,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17234,
+      "i": 17824,
       "p": {
         "displayName": "icon-jiantou",
         "parent": {
-          "__i": 17231
+          "__i": 17821
         },
         "image": "assets/junminronghe/icon-jiantou.png",
         "position": {
@@ -463,10 +464,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 17235,
+      "i": 17825,
       "p": {
         "parent": {
-          "__i": 17231
+          "__i": 17821
         },
         "position": {
           "x": -796.63867,
@@ -483,10 +484,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 17236,
+      "i": 17826,
       "p": {
         "parent": {
-          "__i": 17235
+          "__i": 17825
         },
         "position": {
           "x": -803.08177,
@@ -517,11 +518,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17237,
+      "i": 17827,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 17235
+          "__i": 17825
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -547,11 +548,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17238,
+      "i": 17828,
       "p": {
         "displayName": "左侧四块",
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": -492.29649,
@@ -567,16 +568,17 @@
         "select.color": "",
         "2d.selectable": false,
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.visible": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 17239,
+      "i": 17829,
       "p": {
         "displayName": "jiantou",
         "parent": {
-          "__i": 17238
+          "__i": 17828
         },
         "tag": "jiantou1",
         "image": "assets/junminronghe/jiantou.png",
@@ -596,11 +598,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17240,
+      "i": 17830,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 17238
+          "__i": 17828
         },
         "tag": "yiqing",
         "image": "symbols/junminronghe/pingtai.json",
@@ -626,11 +628,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17241,
+      "i": 17831,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 17238
+          "__i": 17828
         },
         "tag": "jiuzai",
         "image": "symbols/junminronghe/pingtai.json",
@@ -659,11 +661,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17242,
+      "i": 17832,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 17238
+          "__i": 17828
         },
         "tag": "jijiu",
         "image": "symbols/junminronghe/pingtai.json",
@@ -688,11 +690,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17243,
+      "i": 17833,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 17238
+          "__i": 17828
         },
         "tag": "zhengfu",
         "image": "symbols/junminronghe/pingtai.json",
@@ -721,11 +723,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17244,
+      "i": 17834,
       "p": {
         "displayName": "右侧四块",
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": 618.70355,
@@ -741,16 +743,17 @@
         "select.color": "",
         "2d.selectable": false,
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.visible": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 17245,
+      "i": 17835,
       "p": {
         "displayName": "jiantou",
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "tag": "jiantou2",
         "image": "assets/junminronghe/jiantou.png",
@@ -774,11 +777,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17246,
+      "i": 17836,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "tag": "zhuanyong",
         "image": "symbols/junminronghe/pingtai.json",
@@ -807,11 +810,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17247,
+      "i": 17837,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "tag": "caigou",
         "image": "symbols/junminronghe/pingtai.json",
@@ -840,11 +843,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17248,
+      "i": 17838,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "tag": "peisong",
         "image": "symbols/junminronghe/pingtai.json",
@@ -873,11 +876,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17249,
+      "i": 17839,
       "p": {
         "displayName": "pingtai",
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "tag": "lunhuan",
         "image": "symbols/junminronghe/pingtai.json",
@@ -906,10 +909,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 17250,
+      "i": 17840,
       "p": {
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "position": {
           "x": 759.17621,
@@ -926,10 +929,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 17251,
+      "i": 17841,
       "p": {
         "parent": {
-          "__i": 17250
+          "__i": 17840
         },
         "position": {
           "x": 753.61247,
@@ -960,11 +963,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17252,
+      "i": 17842,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 17250
+          "__i": 17840
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -990,11 +993,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17253,
+      "i": 17843,
       "p": {
         "displayName": "dian",
         "parent": {
-          "__i": 17250
+          "__i": 17840
         },
         "image": "assets/junminronghe/dian.png",
         "position": {
@@ -1012,10 +1015,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 17254,
+      "i": 17844,
       "p": {
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "position": {
           "x": 803.94167,
@@ -1032,10 +1035,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 17255,
+      "i": 17845,
       "p": {
         "parent": {
-          "__i": 17254
+          "__i": 17844
         },
         "position": {
           "x": 802.26925,
@@ -1066,11 +1069,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17256,
+      "i": 17846,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 17254
+          "__i": 17844
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1096,11 +1099,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17257,
+      "i": 17847,
       "p": {
         "displayName": "dian",
         "parent": {
-          "__i": 17254
+          "__i": 17844
         },
         "image": "assets/junminronghe/dian.png",
         "position": {
@@ -1118,10 +1121,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 17258,
+      "i": 17848,
       "p": {
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "position": {
           "x": 718.91554,
@@ -1138,10 +1141,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 17259,
+      "i": 17849,
       "p": {
         "parent": {
-          "__i": 17258
+          "__i": 17848
         },
         "position": {
           "x": 710.87298,
@@ -1172,11 +1175,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17260,
+      "i": 17850,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 17258
+          "__i": 17848
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1202,11 +1205,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17261,
+      "i": 17851,
       "p": {
         "displayName": "dian",
         "parent": {
-          "__i": 17258
+          "__i": 17848
         },
         "image": "assets/junminronghe/dian.png",
         "position": {
@@ -1224,10 +1227,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 17262,
+      "i": 17852,
       "p": {
         "parent": {
-          "__i": 17244
+          "__i": 17834
         },
         "position": {
           "x": 791.1868,
@@ -1244,10 +1247,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 17263,
+      "i": 17853,
       "p": {
         "parent": {
-          "__i": 17262
+          "__i": 17852
         },
         "position": {
           "x": 808.28806,
@@ -1278,11 +1281,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17264,
+      "i": 17854,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 17262
+          "__i": 17852
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1308,11 +1311,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17265,
+      "i": 17855,
       "p": {
         "displayName": "dian",
         "parent": {
-          "__i": 17262
+          "__i": 17852
         },
         "image": "assets/junminronghe/dian.png",
         "position": {
@@ -1330,11 +1333,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17266,
+      "i": 17856,
       "p": {
         "displayName": "返回",
         "host": {
-          "__i": 17216
+          "__i": 17806
         },
         "position": {
           "x": -825.35077,
@@ -1358,11 +1361,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17267,
+      "i": 17857,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 17266
+          "__i": 17856
         },
         "image": "assets/junminronghe/jinru.png",
         "position": {
@@ -1382,10 +1385,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 17268,
+      "i": 17858,
       "p": {
         "parent": {
-          "__i": 17266
+          "__i": 17856
         },
         "position": {
           "x": -825.35078,
@@ -1406,7 +1409,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 17269,
+      "i": 17859,
       "p": {
         "displayName": "tk",
         "tag": "tk",
@@ -1423,9 +1426,1054 @@
         "interactive": true,
         "opacity": 0
       }
+    },
+    {
+      "c": "ht.Block",
+      "i": 18009,
+      "p": {
+        "displayName": "左侧四块",
+        "position": {
+          "x": -492.29607,
+          "y": 115.68452
+        },
+        "width": 311.53286,
+        "height": 885.228
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "2d.movable": false,
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 18010,
+      "p": {
+        "parent": {
+          "__i": 18009
+        },
+        "position": {
+          "x": -493.34565,
+          "y": 148.95297
+        },
+        "width": 155.93495,
+        "height": 675.02335,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -509.53054,
+              "y": -188.5587
+            },
+            {
+              "x": -509.53054,
+              "y": -27.14103
+            },
+            {
+              "x": -571.31313,
+              "y": -94.46569
+            },
+            {
+              "x": -571.31313,
+              "y": 18.38384
+            },
+            {
+              "x": -571.31313,
+              "y": 148.10368
+            },
+            {
+              "x": -447.52421,
+              "y": 105.88486
+            },
+            {
+              "x": -431.31313,
+              "y": 241.81818
+            },
+            {
+              "x": -415.37818,
+              "y": 375.43618
+            },
+            {
+              "x": -523.23232,
+              "y": 334.8155
+            },
+            {
+              "x": -523.23232,
+              "y": 486.46465
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(21,207,232)",
+        "shape.border.width": 2,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          10,
+          4
+        ],
+        "shape.dash.color": "rgb(9,21,82)",
+        "2d.movable": false,
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18011,
+      "p": {
+        "displayName": "jiantou",
+        "parent": {
+          "__i": 18009
+        },
+        "image": "assets/junminronghe/jiantou.png",
+        "rotation": 1.5708,
+        "position": {
+          "x": -360.02973,
+          "y": 13.99703
+        },
+        "width": 49,
+        "height": 47
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18012,
+      "p": {
+        "displayName": "pingtai",
+        "parent": {
+          "__i": 18009
+        },
+        "image": "symbols/junminronghe/pingtai.json",
+        "position": {
+          "x": -508.33348,
+          "y": -271.92946
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.25
+        },
+        "width": 160,
+        "height": 220
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert(\"页面不存在\")\n}",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18013,
+      "p": {
+        "displayName": "pingtai",
+        "parent": {
+          "__i": 18009
+        },
+        "image": "symbols/junminronghe/pingtai.json",
+        "position": {
+          "x": -458.76809,
+          "y": 185.65877
+        },
+        "anchor": {
+          "x": 1.18309,
+          "y": 1.30374
+        },
+        "width": 160,
+        "height": 220
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert(\"页面不存在\")\n}",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "name": "救灾紧急物资需要"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18014,
+      "p": {
+        "displayName": "pingtai",
+        "parent": {
+          "__i": 18009
+        },
+        "image": "symbols/junminronghe/pingtai.json",
+        "position": {
+          "x": -433.27644,
+          "y": 222.073
+        },
+        "width": 160,
+        "height": 220
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert(\"页面不存在\")\n}",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "name": "急救紧急物资需要"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18015,
+      "p": {
+        "displayName": "pingtai",
+        "parent": {
+          "__i": 18009
+        },
+        "image": "symbols/junminronghe/pingtai.json",
+        "position": {
+          "x": -385.12093,
+          "y": 998.29854
+        },
+        "anchor": {
+          "x": 1.36347,
+          "y": 3
+        },
+        "width": 160,
+        "height": 220
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert(\"页面不存在\")\n}",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "name": "政府捐助物资需要"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 18016,
+      "p": {
+        "displayName": "右侧四块",
+        "position": {
+          "x": 570.20592,
+          "y": 115.22139
+        },
+        "width": 497.47146,
+        "height": 886.15427
+      },
+      "s": {
+        "layout.h": "right",
+        "layout.v": "top",
+        "2d.movable": false,
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 18017,
+      "p": {
+        "parent": {
+          "__i": 18016
+        },
+        "position": {
+          "x": 485.5631,
+          "y": 146.06157
+        },
+        "width": 178.79619,
+        "height": 669.24055,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 474.96794,
+              "y": -188.5587
+            },
+            {
+              "x": 474.96794,
+              "y": -27.14103
+            },
+            {
+              "x": 574.96119,
+              "y": -74.99494
+            },
+            {
+              "x": 574.96119,
+              "y": 37.85459
+            },
+            {
+              "x": 574.96119,
+              "y": 167.57443
+            },
+            {
+              "x": 396.165,
+              "y": 122.77841
+            },
+            {
+              "x": 412.37607,
+              "y": 258.71173
+            },
+            {
+              "x": 428.31103,
+              "y": 392.32972
+            },
+            {
+              "x": 552.81983,
+              "y": 329.0327
+            },
+            {
+              "x": 552.81983,
+              "y": 480.68184
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(21,207,232)",
+        "shape.border.width": 2,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          10,
+          4
+        ],
+        "shape.dash.color": "rgb(9,21,82)",
+        "2d.movable": false,
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18018,
+      "p": {
+        "displayName": "jiantou",
+        "parent": {
+          "__i": 18016
+        },
+        "image": "assets/junminronghe/jiantou.png",
+        "rotation": 1.5708,
+        "position": {
+          "x": 344.97027,
+          "y": 13.99703
+        },
+        "scale": {
+          "x": -1,
+          "y": -1
+        },
+        "width": 49,
+        "height": 47
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18019,
+      "p": {
+        "displayName": "pingtai",
+        "parent": {
+          "__i": 18016
+        },
+        "image": "symbols/junminronghe/pingtai.json",
+        "position": {
+          "x": 476.39433,
+          "y": -272.85574
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.25
+        },
+        "width": 160,
+        "height": 220
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "name": "物资专用储备仓库"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18020,
+      "p": {
+        "displayName": "pingtai",
+        "parent": {
+          "__i": 18016
+        },
+        "image": "symbols/junminronghe/pingtai.json",
+        "position": {
+          "x": 683.71046,
+          "y": 203.96788
+        },
+        "anchor": {
+          "x": 1.18309,
+          "y": 1.30374
+        },
+        "width": 160,
+        "height": 220
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "name": "物资采购供应平台"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18021,
+      "p": {
+        "displayName": "pingtai",
+        "parent": {
+          "__i": 18016
+        },
+        "image": "symbols/junminronghe/pingtai.json",
+        "position": {
+          "x": 391.8691,
+          "y": 302.27002
+        },
+        "anchor": {
+          "x": 0.35909,
+          "y": 0.81696
+        },
+        "width": 160,
+        "height": 220
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "name": "物资调用配送平台"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18022,
+      "p": {
+        "displayName": "pingtai",
+        "parent": {
+          "__i": 18016
+        },
+        "image": "symbols/junminronghe/pingtai.json",
+        "position": {
+          "x": 687.04983,
+          "y": 998.29854
+        },
+        "anchor": {
+          "x": 1.36347,
+          "y": 3
+        },
+        "width": 160,
+        "height": 220
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onClick": "__ht__function(event, data, view) {\nalert(\"页面不存在\")\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "name": "物资轮换更新平台"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 18023,
+      "p": {
+        "parent": {
+          "__i": 18016
+        },
+        "position": {
+          "x": 759.17621,
+          "y": -241.78739
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18024,
+      "p": {
+        "parent": {
+          "__i": 18023
+        },
+        "position": {
+          "x": 753.61247,
+          "y": -194.75469
+        },
+        "anchor": {
+          "x": 0.46254,
+          "y": 1.02743
+        },
+        "width": 302.02125,
+        "height": 77.23778
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(28,255,247,0.1)",
+        "shape.border.width": 1,
+        "shape.border.color": null,
+        "shape.dash": true,
+        "shape.dash.color": "#279eeb",
+        "shape.dash.pattern": [
+          4,
+          2
+        ],
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18025,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 18023
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 764.29332,
+          "y": -234.31547
+        },
+        "width": 283.98937,
+        "height": 54.77199
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "ht.content": "军民两用应急物资的储备来源主要包括政府储备物资和社会储备物资。",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.color": "#00f0ff",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.vAlign": "middle"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18026,
+      "p": {
+        "displayName": "dian",
+        "parent": {
+          "__i": 18023
+        },
+        "image": "assets/junminronghe/dian.png",
+        "position": {
+          "x": 614.91556,
+          "y": -274.20146
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 18027,
+      "p": {
+        "parent": {
+          "__i": 18016
+        },
+        "position": {
+          "x": 803.94167,
+          "y": 5.48971
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18028,
+      "p": {
+        "parent": {
+          "__i": 18027
+        },
+        "position": {
+          "x": 802.26925,
+          "y": 124.71041
+        },
+        "anchor": {
+          "x": 0.46254,
+          "y": 1.02743
+        },
+        "width": 211.49026,
+        "height": 214.1909
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(28,255,247,0.1)",
+        "shape.border.width": 1,
+        "shape.border.color": null,
+        "shape.dash": true,
+        "shape.dash.color": "#279eeb",
+        "shape.dash.pattern": [
+          4,
+          2
+        ],
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18029,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 18027
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 811.44167,
+          "y": 12.60863
+        },
+        "width": 198.99025,
+        "height": 198.92875
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "ht.content": "该平台的规划策略主要是通过供应链运营管理与区块链产品追溯体系的共同保障，保障各物资供应商可以最大限度、最快速度、最高优先级的保障服务政府直采物资供应的需要。",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.color": "#00f0ff",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.vAlign": "middle"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18030,
+      "p": {
+        "displayName": "dian",
+        "parent": {
+          "__i": 18027
+        },
+        "image": "assets/junminronghe/dian.png",
+        "position": {
+          "x": 704.44654,
+          "y": -95.35574
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 18031,
+      "p": {
+        "parent": {
+          "__i": 18016
+        },
+        "position": {
+          "x": 718.91554,
+          "y": 242.78644
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18032,
+      "p": {
+        "parent": {
+          "__i": 18031
+        },
+        "position": {
+          "x": 710.87298,
+          "y": 299.5882
+        },
+        "anchor": {
+          "x": 0.46254,
+          "y": 1.02743
+        },
+        "width": 381.54246,
+        "height": 95.84545
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(28,255,247,0.1)",
+        "shape.border.width": 1,
+        "shape.border.color": null,
+        "shape.dash": true,
+        "shape.dash.color": "#279eeb",
+        "shape.dash.pattern": [
+          4,
+          2
+        ],
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18033,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 18031
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 725.09117,
+          "y": 250.78643
+        },
+        "width": 362.39367,
+        "height": 92.34545
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "ht.content": "该平台的规划策略主要是满足城市应急管理体系下政府的应急使用调用，满足不同使用单位需要下的物资分配调用审批等功能。",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.color": "#00f0ff",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.vAlign": "middle"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18034,
+      "p": {
+        "displayName": "dian",
+        "parent": {
+          "__i": 18031
+        },
+        "image": "assets/junminronghe/dian.png",
+        "position": {
+          "x": 534.39433,
+          "y": 201.11371
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 18035,
+      "p": {
+        "parent": {
+          "__i": 18016
+        },
+        "position": {
+          "x": 791.1868,
+          "y": 448.29854
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18036,
+      "p": {
+        "parent": {
+          "__i": 18035
+        },
+        "position": {
+          "x": 808.28806,
+          "y": 467.51912
+        },
+        "anchor": {
+          "x": 0.54769,
+          "y": 0.58587
+        },
+        "width": 238,
+        "height": 150.5313
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(28,255,247,0.1)",
+        "shape.border.width": 1,
+        "shape.border.color": null,
+        "shape.dash": true,
+        "shape.dash.color": "#279eeb",
+        "shape.dash.pattern": [
+          4,
+          2
+        ],
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18037,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 18035
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 796.67327,
+          "y": 455.84073
+        },
+        "width": 218.70678,
+        "height": 132.20604
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "ht.content": "该平台加强与各供应商的时实生产供应库存的共享联动，制定有效的轮换更新机制，以供应链“效率优先、成本领先、品质卓优”的管理原则。",
+        "ht.font": "16px sans-serif, Arial",
+        "ht.color": "#00f0ff",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.vAlign": "middle"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 18038,
+      "p": {
+        "displayName": "dian",
+        "parent": {
+          "__i": 18035
+        },
+        "image": "assets/junminronghe/dian.png",
+        "position": {
+          "x": 678.93681,
+          "y": 379.23771
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "select.color": "rgba(26,189,156,0)",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "shadow.blur": 0,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
     }
   ],
-  "modified": "Fri Dec 11 2020 18:46:23 GMT+0800 (China Standard Time)",
+  "modified": "Sat Dec 12 2020 17:08:24 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,

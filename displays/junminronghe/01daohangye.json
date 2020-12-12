@@ -15,7 +15,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 764,
+      "i": 22890,
       "p": {
         "displayName": "bg01",
         "image": "assets/junminronghe/bg01.png",
@@ -36,12 +36,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 765,
+      "i": 22891,
       "p": {
         "displayName": "top_title",
         "image": "assets/junminronghe/top_title.png",
         "host": {
-          "__i": 764
+          "__i": 22890
         },
         "position": {
           "x": 960,
@@ -53,20 +53,19 @@
       "s": {
         "layout.v": "top",
         "layout.h": "center",
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 766,
+      "i": 22892,
       "p": {
         "parent": {
-          "__i": 765
+          "__i": 22891
         },
         "host": {
-          "__i": 765
+          "__i": 22891
         },
         "position": {
           "x": 962.92761,
@@ -84,19 +83,18 @@
         "text.shadow.blur": 16,
         "text.shadow.offset.x": 0,
         "text.shadow.offset.y": 5,
-        "select.color": null,
-        "select.width": 0,
-        "select.padding": 0
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 767,
+      "i": 22893,
       "p": {
         "displayName": "zt",
         "image": "assets/junminronghe/zt.png",
         "host": {
-          "__i": 764
+          "__i": 22890
         },
         "position": {
           "x": 962.83864,
@@ -109,16 +107,17 @@
         "layout.v": "center",
         "layout.h": "center",
         "2d.selectable": false,
-        "image.stretch": "centerUniform"
+        "image.stretch": "centerUniform",
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 768,
+      "i": 22894,
       "p": {
         "displayName": "center_cloud_block",
         "parent": {
-          "__i": 767
+          "__i": 22893
         },
         "tag": "center_cloud_block",
         "image": "assets/junminronghe/yun11.png",
@@ -130,12 +129,13 @@
         "height": 538.05723
       },
       "s": {
-        "2d.selectable": false
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 769,
+      "i": 22895,
       "p": {
         "displayName": "nav",
         "position": {
@@ -147,16 +147,17 @@
       },
       "s": {
         "interactive": true,
-        "2d.selectable": false
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 770,
+      "i": 22896,
       "p": {
         "displayName": "cehuidilixinxi",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "cehuidilixinxi",
         "image": "symbols/junminronghe/nav.json",
@@ -184,11 +185,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 771,
+      "i": 22897,
       "p": {
         "displayName": "feiting",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "feiting",
         "image": "symbols/junminronghe/nav.json",
@@ -205,7 +206,8 @@
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
       },
       "a": {
         "name1": "广西边境地区",
@@ -215,11 +217,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 772,
+      "i": 22898,
       "p": {
         "displayName": "gonggongfuwu",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "gonggongfuwu",
         "image": "symbols/junminronghe/nav.json",
@@ -236,7 +238,8 @@
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
       },
       "a": {
         "name2": "公共服务云",
@@ -246,11 +249,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 773,
+      "i": 22899,
       "p": {
         "displayName": "beidou",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "beidou",
         "image": "symbols/junminronghe/nav.json",
@@ -267,7 +270,8 @@
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
       },
       "a": {
         "name1": "广西军民一体化 ",
@@ -277,11 +281,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 774,
+      "i": 22900,
       "p": {
         "displayName": "yingjiwuzi",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "yingjiwuzi",
         "image": "symbols/junminronghe/nav.json",
@@ -298,7 +302,8 @@
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
       },
       "a": {
         "name1": "广西军民两用应急",
@@ -308,11 +313,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 775,
+      "i": 22901,
       "p": {
         "displayName": "wurenjiguanli",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "wurenjiguanli",
         "image": "symbols/junminronghe/nav.json",
@@ -329,7 +334,8 @@
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
       },
       "a": {
         "name2": "管理及服务",
@@ -339,11 +345,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 776,
+      "i": 22902,
       "p": {
         "displayName": "yingjiliuyuan",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "yingjiliuyuan",
         "image": "symbols/junminronghe/nav.json",
@@ -360,7 +366,8 @@
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
       },
       "a": {
         "name1": "广西军民一体化应急",
@@ -370,11 +377,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 777,
+      "i": 22903,
       "p": {
         "displayName": "jiaotongzhanbei",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "jiaotongzhanbei",
         "image": "symbols/junminronghe/nav.json",
@@ -391,7 +398,8 @@
         "select.color": "rgba(250,250,250,0)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
       },
       "a": {
         "name2": "交通战备云",
@@ -401,10 +409,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 778,
+      "i": 22904,
       "p": {
         "parent": {
-          "__i": 777
+          "__i": 22903
         },
         "position": {
           "x": 731.07338,
@@ -426,16 +434,17 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.visible": false
+        "2d.visible": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 779,
+      "i": 22905,
       "p": {
         "displayName": "xuejiangyun",
         "parent": {
-          "__i": 769
+          "__i": 22895
         },
         "tag": "xuejiangyun",
         "image": "symbols/junminronghe/nav.json",
@@ -453,7 +462,8 @@
         "select.color": "rgba(250,250,250,0.00)",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
       },
       "a": {
         "ico_img": "assets/junminronghe/icon-xuejiang.png",
@@ -463,13 +473,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 780,
+      "i": 22906,
       "p": {
         "parent": {
-          "__i": 779
+          "__i": 22905
         },
         "host": {
-          "__i": 779
+          "__i": 22905
         },
         "position": {
           "x": 1365.11413,
@@ -493,11 +503,12 @@
         "select.width": 0,
         "select.padding": 0,
         "layout.h": "left",
-        "layout.v": "top"
+        "layout.v": "top",
+        "2d.movable": false
       }
     }
   ],
-  "modified": "Sat Dec 12 2020 16:03:48 GMT+0800 (中国标准时间)",
+  "modified": "Sat Dec 12 2020 17:22:33 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": 0,
     "y": 0,
