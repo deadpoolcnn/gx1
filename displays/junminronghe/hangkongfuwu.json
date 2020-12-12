@@ -4392,7 +4392,8 @@
         "height": 62.56733
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "ht.content": "通航业务",
@@ -5355,10 +5356,10 @@
         "displayName": "医疗网络",
         "tag": "yiliao",
         "position": {
-          "x": -89.78336,
+          "x": -89.78337,
           "y": -28.71376
         },
-        "width": 1097.12192,
+        "width": 1097.1219,
         "height": 760.17752
       },
       "s": {
@@ -6098,10 +6099,10 @@
           "__i": 31609
         },
         "position": {
-          "x": 395.79244,
+          "x": 395.39741,
           "y": -383.80253
         },
-        "width": 125.97029,
+        "width": 126.76036,
         "height": 50
       },
       "s": {
@@ -6113,6 +6114,28 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 34067,
+      "p": {
+        "parent": {
+          "__i": 31636
+        },
+        "position": {
+          "x": 395.39741,
+          "y": -383.88402
+        },
+        "width": 126.76034,
+        "height": 43.837
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(5,47,89)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -6169,10 +6192,10 @@
         "displayName": "救援介绍",
         "tag": "jiuyuan",
         "position": {
-          "x": -115.05941,
+          "x": -114.93122,
           "y": -72.6935
         },
-        "width": 1097.12191,
+        "width": 1097.37829,
         "height": 890.17758
       },
       "s": {
@@ -6414,10 +6437,10 @@
           "__i": 31639
         },
         "position": {
-          "x": 370.5164,
+          "x": 363.58057,
           "y": -492.7823
         },
-        "width": 125.97032,
+        "width": 140.35472,
         "height": 50
       },
       "s": {
@@ -6429,6 +6452,29 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false,
+        "label.background": "rgb(51,153,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33090,
+      "p": {
+        "parent": {
+          "__i": 31649
+        },
+        "position": {
+          "x": 363.58057,
+          "y": -493.48488
+        },
+        "width": 140.35473,
+        "height": 34.16175
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(11,51,92)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -6456,7 +6502,8 @@
         "2d.selectable": false,
         "select.color": null,
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "body.color": ""
       }
     },
     {
@@ -7071,7 +7118,7 @@
       }
     }
   ],
-  "modified": "Sat Dec 12 2020 19:54:28 GMT+0800 (China Standard Time)",
+  "modified": "Sat Dec 12 2020 22:23:14 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63812,
     "y": -515.56574,
