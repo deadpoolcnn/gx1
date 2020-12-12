@@ -1,41 +1,59 @@
 {
-  "modified": "Fri Nov 27 2020 17:06:32 GMT+0800 (中国标准时间)",
+  "modified": "Wed Dec 09 2020 16:49:08 GMT+0800 (中国标准时间)",
   "dataBindings": [
     {
       "attr": "name",
       "valueType": "String",
-      "defaultValue": "光缆巡检",
+      "defaultValue": "直升机代管",
       "name": "名称"
+    },
+    {
+      "attr": "pic",
+      "valueType": "Image",
+      "name": "图标"
     }
   ],
-  "width": 140,
-  "height": 80,
+  "width": 142,
+  "height": 50,
   "comps": [
     {
       "type": "image",
-      "name": "assets/junminronghe/kuang.png",
-      "displayName": "kuang",
+      "name": "assets/junminronghe/hangkongfuwu/bg nav.png",
+      "displayName": "bg nav",
       "rect": [
         0,
-        5,
-        140,
-        70
+        0,
+        142,
+        50
       ]
     },
     {
       "type": "text",
       "text": {
         "func": "attr@name",
-        "value": "5G空中走廊"
+        "value": "直升机代管"
       },
-      "align": "center",
-      "color": "#2ad5f4",
-      "font": "20px sans-serif, Arial",
+      "color": "#fff",
+      "font": "16px sans-serif, Arial",
       "rect": [
-        8.17266,
-        15,
-        123.38725,
+        46.20321,
+        0,
+        95.79679,
         50
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@pic",
+        "value": "assets/junminronghe/hangkongfuwu/daiguan.png"
+      },
+      "displayName": "daiguan",
+      "rect": [
+        6,
+        7,
+        36,
+        36
       ]
     }
   ]

@@ -1,0 +1,83 @@
+{
+  "modified": "Wed Dec 09 2020 18:29:42 GMT+0800 (中国标准时间)",
+  "dataBindings": [],
+  "width": 524,
+  "height": 217,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/junminronghe/hangkongfuwu/bglunbo.png",
+      "displayName": "bglunbo",
+      "rect": [
+        0.01829,
+        0.11029,
+        524,
+        217
+      ]
+    },
+    {
+      "type": "components/ht/ui/carousel2.json",
+      "displayName": "carousel2",
+      "rect": [
+        7,
+        6,
+        510,
+        205
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onDown.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onLeave.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor2.onScroll.apply(this, arguments);\n}",
+      "dataSource": {
+        "func": "attr@pic",
+        "value": [
+          "Hightopo",
+          "Hightopo",
+          "HT Vector",
+          "HT 2D Editor"
+        ]
+      },
+      "offset": 20,
+      "vertical": false,
+      "itemWidth": 510,
+      "itemHeight": 205,
+      "itemBackground": null,
+      "gap": 0,
+      "drawItem": "__ht__function(g, item, rect, data, view) {var d = new ht.Data();\nvar img = ht.Default.getImage('symbols/junminronghe/lunbotu.json');\nd.a(item);\n\nht.Default.drawStretchImage(g, img, 'uniform', rect.x, rect.y, rect.width, rect.height, d);}"
+    },
+    {
+      "type": "rect",
+      "background": "#0095fd",
+      "borderColor": "#979797",
+      "rect": [
+        251.01829,
+        195,
+        22,
+        6
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#e1e1e1",
+      "borderColor": "#979797",
+      "rect": [
+        278.01829,
+        195,
+        22,
+        6
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#e1e1e1",
+      "borderColor": "#979797",
+      "rect": [
+        224.01829,
+        195,
+        22,
+        6
+      ]
+    }
+  ]
+}
