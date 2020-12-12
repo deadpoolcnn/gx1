@@ -30,7 +30,8 @@
         "fullscreen.lock": "v",
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false
       }
     },
     {
@@ -77,7 +78,8 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -426,7 +428,8 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -449,7 +452,8 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -472,7 +476,8 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "ht.content": "广西军民一体化应急救援航空服务云旨在以专业医疗构型的直升机作为运输载体，通过与全国院前急救单位及医院的全面合作，构建一个覆盖全国的、立体化的直升机航空医疗 救援网络，为社会大众提供“及时响应和常态化的”紧急医疗和应急救援服务。",
@@ -503,7 +508,8 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -712,12 +718,11 @@
       },
       "s": {
         "layout.v": "top",
-        "layout.h": "right",
+        "layout.h": "leftright",
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false,
-        "2d.selectable": false
+        "2d.movable": false
       }
     },
     {
@@ -1609,7 +1614,8 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -1632,7 +1638,8 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -5289,15 +5296,19 @@
         "displayName": "医疗网络",
         "tag": "yiliao",
         "position": {
-          "x": -113.77594,
-          "y": -23.71376
-        }
+          "x": -89.78336,
+          "y": -28.71376
+        },
+        "width": 1097.12192,
+        "height": 760.17752
       },
       "s": {
-        "2d.selectable": false,
         "interactive": true,
         "2d.visible": false,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
@@ -5502,11 +5513,11 @@
           "__i": 24172
         },
         "position": {
-          "x": 395.79246,
+          "x": 395.79244,
           "y": -383.80253
         },
-        "width": 30,
-        "height": 30
+        "width": 125.97029,
+        "height": 50
       },
       "s": {
         "interactive": true,
@@ -5540,7 +5551,8 @@
         "text": "关闭窗口",
         "text.font": "21px sans-serif, Arial",
         "text.color": "#C8D0FF",
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -5560,7 +5572,8 @@
         "height": 16.90484
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -5921,7 +5934,8 @@
         "height": 90
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "ht.content": "      金汇航空救援上海总部设立24H*7天全年无休呼叫指挥中心，及时快速地响应救援请求，根据报案人信息，快速进入资格审定与适航条件审核。联合全国1400多家合作医院和120急救中心形成全国化的航空救援网络，空中服务半径为200公里左右，可实现20分钟内起飞，45至60分钟到达的国际标准，打造“黄金一小时”生命救援网络。金汇救援全国范围内的业务展开获得了政府机构的重大关注和强大支持，实现数据互通互联。",
@@ -6093,15 +6107,20 @@
         "displayName": "救援介绍",
         "tag": "jiuyuan",
         "position": {
-          "x": -139.05197,
-          "y": -67.6935
-        }
+          "x": -115.05941,
+          "y": -72.6935
+        },
+        "width": 1097.12191,
+        "height": 890.17758
       },
       "s": {
         "2d.selectable": false,
         "interactive": true,
         "2d.visible": false,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
@@ -6306,11 +6325,11 @@
           "__i": 24202
         },
         "position": {
-          "x": 370.51641,
-          "y": -492.78228
+          "x": 370.5164,
+          "y": -492.7823
         },
-        "width": 30,
-        "height": 30
+        "width": 125.97032,
+        "height": 50
       },
       "s": {
         "interactive": true,
@@ -6344,7 +6363,8 @@
         "text": "关闭窗口",
         "text.font": "21px sans-serif, Arial",
         "text.color": "#C8D0FF",
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -6364,7 +6384,8 @@
         "height": 16.90484
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
@@ -6384,7 +6405,8 @@
         "height": 120
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "ht.content": "      金汇航空救援多次参与重大突发交通事故救援、跨省转运、应急演练、高速巡航等，救援事件随着航空救援网络更是呈几何级增长：2015年还只有10起救援，2017年就已达到170逾起，至今累计参与并成功实施如四川汶川地震、湖北当阳管道爆炸、四川九寨沟地震救援、安徽大巴特大交通事故救援、广东河源洪灾孤岛群众救援、四川遂宁射洪洪灾孤岛救援、四川木里森林火灾救援、浙江“利奇马”台风灾后救援、四川长宁地震医疗救援等近千起救援，成为国内通用航空企业的标杆。各种航空救援和转运开始从突发新闻变成身边常态，金汇航空救援正在挽救着一条条鲜活生命。",
@@ -6876,7 +6898,8 @@
         "height": 61
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "ht.content": "      特别是这次新冠病毒疫情，我们也积极备勤，与全国人民共同奋战，共克时艰。金汇通航湖北分公司的两架AW109直升机积极参与到运送物资的行列中，“武汉-随州、武汉-监利、武汉-荆州﹍一箱箱、一件件防护用品通过直升机送达至最需要的地方，社会反响强烈。",
@@ -6903,7 +6926,8 @@
         "height": 61
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "ht.content": "      在今年央视正月十五元宵特别晚会上，在诗朗诵《中国阻击战》环节，背后的大屏幕上出现了金汇航空救援直升机的身影，这是社会各界对我们这个行业的肯定和褒奖。",
@@ -6914,7 +6938,7 @@
       }
     }
   ],
-  "modified": "Sat Dec 12 2020 17:30:07 GMT+0800 (China Standard Time)",
+  "modified": "Sat Dec 12 2020 18:09:03 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63812,
     "y": -515.56574,
