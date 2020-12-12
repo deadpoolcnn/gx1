@@ -12,7 +12,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 17350,
+      "i": 452,
       "p": {
         "displayName": "bg_ft",
         "image": "assets/feitingyun/bg_ft.jpg",
@@ -27,11 +27,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17351,
+      "i": 453,
       "p": {
         "displayName": "进入云平台",
         "host": {
-          "__i": 17350
+          "__i": 452
         },
         "position": {
           "x": 840.3322,
@@ -53,11 +53,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17352,
+      "i": 454,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 17351
+          "__i": 453
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -71,10 +71,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 17353,
+      "i": 455,
       "p": {
         "parent": {
-          "__i": 17351
+          "__i": 453
         },
         "position": {
           "x": 801.93117,
@@ -89,11 +89,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17354,
+      "i": 456,
       "p": {
         "displayName": "介绍",
         "host": {
-          "__i": 17350
+          "__i": 452
         },
         "position": {
           "x": 574.57253,
@@ -104,16 +104,19 @@
       },
       "s": {
         "layout.v": "center",
-        "layout.h": "right"
+        "layout.h": "right",
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 17355,
+      "i": 457,
       "p": {
         "displayName": "ft_border1",
         "parent": {
-          "__i": 17354
+          "__i": 456
         },
         "image": "assets/feitingyun/ft_border1.png",
         "position": {
@@ -126,11 +129,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17356,
+      "i": 458,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 17354
+          "__i": 456
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -150,12 +153,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 17357,
+      "i": 459,
       "p": {
         "displayName": "feiting-title",
         "image": "assets/feitingyun/feiting-title.png",
         "host": {
-          "__i": 17350
+          "__i": 452
         },
         "position": {
           "x": 2.52816,
@@ -166,15 +169,17 @@
       },
       "s": {
         "layout.v": "top",
-        "layout.h": "center"
+        "layout.h": "center",
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Block",
-      "i": 17358,
+      "i": 460,
       "p": {
         "host": {
-          "__i": 17350
+          "__i": 452
         },
         "position": {
           "x": 574.57251,
@@ -185,16 +190,18 @@
       },
       "s": {
         "layout.v": "center",
-        "layout.h": "right"
+        "layout.h": "right",
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 17359,
+      "i": 461,
       "p": {
         "displayName": "srceen2",
         "parent": {
-          "__i": 17358
+          "__i": 460
         },
         "image": "assets/feitingyun/srceen2.jpg",
         "position": {
@@ -207,11 +214,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17360,
+      "i": 462,
       "p": {
         "displayName": "ft_border2",
         "parent": {
-          "__i": 17358
+          "__i": 460
         },
         "image": "assets/feitingyun/ft_border2.png",
         "position": {
@@ -224,11 +231,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 17361,
+      "i": 463,
       "p": {
         "displayName": "中间",
         "host": {
-          "__i": 17350
+          "__i": 452
         },
         "position": {
           "x": -269.98569,
@@ -245,11 +252,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17362,
+      "i": 464,
       "p": {
         "displayName": "ft_roll",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "tag": "ft_roll",
         "image": "assets/feitingyun/ft_roll.png",
@@ -259,15 +266,20 @@
         },
         "width": 684,
         "height": 439
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 17363,
+      "i": 465,
       "p": {
         "displayName": "ft_line_top",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "tag": "ft_line_top",
         "image": "assets/feitingyun/ft_line_top.png",
@@ -284,11 +296,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17364,
+      "i": 466,
       "p": {
         "displayName": "ft_line_mid",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "tag": "ft_line_mid",
         "image": "assets/feitingyun/ft_line_mid.png",
@@ -305,11 +317,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17365,
+      "i": 467,
       "p": {
         "displayName": "ft_line_left",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "tag": "ft_line_left",
         "image": "assets/feitingyun/ft_line_left.png",
@@ -326,11 +338,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17366,
+      "i": 468,
       "p": {
         "displayName": "ft_line_right",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "image": "assets/feitingyun/ft_line_right.png",
         "position": {
@@ -346,11 +358,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17367,
+      "i": 469,
       "p": {
         "displayName": "ft-ico",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "image": "symbols/junminronghe/ft-ico.json",
         "position": {
@@ -359,15 +371,20 @@
         },
         "width": 180,
         "height": 180
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 17368,
+      "i": 470,
       "p": {
         "displayName": "ft-ico",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "image": "symbols/junminronghe/ft-ico.json",
         "position": {
@@ -384,11 +401,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17369,
+      "i": 471,
       "p": {
         "displayName": "ft-ico",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "image": "symbols/junminronghe/ft-ico.json",
         "position": {
@@ -398,6 +415,10 @@
         "width": 180,
         "height": 180
       },
+      "s": {
+        "select.color": null,
+        "select.width": 0
+      },
       "a": {
         "image": "assets/feitingyun/ft_ico4.png",
         "name": "移动上网设备"
@@ -405,11 +426,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17370,
+      "i": 472,
       "p": {
         "displayName": "ft-ico",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "image": "symbols/junminronghe/ft-ico.json",
         "position": {
@@ -419,6 +440,11 @@
         "width": 180,
         "height": 180
       },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
+      },
       "a": {
         "image": "assets/feitingyun/ft_ico2.png",
         "name": "云服务器"
@@ -426,11 +452,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17371,
+      "i": 473,
       "p": {
         "displayName": "ft_cloud_block",
         "parent": {
-          "__i": 17361
+          "__i": 463
         },
         "tag": "ft_cloud_block",
         "image": "assets/feitingyun/ft_cloud.png",
@@ -442,12 +468,15 @@
         "height": 195
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Shape",
-      "i": 17372,
+      "i": 474,
       "p": {
         "displayName": "cloud_server_line",
         "tag": "cloud_server_line",
@@ -506,17 +535,19 @@
         "shape.dash.color": "rgb(22,132,242)",
         "shape.dash.width": 4,
         "shape.fill.clip.percentage": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Block",
-      "i": 17373,
+      "i": 475,
       "p": {
         "displayName": "airship_block",
         "tag": "airship_block",
         "host": {
-          "__i": 17350
+          "__i": 452
         },
         "position": {
           "x": -632.92546,
@@ -524,15 +555,20 @@
         },
         "width": 396.59657,
         "height": 173.30814
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 17374,
+      "i": 476,
       "p": {
         "displayName": "feiting_fig_first",
         "parent": {
-          "__i": 17373
+          "__i": 475
         },
         "tag": "feiting_fig_first",
         "image": "assets/feitingyun/feiting_fig.png",
@@ -546,11 +582,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17375,
+      "i": 477,
       "p": {
         "displayName": "feiting_fig_second",
         "parent": {
-          "__i": 17373
+          "__i": 475
         },
         "tag": "feiting_fig_second",
         "image": "assets/feitingyun/feiting_fig.png",
@@ -567,10 +603,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 17376,
+      "i": 478,
       "p": {
         "host": {
-          "__i": 17350
+          "__i": 452
         },
         "position": {
           "x": -0.31833,
@@ -587,11 +623,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17377,
+      "i": 479,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 17376
+          "__i": 478
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -606,18 +642,18 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
       }
     },
     {
       "c": "ht.Node",
-      "i": 17378,
+      "i": 480,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 17376
+          "__i": 478
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -632,7 +668,7 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
       },
@@ -642,11 +678,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17379,
+      "i": 481,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 17376
+          "__i": 478
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -661,7 +697,7 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
       },
@@ -671,11 +707,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17380,
+      "i": 482,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 17376
+          "__i": 478
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -690,7 +726,7 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
       },
@@ -700,11 +736,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17381,
+      "i": 483,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 17376
+          "__i": 478
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -719,7 +755,7 @@
         "select.width": 0,
         "select.padding": 0,
         "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面努力开发中……')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 1000,\n\n    },\n    start: [\"show\"]\n})\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}"
       },
@@ -729,11 +765,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17382,
+      "i": 484,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 17376
+          "__i": 478
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -758,11 +794,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17383,
+      "i": 485,
       "p": {
         "displayName": "ft-kuang",
         "parent": {
-          "__i": 17376
+          "__i": 478
         },
         "image": "symbols/junminronghe/ft-kuang.json",
         "position": {
@@ -787,10 +823,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 17384,
+      "i": 486,
       "p": {
         "host": {
-          "__i": 17360
+          "__i": 462
         },
         "position": {
           "x": 574.57256,
@@ -802,12 +838,15 @@
         "text": "云平台界面",
         "text.color": "#FFFFFF",
         "text.font": "22px sans-serif, Arial",
-        "text.align": "center"
+        "text.align": "center",
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Shape",
-      "i": 17385,
+      "i": 487,
       "p": {
         "displayName": "line_clound",
         "position": {
@@ -881,7 +920,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 17386,
+      "i": 488,
       "p": {
         "displayName": "edge",
         "tag": "edge_1",
@@ -960,7 +999,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 17387,
+      "i": 489,
       "p": {
         "displayName": "application_terminal_line",
         "tag": "application_terminal_line",
@@ -1001,12 +1040,14 @@
         "shape.dash": true,
         "shape.dash.color": "rgb(30,131,232)",
         "shape.dash.width": 4,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Shape",
-      "i": 17388,
+      "i": 490,
       "p": {
         "displayName": "mobile_line",
         "tag": "mobile_line",
@@ -1047,12 +1088,14 @@
         "shape.dash": true,
         "shape.dash.color": "rgb(24,120,217)",
         "shape.dash.width": 4,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Shape",
-      "i": 17389,
+      "i": 491,
       "p": {
         "displayName": "perception_cloud_line_left",
         "tag": "perception_cloud_line_left",
@@ -1096,12 +1139,14 @@
         "shape.dash": true,
         "shape.dash.color": "rgb(24,120,217)",
         "shape.dash.width": 4,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Shape",
-      "i": 17390,
+      "i": 492,
       "p": {
         "displayName": "perception_cloud_line_right",
         "tag": "perception_cloud_line_right",
@@ -1145,12 +1190,14 @@
         "shape.dash": true,
         "shape.dash.color": "rgb(24,120,180)",
         "shape.dash.width": 4,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Shape",
-      "i": 17391,
+      "i": 493,
       "p": {
         "rotation": 0.22689,
         "position": {
@@ -1196,12 +1243,14 @@
         "shape.background": "rgb(0,140,255)",
         "shape.border.color": "rgb(55,159,196)",
         "shape.border.width": 1,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Shape",
-      "i": 17392,
+      "i": 494,
       "p": {
         "rotation": -0.12217,
         "position": {
@@ -1247,16 +1296,18 @@
         "shape.background": "rgb(20,153,224)",
         "shape.border.color": "rgb(60,104,166)",
         "shape.border.width": 1,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
       }
     },
     {
       "c": "ht.Block",
-      "i": 17393,
+      "i": 495,
       "p": {
         "displayName": "返回",
         "host": {
-          "__i": 17350
+          "__i": 452
         },
         "position": {
           "x": -844.88361,
@@ -1280,11 +1331,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 17394,
+      "i": 496,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 17393
+          "__i": 495
         },
         "image": "assets/junminronghe/jinru.png",
         "position": {
@@ -1301,10 +1352,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 17395,
+      "i": 497,
       "p": {
         "parent": {
-          "__i": 17393
+          "__i": 495
         },
         "position": {
           "x": -844.88361,
@@ -1323,7 +1374,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 17396,
+      "i": 498,
       "p": {
         "displayName": "tk",
         "tag": "tk",
@@ -1342,7 +1393,7 @@
       }
     }
   ],
-  "modified": "Fri Dec 11 2020 18:48:24 GMT+0800 (China Standard Time)",
+  "modified": "Sat Dec 12 2020 16:06:13 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -960,
     "y": -540,
