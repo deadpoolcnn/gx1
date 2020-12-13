@@ -1,0 +1,95 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "background": "rgb(3,22,48)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "width": 1920,
+    "height": 1080
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 593,
+      "p": {
+        "displayName": "zb2",
+        "image": "assets/junminronghe/zb2.png",
+        "position": {
+          "x": 960,
+          "y": 540
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "fullscreen": "fill",
+        "fullscreen.lock": "v",
+        "fullscreen.gap": 0,
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 629,
+      "p": {
+        "displayName": "arrow",
+        "image": "symbols/junminronghe/arrow.json",
+        "position": {
+          "x": 1869.77466,
+          "y": 41.56232
+        },
+        "width": 70,
+        "height": 69.12465
+      },
+      "s": {
+        "2d.movable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"zb3.html\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 630,
+      "p": {
+        "displayName": "arrow",
+        "image": "symbols/junminronghe/arrow.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 57.77466,
+          "y": 41.56232
+        },
+        "width": 70,
+        "height": 69.12465
+      },
+      "s": {
+        "2d.movable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"zb1.html\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    }
+  ],
+  "modified": "Sun Dec 13 2020 12:56:43 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  }
+}
