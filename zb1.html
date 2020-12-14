@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>血浆云</title>
+        <title>广西军民融合交通战备云</title>
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="custom/images/favicon.ico?v=2" />
         <style>
@@ -23,34 +23,14 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
-                dataModel.enableAnimation();
-                ht.Default.xhrLoad('displays/junminronghe/xuejiangyun.json', function(text) {
+
+                ht.Default.xhrLoad('displays/junminronghe/zb1.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
-                    videoPlay(dataModel)
                 });
             }
-            function videoPlay(dm) {
-                    const video = dm.getDataByTag("video");
-                    const bofang = dm.getDataByTag("bofang");
-                    const shipin = dm.getDataByTag("xuejiangyun");
-                    bofang.s('onClick',()=>{
-                        bofang.s('2d.visible',false);
-                        shipin.s('2d.visible',false);
-                        video.s('2d.visible',true);
-                        video.a('src','video/xuejiangyun.m4v')
-                        video.a('status','2');
-                    })
-                    shipin.s('onClick',()=>{
-                        bofang.s('2d.visible',false);
-                        shipin.s('2d.visible',false);
-                        video.s('2d.visible',true);
-                        video.a('src','video/xuejiangyun.m4v')
-                        video.a('status','2');
-                    })
-                }
         </script>
     </head>
     <body onload='setTimeout(init, 300)'>

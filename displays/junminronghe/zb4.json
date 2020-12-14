@@ -1,0 +1,124 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "background": "rgb(3,22,48)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "width": 1920,
+    "height": 1080
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 836,
+      "p": {
+        "displayName": "zb4",
+        "image": "assets/junminronghe/zb4.png",
+        "position": {
+          "x": 960,
+          "y": 540
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "fullscreen": "fill",
+        "fullscreen.lock": "v",
+        "fullscreen.gap": 0,
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 837,
+      "p": {
+        "displayName": "arrow",
+        "image": "symbols/junminronghe/arrow.json",
+        "position": {
+          "x": 1880.9666,
+          "y": 572.04733
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 838,
+      "p": {
+        "displayName": "arrow",
+        "image": "symbols/junminronghe/arrow.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 39.06035,
+          "y": 572.04733
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 872,
+      "p": {
+        "displayName": "arrow",
+        "image": "symbols/junminronghe/arrow.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": 1850.9666,
+          "y": 36.56232
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 70,
+        "height": 69.12465
+      },
+      "s": {
+        "2d.movable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"zb3.html\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4245,
+      "p": {
+        "position": {
+          "x": 90.50657,
+          "y": 34.56232
+        },
+        "width": 181.01315,
+        "height": 69.12465
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(4,25,46,0.5)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"01daohangye.html\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    }
+  ],
+  "modified": "Sun Dec 13 2020 12:57:20 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  }
+}
