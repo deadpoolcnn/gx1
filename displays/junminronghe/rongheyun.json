@@ -11,7 +11,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 349,
+      "i": 629,
       "p": {
         "displayName": "bj",
         "image": "assets/junminronghe/bj.png",
@@ -32,12 +32,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 350,
+      "i": 630,
       "p": {
         "displayName": "bgrh",
         "image": "assets/junminronghe/bgrh.png",
         "host": {
-          "__i": 349
+          "__i": 629
         },
         "position": {
           "x": 23.77719,
@@ -48,20 +48,20 @@
       },
       "s": {
         "opacity": 0.7,
-        "layout.v": "center",
-        "layout.h": "center",
+        "layout.v": "topbottom",
+        "layout.h": "leftright",
         "2d.movable": false,
         "select.color": "rgba(250,240,240,0)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 351,
+      "i": 631,
       "p": {
         "displayName": "zhutibg",
         "image": "assets/junminronghe/zhutibg.png",
         "host": {
-          "__i": 350
+          "__i": 630
         },
         "position": {
           "x": 23.77719,
@@ -77,13 +77,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 352,
+      "i": 632,
       "p": {
         "displayName": "zhuti_block",
         "tag": "zhuti_block",
         "image": "assets/junminronghe/zhuti.png",
         "host": {
-          "__i": 350
+          "__i": 630
         },
         "position": {
           "x": 23.77719,
@@ -99,13 +99,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 353,
+      "i": 633,
       "p": {
         "displayName": "cloud_left",
         "tag": "cloud_left",
         "image": "assets/junminronghe/yun1.png",
         "host": {
-          "__i": 350
+          "__i": 630
         },
         "position": {
           "x": 23.77719,
@@ -121,13 +121,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 354,
+      "i": 634,
       "p": {
         "displayName": "cloud_right",
         "tag": "cloud_right",
         "image": "assets/junminronghe/yun1.png",
         "host": {
-          "__i": 350
+          "__i": 630
         },
         "position": {
           "x": 23.77719,
@@ -143,11 +143,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 355,
+      "i": 635,
       "p": {
         "displayName": "title",
         "host": {
-          "__i": 349
+          "__i": 629
         },
         "position": {
           "x": 20.36189,
@@ -167,14 +167,14 @@
     },
     {
       "c": "ht.Block",
-      "i": 356,
+      "i": 636,
       "p": {
         "displayName": "进入云平台",
         "parent": {
-          "__i": 355
+          "__i": 635
         },
         "host": {
-          "__i": 350
+          "__i": 630
         },
         "position": {
           "x": 855.70518,
@@ -199,11 +199,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 357,
+      "i": 637,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 356
+          "__i": 636
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -217,10 +217,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 358,
+      "i": 638,
       "p": {
         "parent": {
-          "__i": 356
+          "__i": 636
         },
         "position": {
           "x": 817.30414,
@@ -235,10 +235,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 359,
+      "i": 639,
       "p": {
         "parent": {
-          "__i": 355
+          "__i": 635
         },
         "position": {
           "x": 27.19249,
@@ -257,15 +257,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 360,
+      "i": 640,
       "p": {
         "displayName": "title",
         "parent": {
-          "__i": 355
+          "__i": 635
         },
         "image": "assets/junminronghe/title.png",
         "host": {
-          "__i": 349
+          "__i": 629
         },
         "position": {
           "x": 20.36189,
@@ -283,11 +283,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 361,
+      "i": 641,
       "p": {
         "displayName": "介绍",
         "host": {
-          "__i": 349
+          "__i": 629
         },
         "position": {
           "x": 35.41874,
@@ -307,11 +307,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 362,
+      "i": 642,
       "p": {
         "displayName": "kuang4",
         "parent": {
-          "__i": 361
+          "__i": 641
         },
         "image": "assets/junminronghe/kuang4.png",
         "position": {
@@ -324,11 +324,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 363,
+      "i": 643,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 361
+          "__i": 641
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -349,10 +349,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 364,
+      "i": 644,
       "p": {
         "host": {
-          "__i": 349
+          "__i": 630
         },
         "position": {
           "x": 79.34076,
@@ -374,13 +374,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 365,
+      "i": 645,
       "p": {
         "parent": {
-          "__i": 364
+          "__i": 644
         },
         "host": {
-          "__i": 350
+          "__i": 644
         },
         "position": {
           "x": 78.95563,
@@ -403,10 +403,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 366,
+      "i": 646,
       "p": {
         "host": {
-          "__i": 349
+          "__i": 629
         },
         "position": {
           "x": 59.55017,
@@ -423,10 +423,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 367,
+      "i": 647,
       "p": {
         "parent": {
-          "__i": 366
+          "__i": 646
         },
         "position": {
           "x": 20.74702,
@@ -449,10 +449,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 368,
+      "i": 648,
       "p": {
         "parent": {
-          "__i": 366
+          "__i": 646
         },
         "position": {
           "x": 20.74702,
@@ -476,11 +476,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 369,
+      "i": 649,
       "p": {
         "displayName": "line_left_second",
         "parent": {
-          "__i": 366
+          "__i": 646
         },
         "tag": "line_left_second",
         "position": {
@@ -503,11 +503,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 370,
+      "i": 650,
       "p": {
         "displayName": "line_left_first",
         "parent": {
-          "__i": 366
+          "__i": 646
         },
         "tag": "line_left_first",
         "position": {
@@ -532,11 +532,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 371,
+      "i": 651,
       "p": {
         "displayName": "line_right_first",
         "parent": {
-          "__i": 366
+          "__i": 646
         },
         "tag": "line_right_first",
         "position": {
@@ -560,11 +560,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 372,
+      "i": 652,
       "p": {
         "displayName": "line_right_second",
         "parent": {
-          "__i": 366
+          "__i": 646
         },
         "tag": "line_right_second",
         "position": {
@@ -588,13 +588,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 373,
+      "i": 653,
       "p": {
         "displayName": "tk",
         "tag": "tk",
         "image": "symbols/junminronghe/tk.json",
         "host": {
-          "__i": 349
+          "__i": 629
         },
         "position": {
           "x": 59.55017,
@@ -611,7 +611,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 374,
+      "i": 654,
       "p": {
         "displayName": "返回",
         "position": {
@@ -638,11 +638,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 375,
+      "i": 655,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 374
+          "__i": 654
         },
         "image": "assets/junminronghe/jinru.png",
         "position": {
@@ -662,10 +662,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 376,
+      "i": 656,
       "p": {
         "parent": {
-          "__i": 374
+          "__i": 654
         },
         "position": {
           "x": -822.18253,
@@ -685,7 +685,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 377,
+      "i": 657,
       "p": {
         "position": {
           "x": -847.13153,
@@ -709,7 +709,7 @@
       }
     }
   ],
-  "modified": "Mon Dec 14 2020 10:58:22 GMT+0800 (China Standard Time)",
+  "modified": "Tue Dec 15 2020 17:43:50 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
