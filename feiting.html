@@ -1,244 +1,262 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>广西边境地区飞艇应用云</title>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="custom/images/favicon.ico?v=2" />
-        <style>
-            html, body {
-                padding: 0px;
-                margin: 0px;
-            }
-        </style>
+<head>
+    <title>广西边境地区飞艇应用云</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="custom/images/favicon.ico?v=2"/>
+    <style>
+        html, body {
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
 
-        <script src='libs/core/ht.js'></script>
-        <script src='libs/plugin/ht-edgetype.js'></script>
-        <script src='libs/plugin/ht-obj.js'></script>
-        <script src='libs/core/ht-ui.js'></script>
-        <script src='libs/plugin/ht-vector.js'></script>
-        <script src="libs/plugin/ht-animation.js"></script>
+    <script src='libs/core/ht.js'></script>
+    <script src='libs/plugin/ht-edgetype.js'></script>
+    <script src='libs/plugin/ht-obj.js'></script>
+    <script src='libs/core/ht-ui.js'></script>
+    <script src='libs/plugin/ht-vector.js'></script>
+    <script src="libs/plugin/ht-animation.js"></script>
 
-        <script>
-            function init() {
-                dataModel = new ht.DataModel();
-                graphView = new ht.graph.GraphView(dataModel);
-                graphView.addToDOM();
-                dataModel.enableAnimation();
+    <script>
+        function init() {
+            dataModel = new ht.DataModel();
+            graphView = new ht.graph.GraphView(dataModel);
+            graphView.addToDOM();
+            dataModel.enableAnimation();
 
-                ht.Default.xhrLoad('displays/junminronghe/feiting.json', function(text) {
-                    var json = ht.Default.parse(text);
-                    if(json.title) document.title = json.title;
-                    dataModel.deserialize(json);
-                    graphView.fitContent(true);
-                    // scaleBgCircle(dataModel)
-                    lineFlow(dataModel)
-                    cloudAnimation(dataModel)
-                    airshipAnimation(dataModel)
-                });
-            }
+            ht.Default.xhrLoad('displays/junminronghe/feiting.json', function (text) {
+                var json = ht.Default.parse(text);
+                if (json.title) document.title = json.title;
+                dataModel.deserialize(json);
+                graphView.fitContent(true);
+                // scaleBgCircle(dataModel)
+                lineFlow(dataModel)
+                cloudAnimation(dataModel)
+                airshipAnimation(dataModel)
+            });
+        }
 
-            function scaleBgCircle(dm) {
-                const ftroll = dm.getDataByTag("ft_roll");
-                ftroll.setAnimation({
-                    expandWidth: {
-                        property: "width",
-                        from: ftroll.getWidth() -30, 
-                        to: ftroll.getWidth() + 100,
-                        frames: 35,
-                        next: "collapseWidth"
-                    },
-                    collapseWidth: {
-                        property: "width",
-                        from: ftroll.getWidth() + 100, 
-                        to: ftroll.getWidth() -30,
-                        next: "expandWidth"
-                    },
-                    expandHeight: {
-                        property: "height",
-                        from: ftroll.getHeight() -30, 
-                        to: ftroll.getHeight() + 100,
-                        next: "collapseHeight"
-                    },
-                    collapseHeight: {
-                        property: "height",
-                        from: ftroll.getHeight() + 100, 
-                        to: ftroll.getHeight() -30,
-                        next: "expandHeight"
-                    },
-                    start: ["expandWidth", "expandHeight"]
-                })
-            }
+        function scaleBgCircle(dm) {
+            const ftroll = dm.getDataByTag("ft_roll");
+            ftroll.setAnimation({
+                expandWidth: {
+                    property: "width",
+                    from: ftroll.getWidth() - 30,
+                    to: ftroll.getWidth() + 100,
+                    frames: 35,
+                    next: "collapseWidth"
+                },
+                collapseWidth: {
+                    property: "width",
+                    from: ftroll.getWidth() + 100,
+                    to: ftroll.getWidth() - 30,
+                    next: "expandWidth"
+                },
+                expandHeight: {
+                    property: "height",
+                    from: ftroll.getHeight() - 30,
+                    to: ftroll.getHeight() + 100,
+                    next: "collapseHeight"
+                },
+                collapseHeight: {
+                    property: "height",
+                    from: ftroll.getHeight() + 100,
+                    to: ftroll.getHeight() - 30,
+                    next: "expandHeight"
+                },
+                start: ["expandWidth", "expandHeight"]
+            })
+        }
 
-            // 中间块线条动画
-            function lineFlow(dm) {
-                const cloudServerLine = dm.getDataByTag("cloud_server_line");
-                const mobileLine = dm.getDataByTag("mobile_line");
-                const applicationTerminalLine = dm.getDataByTag("application_terminal_line");
-                const perceptionCloudLeft = dm.getDataByTag("perception_cloud_line_left");
-                const perceptionCloudRight = dm.getDataByTag("perception_cloud_line_right");
-                
-                setInterval(function() {
-                    var cloudBeforeOffset = cloudServerLine.s('shape.dash.offset')
-                    cloudServerLine.s('shape.dash.offset', cloudBeforeOffset + 2)
+        // 中间块线条动画
+        function lineFlow(dm) {
+            const cloudServerLine = dm.getDataByTag("cloud_server_line");
+            const mobileLine = dm.getDataByTag("mobile_line");
+            const applicationTerminalLine = dm.getDataByTag("application_terminal_line");
+            const perceptionCloudLeft = dm.getDataByTag("perception_cloud_line_left");
+            const perceptionCloudRight = dm.getDataByTag("perception_cloud_line_right");
 
-                    var mobileBeforeOffset = mobileLine.s('shape.dash.offset')
-                    mobileLine.s('shape.dash.offset', mobileBeforeOffset - 2)
+            setInterval(function () {
+                var cloudBeforeOffset = cloudServerLine.s('shape.dash.offset')
+                cloudServerLine.s('shape.dash.offset', cloudBeforeOffset + 2)
 
-                    var applicationBeforeOffset = applicationTerminalLine.s('shape.dash.offset')
-                    applicationTerminalLine.s('shape.dash.offset', applicationBeforeOffset - 2)
+                var mobileBeforeOffset = mobileLine.s('shape.dash.offset')
+                mobileLine.s('shape.dash.offset', mobileBeforeOffset - 2)
 
-                    var perceptionLeftBeforeOffset = perceptionCloudLeft.s('shape.dash.offset')
-                    perceptionCloudLeft.s('shape.dash.offset', perceptionLeftBeforeOffset + 2)
+                var applicationBeforeOffset = applicationTerminalLine.s('shape.dash.offset')
+                applicationTerminalLine.s('shape.dash.offset', applicationBeforeOffset - 2)
 
-                    var perceptionRightBeforeOffset = perceptionCloudRight.s('shape.dash.offset')
-                    perceptionCloudRight.s('shape.dash.offset', perceptionRightBeforeOffset - 2)
-                }, 50)
-            }
+                var perceptionLeftBeforeOffset = perceptionCloudLeft.s('shape.dash.offset')
+                perceptionCloudLeft.s('shape.dash.offset', perceptionLeftBeforeOffset + 2)
 
-            // 中间云朵动画
-            function cloudAnimation(dm) {
-                const cloudBlock = dm.getDataByTag('ft_cloud_block')
-                cloudBlock.s('opacity', 1)
-                // var isHide = true
-                // var isShow = false
-                // setInterval(function() {
-                //     var beforeOpacity = cloudBlock.s('opacity')
-                //     if (beforeOpacity <= 0.3) {
-                //         isHide = true
-                //         isShow = false
-                //     }else if (beforeOpacity >=1) {
-                //         isShow = true
-                //         isHide = false
-                //     }
-                //     if (isHide) {
-                //         cloudBlock.s('opacity',beforeOpacity + 0.02 )
-                //     } else if (isShow) {
-                //         cloudBlock.s('opacity',beforeOpacity - 0.02 )
-                //     }
-                // }, 50)
-                cloudBlock.setAnimation({
-                    hide: {
-                            property: "opacity",
-                            accessType: "style", 
-                            from: 1, 
-                            to: 0.6,
-                            duration: 3000,
-                            next: "show"
-                        },
-                        show: {
-                            property: "opacity",
-                            accessType: "style", 
-                            from: 0.6, 
-                            to: 1,
-                            duration: 4000,
-                            next: "hide"
-                        },
-                        start: ["hide"]
-                })
+                var perceptionRightBeforeOffset = perceptionCloudRight.s('shape.dash.offset')
+                perceptionCloudRight.s('shape.dash.offset', perceptionRightBeforeOffset - 2)
+            }, 50)
+        }
 
-            }
-
-            // 左上角飞艇动画
-            function airshipAnimation(dm) {
-                const feitingFigFirst = dm.getDataByTag('feiting_fig_first')
-                const feitingSecond = dm.getDataByTag('feiting_fig_second')
-                const firstBeginX = feitingFigFirst._position.x
-                const firstBeginY = feitingFigFirst._position.y
-                const secondBeginX = feitingSecond._position.x
-                const secondBeginY = feitingSecond._position.y
-                var isFirstDown = true
-                var isFirstUp = false
-                var isSecondDown = true
-                var isSecondUp = false
-                setInterval(() => {
-                    const firstBeforeX = feitingFigFirst._position.x
-                    const firstBeforeY = feitingFigFirst._position.y
-                    const secondBeforeX = feitingSecond._position.x
-                    const secondBeforeY = feitingSecond._position.y
-                    if (firstBeforeY >= -250) {
-                        isFirstUp = true
-                        isFirstDown = false
-                    } else if (firstBeforeY <= firstBeginY) {
-                        isFirstUp = false
-                        isFirstDown = true
+        // 中间云朵动画
+        function cloudAnimation(dm) {
+            const cloudBlock = dm.getDataByTag('ft_cloud_block')
+            cloudBlock.s('opacity', 1)
+            // var isHide = true
+            // var isShow = false
+            // setInterval(function() {
+            //     var beforeOpacity = cloudBlock.s('opacity')
+            //     if (beforeOpacity <= 0.3) {
+            //         isHide = true
+            //         isShow = false
+            //     }else if (beforeOpacity >=1) {
+            //         isShow = true
+            //         isHide = false
+            //     }
+            //     if (isHide) {
+            //         cloudBlock.s('opacity',beforeOpacity + 0.02 )
+            //     } else if (isShow) {
+            //         cloudBlock.s('opacity',beforeOpacity - 0.02 )
+            //     }
+            // }, 50)
+            cloudBlock.setAnimation({
+                hide: {
+                    property: "opacity",
+                    accessType: "style",
+                    from: 1,
+                    to: 0.6,
+                    duration: 3000,
+                    next: "show"
+                },
+                show: {
+                    property: "opacity",
+                    accessType: "style",
+                    from: 0.6,
+                    to: 1,
+                    duration: 4000,
+                    next: "hide"
+                },
+                large: {
+                    from: 1,
+                    to: 1.1,
+                    duration: 2000,
+                    next: 'small',
+                    onUpdate: function (value) {
+                        this.setScale(value,value);
                     }
-                    
-                    if (secondBeforeY >= -270) {
-                        isSecondUp = true
-                        isSecondDown = false
-                    } else if (secondBeforeY <= secondBeginY) {
-                        isSecondUp = false
-                        isSecondDown = true
+                },
+                small: {
+                    from: 1.1,
+                    to: 1,
+                    duration: 2000,
+                    next: 'large',
+                    onUpdate: function (value) {
+                        this.setScale(value,value);
                     }
+                },
+                start: ["large"]
+            })
 
-                    if (isFirstDown) {
-                        feitingFigFirst.setPosition({x: firstBeforeX - 0.2, y: firstBeforeY + 0.2})
-                    } else if (isFirstUp) {
-                        feitingFigFirst.setPosition({x: firstBeforeX + 0.2, y: firstBeforeY - 0.2})
-                    }
+        }
 
-                    if (isSecondDown) {
-                        feitingSecond.setPosition({x:secondBeforeX - 0.15,y:secondBeforeY + 0.15})
-                    } else if (isSecondUp) {
-                        feitingSecond.setPosition({x:secondBeforeX + 0.15,y:secondBeforeY - 0.15})
-                    }
-                }, 50);
+        // 左上角飞艇动画
+        function airshipAnimation(dm) {
+            const feitingFigFirst = dm.getDataByTag('feiting_fig_first')
+            const feitingSecond = dm.getDataByTag('feiting_fig_second')
+            const firstBeginX = feitingFigFirst._position.x
+            const firstBeginY = feitingFigFirst._position.y
+            const secondBeginX = feitingSecond._position.x
+            const secondBeginY = feitingSecond._position.y
+            var isFirstDown = true
+            var isFirstUp = false
+            var isSecondDown = true
+            var isSecondUp = false
+            setInterval(() => {
+                const firstBeforeX = feitingFigFirst._position.x
+                const firstBeforeY = feitingFigFirst._position.y
+                const secondBeforeX = feitingSecond._position.x
+                const secondBeforeY = feitingSecond._position.y
+                if (firstBeforeY >= -250) {
+                    isFirstUp = true
+                    isFirstDown = false
+                } else if (firstBeforeY <= firstBeginY) {
+                    isFirstUp = false
+                    isFirstDown = true
+                }
 
-                // -------=--
-                // feitingFigFirst.setAnimation({
-                //     up: {
-                //         from: feitingFigFirst.getPosition().y - 25, 
-                //         to: feitingFigFirst.getPosition().y + 25,
-                //         duration: 15000,
-                //         easing: "Linear",
-                //         next: "down",
-                //         onUpdate: function(value) {
-                //             // this.setPosition(this.getPosition().y, value);
-                //             this.setPosition({x: feitingFigFirst.getPosition().x - 0.05, y: value});
-                //         }
-                //     },
-                //     down: {
-                //         from: feitingFigFirst.getPosition().y + 25, 
-                //         to: feitingFigFirst.getPosition().y - 25,
-                //         easing: "Linear",
-                //         duration: 15000,
-                //         next: "up",
-                //         onUpdate: function(value) {
-                //             // this.setPosition(this.getPosition().y, value);
-                //             this.setPosition({x: feitingFigFirst.getPosition().x + 0.05, y: value});
-                //         }
-                //     },
-                //     start: ["up"]
-                // });
+                if (secondBeforeY >= -270) {
+                    isSecondUp = true
+                    isSecondDown = false
+                } else if (secondBeforeY <= secondBeginY) {
+                    isSecondUp = false
+                    isSecondDown = true
+                }
 
-                // feitingSecond.setAnimation({
-                //     up: {
-                //         from: feitingSecond.getPosition().y - 10, 
-                //         to: feitingSecond.getPosition().y + 40,
-                //         duration: 20000,
-                //         easing: "Linear",
-                //         next: "down",
-                //         onUpdate: function(value) {
-                //             // this.setPosition(this.getPosition().y, value);
-                //             this.setPosition({x: feitingSecond.getPosition().x - 0.08, y: value});
-                //         }
-                //     },
-                //     down: {
-                //         from: feitingSecond.getPosition().y + 40, 
-                //         to: feitingSecond.getPosition().y - 10,
-                //         easing: "Linear",
-                //         duration: 20000,
-                //         next: "up",
-                //         onUpdate: function(value) {
-                //             // this.setPosition(this.getPosition().y, value);
-                //             this.setPosition({x: feitingSecond.getPosition().x + 0.08, y: value});
-                //         }
-                //     },
-                //     start: ["up"]
-                // });
-            }
-        </script>
-    </head>
-    <body onload='setTimeout(init, 300)'>
-    </body>
+                if (isFirstDown) {
+                    feitingFigFirst.setPosition({x: firstBeforeX - 0.2, y: firstBeforeY + 0.2})
+                } else if (isFirstUp) {
+                    feitingFigFirst.setPosition({x: firstBeforeX + 0.2, y: firstBeforeY - 0.2})
+                }
+
+                if (isSecondDown) {
+                    feitingSecond.setPosition({x: secondBeforeX - 0.15, y: secondBeforeY + 0.15})
+                } else if (isSecondUp) {
+                    feitingSecond.setPosition({x: secondBeforeX + 0.15, y: secondBeforeY - 0.15})
+                }
+            }, 50);
+
+            // -------=--
+            // feitingFigFirst.setAnimation({
+            //     up: {
+            //         from: feitingFigFirst.getPosition().y - 25,
+            //         to: feitingFigFirst.getPosition().y + 25,
+            //         duration: 15000,
+            //         easing: "Linear",
+            //         next: "down",
+            //         onUpdate: function(value) {
+            //             // this.setPosition(this.getPosition().y, value);
+            //             this.setPosition({x: feitingFigFirst.getPosition().x - 0.05, y: value});
+            //         }
+            //     },
+            //     down: {
+            //         from: feitingFigFirst.getPosition().y + 25,
+            //         to: feitingFigFirst.getPosition().y - 25,
+            //         easing: "Linear",
+            //         duration: 15000,
+            //         next: "up",
+            //         onUpdate: function(value) {
+            //             // this.setPosition(this.getPosition().y, value);
+            //             this.setPosition({x: feitingFigFirst.getPosition().x + 0.05, y: value});
+            //         }
+            //     },
+            //     start: ["up"]
+            // });
+
+            // feitingSecond.setAnimation({
+            //     up: {
+            //         from: feitingSecond.getPosition().y - 10,
+            //         to: feitingSecond.getPosition().y + 40,
+            //         duration: 20000,
+            //         easing: "Linear",
+            //         next: "down",
+            //         onUpdate: function(value) {
+            //             // this.setPosition(this.getPosition().y, value);
+            //             this.setPosition({x: feitingSecond.getPosition().x - 0.08, y: value});
+            //         }
+            //     },
+            //     down: {
+            //         from: feitingSecond.getPosition().y + 40,
+            //         to: feitingSecond.getPosition().y - 10,
+            //         easing: "Linear",
+            //         duration: 20000,
+            //         next: "up",
+            //         onUpdate: function(value) {
+            //             // this.setPosition(this.getPosition().y, value);
+            //             this.setPosition({x: feitingSecond.getPosition().x + 0.08, y: value});
+            //         }
+            //     },
+            //     start: ["up"]
+            // });
+        }
+    </script>
+</head>
+<body onload='setTimeout(init, 300)'>
+</body>
 </html>

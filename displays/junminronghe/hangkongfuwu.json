@@ -172,7 +172,7 @@
         "height": 998.29844
       },
       "s": {
-        "layout.v": "top",
+        "layout.v": "topbottom",
         "layout.h": "left",
         "select.color": "",
         "select.width": 0,
@@ -423,8 +423,8 @@
         "height": 95.75699
       },
       "s": {
-        "layout.v": "top",
-        "layout.h": "left",
+        "layout.v": "topbottom",
+        "layout.h": "leftright",
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
@@ -504,7 +504,7 @@
       },
       "s": {
         "layout.v": "top",
-        "layout.h": "left",
+        "layout.h": "leftright",
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
@@ -718,7 +718,7 @@
         "height": 470
       },
       "s": {
-        "layout.v": "top",
+        "layout.v": "topbottom",
         "layout.h": "right",
         "select.color": "",
         "select.width": 0,
@@ -1586,8 +1586,8 @@
         "height": 722
       },
       "s": {
-        "layout.v": "top",
-        "layout.h": "left",
+        "layout.v": "center",
+        "layout.h": "center",
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
@@ -4328,7 +4328,7 @@
       },
       "s": {
         "layout.v": "bottom",
-        "layout.h": "left",
+        "layout.h": "center",
         "2d.movable": false,
         "2d.selectable": false
       }
@@ -7147,6 +7147,9 @@
       "c": "ht.Node",
       "i": 1339,
       "p": {
+        "host": {
+          "__i": 1075
+        },
         "position": {
           "x": -847.13153,
           "y": -479.73179
@@ -7165,11 +7168,13 @@
         "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"01daohangye.html\"\n}",
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "layout.h": "left",
+        "layout.v": "top"
       }
     }
   ],
-  "modified": "Mon Dec 28 2020 11:09:26 GMT+0800 (China Standard Time)",
+  "modified": "Mon Dec 28 2020 14:22:56 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
