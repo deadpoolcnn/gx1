@@ -17,13 +17,20 @@
         <script src="libs/core/ht-ui.js"></script>
         <script src="libs/plugin/ht-vector.js"></script>
         <script src="libs/plugin/ht-animation.js"></script>
+        <script src="libs/plugin/ht-flow.js"></script>
 
         <script>
+            var img = ht.Default.setImage(
+                "light",
+                "img/light.png"
+            );
+
             function init() {
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
                 dataModel.enableAnimation();
+                graphView.enableFlow();
 
                 ht.Default.xhrLoad('displays/junminronghe/beidou.json', function(text) {
                     var json = ht.Default.parse(text);
@@ -31,7 +38,8 @@
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
 
-                    iconScaleAnimation(dataModel)
+                    //iconScaleAnimation(dataModel)
+                    lightEarth(dataModel);
                 });
             }
             
@@ -152,6 +160,22 @@
                         carSupervise.setScale({x: carSuperviseBeforScale.x - 0.005, y: carSuperviseBeforScale.y - 0.005})
                     }
                 }, 60);
+            }
+
+            // 流光动画
+            function lightEarth(dm) {
+                var earthLine = dm.getDataByTag('earthLine');
+
+                earthLine.s('flow',true);
+                earthLine.s("flow.element.count", 1);
+                earthLine.s("flow.element.space", 30);
+                earthLine.s("flow.step",8);
+                earthLine.s("flow.element.max", 100);
+                earthLine.s("flow.element.min", 100);
+                earthLine.s("flow.element.image", "light");
+                earthLine.s("flow.element.shadow.visible", false);
+                earthLine.s("flow.element.image", "light");
+                earthLine.s("flow.element.autorotate", true);
             }
         </script>
     </head>
