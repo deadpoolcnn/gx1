@@ -30,6 +30,7 @@
                     dataModel.deserialize(json);
                     graphView.fitContent(true);
                     videoPlay(dataModel)
+                    zhibiaoAni(dataModel) // 指标逐渐显现动画执行一次
                 });
             }
             function videoPlay(dm) {
@@ -50,6 +51,123 @@
                         video.a('src','video/xuejiangyun.m4v')
                         video.a('status','2');
                     })
+                }
+            
+                // 指标动画
+                const zhibiaoAni = (dm) => {
+                    const zhibiao1_1 = dm.getDataByTag('zhibiao1_1')
+                    const zhibiao1_2 = dm.getDataByTag('zhibiao1_2')
+                    const zhibiao1_3 = dm.getDataByTag('zhibiao1_3')
+                    const zhibiao1_4 = dm.getDataByTag('zhibiao1_4')
+                    const zhibiao1_5 = dm.getDataByTag('zhibiao1_5')
+                    const zhibiao1_6 = dm.getDataByTag('zhibiao1_6')
+
+                    const textBox1_1 = dm.getDataByTag('textBox1_1')
+                    const textBox1_2 = dm.getDataByTag('textBox1_2')
+                    const textBox1_3 = dm.getDataByTag('textBox1_3')
+                    const textBox1_4 = dm.getDataByTag('textBox1_4')
+                    const textBox1_5 = dm.getDataByTag('textBox1_5')
+                    const textBox1_6 = dm.getDataByTag('textBox1_6')
+
+                    const zhibiaoArray = [zhibiao1_1, zhibiao1_2, zhibiao1_3, zhibiao1_4, zhibiao1_5, zhibiao1_6]
+                    const textBoxArray = [textBox1_1, textBox1_2, textBox1_3, textBox1_4, textBox1_5, textBox1_6]
+
+                    for(let i = 0; i < zhibiaoArray.length; i++) {
+                        zhibiaoArray[i].s('opacity', 0.2)
+                    }
+                    for(let j = 0; j < textBoxArray.length; j++) {
+                        textBoxArray[j].s('opacity', 0.2)
+                    }
+
+                    const zhibiaoAni1 = function() {
+                        let zhibiaoTimer1 = setInterval(() => {
+                            let zhibiaoValue1 = zhibiao1_1.s('opacity')
+                            if(zhibiaoValue1 >= 1) {
+                                clearInterval(zhibiaoTimer1)
+                                zhibiao1_1.s('opacity', 1)
+                                textBox1_1.s('opacity', 1)
+                                zhibiaoAni2()
+                            }else {
+                                zhibiao1_1.s('opacity', (zhibiaoValue1 + 0.01))
+                                textBox1_1.s('opacity', (zhibiaoValue1 + 0.01))
+                            }
+                        }, 50);
+                    }
+
+                    const zhibiaoAni2 = function() {
+                        let zhibiaoTimer2 = setInterval(() => {
+                            let zhibiaoValue2 = zhibiao1_2.s('opacity')
+                            if(zhibiaoValue2 >= 1) {
+                                clearInterval(zhibiaoTimer2)
+                                zhibiao1_2.s('opacity', 1)
+                                textBox1_2.s('opacity', 1)
+                                zhibiaoAni3()
+                            }else {
+                                zhibiao1_2.s('opacity', (zhibiaoValue2 + 0.01))
+                                textBox1_2.s('opacity', (zhibiaoValue2 + 0.01))
+                            }
+                        }, 50);
+                    }
+
+                    const zhibiaoAni3 = function() {
+                        let zhibiaoTimer3 = setInterval(() => {
+                            let zhibiaoValue3 = zhibiao1_3.s('opacity')
+                            if(zhibiaoValue3 >= 1) {
+                                clearInterval(zhibiaoTimer3)
+                                zhibiao1_3.s('opacity', 1)
+                                textBox1_3.s('opacity', 1)
+                                zhibiaoAni4()
+                            }else {
+                                zhibiao1_3.s('opacity', (zhibiaoValue3 + 0.01))
+                                textBox1_3.s('opacity', (zhibiaoValue3 + 0.01))
+                            }
+                        }, 50);
+                    }
+
+                    const zhibiaoAni4 = function() {
+                        let zhibiaoTimer4 = setInterval(() => {
+                            let zhibiaoValue4 = zhibiao1_4.s('opacity')
+                            if(zhibiaoValue4 >= 1) {
+                                clearInterval(zhibiaoTimer4)
+                                zhibiao1_4.s('opacity', 1)
+                                textBox1_4.s('opacity', 1)
+                                zhibiaoAni5()
+                            }else {
+                                zhibiao1_4.s('opacity', (zhibiaoValue4 + 0.01))
+                                textBox1_4.s('opacity', (zhibiaoValue4 + 0.01))
+                            }
+                        }, 50);
+                    }
+
+                    const zhibiaoAni5 = function() {
+                        let zhibiaoTimer5 = setInterval(() => {
+                            let zhibiaoValue5 = zhibiao1_5.s('opacity')
+                            if(zhibiaoValue5 >= 1) {
+                                clearInterval(zhibiaoTimer5)
+                                zhibiao1_5.s('opacity', 1)
+                                textBox1_5.s('opacity', 1)
+                                zhibiaoAni6()
+                            }else {
+                                zhibiao1_5.s('opacity', (zhibiaoValue5 + 0.01))
+                                textBox1_5.s('opacity', (zhibiaoValue5 + 0.01))
+                            }
+                        }, 50);
+                    }
+
+                    const zhibiaoAni6 = function() {
+                        let zhibiaoTimer6 = setInterval(() => {
+                            let zhibiaoValue6 = zhibiao1_6.s('opacity')
+                            if(zhibiaoValue6 >= 1) {
+                                clearInterval(zhibiaoTimer6)
+                                zhibiao1_6.s('opacity', 1)
+                                textBox1_6.s('opacity', 1)
+                            }else {
+                                zhibiao1_6.s('opacity', (zhibiaoValue6 + 0.01))
+                                textBox1_6.s('opacity', (zhibiaoValue6 + 0.01))
+                            }
+                        }, 50);
+                    }
+                    zhibiaoAni1()
                 }
         </script>
     </head>
