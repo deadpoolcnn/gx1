@@ -47,13 +47,13 @@
                         expandWidth: {
                             property: "width",
                             from: circle1.getWidth(), 
-                            to: circle1.getWidth() - 30,
+                            to: circle1.getWidth() - 100,
                             duration: 2000,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle1.getWidth() - 30, 
+                            from: circle1.getWidth() - 100,
                             to: circle1.getWidth(),
                             duration: 2000,
                             next: "expandWidth"
@@ -61,30 +61,46 @@
                         expandHeight: {
                             property: "height",
                             from: circle1.getHeight(), 
-                            to: circle1.getHeight() - 30,
+                            to: circle1.getHeight() - 100,
                             duration: 2000,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle1.getHeight() - 30, 
+                            from: circle1.getHeight() - 100,
                             to: circle1.getHeight(),
                             duration: 2000,
                             next: "expandHeight"
                         },
-                        start: ["expandWidth", "expandHeight"]
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            duration: 2000,
+                            next: 'opa',
+                        },
+                        opa: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 0,
+                            to: 1,
+                            duration: 2000,
+                            next: 'show',
+                        },
+                        start: ["expandWidth", "expandHeight","show"]
                     })
                     circle2.setAnimation({
                         expandWidth: {
                             property: "width",
                             from: circle2.getWidth(), 
-                            to: circle2.getWidth() - 30,
+                            to: circle2.getWidth() - 100,
                             duration: 2000,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle2.getWidth() - 30, 
+                            from: circle2.getWidth() - 100,
                             to: circle2.getWidth(),
                             duration: 2000,
                             next: "expandWidth"
@@ -92,30 +108,46 @@
                         expandHeight: {
                             property: "height",
                             from: circle2.getHeight(), 
-                            to: circle2.getHeight() - 30,
+                            to: circle2.getHeight() - 100,
                             duration: 2000,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle2.getHeight() - 30, 
+                            from: circle2.getHeight() - 100,
                             to: circle2.getHeight(),
                             duration: 2000,
                             next: "expandHeight"
                         },
-                        start: ["expandWidth", "expandHeight"]
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            duration: 2000,
+                            next: 'opa',
+                        },
+                        opa: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 0,
+                            to: 1,
+                            duration: 2000,
+                            next: 'show',
+                        },
+                        start: ["expandWidth", "expandHeight","show"]
                     })
                     circle3.setAnimation({
                         expandWidth: {
                             property: "width",
                             from: circle3.getWidth(), 
-                            to: circle3.getWidth() - 30,
+                            to: circle3.getWidth() - 100,
                             duration: 2000,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle3.getWidth() - 30, 
+                            from: circle3.getWidth() - 100,
                             to: circle3.getWidth(),
                             duration: 2000,
                             next: "expandWidth"
@@ -123,30 +155,46 @@
                         expandHeight: {
                             property: "height",
                             from: circle3.getHeight(), 
-                            to: circle3.getHeight() - 30,
+                            to: circle3.getHeight() - 100,
                             duration: 2000,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle3.getHeight() - 30, 
+                            from: circle3.getHeight() - 100,
                             to: circle3.getHeight(),
                             duration: 2000,
                             next: "expandHeight"
                         },
-                        start: ["expandWidth", "expandHeight"]
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            duration: 2000,
+                            next: 'opa',
+                        },
+                        opa: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 0,
+                            to: 1,
+                            duration: 2000,
+                            next: 'show',
+                        },
+                        start: ["expandWidth", "expandHeight","show"]
                     })
                     circle4.setAnimation({
                         expandWidth: {
                             property: "width",
                             from: circle4.getWidth(), 
-                            to: circle4.getWidth() - 30,
+                            to: circle4.getWidth() - 100,
                             duration: 2000,
                             next: "collapseWidth"
                         },
                         collapseWidth: {
                             property: "width",
-                            from: circle4.getWidth() - 30, 
+                            from: circle4.getWidth() - 100,
                             to: circle4.getWidth(),
                             duration: 2000,
                             next: "expandWidth"
@@ -154,18 +202,34 @@
                         expandHeight: {
                             property: "height",
                             from: circle4.getHeight(), 
-                            to: circle4.getHeight() - 30,
+                            to: circle4.getHeight() - 100,
                             duration: 2000,
                             next: "collapseHeight"
                         },
                         collapseHeight: {
                             property: "height",
-                            from: circle4.getHeight() - 30, 
+                            from: circle4.getHeight() - 100,
                             to: circle4.getHeight(),
                             duration: 2000,
                             next: "expandHeight"
                         },
-                        start: ["expandWidth", "expandHeight"]
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            duration: 2000,
+                            next: 'opa',
+                        },
+                        opa: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 0,
+                            to: 1,
+                            duration: 2000,
+                            next: 'show',
+                        },
+                        start: ["expandWidth", "expandHeight","show"]
                     })
                     /*circle5.setAnimation({
                         expandWidth: {
