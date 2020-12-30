@@ -33,6 +33,7 @@
                     
                     arrowAni(dataModel);
                     platformAni(dataModel);
+                    blockAni(dataModel) //左右两边块交替亮暗动画
                 });
 
                 function arrowAni(dm) {
@@ -317,6 +318,141 @@
                     //     start: ["expandWidth", "expandHeight"]
                     // })
                 }
+            }
+            
+            // 左右两边交替亮暗动画
+            const blockAni = (dm) => {
+                const leftBlock1 = dm.getDataByTag('left_block_1')
+                const leftBlock2 = dm.getDataByTag('left_block_2')
+                const leftBlock3 = dm.getDataByTag('left_block_3')
+                const leftBlock4 = dm.getDataByTag('left_block_4')
+
+                const rightBlock1 = dm.getDataByTag('right_block_1')
+                const rightBlock2 = dm.getDataByTag('right_block_2')
+                const rightBlock3 = dm.getDataByTag('right_block_3')
+                const rightBlock4 = dm.getDataByTag('right_block_4')
+
+                const leftBlockArray = [leftBlock1, leftBlock2, leftBlock3, leftBlock4]
+                const rightBlockArray = [rightBlock1, rightBlock2, rightBlock3, rightBlock4]
+
+                for(let i = 0; i < leftBlockArray.length; i++ ) {
+                    leftBlockArray[i].s('opacity', 0.2)
+                }
+
+                for(let j = 0; j < rightBlockArray.length; j++) {
+                    rightBlockArray[j].s('opacity', 0.2)
+                }
+
+                const leftBlock1Ani = function() {
+                    let leftBlockTimer1 = setInterval(() => {
+                        const leftBlock1Value = leftBlock1.s('opacity')
+                        if(leftBlock1Value >= 1) {
+                            clearInterval(leftBlockTimer1)
+                            leftBlock1.s('opacity', 0.2)
+                            leftBlock2Ani()
+                        } else {
+                            leftBlock1.s('opacity', (leftBlock1Value + 0.01))
+                        }
+                }, 50);
+                }
+
+                const leftBlock2Ani = function() {
+                    let leftBlockTimer2 = setInterval(() => {
+                        const leftBlock2Value = leftBlock2.s('opacity')
+                        if(leftBlock2Value >= 1) {
+                            clearInterval(leftBlockTimer2)
+                            leftBlock2.s('opacity', 0.2)
+                            leftBlock3Ani()
+                        } else {
+                            leftBlock2.s('opacity', (leftBlock2Value + 0.01))
+                        }
+                }, 50);
+                }
+
+                const leftBlock3Ani = function() {
+                    let leftBlockTimer3 = setInterval(() => {
+                        const leftBlock3Value = leftBlock3.s('opacity')
+                        if(leftBlock3Value >= 1) {
+                            clearInterval(leftBlockTimer3)
+                            leftBlock3.s('opacity', 0.2)
+                            leftBlock4Ani()
+                        } else {
+                            leftBlock3.s('opacity', (leftBlock3Value + 0.01))
+                        }
+                }, 50);
+                }
+
+                const leftBlock4Ani = function() {
+                    let leftBlockTimer4 = setInterval(() => {
+                        const leftBlock4Value = leftBlock4.s('opacity')
+                        if(leftBlock4Value >= 1) {
+                            clearInterval(leftBlockTimer4)
+                            leftBlock4.s('opacity', 0.2)
+                            leftBlock1Ani()
+                        } else {
+                            leftBlock4.s('opacity', (leftBlock4Value + 0.01))
+                        }
+                }, 50);
+                }
+
+                const rightBlock1Ani = function() {
+                    let rightBlockTimer1 = setInterval(() => {
+                        const rightBlock1Value = rightBlock1.s('opacity')
+                        if(rightBlock1Value >= 1) {
+                            clearInterval(rightBlockTimer1)
+                            rightBlock1.s('opacity', 0.2)
+                            rightBlock2Ani()
+                        } else {
+                            rightBlock1.s('opacity', (rightBlock1Value + 0.01))
+                        }
+                    }, 50);
+                }
+
+                const rightBlock2Ani = function() {
+                    let rightBlockTimer2 = setInterval(() => {
+                        const rightBlock2Value = rightBlock2.s('opacity')
+                        if(rightBlock2Value >= 1) {
+                            clearInterval(rightBlockTimer2)
+                            rightBlock2.s('opacity', 0.2)
+                            rightBlock3Ani()
+                        } else {
+                            rightBlock2.s('opacity', (rightBlock2Value + 0.01))
+                        }
+                    }, 50);
+                }
+
+                const rightBlock3Ani = function() {
+                    let rightBlockTimer3 = setInterval(() => {
+                        const rightBlock3Value = rightBlock3.s('opacity')
+                        if(rightBlock3Value >= 1) {
+                            clearInterval(rightBlockTimer3)
+                            rightBlock3.s('opacity', 0.2)
+                            rightBlock4Ani()
+                        } else {
+                            rightBlock3.s('opacity', (rightBlock3Value + 0.01))
+                        }
+                    }, 50);
+                }
+
+                const rightBlock4Ani = function() {
+                    let rightBlockTimer4 = setInterval(() => {
+                        const rightBlock4Value = rightBlock4.s('opacity')
+                        if(rightBlock4Value >= 1) {
+                            clearInterval(rightBlockTimer4)
+                            rightBlock4.s('opacity', 0.2)
+                            rightBlock1Ani()
+                        } else {
+                            rightBlock4.s('opacity', (rightBlock4Value + 0.01))
+                        }
+                    }, 50);
+                }
+
+                leftBlock1Ani()
+                rightBlock1Ani()
+
+                
+
+
             }
         </script>
     </head>
