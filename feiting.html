@@ -168,18 +168,44 @@
             var isFirstUp = false
             var isSecondDown = true
             var isSecondUp = false
+            // setInterval(() => {
+            //     const firstBeforeX = feitingFigFirst._position.x
+            //     const firstBeforeY = feitingFigFirst._position.y
+            //     const secondBeforeX = feitingSecond._position.x
+            //     const secondBeforeY = feitingSecond._position.y
+            //     console.log(firstBeforeX, firstBeforeY)
+            //     if (firstBeforeY >= -250) {
+            //         isFirstUp = true
+            //         isFirstDown = false
+            //     } else if (firstBeforeY <= firstBeginY) {
+            //         isFirstUp = false
+            //         isFirstDown = true
+            //     }
+
+            //     if (secondBeforeY >= -270) {
+            //         isSecondUp = true
+            //         isSecondDown = false
+            //     } else if (secondBeforeY <= secondBeginY) {
+            //         isSecondUp = false
+            //         isSecondDown = true
+            //     }
+
+            //     if (isFirstDown) {
+            //         feitingFigFirst.setPosition({x: firstBeforeX - 0.2, y: firstBeforeY + 0.2})
+            //     } else if (isFirstUp) {
+            //         feitingFigFirst.setPosition({x: firstBeforeX + 0.2, y: firstBeforeY - 0.2})
+            //     }
+
+            //     if (isSecondDown) {
+            //         feitingSecond.setPosition({x: secondBeforeX - 0.15, y: secondBeforeY + 0.15})
+            //     } else if (isSecondUp) {
+            //         feitingSecond.setPosition({x: secondBeforeX + 0.15, y: secondBeforeY - 0.15})
+            //     }
+            // }, 50);
+
             setInterval(() => {
-                const firstBeforeX = feitingFigFirst._position.x
-                const firstBeforeY = feitingFigFirst._position.y
                 const secondBeforeX = feitingSecond._position.x
                 const secondBeforeY = feitingSecond._position.y
-                if (firstBeforeY >= -250) {
-                    isFirstUp = true
-                    isFirstDown = false
-                } else if (firstBeforeY <= firstBeginY) {
-                    isFirstUp = false
-                    isFirstDown = true
-                }
 
                 if (secondBeforeY >= -270) {
                     isSecondUp = true
@@ -188,19 +214,32 @@
                     isSecondUp = false
                     isSecondDown = true
                 }
-
-                if (isFirstDown) {
-                    feitingFigFirst.setPosition({x: firstBeforeX - 0.2, y: firstBeforeY + 0.2})
-                } else if (isFirstUp) {
-                    feitingFigFirst.setPosition({x: firstBeforeX + 0.2, y: firstBeforeY - 0.2})
-                }
-
                 if (isSecondDown) {
                     feitingSecond.setPosition({x: secondBeforeX - 0.15, y: secondBeforeY + 0.15})
                 } else if (isSecondUp) {
                     feitingSecond.setPosition({x: secondBeforeX + 0.15, y: secondBeforeY - 0.15})
                 }
             }, 50);
+
+            setInterval(() => {
+                const firstBeforeX = feitingFigFirst._position.x
+                const firstBeforeY = feitingFigFirst._position.y
+
+                if (firstBeforeY <= -255) {
+                    isFirstUp = true
+                    isFirstDown = false
+                } else if (firstBeforeY >= firstBeginY) {
+                    isFirstUp = false
+                    isFirstDown = true
+                }
+
+                if (isFirstDown) {
+                    feitingFigFirst.setPosition({x: firstBeforeX + 0.1, y: firstBeforeY - 0.1})
+                } else if (isFirstUp) {
+                    feitingFigFirst.setPosition({x: firstBeforeX - 0.1, y: firstBeforeY + 0.1})
+                }
+
+            }, 50)
 
             // -------=--
             // feitingFigFirst.setAnimation({
