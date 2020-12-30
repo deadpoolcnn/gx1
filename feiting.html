@@ -210,7 +210,7 @@
                 if (secondBeforeY >= -270) {
                     isSecondUp = true
                     isSecondDown = false
-                } else if (secondBeforeY <= secondBeginY) {
+                } else if (secondBeforeY <= secondBeginY + 5) {
                     isSecondUp = false
                     isSecondDown = true
                 }
@@ -234,9 +234,9 @@
                 }
 
                 if (isFirstDown) {
-                    feitingFigFirst.setPosition({x: firstBeforeX + 0.1, y: firstBeforeY - 0.1})
+                    feitingFigFirst.setPosition({x: firstBeforeX + 0.2, y: firstBeforeY - 0.2})
                 } else if (isFirstUp) {
-                    feitingFigFirst.setPosition({x: firstBeforeX - 0.1, y: firstBeforeY + 0.1})
+                    feitingFigFirst.setPosition({x: firstBeforeX - 0.2, y: firstBeforeY + 0.2})
                 }
 
             }, 50)
