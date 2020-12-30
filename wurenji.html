@@ -42,6 +42,7 @@
                     arrowHideAnimation(dataModel);
                     BlockAni(dataModel)
                     arrowFlowAni(dataModel)
+                    guangAni(dataModel)
                 });
 
                 function videoPlay(dm) {
@@ -322,6 +323,30 @@
                 line8.s("flow.element.autorotate", true);
                 line8.s('flow.step',5);
 
+            }
+
+            // 光柱动画
+            function guangAni(dm) {
+                var guang = dm.getDataByTag('guang');
+                guang.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.31,
+                        to: 0.7,
+                        duration: 2000,
+                        next: 'opa'
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.7,
+                        to: 0.31,
+                        duration: 2000,
+                        next: 'show'
+                    },
+                    start: ["show"]
+                })
             }
         </script>
     </head>
