@@ -31,6 +31,7 @@
                     graphView.fitContent(true);
                     videoPlay(dataModel)
                     zhibiaoAni(dataModel) // 指标逐渐显现动画执行一次
+                    hexagonAni(dataModel) // 六边形动画
                 });
             }
             function videoPlay(dm) {
@@ -169,6 +170,116 @@
                     }
                     zhibiaoAni1()
                 }
+            
+                // 六边形旋转动画
+            const hexagonAni = (dm) => {
+                const hexagon1 = dm.getDataByTag('hexagon1')
+                const hexagon2 = dm.getDataByTag('hexagon2')
+                const hexagon3 = dm.getDataByTag('hexagon3')
+                const hexagon4 = dm.getDataByTag('hexagon4')
+                const hexagon5 = dm.getDataByTag('hexagon5')
+                const hexagon6 = dm.getDataByTag('hexagon6')
+                const hexagon7 = dm.getDataByTag('hexagon7')
+                const hexagonArray = [hexagon1, hexagon2, hexagon3, hexagon4, hexagon5, hexagon6, hexagon7]
+
+                for(let i = 0; i < hexagonArray.length; i++) {
+                    hexagonArray[i].setRotation(0)
+                }
+                
+                const hexagonAni1 = function() {
+                    let hexagonTimer1 = setInterval(() => {
+                        let hexagonValue1 = hexagon1.getRotation()
+                        if (hexagonValue1 >= 6) {
+                            clearInterval(hexagonTimer1)
+                            hexagon1.setRotation(0)
+                            hexagonAni2()
+                        } else {
+                            hexagon1.setRotation(hexagonValue1 + 0.01)
+                        }
+                    }, 50)
+                }
+
+                const hexagonAni2 = function() {
+                    let hexagonTimer2 = setInterval(() => {
+                        let hexagonValue2 = hexagon2.getRotation()
+                        if (hexagonValue2 >= 6) {
+                            clearInterval(hexagonTimer2)
+                            hexagon2.setRotation(0)
+                            hexagonAni3()
+                        } else {
+                            hexagon2.setRotation(hexagonValue2 + 0.01)
+                        }
+                    }, 50)
+                }
+
+                const hexagonAni3 = function() {
+                    let hexagonTimer3 = setInterval(() => {
+                        let hexagonValue3 = hexagon3.getRotation()
+                        if (hexagonValue3 >= 6) {
+                            clearInterval(hexagonTimer3)
+                            hexagon3.setRotation(0)
+                            hexagonAni4()
+                        } else {
+                            hexagon3.setRotation(hexagonValue3 + 0.01)
+                        }
+                    }, 50)
+                }
+
+                const hexagonAni4 = function() {
+                    let hexagonTimer4 = setInterval(() => {
+                        let hexagonValue4 = hexagon4.getRotation()
+                        if (hexagonValue4 >= 6) {
+                            clearInterval(hexagonTimer4)
+                            hexagon4.setRotation(0)
+                            hexagonAni5()
+                        } else {
+                            hexagon4.setRotation(hexagonValue4 + 0.01)
+                        }
+                    }, 50)
+                }
+
+                const hexagonAni5 = function() {
+                    let hexagonTimer5 = setInterval(() => {
+                        let hexagonValue5 = hexagon5.getRotation()
+                        if (hexagonValue5 >= 6) {
+                            clearInterval(hexagonTimer5)
+                            hexagon5.setRotation(0)
+                            hexagonAni6()
+                        } else {
+                            hexagon5.setRotation(hexagonValue5 + 0.01)
+                        }
+                    }, 50)
+                }
+
+                const hexagonAni6 = function() {
+                    let hexagonTimer6 = setInterval(() => {
+                        let hexagonValue6 = hexagon6.getRotation()
+                        if (hexagonValue6 >= 6) {
+                            clearInterval(hexagonTimer6)
+                            hexagon6.setRotation(0)
+                            hexagonAni7()
+                        } else {
+                            hexagon6.setRotation(hexagonValue6 + 0.01)
+                        }
+                    }, 50)
+                }
+
+                const hexagonAni7 = function() {
+                    let hexagonTimer7 = setInterval(() => {
+                        let hexagonValue7 = hexagon7.getRotation()
+                        if (hexagonValue7 >= 6) {
+                            clearInterval(hexagonTimer7)
+                            hexagon7.setRotation(0)
+                            hexagonAni1()
+                        } else {
+                            hexagon7.setRotation(hexagonValue7 + 0.01)
+                        }
+                    }, 50)
+                }
+
+                hexagonAni1()
+
+            }
         </script>
     </head>
     <body onload='setTimeout(init, 300)'>
