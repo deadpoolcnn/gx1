@@ -17,12 +17,18 @@
         <script src='libs/core/ht-ui.js'></script>
         <script src='libs/plugin/ht-vector.js'></script>
         <script src="libs/plugin/ht-animation.js"></script>
+        <script src="libs/plugin/ht-flow.js"></script>
 
         <script>
+            // ht.Default.setImage("rightLight", "img/rightLight.png");
+            // ht.Default.setImage("leftLight", "img/leftLight.png");
+            // ht.Default.setImage("rightLight1", "img/rightLight1.png");
+            ht.Default.setImage("pointLight", "img/light.png");
             function init() {
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                graphView.enableFlow();
                 dataModel.enableAnimation();
 
                 ht.Default.xhrLoad('displays/junminronghe/wurenji.json', function(text) {
@@ -35,6 +41,7 @@
                     arrowAni(dataModel);
                     arrowHideAnimation(dataModel);
                     BlockAni(dataModel)
+                    arrowFlowAni(dataModel)
                 });
 
                 function videoPlay(dm) {
@@ -213,6 +220,109 @@
                     }, 50)
                 }
                 bottomBlockAni1()
+            }
+
+            // 箭头流光动画
+            function arrowFlowAni(dm) {
+                const line1 = dm.getDataByTag('line1')
+                line1.s("flow", true);
+                line1.s("flow.count", 1);
+                line1.s("flow.element.count", 1);
+                line1.s("flow.element.space", 5);
+                line1.s("flow.element.max", 50);
+                line1.s("flow.element.min", 15);
+                line1.s("flow.element.image", "pointLight");
+                line1.s("flow.element.shadow.visible", false);
+                line1.s("flow.element.autorotate", true);
+                line1.s('flow.step',1);
+
+                const line2 = dm.getDataByTag('line2')
+                // line1.s('opacity', 0.5)
+                line2.s("flow", true);
+                line2.s("flow.count", 1);
+                line2.s("flow.element.count", 1);
+                line2.s("flow.element.space", 5);
+                line2.s("flow.element.max", 40);
+                line2.s("flow.element.min", 15);
+                line2.s("flow.element.image", "pointLight");
+                line2.s("flow.element.shadow.visible", false);
+                line2.s("flow.element.autorotate", true);
+                line2.s('flow.step',1);
+
+                const line3 = dm.getDataByTag('line3')
+                line3.s("flow", true);
+                line3.s("flow.count", 1);
+                line3.s("flow.element.count", 1);
+                line3.s("flow.element.space", 5);
+                line3.s("flow.element.max", 40);
+                line3.s("flow.element.min", 15);
+                line3.s("flow.element.image", "pointLight");
+                line3.s("flow.element.shadow.visible", false);
+                line3.s("flow.element.autorotate", true);
+                line3.s('flow.step',1);
+
+                
+
+                const line4 = dm.getDataByTag('line4')
+                line4.s("flow", true);
+                line4.s("flow.count", 1);
+                line4.s("flow.element.count", 1);
+                line4.s("flow.element.space", 5);
+                line4.s("flow.element.max", 50);
+                line4.s("flow.element.min", 15);
+                line4.s("flow.element.image", "pointLight");
+                line4.s("flow.element.shadow.visible", false);
+                line4.s("flow.element.autorotate", true);
+                line4.s('flow.step',1);
+
+                const line5 = dm.getDataByTag('line5')
+                line5.s("flow", true);
+                line5.s("flow.count", 1);
+                line5.s("flow.element.count", 1);
+                line5.s("flow.element.space", 1);
+                line5.s("flow.element.max", 40);
+                line5.s("flow.element.min", 15);
+                line5.s("flow.element.image", "pointLight");
+                line5.s("flow.element.shadow.visible", false);
+                line5.s("flow.element.autorotate", true);
+                line5.s('flow.step',1);
+
+                const line6 = dm.getDataByTag('line6')
+                line6.s("flow", true);
+                line6.s("flow.count", 1);
+                line6.s("flow.element.count", 1);
+                line6.s("flow.element.space", 5);
+                line6.s("flow.element.max", 40);
+                line6.s("flow.element.min", 15);
+                line6.s("flow.element.image", "pointLight");
+                line6.s("flow.element.shadow.visible", false);
+                line6.s("flow.element.autorotate", true);
+                line6.s('flow.step',1);
+                
+                const line7 = dm.getDataByTag('line7')
+                line7.s("flow", true);
+                line7.s("flow.count", 1);
+                line7.s("flow.element.count", 1);
+                line7.s("flow.element.space", 5);
+                line7.s("flow.element.max", 40);
+                line7.s("flow.element.min", 15);
+                line7.s("flow.element.image", "pointLight");
+                line7.s("flow.element.shadow.visible", false);
+                line7.s("flow.element.autorotate", true);
+                line7.s('flow.step',1);
+
+                const line8 = dm.getDataByTag('line8')
+                line8.s("flow", true);
+                line8.s("flow.count", 2);
+                line8.s("flow.element.count", 2);
+                line8.s("flow.element.space", 100);
+                line8.s("flow.element.max", 80);
+                line8.s("flow.element.min", 20);
+                line8.s("flow.element.image", "pointLight");
+                line8.s("flow.element.shadow.visible", false);
+                line8.s("flow.element.autorotate", true);
+                line8.s('flow.step',5);
+
             }
         </script>
     </head>
