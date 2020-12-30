@@ -1,0 +1,697 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "width": 1920,
+    "height": 1080,
+    "rectSelectable": true,
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 5608,
+      "p": {
+        "displayName": "bg01",
+        "image": "assets/junminronghe/bg01.png",
+        "position": {
+          "x": 960,
+          "y": 540
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "fullscreen": "fill",
+        "fullscreen.lock": "v",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5609,
+      "p": {
+        "displayName": "top_title",
+        "image": "assets/junminronghe/top_title.png",
+        "host": {
+          "__i": 5608
+        },
+        "position": {
+          "x": 960,
+          "y": 60.5
+        },
+        "width": 1112,
+        "height": 121
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5610,
+      "p": {
+        "displayName": "title-rongheyun",
+        "parent": {
+          "__i": 5609
+        },
+        "image": "assets/junminronghe/title-rongheyun.png",
+        "position": {
+          "x": 960,
+          "y": 60.5
+        }
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5611,
+      "p": {
+        "displayName": "di",
+        "position": {
+          "x": 959.97675,
+          "y": 882.19486
+        },
+        "width": 810.27478,
+        "height": 244.48042
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5612,
+      "p": {
+        "displayName": "4",
+        "parent": {
+          "__i": 5611
+        },
+        "image": "assets/jianhang/dizuo/4.png",
+        "position": {
+          "x": 959.97675,
+          "y": 903.35783
+        },
+        "width": 757.50518,
+        "height": 202.15444
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5613,
+      "p": {
+        "displayName": "3",
+        "parent": {
+          "__i": 5611
+        },
+        "image": "assets/jianhang/dizuo/3.png",
+        "position": {
+          "x": 959.97675,
+          "y": 892.92374
+        },
+        "width": 810.27478,
+        "height": 189.83488
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5614,
+      "p": {
+        "displayName": "中心",
+        "parent": {
+          "__i": 5611
+        },
+        "image": "assets/jianhang/dizuo/zhongxindeng.png",
+        "position": {
+          "x": 959.97675,
+          "y": 889.50096
+        },
+        "width": 400,
+        "height": 111
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5615,
+      "p": {
+        "displayName": "helo3",
+        "parent": {
+          "__i": 5611
+        },
+        "tag": "helo3",
+        "image": "symbols/jianhang/helo3.json",
+        "position": {
+          "x": 959.97675,
+          "y": 872.00096
+        },
+        "width": 768.75564,
+        "height": 190.61334
+      },
+      "a": {
+        "helo.rotation": 10
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5616,
+      "p": {
+        "displayName": "helo2",
+        "parent": {
+          "__i": 5611
+        },
+        "tag": "helo2",
+        "image": "symbols/jianhang/helo2.json",
+        "position": {
+          "x": 959.97675,
+          "y": 872.00096
+        },
+        "width": 768.78535,
+        "height": 188.37295
+      },
+      "a": {
+        "helo.rotation": 23
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5617,
+      "p": {
+        "displayName": "helo",
+        "parent": {
+          "__i": 5611
+        },
+        "tag": "helo",
+        "image": "symbols/jianhang/hero.json",
+        "position": {
+          "x": 959.97675,
+          "y": 854.20467
+        },
+        "width": 730.16545,
+        "height": 188.5
+      },
+      "a": {
+        "rotation": 104
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5618,
+      "p": {
+        "displayName": "yuan",
+        "position": {
+          "x": 964.21631,
+          "y": 521.5
+        },
+        "width": 1566,
+        "height": 743
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5619,
+      "p": {
+        "displayName": "gd1",
+        "parent": {
+          "__i": 5618
+        },
+        "tag": "gd1",
+        "image": "assets/junminronghe/gd1.png",
+        "position": {
+          "x": 964.21629,
+          "y": 524.61735
+        },
+        "width": 1566,
+        "height": 584
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5620,
+      "p": {
+        "displayName": "gd2",
+        "parent": {
+          "__i": 5618
+        },
+        "tag": "gd2",
+        "image": "assets/junminronghe/gd2.png",
+        "position": {
+          "x": 960,
+          "y": 541
+        },
+        "width": 962,
+        "height": 380
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5621,
+      "p": {
+        "displayName": "gd3",
+        "parent": {
+          "__i": 5618
+        },
+        "tag": "gd3",
+        "image": "assets/junminronghe/gd3.png",
+        "position": {
+          "x": 960,
+          "y": 544.82979
+        },
+        "width": 520,
+        "height": 218
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5622,
+      "p": {
+        "displayName": "guangxiao",
+        "parent": {
+          "__i": 5618
+        },
+        "image": "assets/junminronghe/guangxiao.png",
+        "position": {
+          "x": 965.21629,
+          "y": 258
+        },
+        "width": 718,
+        "height": 216
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5623,
+      "p": {
+        "displayName": "guangshu",
+        "parent": {
+          "__i": 5618
+        },
+        "tag": "guangshu",
+        "image": "assets/junminronghe/guangshu.png",
+        "position": {
+          "x": 969.81415,
+          "y": 735
+        },
+        "width": 595,
+        "height": 316
+      },
+      "s": {
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5624,
+      "p": {
+        "displayName": "center_cloud_block",
+        "parent": {
+          "__i": 5618
+        },
+        "tag": "center_cloud_block",
+        "image": "assets/junminronghe/yun11.png",
+        "position": {
+          "x": 965.21629,
+          "y": 589.85841
+        },
+        "width": 430.26908,
+        "height": 538.05723
+      },
+      "s": {
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5625,
+      "p": {
+        "displayName": "nav",
+        "position": {
+          "x": 962.83864,
+          "y": 490.00002
+        },
+        "width": 1494.55099,
+        "height": 640.76535
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5626,
+      "p": {
+        "displayName": "cehuidilixinxi",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "cehuidilixinxi",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 328.56315,
+          "y": 520.61735
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='dilixinxiyingyongyun.html'\n}",
+        "2d.movable": false,
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "ico_img": "assets/junminronghe/icon-cehuidili.png",
+        "name1": "军民一体测绘地理",
+        "name2": "信息应用云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5627,
+      "p": {
+        "displayName": "feiting",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "feiting",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1180.35083,
+          "y": 286.61735
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='feiting.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "name1": "广西边境地区",
+        "name2": "飞艇应用云",
+        "ico_img": "assets/junminronghe/icon-feiting.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5628,
+      "p": {
+        "displayName": "gonggongfuwu",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "gonggongfuwu",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 656.31415,
+          "y": 549.82979
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='rongheyun.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "name2": "公共服务云",
+        "ico_img": "assets/junminronghe/icon-gonggongfuwu.png",
+        "name1": "广西军民融合"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5629,
+      "p": {
+        "displayName": "beidou",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "beidou",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 769.31415,
+          "y": 693.38266
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='beidou.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "name1": "广西军民一体化 ",
+        "name2": "北斗应用云",
+        "ico_img": "assets/junminronghe/icon-beidou.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5630,
+      "p": {
+        "displayName": "yingjiwuzi",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "yingjiwuzi",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1180.35083,
+          "y": 624.61735
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='yingyongwuzibaozhangyun.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "name1": "广西军民两用应急",
+        "name2": "物资保障云 ",
+        "ico_img": "assets/junminronghe/icon-jiuyuanwuzi.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5631,
+      "p": {
+        "displayName": "wurenjiguanli",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "wurenjiguanli",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1597.11413,
+          "y": 375
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='wurenji.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "name2": "管理及服务",
+        "ico_img": "assets/junminronghe/icon-wurenji.png",
+        "name1": "广西无人机运控"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5632,
+      "p": {
+        "displayName": "yingjiliuyuan",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "yingjiliuyuan",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1478.11413,
+          "y": 661.82979
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='hangkongfuwu.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "name1": "广西军民一体化应急",
+        "name2": "救援航空服务云",
+        "ico_img": "assets/junminronghe/icon-jiuyuanhangkong.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5633,
+      "p": {
+        "displayName": "jiaotongzhanbei",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "jiaotongzhanbei",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 731.07338,
+          "y": 304.08979
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href='xuejiangyun.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "ico_img": "assets/junminronghe/icon-zhanbei.png",
+        "name2": "交通云",
+        "name1": "广西军民融合"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5634,
+      "p": {
+        "parent": {
+          "__i": 5633
+        },
+        "position": {
+          "x": 731.07338,
+          "y": 237.91472
+        },
+        "width": 226,
+        "height": 52.17055
+      },
+      "s": {
+        "text": "广西交通战备云",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "22px sans-serif, Arial",
+        "text.shadow": true,
+        "text.shadow.color": "rgba(17,173,194,0.80)",
+        "text.shadow.offset.x": 2,
+        "opacity": 1,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5635,
+      "p": {
+        "displayName": "xuejiangyun",
+        "parent": {
+          "__i": 5625
+        },
+        "tag": "xuejiangyun",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1365.11413,
+          "y": 437.82979
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='xuejiangyun.html'\n}",
+        "interactive": true,
+        "shape.foreground.gradient.color": "rgb(252,252,252)",
+        "select.color": "rgba(250,250,250,0.00)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "ico_img": "assets/junminronghe/icon-xuejiang.png",
+        "name1": " ",
+        "name2": " "
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5636,
+      "p": {
+        "parent": {
+          "__i": 5635
+        },
+        "host": {
+          "__i": 5635
+        },
+        "position": {
+          "x": 1365.11413,
+          "y": 377.53207
+        },
+        "width": 226,
+        "height": 52.17055
+      },
+      "s": {
+        "text": "血浆云 ",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "22px sans-serif, Arial",
+        "text.shadow": true,
+        "text.shadow.color": "rgba(17,173,194,0.80)",
+        "text.shadow.offset.x": 2,
+        "opacity": 1,
+        "2d.selectable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "layout.h": "left",
+        "layout.v": "top"
+      }
+    }
+  ],
+  "modified": "Wed Dec 30 2020 11:45:20 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  }
+}

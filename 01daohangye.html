@@ -25,7 +25,7 @@
                 graphView.addToDOM();
                 dataModel.enableAnimation()
 
-                ht.Default.xhrLoad('displays/junminronghe/01daohangye.json', function(text) {
+                ht.Default.xhrLoad('displays/junminronghe/01daohangye1.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
@@ -33,6 +33,8 @@
                     
                     mainCloudAnimation(dataModel)
                     iconLinkAnimation(dataModel)
+                    dibuAni(dataModel);
+                    guangshuAni(dataModel);
                 });
             }
             // 中心云朵动画
@@ -187,6 +189,110 @@
                         start: ['down']
                     })
                 })
+            }
+
+            // 光束,光环
+            function guangshuAni(dm) {
+                var guangshu = dm.getDataByTag('guangshu');
+                var gd1 = dm.getDataByTag('gd1');
+                var gd2 = dm.getDataByTag('gd2');
+                var gd3 = dm.getDataByTag('gd3');
+                guangshu.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        duration: 2000,
+                        next: 'opa'
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0,
+                        to: 1,
+                        duration: 2000,
+                        next: 'show'
+                    },
+                    start: ["show"]
+                })
+                gd1.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        duration: 3000,
+                        repeat: true
+                    },
+                    large: {
+                        from: 1,
+                        to: 1.05,
+                        duration: 3000,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            this.setScale(value,value);
+                        }
+                    },
+                    start: ["show","large"]
+                });
+                gd2.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        delay: 2000,
+                        duration: 3000,
+                        repeat: true
+                    },
+                    large: {
+                        from: 1,
+                        to: 1.1,
+                        delay:2000,
+                        duration: 3000,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            this.setScale(value,value);
+                        }
+                    },
+                    start: ["show","large"]
+                });
+                gd3.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        delay:3000,
+                        duration: 3000,
+                        repeat: true
+                    },
+                    large: {
+                        from: 1,
+                        to: 1.15,
+                        duration: 3000,
+                        delay: 3000,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            this.setScale(value,value);
+                        }
+                    },
+                    start: ["show","large"]
+                })
+            }
+
+            // 底部动画
+            function dibuAni(dm) {
+                const helo = dm.getDataByTag('helo');
+                const helo2 = dm.getDataByTag('helo2');
+                const helo3 = dm.getDataByTag('helo3');
+                console.log(helo);
+                setInterval(() => {
+                    helo.a('helo.rotation', helo.a('helo.rotation') + Math.PI / 60 );
+                    helo2.a('helo.rotation', helo2.a('helo.rotation') + Math.PI / 180 );
+                    helo3.a('helo.rotation', helo3.a('helo.rotation') + Math.PI / 180 );
+                }, 50);
             }
         </script>
     </head>

@@ -33,6 +33,7 @@
                     mapAni(dataModel);
                     dibiaoAni(dataModel);
                     imgAni(dataModel);
+                    kuangAni(dataModel);
                 });
 
                 function mapAni(dm) {
@@ -40,7 +41,7 @@
                     const circle2 = dm.getDataByTag('circle2');
                     const circle3 = dm.getDataByTag('circle3');
                     const circle4 = dm.getDataByTag('circle4');
-                    const circle5 = dm.getDataByTag('circle5');
+                    //const circle5 = dm.getDataByTag('circle5');
                     
                     circle1.setAnimation({
                         expandWidth: {
@@ -166,7 +167,7 @@
                         },
                         start: ["expandWidth", "expandHeight"]
                     })
-                    circle5.setAnimation({
+                    /*circle5.setAnimation({
                         expandWidth: {
                             property: "width",
                             from: circle5.getWidth(), 
@@ -196,7 +197,7 @@
                             next: "expandHeight"
                         },
                         start: ["expandWidth", "expandHeight"]
-                    })
+                    })*/
                 }
 
                 function dibiaoAni(dm) {
@@ -212,7 +213,7 @@
                                     accessType: "style", 
                                     from: 1, 
                                     to: 0,
-                                    frames: 80,
+                                    duration: 1000,
                                     next: "show"
                                 },
                                 show: {
@@ -220,7 +221,7 @@
                                     accessType: "style", 
                                     from: 0, 
                                     to: 1,
-                                    frames: 80,
+                                    duration: 2000,
                                     next: "hide"
                                 },
                             start: ["hide"]
@@ -253,6 +254,31 @@
                         var slideBeforeOffset = slide.a('offset');
                         slide.a('offset',slideBeforeOffset-1);
                     },10);   
+                }
+                // 框浮动
+                function kuangAni(dm) {
+                    var kuang = dm.getDataByTag('kuang');
+                    kuang.setAnimation({
+                        up:{
+                            from: kuang.getPosition().y,
+                            to: kuang.getPosition().y - 10,
+                            duration: 1000,
+                            next: 'down',
+                            onUpdate: function (value) {
+                                this.setPosition(this.getPosition().x,value);
+                            }
+                        },
+                        down:{
+                            from: kuang.getPosition().y - 10,
+                            to: kuang.getPosition().y,
+                            duration: 1000,
+                            next: 'up',
+                            onUpdate: function (value) {
+                                this.setPosition(this.getPosition().x,value);
+                            }
+                        },
+                        start: ['up']
+                    })
                 }
 
             }
