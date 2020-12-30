@@ -34,6 +34,7 @@
                     videoPlay(dataModel);
                     arrowAni(dataModel);
                     arrowHideAnimation(dataModel);
+                    BlockAni(dataModel)
                 });
 
                 function videoPlay(dm) {
@@ -128,6 +129,90 @@
                         })
                     })
                 }
+            }
+            
+            // 无人机云系统块动画
+            function BlockAni (dm)  {
+                const bottomBlock1 = dm.getDataByTag('bottomBlock1')
+                const bottomBlock2 = dm.getDataByTag('bottomBlock2')
+                const bottomBlock3 = dm.getDataByTag('bottomBlock3')
+                const bottomBlock4 = dm.getDataByTag('bottomBlock4')
+
+                const blockText1 = dm.getDataByTag('blockText1')
+                const blockText2 = dm.getDataByTag('blockText2')
+                const blockText3 = dm.getDataByTag('blockText3')
+                const blockText4 = dm.getDataByTag('blockText4')
+
+                const bottomBlock = [bottomBlock1, bottomBlock2, bottomBlock3, bottomBlock4]
+                const blockText = [blockText1, blockText2, blockText3, blockText4]
+
+                for(let i = 0; i < bottomBlock.length; i++) {
+                    bottomBlock[i].s('opacity', 0)
+                }
+
+                for(let j = 0; j < blockText.length; j++) {
+                    blockText[j].s('opacity', 0)
+                }
+
+                function bottomBlockAni1() {
+                    let bottomBlockTimer1 = setInterval(() => {
+                        const bottomBlockValue1 =  bottomBlock1.s('opacity')
+                        if (bottomBlockValue1 >= 1) {
+                            bottomBlock1.s('opacity', 1)
+                            blockText1.s('opacity', 1)
+                            clearInterval(bottomBlockTimer1)
+                            bottomBlockAni2()
+                        }else {
+                            bottomBlock1.s('opacity', (bottomBlockValue1 + 0.03))
+                            blockText1.s('opacity', (bottomBlockValue1 + 0.03))
+                        }
+                    }, 50)
+                }
+
+                function bottomBlockAni2() {
+                    let bottomBlockTimer2 = setInterval(() => {
+                        const bottomBlockValue2 =  bottomBlock2.s('opacity')
+                        if (bottomBlockValue2 >= 1) {
+                            bottomBlock2.s('opacity', 1)
+                            blockText2.s('opacity', 1)
+                            clearInterval(bottomBlockTimer2)
+                            bottomBlockAni3()
+                        }else {
+                            bottomBlock2.s('opacity', (bottomBlockValue2 + 0.03))
+                            blockText2.s('opacity', (bottomBlockValue2 + 0.03))
+                        }
+                    }, 50)
+                }
+
+                function bottomBlockAni3() {
+                    let bottomBlockTimer3 = setInterval(() => {
+                        const bottomBlockValue3 =  bottomBlock3.s('opacity')
+                        if (bottomBlockValue3 >= 1) {
+                            bottomBlock3.s('opacity', 1)
+                            blockText3.s('opacity', 1)
+                            clearInterval(bottomBlockTimer3)
+                            bottomBlockAni4()
+                        }else {
+                            bottomBlock3.s('opacity', (bottomBlockValue3 + 0.03))
+                            blockText3.s('opacity', (bottomBlockValue3 + 0.03))
+                        }
+                    }, 50)
+                }
+
+                function bottomBlockAni4() {
+                    let bottomBlockTimer4 = setInterval(() => {
+                        const bottomBlockValue4 =  bottomBlock4.s('opacity')
+                        if (bottomBlockValue4 >= 1) {
+                            bottomBlock4.s('opacity', 1)
+                            blockText4.s('opacity', 1)
+                            clearInterval(bottomBlockTimer4)
+                        }else {
+                            bottomBlock4.s('opacity', (bottomBlockValue4 + 0.03))
+                            blockText4.s('opacity', (bottomBlockValue4 + 0.03))
+                        }
+                    }, 50)
+                }
+                bottomBlockAni1()
             }
         </script>
     </head>
