@@ -11,7 +11,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 1828,
+      "i": 467,
       "p": {
         "displayName": "bj-xuejiangyun",
         "image": "assets/junminronghe/bj-xuejiangyun.png",
@@ -34,12 +34,64 @@
       }
     },
     {
+      "c": "ht.Shape",
+      "i": 712,
+      "p": {
+        "position": {
+          "x": -41.63265,
+          "y": 547.43831
+        },
+        "width": 853.78006,
+        "height": 142.91806,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -32.31191,
+              "y": 616.41181
+            },
+            {
+              "x": -468.52268,
+              "y": 618.89734
+            },
+            {
+              "x": -385.25738,
+              "y": 475.97928
+            },
+            {
+              "x": 304.47761,
+              "y": 477.22204
+            },
+            {
+              "x": 385.25738,
+              "y": 618.89734
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgb(5,250,246)",
+        "shape.border.width": 2,
+        "opacity": 0.56
+      }
+    },
+    {
       "c": "ht.Block",
-      "i": 1829,
+      "i": 468,
       "p": {
         "displayName": "进入云平台",
         "host": {
-          "__i": 1828
+          "__i": 467
         },
         "position": {
           "x": 1278.32653,
@@ -63,11 +115,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1830,
+      "i": 469,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 1829
+          "__i": 468
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -86,10 +138,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 1831,
+      "i": 470,
       "p": {
         "parent": {
-          "__i": 1829
+          "__i": 468
         },
         "position": {
           "x": 1239.92549,
@@ -107,7 +159,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 1832,
+      "i": 471,
       "p": {
         "displayName": "寻找康复血液",
         "position": {
@@ -129,10 +181,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 1833,
+      "i": 472,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -31.97969,
@@ -152,10 +204,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1834,
+      "i": 473,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -45.82646,
@@ -206,10 +258,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1835,
+      "i": 474,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -45.82646,
@@ -230,11 +282,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 1836,
+      "i": 475,
       "p": {
         "displayName": "块",
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -558.67062,
@@ -257,10 +309,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1837,
+      "i": 476,
       "p": {
         "parent": {
-          "__i": 1836
+          "__i": 475
         },
         "position": {
           "x": -242.55719,
@@ -290,11 +342,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1838,
+      "i": 477,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1836
+          "__i": 475
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -322,10 +374,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1839,
+      "i": 478,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -25.1285,
@@ -344,10 +396,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1840,
+      "i": 479,
       "p": {
         "parent": {
-          "__i": 1839
+          "__i": 478
         },
         "position": {
           "x": -25.1285,
@@ -377,11 +429,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1841,
+      "i": 480,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1839
+          "__i": 478
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -409,10 +461,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1842,
+      "i": 481,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": 165.8715,
@@ -431,10 +483,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1843,
+      "i": 482,
       "p": {
         "parent": {
-          "__i": 1842
+          "__i": 481
         },
         "position": {
           "x": 165.8715,
@@ -464,11 +516,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1844,
+      "i": 483,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1842
+          "__i": 481
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -496,10 +548,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1845,
+      "i": 484,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -239.92099,
@@ -517,11 +569,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1846,
+      "i": 485,
       "p": {
         "displayName": "hexagon1",
         "parent": {
-          "__i": 1845
+          "__i": 484
         },
         "tag": "hexagon1",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -541,11 +593,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1847,
+      "i": 486,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1845
+          "__i": 484
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -571,10 +623,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1848,
+      "i": 487,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -38.79436,
@@ -592,11 +644,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1849,
+      "i": 488,
       "p": {
         "displayName": "hexagon2",
         "parent": {
-          "__i": 1848
+          "__i": 487
         },
         "tag": "hexagon2",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -616,11 +668,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1850,
+      "i": 489,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1848
+          "__i": 487
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -646,10 +698,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1851,
+      "i": 490,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": 162.15626,
@@ -667,11 +719,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1852,
+      "i": 491,
       "p": {
         "displayName": "hexagon3",
         "parent": {
-          "__i": 1851
+          "__i": 490
         },
         "tag": "hexagon3",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -691,11 +743,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1853,
+      "i": 492,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1851
+          "__i": 490
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -721,10 +773,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1854,
+      "i": 493,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -138.58388,
@@ -742,11 +794,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1855,
+      "i": 494,
       "p": {
         "displayName": "hexagon6",
         "parent": {
-          "__i": 1854
+          "__i": 493
         },
         "tag": "hexagon6",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -766,11 +818,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1856,
+      "i": 495,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1854
+          "__i": 493
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -796,10 +848,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1857,
+      "i": 496,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": 61.54846,
@@ -817,11 +869,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1858,
+      "i": 497,
       "p": {
         "displayName": "hexagon5",
         "parent": {
-          "__i": 1857
+          "__i": 496
         },
         "tag": "hexagon5",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -841,11 +893,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1859,
+      "i": 498,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1857
+          "__i": 496
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -871,10 +923,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1860,
+      "i": 499,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": 261.50481,
@@ -892,11 +944,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1861,
+      "i": 500,
       "p": {
         "displayName": "hexagon4",
         "parent": {
-          "__i": 1860
+          "__i": 499
         },
         "tag": "hexagon4",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -916,11 +968,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1862,
+      "i": 501,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1860
+          "__i": 499
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -946,10 +998,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1863,
+      "i": 502,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -338.71623,
@@ -967,11 +1019,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1864,
+      "i": 503,
       "p": {
         "displayName": "hexagon7",
         "parent": {
-          "__i": 1863
+          "__i": 502
         },
         "tag": "hexagon7",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -991,11 +1043,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1865,
+      "i": 504,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1863
+          "__i": 502
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1021,10 +1073,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1866,
+      "i": 505,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": 171.00566,
@@ -1042,10 +1094,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1867,
+      "i": 506,
       "p": {
         "parent": {
-          "__i": 1866
+          "__i": 505
         },
         "position": {
           "x": 171.00567,
@@ -1073,10 +1125,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1868,
+      "i": 507,
       "p": {
         "parent": {
-          "__i": 1866
+          "__i": 505
         },
         "position": {
           "x": 99.13844,
@@ -1101,11 +1153,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1869,
+      "i": 508,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1866
+          "__i": 505
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1131,10 +1183,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1870,
+      "i": 509,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -31.97969,
@@ -1152,10 +1204,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1871,
+      "i": 510,
       "p": {
         "parent": {
-          "__i": 1870
+          "__i": 509
         },
         "position": {
           "x": -31.97969,
@@ -1183,10 +1235,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1872,
+      "i": 511,
       "p": {
         "parent": {
-          "__i": 1870
+          "__i": 509
         },
         "position": {
           "x": -103.91331,
@@ -1211,11 +1263,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1873,
+      "i": 512,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1870
+          "__i": 509
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1241,10 +1293,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1874,
+      "i": 513,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -557.15246,
@@ -1266,10 +1318,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1875,
+      "i": 514,
       "p": {
         "parent": {
-          "__i": 1874
+          "__i": 513
         },
         "position": {
           "x": -241.03886,
@@ -1297,10 +1349,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1876,
+      "i": 515,
       "p": {
         "parent": {
-          "__i": 1874
+          "__i": 513
         },
         "position": {
           "x": -312.97247,
@@ -1325,11 +1377,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1877,
+      "i": 516,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1874
+          "__i": 513
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1355,10 +1407,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1878,
+      "i": 517,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -37.62849,
@@ -1376,10 +1428,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1879,
+      "i": 518,
       "p": {
         "parent": {
-          "__i": 1878
+          "__i": 517
         },
         "position": {
           "x": 165.8715,
@@ -1423,10 +1475,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1880,
+      "i": 519,
       "p": {
         "parent": {
-          "__i": 1878
+          "__i": 517
         },
         "position": {
           "x": -241.1285,
@@ -1470,10 +1522,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1881,
+      "i": 520,
       "p": {
         "parent": {
-          "__i": 1878
+          "__i": 517
         },
         "position": {
           "x": -241.1285,
@@ -1517,10 +1569,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1882,
+      "i": 521,
       "p": {
         "parent": {
-          "__i": 1878
+          "__i": 517
         },
         "position": {
           "x": -25.1285,
@@ -1564,10 +1616,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1883,
+      "i": 522,
       "p": {
         "parent": {
-          "__i": 1878
+          "__i": 517
         },
         "position": {
           "x": -36.93521,
@@ -1605,10 +1657,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1884,
+      "i": 523,
       "p": {
         "parent": {
-          "__i": 1878
+          "__i": 517
         },
         "rotation": 1.5708,
         "position": {
@@ -1647,10 +1699,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1885,
+      "i": 524,
       "p": {
         "parent": {
-          "__i": 1878
+          "__i": 517
         },
         "rotation": 1.5708,
         "position": {
@@ -1689,10 +1741,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1886,
+      "i": 525,
       "p": {
         "parent": {
-          "__i": 1878
+          "__i": 517
         },
         "rotation": 1.5708,
         "position": {
@@ -1739,10 +1791,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 1887,
+      "i": 526,
       "p": {
         "parent": {
-          "__i": 1832
+          "__i": 471
         },
         "position": {
           "x": -41.09458,
@@ -1755,15 +1807,16 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.visible": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 1888,
+      "i": 527,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "position": {
           "x": 316.90551,
@@ -1811,10 +1864,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1889,
+      "i": 528,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "position": {
           "x": 161.48276,
@@ -1852,10 +1905,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1890,
+      "i": 529,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "position": {
           "x": -38.51724,
@@ -1893,10 +1946,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1891,
+      "i": 530,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "position": {
           "x": -238.51724,
@@ -1934,10 +1987,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1892,
+      "i": 531,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "rotation": 3.14159,
         "position": {
@@ -1990,10 +2043,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1893,
+      "i": 532,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "position": {
           "x": -138.51724,
@@ -2031,10 +2084,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 1894,
+      "i": 533,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "position": {
           "x": 59.48276,
@@ -2072,10 +2125,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1895,
+      "i": 534,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "rotation": -0.43633,
         "position": {
@@ -2100,10 +2153,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1896,
+      "i": 535,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "rotation": 1.5708,
         "position": {
@@ -2128,10 +2181,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1897,
+      "i": 536,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "rotation": 1.5708,
         "position": {
@@ -2156,10 +2209,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1898,
+      "i": 537,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "rotation": 1.5708,
         "position": {
@@ -2184,10 +2237,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1899,
+      "i": 538,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "rotation": 0.43633,
         "position": {
@@ -2208,10 +2261,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1900,
+      "i": 539,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "rotation": -1.5708,
         "position": {
@@ -2236,10 +2289,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 1901,
+      "i": 540,
       "p": {
         "parent": {
-          "__i": 1887
+          "__i": 526
         },
         "rotation": -1.5708,
         "position": {
@@ -2264,7 +2317,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 1902,
+      "i": 541,
       "p": {
         "displayName": "血浆云视频",
         "position": {
@@ -2286,11 +2339,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1903,
+      "i": 542,
       "p": {
         "displayName": "video",
         "parent": {
-          "__i": 1902
+          "__i": 541
         },
         "tag": "video",
         "image": "symbols/smartPolitics/video.json",
@@ -2311,10 +2364,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 1904,
+      "i": 543,
       "p": {
         "parent": {
-          "__i": 1902
+          "__i": 541
         },
         "position": {
           "x": 873.48031,
@@ -2334,11 +2387,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1905,
+      "i": 544,
       "p": {
         "displayName": "shipinkuang",
         "parent": {
-          "__i": 1902
+          "__i": 541
         },
         "image": "assets/junminronghe/shipinkuang.png",
         "position": {
@@ -2357,11 +2410,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1906,
+      "i": 545,
       "p": {
         "displayName": "xuejiangyun",
         "parent": {
-          "__i": 1902
+          "__i": 541
         },
         "tag": "xuejiangyun",
         "image": "assets/junminronghe/xuejiangyun.png",
@@ -2385,11 +2438,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1907,
+      "i": 546,
       "p": {
         "displayName": "bofang",
         "parent": {
-          "__i": 1902
+          "__i": 541
         },
         "tag": "bofang",
         "image": "assets/junminronghe/bofang.png",
@@ -2417,15 +2470,15 @@
     },
     {
       "c": "ht.Block",
-      "i": 1908,
+      "i": 547,
       "p": {
         "displayName": "冷链监控",
         "position": {
-          "x": 881.9378,
-          "y": 460.77282
+          "x": 904.69916,
+          "y": 229.39505
         },
-        "width": 773.6444,
-        "height": 512.75554
+        "width": 638.45668,
+        "height": 50
       },
       "s": {
         "2d.movable": false,
@@ -2439,10 +2492,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 1909,
+      "i": 548,
       "p": {
         "parent": {
-          "__i": 1908
+          "__i": 547
         },
         "position": {
           "x": 906.85976,
@@ -2462,11 +2515,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1910,
+      "i": 549,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 1908
+          "__i": 547
         },
         "image": "symbols/junminronghe/titleline.json",
         "position": {
@@ -2483,11 +2536,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1911,
+      "i": 550,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 1908
+          "__i": 547
         },
         "image": "symbols/junminronghe/titleline.json",
         "rotation": 3.14159,
@@ -2505,1819 +2558,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 1912,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 873.33729,
-          "y": 486.31475
-        },
-        "width": 610.95312,
-        "height": 337.75124
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1913,
-      "p": {
-        "parent": {
-          "__i": 1912
-        },
-        "position": {
-          "x": 572.73375,
-          "y": 402.59648
-        },
-        "width": 9.74607,
-        "height": 105.57926
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1914,
-      "p": {
-        "parent": {
-          "__i": 1913
-        },
-        "position": {
-          "x": 573.11724,
-          "y": 399.80685
-        },
-        "width": 0.76705,
-        "height": 100,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 573.50077,
-              "y": 349.80685
-            },
-            {
-              "x": 572.73372,
-              "y": 449.80685
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1915,
-      "p": {
-        "parent": {
-          "__i": 1913
-        },
-        "position": {
-          "x": 570.85026,
-          "y": 452.50122
-        },
-        "anchor": {
-          "x": 0.30675,
-          "y": 0.5
-        },
-        "scale": {
-          "x": 1,
-          "y": -1
-        },
-        "width": 9.74607,
-        "height": 5.76978
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1916,
-      "p": {
-        "parent": {
-          "__i": 1912
-        },
-        "position": {
-          "x": 795.73373,
-          "y": 382.95855
-        },
-        "width": 10,
-        "height": 68.30339
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1917,
-      "p": {
-        "parent": {
-          "__i": 1916
-        },
-        "position": {
-          "x": 796.11724,
-          "y": 381.80685
-        },
-        "width": 0.76705,
-        "height": 66,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 796.50077,
-              "y": 348.80685
-            },
-            {
-              "x": 795.73372,
-              "y": 414.80685
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1918,
-      "p": {
-        "parent": {
-          "__i": 1916
-        },
-        "position": {
-          "x": 796.43781,
-          "y": 408.44864
-        },
-        "anchor": {
-          "x": 0.57041,
-          "y": 1.4436
-        },
-        "scale": {
-          "x": 1,
-          "y": -1
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1919,
-      "p": {
-        "parent": {
-          "__i": 1912
-        },
-        "rotation": 1.0472,
-        "position": {
-          "x": 936.22041,
-          "y": 399.64289
-        },
-        "width": 10,
-        "height": 203.35888
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1920,
-      "p": {
-        "parent": {
-          "__i": 1919
-        },
-        "rotation": 1.0472,
-        "position": {
-          "x": 937.95259,
-          "y": 399.28418
-        },
-        "width": 0.76705,
-        "height": 200,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 938.33611,
-              "y": 299.28418
-            },
-            {
-              "x": 937.56906,
-              "y": 499.28418
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1921,
-      "p": {
-        "parent": {
-          "__i": 1919
-        },
-        "rotation": 1.0472,
-        "position": {
-          "x": 850.76155,
-          "y": 448.98264
-        },
-        "scale": {
-          "x": 1,
-          "y": -1
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1922,
-      "p": {
-        "parent": {
-          "__i": 1912
-        },
-        "rotation": -1.58825,
-        "position": {
-          "x": 634.19664,
-          "y": 323.21826
-        },
-        "width": 10.10319,
-        "height": 35.8433
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1923,
-      "p": {
-        "parent": {
-          "__i": 1922
-        },
-        "rotation": -1.58825,
-        "position": {
-          "x": 631.27005,
-          "y": 322.95933
-        },
-        "width": 0.76705,
-        "height": 30,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 631.65357,
-              "y": 307.95933
-            },
-            {
-              "x": 630.88652,
-              "y": 337.95933
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1924,
-      "p": {
-        "parent": {
-          "__i": 1922
-        },
-        "rotation": 1.5708,
-        "position": {
-          "x": 643.36762,
-          "y": 323.66342
-        },
-        "anchor": {
-          "x": 0.57041,
-          "y": 1.4436
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1925,
-      "p": {
-        "parent": {
-          "__i": 1912
-        },
-        "position": {
-          "x": 578.93118,
-          "y": 581.63436
-        },
-        "width": 10,
-        "height": 45.03624
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1926,
-      "p": {
-        "parent": {
-          "__i": 1925
-        },
-        "position": {
-          "x": 579.31469,
-          "y": 579.11627
-        },
-        "width": 0.76705,
-        "height": 40,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 579.69821,
-              "y": 559.11627
-            },
-            {
-              "x": 578.93116,
-              "y": 599.11627
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "#32D3EB",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1927,
-      "p": {
-        "parent": {
-          "__i": 1925
-        },
-        "position": {
-          "x": 579.63524,
-          "y": 595.49086
-        },
-        "anchor": {
-          "x": 0.57041,
-          "y": 1.4436
-        },
-        "scale": {
-          "x": 1,
-          "y": -1
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1928,
-      "p": {
-        "parent": {
-          "__i": 1912
-        },
-        "position": {
-          "x": 768.13776,
-          "y": 649.80684
-        },
-        "width": 170.04099,
-        "height": 10.76703
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1929,
-      "p": {
-        "parent": {
-          "__i": 1928
-        },
-        "rotation": 1.5708,
-        "position": {
-          "x": 768.11724,
-          "y": 649.80685
-        },
-        "width": 0.76705,
-        "height": 160,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 768.50077,
-              "y": 569.80685
-            },
-            {
-              "x": 767.73372,
-              "y": 729.80685
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1930,
-      "p": {
-        "parent": {
-          "__i": 1928
-        },
-        "rotation": 1.5708,
-        "position": {
-          "x": 691.77885,
-          "y": 650.12741
-        },
-        "anchor": {
-          "x": 0.57041,
-          "y": 1.4436
-        },
-        "scale": {
-          "x": 1,
-          "y": -1
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1931,
-      "p": {
-        "parent": {
-          "__i": 1928
-        },
-        "rotation": 1.5708,
-        "position": {
-          "x": 844.49667,
-          "y": 650.89446
-        },
-        "anchor": {
-          "x": 0.57041,
-          "y": 1.4436
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1932,
-      "p": {
-        "parent": {
-          "__i": 1912
-        },
-        "rotation": 1.5708,
-        "position": {
-          "x": 1139.9656,
-          "y": 596.85985
-        },
-        "width": 108.61646,
-        "height": 77.69654
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1933,
-      "p": {
-        "parent": {
-          "__i": 1932
-        },
-        "rotation": 3.14159,
-        "position": {
-          "x": 1173.43034,
-          "y": 597.55162
-        },
-        "width": 0.76705,
-        "height": 100,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 1173.81387,
-              "y": 547.55162
-            },
-            {
-              "x": 1173.04682,
-              "y": 647.55162
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1934,
-      "p": {
-        "parent": {
-          "__i": 1932
-        },
-        "rotation": 1.5708,
-        "position": {
-          "x": 1140.04682,
-          "y": 646.55162
-        },
-        "width": 0.76705,
-        "height": 66,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 1140.43034,
-              "y": 613.55162
-            },
-            {
-              "x": 1139.66329,
-              "y": 679.55162
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1935,
-      "p": {
-        "parent": {
-          "__i": 1932
-        },
-        "rotation": 1.5708,
-        "position": {
-          "x": 1109.77889,
-          "y": 646.87218
-        },
-        "anchor": {
-          "x": 0.57041,
-          "y": 1.4436
-        },
-        "scale": {
-          "x": 1,
-          "y": -1
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1936,
-      "p": {
-        "parent": {
-          "__i": 1932
-        },
-        "position": {
-          "x": 1174.51795,
-          "y": 551.21323
-        },
-        "anchor": {
-          "x": 0.57041,
-          "y": 1.4436
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1937,
-      "p": {
-        "parent": {
-          "__i": 1912
-        },
-        "rotation": -1.58825,
-        "position": {
-          "x": 733.53327,
-          "y": 322.80392
-        },
-        "width": 10.10319,
-        "height": 35.97987
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Shape",
-      "i": 1938,
-      "p": {
-        "parent": {
-          "__i": 1937
-        },
-        "rotation": -1.58825,
-        "position": {
-          "x": 736.52608,
-          "y": 322.94229
-        },
-        "width": 0.50033,
-        "height": 30,
-        "segments": {
-          "__a": [
-            1,
-            2
-          ]
-        },
-        "points": {
-          "__a": [
-            {
-              "x": 736.77625,
-              "y": 307.94229
-            },
-            {
-              "x": 736.27592,
-              "y": 337.94229
-            }
-          ]
-        }
-      },
-      "s": {
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "rgb(15,69,122)",
-        "shape.border.width": 1,
-        "shape.dash": true,
-        "shape.dash.pattern": [
-          6,
-          6
-        ],
-        "shape.dash.color": "rgb(51,153,255)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1939,
-      "p": {
-        "parent": {
-          "__i": 1937
-        },
-        "rotation": 1.5708,
-        "position": {
-          "x": 724.29401,
-          "y": 323.76805
-        },
-        "anchor": {
-          "x": 0.57041,
-          "y": 1.4436
-        },
-        "scale": {
-          "x": 1,
-          "y": -1
-        },
-        "width": 10,
-        "height": 6
-      },
-      "s": {
-        "shape": "triangle",
-        "shape.background": "rgb(51,153,255)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1940,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 573.68903,
-          "y": 326.72886
-        },
-        "width": 100,
-        "height": 118.08986
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1941,
-      "p": {
-        "displayName": "weizhi",
-        "parent": {
-          "__i": 1940
-        },
-        "image": "assets/junminronghe/weizhi.png",
-        "position": {
-          "x": 573.68905,
-          "y": 317.68394
-        },
-        "width": 100,
-        "height": 100
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1942,
-      "p": {
-        "parent": {
-          "__i": 1940
-        },
-        "position": {
-          "x": 663.44974,
-          "y": 369.82617
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 66.69705,
-        "height": 26.81038
-      },
-      "s": {
-        "text": "中转终端",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "bold 16px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1943,
-      "p": {
-        "parent": {
-          "__i": 1940
-        },
-        "position": {
-          "x": 611.44062,
-          "y": 339.97566
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 28.29609,
-        "height": 21.71449
-      },
-      "s": {
-        "text": "位置",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "12px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1944,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 684.07259,
-          "y": 318.80478
-        },
-        "width": 64.08675,
-        "height": 60
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1945,
-      "p": {
-        "displayName": "wang",
-        "parent": {
-          "__i": 1944
-        },
-        "image": "assets/junminronghe/wang.png",
-        "position": {
-          "x": 683.47082,
-          "y": 318.80479
-        },
-        "width": 50,
-        "height": 60
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1946,
-      "p": {
-        "parent": {
-          "__i": 1944
-        },
-        "position": {
-          "x": 770.86977,
-          "y": 316.43085
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 64.08675
-      },
-      "s": {
-        "text": "LoRa",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "bold 24px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1947,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 795.18562,
-          "y": 332.20173
-        },
-        "width": 100,
-        "height": 129.66627
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1948,
-      "p": {
-        "displayName": "wendu",
-        "parent": {
-          "__i": 1947
-        },
-        "image": "assets/junminronghe/wendu.png",
-        "position": {
-          "x": 795.18562,
-          "y": 317.3686
-        },
-        "width": 100,
-        "height": 100
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1949,
-      "p": {
-        "parent": {
-          "__i": 1947
-        },
-        "position": {
-          "x": 911.12784,
-          "y": 367.29335
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 81.24431
-      },
-      "s": {
-        "text": "采集终端",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "bold 16px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1950,
-      "p": {
-        "parent": {
-          "__i": 1947
-        },
-        "position": {
-          "x": 855.94818,
-          "y": 340.17331
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 40.50238,
-        "height": 21.71449
-      },
-      "s": {
-        "text": "温度",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "12px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1951,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 1254.31078,
-          "y": 335.15085
-        },
-        "anchor": {
-          "x": 3.95072,
-          "y": 0.68116
-        },
-        "width": 100,
-        "height": 100
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1952,
-      "p": {
-        "displayName": "guangmin",
-        "parent": {
-          "__i": 1951
-        },
-        "image": "assets/junminronghe/guangmin.png",
-        "position": {
-          "x": 909.23876,
-          "y": 317.03485
-        },
-        "width": 100,
-        "height": 100
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1953,
-      "p": {
-        "parent": {
-          "__i": 1951
-        },
-        "position": {
-          "x": 970.50307,
-          "y": 339.62473
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 40.50238,
-        "height": 21.71449
-      },
-      "s": {
-        "text": "光敏",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "12px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1954,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 1023.92744,
-          "y": 326.05202
-        },
-        "width": 100,
-        "height": 117.36685
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1955,
-      "p": {
-        "displayName": "shidu",
-        "parent": {
-          "__i": 1954
-        },
-        "image": "assets/junminronghe/shidu.png",
-        "position": {
-          "x": 1023.92746,
-          "y": 317.3686
-        },
-        "width": 100,
-        "height": 100
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1956,
-      "p": {
-        "parent": {
-          "__i": 1954
-        },
-        "position": {
-          "x": 1115.7281,
-          "y": 368.88577
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 67.78106,
-        "height": 26.64571
-      },
-      "s": {
-        "text": "采集终端",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "bold 16px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1957,
-      "p": {
-        "parent": {
-          "__i": 1954
-        },
-        "position": {
-          "x": 1085.69,
-          "y": 340.1733
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 40.50238,
-        "height": 21.71449
-      },
-      "s": {
-        "text": "湿度",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "12px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1958,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 548.2948,
-          "y": 738.51703
-        },
-        "anchor": {
-          "x": 0.64436,
-          "y": 1.17559
-        },
-        "width": 82.53026,
-        "height": 121.68434
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1959,
-      "p": {
-        "displayName": "xinhao",
-        "parent": {
-          "__i": 1958
-        },
-        "image": "assets/junminronghe/xinhao.png",
-        "position": {
-          "x": 536.38037,
-          "y": 635.30837
-        },
-        "width": 82.53026,
-        "height": 79.68439
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1960,
-      "p": {
-        "parent": {
-          "__i": 1958
-        },
-        "position": {
-          "x": 611.77494,
-          "y": 687.40903
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 56.51806
-      },
-      "s": {
-        "text": "CDMA",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "bold 16px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1961,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 647.29445,
-          "y": 738.51715
-        },
-        "anchor": {
-          "x": 0.64436,
-          "y": 1.17559
-        },
-        "width": 82.53026,
-        "height": 121.6844
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1962,
-      "p": {
-        "displayName": "xinhao",
-        "parent": {
-          "__i": 1961
-        },
-        "image": "assets/junminronghe/xinhao.png",
-        "position": {
-          "x": 635.38037,
-          "y": 635.30837
-        },
-        "scale": {
-          "x": -1,
-          "y": 1
-        },
-        "width": 82.53026,
-        "height": 79.68439
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1963,
-      "p": {
-        "parent": {
-          "__i": 1961
-        },
-        "position": {
-          "x": 694.01433,
-          "y": 687.40907
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 43.27078
-      },
-      "s": {
-        "text": "GSM",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "bold 16px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1964,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 696.27448,
-          "y": 487.78869
-        },
-        "width": 329.62976,
-        "height": 138.62068
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1965,
-      "p": {
-        "displayName": "che",
-        "parent": {
-          "__i": 1964
-        },
-        "image": "assets/junminronghe/che.png",
-        "position": {
-          "x": 696.2745,
-          "y": 487.78869
-        },
-        "width": 329.62977,
-        "height": 138.62068
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1966,
-      "p": {
-        "parent": {
-          "__i": 1964
-        },
-        "position": {
-          "x": 745.35378,
-          "y": 487.66668
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 70.09019
-      },
-      "s": {
-        "text": "生命快线",
-        "text.color": "rgb(212,0,0)",
-        "text.font": "bold 14px Microsoft YaHei",
-        "text.shadow.color": "rgb(212,0,0)",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1967,
-      "p": {
-        "parent": {
-          "__i": 1908
-        },
-        "position": {
-          "x": 964.55687,
-          "y": 605.30122
-        },
-        "width": 258.54132,
-        "height": 166.97091
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1968,
-      "p": {
-        "parent": {
-          "__i": 1967
-        },
-        "position": {
-          "x": 966.35487,
-          "y": 559.90871
-        },
-        "width": 128.95984,
-        "height": 76.18591
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1969,
-      "p": {
-        "displayName": "yun",
-        "parent": {
-          "__i": 1968
-        },
-        "image": "assets/junminronghe/yun.png",
-        "position": {
-          "x": 966.35489,
-          "y": 557.63794
-        },
-        "width": 128.95984,
-        "height": 71.64436
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 1970,
-      "p": {
-        "parent": {
-          "__i": 1968
-        },
-        "position": {
-          "x": 1090.04245,
-          "y": 565.78092
-        },
-        "anchor": {
-          "x": 1.85437,
-          "y": 0.40517
-        },
-        "width": 93.17551,
-        "height": 54.16795
-      },
-      "s": {
-        "text": "云端监管平台",
-        "text.color": "rgb(252,252,252)",
-        "text.font": "14px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1971,
-      "p": {
-        "displayName": "shouji",
-        "parent": {
-          "__i": 1967
-        },
-        "image": "assets/junminronghe/shouji.png",
-        "position": {
-          "x": 878.23876,
-          "y": 658.71987
-        },
-        "width": 85.90513,
-        "height": 60.13359
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1972,
-      "p": {
-        "displayName": "diannao",
-        "parent": {
-          "__i": 1967
-        },
-        "image": "assets/junminronghe/diannao.png",
-        "position": {
-          "x": 959.61014,
-          "y": 658.42001
-        },
-        "width": 85.04838,
-        "height": 59.53387
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1973,
-      "p": {
-        "displayName": "bijiben",
-        "parent": {
-          "__i": 1967
-        },
-        "image": "assets/junminronghe/bijiben.png",
-        "position": {
-          "x": 1050.92825,
-          "y": 658.68258
-        },
-        "width": 85.7986,
-        "height": 60.05902
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1974,
-      "p": {
-        "displayName": "wifi",
-        "parent": {
-          "__i": 1967
-        },
-        "image": "assets/junminronghe/wifi.png",
-        "position": {
-          "x": 878.23876,
-          "y": 615.56146
-        },
-        "width": 28.84359,
-        "height": 20.19052
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1975,
-      "p": {
-        "displayName": "wifi",
-        "parent": {
-          "__i": 1967
-        },
-        "image": "assets/junminronghe/wifi.png",
-        "position": {
-          "x": 959.23876,
-          "y": 615.56146
-        },
-        "width": 28.84359,
-        "height": 20.19052
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1976,
-      "p": {
-        "displayName": "wifi",
-        "parent": {
-          "__i": 1967
-        },
-        "image": "assets/junminronghe/wifi.png",
-        "position": {
-          "x": 1052.23876,
-          "y": 615.56146
-        },
-        "width": 28.84359,
-        "height": 20.19052
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 1977,
-      "p": {
-        "displayName": "lianwang",
-        "parent": {
-          "__i": 1908
-        },
-        "image": "assets/junminronghe/lianwang.png",
-        "position": {
-          "x": 1178.71385,
-          "y": 454.23389
-        },
-        "width": 180.09227,
-        "height": 180.09227
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 1978,
+      "i": 617,
       "p": {
         "displayName": "介绍",
         "position": {
@@ -4338,11 +2579,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1979,
+      "i": 618,
       "p": {
         "displayName": "kuang4",
         "parent": {
-          "__i": 1978
+          "__i": 617
         },
         "image": "assets/junminronghe/kuang4.png",
         "position": {
@@ -4360,11 +2601,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1980,
+      "i": 619,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1978
+          "__i": 617
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -4389,7 +2630,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 1981,
+      "i": 620,
       "p": {
         "displayName": "相关指标",
         "position": {
@@ -4411,10 +2652,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 1982,
+      "i": 621,
       "p": {
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "position": {
           "x": -33.72108,
@@ -4434,11 +2675,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1983,
+      "i": 622,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "image": "symbols/junminronghe/titleline.json",
         "position": {
@@ -4454,11 +2695,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1984,
+      "i": 623,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "image": "symbols/junminronghe/titleline.json",
         "rotation": 3.14159,
@@ -4475,11 +2716,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 1985,
+      "i": 624,
       "p": {
         "displayName": "zhibiao4",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "tag": "zhibiao4",
         "position": {
@@ -4503,11 +2744,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1986,
+      "i": 625,
       "p": {
         "displayName": "zhibiao1_4",
         "parent": {
-          "__i": 1985
+          "__i": 624
         },
         "tag": "zhibiao1_4",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -4530,11 +2771,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1987,
+      "i": 626,
       "p": {
         "displayName": "textBox1_4",
         "parent": {
-          "__i": 1985
+          "__i": 624
         },
         "tag": "textBox1_4",
         "image": "symbols/ht/text/textBox.json",
@@ -4561,11 +2802,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 1988,
+      "i": 627,
       "p": {
         "displayName": "zhibiao5",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "tag": "zhibiao5",
         "position": {
@@ -4593,11 +2834,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1989,
+      "i": 628,
       "p": {
         "displayName": "zhibiao1_5",
         "parent": {
-          "__i": 1988
+          "__i": 627
         },
         "tag": "zhibiao1_5",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -4620,11 +2861,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1990,
+      "i": 629,
       "p": {
         "displayName": "textBox1_5",
         "parent": {
-          "__i": 1988
+          "__i": 627
         },
         "tag": "textBox1_5",
         "image": "symbols/ht/text/textBox.json",
@@ -4651,11 +2892,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 1991,
+      "i": 630,
       "p": {
         "displayName": "zhibiao6",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "tag": "zhibiao6",
         "position": {
@@ -4683,11 +2924,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1992,
+      "i": 631,
       "p": {
         "displayName": "zhibiao1_6",
         "parent": {
-          "__i": 1991
+          "__i": 630
         },
         "tag": "zhibiao1_6",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -4710,11 +2951,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1993,
+      "i": 632,
       "p": {
         "displayName": "textBox1_6",
         "parent": {
-          "__i": 1991
+          "__i": 630
         },
         "tag": "textBox1_6",
         "image": "symbols/ht/text/textBox.json",
@@ -4741,11 +2982,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 1994,
+      "i": 633,
       "p": {
         "displayName": "zhibiao1",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "tag": "zhibiao1",
         "position": {
@@ -4769,11 +3010,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1995,
+      "i": 634,
       "p": {
         "displayName": "zhibiao1_1",
         "parent": {
-          "__i": 1994
+          "__i": 633
         },
         "tag": "zhibiao1_1",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -4796,11 +3037,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1996,
+      "i": 635,
       "p": {
         "displayName": "textBox1_1",
         "parent": {
-          "__i": 1994
+          "__i": 633
         },
         "tag": "textBox1_1",
         "image": "symbols/ht/text/textBox.json",
@@ -4827,11 +3068,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 1997,
+      "i": 636,
       "p": {
         "displayName": "zhibiao2",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "tag": "zhibiao2",
         "position": {
@@ -4859,11 +3100,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1998,
+      "i": 637,
       "p": {
         "displayName": "zhibiao1_2",
         "parent": {
-          "__i": 1997
+          "__i": 636
         },
         "tag": "zhibiao1_2",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -4886,11 +3127,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1999,
+      "i": 638,
       "p": {
         "displayName": "textBox1_2",
         "parent": {
-          "__i": 1997
+          "__i": 636
         },
         "tag": "textBox1_2",
         "image": "symbols/ht/text/textBox.json",
@@ -4917,11 +3158,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2000,
+      "i": 639,
       "p": {
         "displayName": "zhibiao3",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "tag": "zhibiao3",
         "position": {
@@ -4949,11 +3190,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2001,
+      "i": 640,
       "p": {
         "displayName": "zhibiao1_3",
         "parent": {
-          "__i": 2000
+          "__i": 639
         },
         "tag": "zhibiao1_3",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -4976,11 +3217,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2002,
+      "i": 641,
       "p": {
         "displayName": "textBox1_3",
         "parent": {
-          "__i": 2000
+          "__i": 639
         },
         "tag": "textBox1_3",
         "image": "symbols/ht/text/textBox.json",
@@ -5007,11 +3248,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2003,
+      "i": 642,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "image": "symbols/junminronghe/titleline.json",
         "position": {
@@ -5028,11 +3269,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2004,
+      "i": 643,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 1981
+          "__i": 620
         },
         "image": "symbols/junminronghe/titleline.json",
         "rotation": 3.14159,
@@ -5050,7 +3291,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 2005,
+      "i": 644,
       "p": {
         "displayName": "title",
         "position": {
@@ -5070,11 +3311,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2006,
+      "i": 645,
       "p": {
         "displayName": "title",
         "parent": {
-          "__i": 2005
+          "__i": 644
         },
         "image": "assets/junminronghe/title.png",
         "position": {
@@ -5095,11 +3336,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2007,
+      "i": 646,
       "p": {
         "displayName": "logo",
         "parent": {
-          "__i": 2005
+          "__i": 644
         },
         "image": "assets/junminronghe/logo.png",
         "position": {
@@ -5118,10 +3359,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2008,
+      "i": 647,
       "p": {
         "parent": {
-          "__i": 2005
+          "__i": 644
         },
         "position": {
           "x": 423.76001,
@@ -5141,7 +3382,1791 @@
     },
     {
       "c": "ht.Block",
-      "i": 2009,
+      "i": 1368,
+      "p": {
+        "host": {
+          "__i": 467
+        },
+        "position": {
+          "x": 952.862,
+          "y": 505.52711
+        },
+        "width": 739.796,
+        "height": 429.44467
+      },
+      "s": {
+        "layout.h": "right",
+        "layout.v": "bottom",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1369,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 932.00075,
+          "y": 473.31473
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1370,
+      "p": {
+        "parent": {
+          "__i": 1369
+        },
+        "position": {
+          "x": 674.42758,
+          "y": 379.26607
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1371,
+      "p": {
+        "parent": {
+          "__i": 1370
+        },
+        "rotation": -0.7854,
+        "position": {
+          "x": 672.11724,
+          "y": 376.80685
+        },
+        "width": 0.76705,
+        "height": 115,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 672.50077,
+              "y": 319.30685
+            },
+            {
+              "x": 671.73372,
+              "y": 434.30685
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1372,
+      "p": {
+        "parent": {
+          "__i": 1370
+        },
+        "rotation": -0.7854,
+        "position": {
+          "x": 710.85026,
+          "y": 418.50122
+        },
+        "anchor": {
+          "x": 0.30675,
+          "y": 0.5
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 9.74607,
+        "height": 5.76978
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1373,
+      "p": {
+        "parent": {
+          "__i": 1369
+        },
+        "position": {
+          "x": 828.51444,
+          "y": 367.94242
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1374,
+      "p": {
+        "parent": {
+          "__i": 1373
+        },
+        "rotation": 0.5236,
+        "position": {
+          "x": 831.50076,
+          "y": 365.36691
+        },
+        "width": 0.00002,
+        "height": 80,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 831.50077,
+              "y": 325.36691
+            },
+            {
+              "x": 831.50075,
+              "y": 405.36691
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1375,
+      "p": {
+        "parent": {
+          "__i": 1373
+        },
+        "rotation": 0.5236,
+        "position": {
+          "x": 814.79886,
+          "y": 395.50982
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1376,
+      "p": {
+        "parent": {
+          "__i": 1369
+        },
+        "rotation": 1.0472,
+        "position": {
+          "x": 972.47893,
+          "y": 395.67908
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1377,
+      "p": {
+        "parent": {
+          "__i": 1376
+        },
+        "rotation": 1.0472,
+        "position": {
+          "x": 972.95259,
+          "y": 395.28418
+        },
+        "width": 0.76705,
+        "height": 242,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 973.33611,
+              "y": 274.28418
+            },
+            {
+              "x": 972.56906,
+              "y": 516.28418
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1378,
+      "p": {
+        "parent": {
+          "__i": 1376
+        },
+        "rotation": 1.0472,
+        "position": {
+          "x": 869.76155,
+          "y": 454.98264
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1379,
+      "p": {
+        "parent": {
+          "__i": 1369
+        },
+        "rotation": -1.58825,
+        "position": {
+          "x": 688.19664,
+          "y": 310.21826
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1380,
+      "p": {
+        "parent": {
+          "__i": 1379
+        },
+        "rotation": -1.58825,
+        "position": {
+          "x": 685.27005,
+          "y": 309.95933
+        },
+        "width": 0.76705,
+        "height": 30,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 685.65357,
+              "y": 294.95933
+            },
+            {
+              "x": 684.88652,
+              "y": 324.95933
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1381,
+      "p": {
+        "parent": {
+          "__i": 1379
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 697.36762,
+          "y": 310.66342
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1382,
+      "p": {
+        "parent": {
+          "__i": 1369
+        },
+        "position": {
+          "x": 654.0057,
+          "y": 567.04185
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1383,
+      "p": {
+        "parent": {
+          "__i": 1382
+        },
+        "rotation": 0.5236,
+        "position": {
+          "x": 656.31469,
+          "y": 566.11627
+        },
+        "width": 0.76705,
+        "height": 60,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 656.69821,
+              "y": 536.11627
+            },
+            {
+              "x": 655.93116,
+              "y": 596.11627
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "#32D3EB",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1384,
+      "p": {
+        "parent": {
+          "__i": 1382
+        },
+        "rotation": 0.5236,
+        "position": {
+          "x": 645.63524,
+          "y": 584.49086
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1385,
+      "p": {
+        "parent": {
+          "__i": 1369
+        },
+        "position": {
+          "x": 822.13776,
+          "y": 636.80684
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1386,
+      "p": {
+        "parent": {
+          "__i": 1385
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 822.11724,
+          "y": 636.80685
+        },
+        "width": 0.76705,
+        "height": 160,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 822.50077,
+              "y": 556.80685
+            },
+            {
+              "x": 821.73372,
+              "y": 716.80685
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387,
+      "p": {
+        "parent": {
+          "__i": 1385
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 745.77885,
+          "y": 637.12741
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1388,
+      "p": {
+        "parent": {
+          "__i": 1385
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 898.49667,
+          "y": 637.89446
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1389,
+      "p": {
+        "parent": {
+          "__i": 1369
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1193.9656,
+          "y": 583.85985
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1390,
+      "p": {
+        "parent": {
+          "__i": 1389
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": 1227.43034,
+          "y": 584.55162
+        },
+        "width": 0.76705,
+        "height": 100,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1227.81387,
+              "y": 534.55162
+            },
+            {
+              "x": 1227.04682,
+              "y": 634.55162
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1391,
+      "p": {
+        "parent": {
+          "__i": 1389
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1194.04682,
+          "y": 633.55162
+        },
+        "width": 0.76705,
+        "height": 66,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 1194.43034,
+              "y": 600.55162
+            },
+            {
+              "x": 1193.66329,
+              "y": 666.55162
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1392,
+      "p": {
+        "parent": {
+          "__i": 1389
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1163.77889,
+          "y": 633.87218
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1393,
+      "p": {
+        "parent": {
+          "__i": 1389
+        },
+        "position": {
+          "x": 1228.51795,
+          "y": 538.21323
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1394,
+      "p": {
+        "parent": {
+          "__i": 1369
+        },
+        "rotation": -1.58825,
+        "position": {
+          "x": 787.53327,
+          "y": 309.80392
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 1395,
+      "p": {
+        "parent": {
+          "__i": 1394
+        },
+        "rotation": -1.58825,
+        "position": {
+          "x": 790.52608,
+          "y": 309.94229
+        },
+        "width": 0.50033,
+        "height": 30,
+        "segments": {
+          "__a": [
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 790.77625,
+              "y": 294.94229
+            },
+            {
+              "x": 790.27592,
+              "y": 324.94229
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.pattern": [
+          6,
+          6
+        ],
+        "shape.dash.color": "rgb(51,153,255)",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1396,
+      "p": {
+        "parent": {
+          "__i": 1394
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 778.29401,
+          "y": 310.76805
+        },
+        "anchor": {
+          "x": 0.57041,
+          "y": 1.4436
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 10,
+        "height": 6
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "rgb(51,153,255)",
+        "shape.border.color": "#979797",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1397,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 627.68903,
+          "y": 313.72886
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1398,
+      "p": {
+        "displayName": "weizhi",
+        "parent": {
+          "__i": 1397
+        },
+        "image": "assets/junminronghe/weizhi.png",
+        "position": {
+          "x": 627.68905,
+          "y": 304.68394
+        },
+        "width": 100,
+        "height": 100
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1399,
+      "p": {
+        "parent": {
+          "__i": 1397
+        },
+        "position": {
+          "x": 717.44974,
+          "y": 356.82617
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 66.69705,
+        "height": 26.81038
+      },
+      "s": {
+        "text": "中转终端",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1400,
+      "p": {
+        "parent": {
+          "__i": 1397
+        },
+        "position": {
+          "x": 665.44062,
+          "y": 326.97566
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 28.29609,
+        "height": 21.71449
+      },
+      "s": {
+        "text": "位置",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1401,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 738.07259,
+          "y": 305.80478
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1402,
+      "p": {
+        "displayName": "wang",
+        "parent": {
+          "__i": 1401
+        },
+        "image": "assets/junminronghe/wang.png",
+        "position": {
+          "x": 737.47082,
+          "y": 305.80479
+        },
+        "width": 50,
+        "height": 60
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1403,
+      "p": {
+        "parent": {
+          "__i": 1401
+        },
+        "position": {
+          "x": 824.86977,
+          "y": 303.43085
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 64.08675
+      },
+      "s": {
+        "text": "LoRa",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 24px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1404,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 849.18562,
+          "y": 319.20173
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1405,
+      "p": {
+        "displayName": "wendu",
+        "parent": {
+          "__i": 1404
+        },
+        "image": "assets/junminronghe/wendu.png",
+        "position": {
+          "x": 849.18562,
+          "y": 304.3686
+        },
+        "width": 100,
+        "height": 100
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1406,
+      "p": {
+        "parent": {
+          "__i": 1404
+        },
+        "position": {
+          "x": 965.12784,
+          "y": 354.29335
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 81.24431
+      },
+      "s": {
+        "text": "采集终端",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1407,
+      "p": {
+        "parent": {
+          "__i": 1404
+        },
+        "position": {
+          "x": 909.94818,
+          "y": 327.17331
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 40.50238,
+        "height": 21.71449
+      },
+      "s": {
+        "text": "温度",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1408,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 1308.31078,
+          "y": 322.15085
+        },
+        "anchor": {
+          "x": 3.95072,
+          "y": 0.68116
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1409,
+      "p": {
+        "displayName": "guangmin",
+        "parent": {
+          "__i": 1408
+        },
+        "image": "assets/junminronghe/guangmin.png",
+        "position": {
+          "x": 963.23876,
+          "y": 304.03485
+        },
+        "width": 100,
+        "height": 100
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1410,
+      "p": {
+        "parent": {
+          "__i": 1408
+        },
+        "position": {
+          "x": 1024.50307,
+          "y": 326.62473
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 40.50238,
+        "height": 21.71449
+      },
+      "s": {
+        "text": "光敏",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1411,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 1077.92744,
+          "y": 313.05202
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1412,
+      "p": {
+        "displayName": "shidu",
+        "parent": {
+          "__i": 1411
+        },
+        "image": "assets/junminronghe/shidu.png",
+        "position": {
+          "x": 1077.92746,
+          "y": 304.3686
+        },
+        "width": 100,
+        "height": 100
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1413,
+      "p": {
+        "parent": {
+          "__i": 1411
+        },
+        "position": {
+          "x": 1169.7281,
+          "y": 355.88577
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 67.78106,
+        "height": 26.64571
+      },
+      "s": {
+        "text": "采集终端",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1414,
+      "p": {
+        "parent": {
+          "__i": 1411
+        },
+        "position": {
+          "x": 1139.69,
+          "y": 327.1733
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 40.50238,
+        "height": 21.71449
+      },
+      "s": {
+        "text": "湿度",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "12px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1415,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 602.2948,
+          "y": 725.51703
+        },
+        "anchor": {
+          "x": 0.64436,
+          "y": 1.17559
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1416,
+      "p": {
+        "displayName": "xinhao",
+        "parent": {
+          "__i": 1415
+        },
+        "image": "assets/junminronghe/xinhao.png",
+        "position": {
+          "x": 590.38037,
+          "y": 622.30837
+        },
+        "width": 82.53026,
+        "height": 79.68439
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1417,
+      "p": {
+        "parent": {
+          "__i": 1415
+        },
+        "position": {
+          "x": 665.77494,
+          "y": 674.40903
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 56.51806
+      },
+      "s": {
+        "text": "CDMA",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1418,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 701.29445,
+          "y": 725.51715
+        },
+        "anchor": {
+          "x": 0.64436,
+          "y": 1.17559
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1419,
+      "p": {
+        "displayName": "xinhao",
+        "parent": {
+          "__i": 1418
+        },
+        "image": "assets/junminronghe/xinhao.png",
+        "position": {
+          "x": 689.38037,
+          "y": 622.30837
+        },
+        "scale": {
+          "x": -1,
+          "y": 1
+        },
+        "width": 82.53026,
+        "height": 79.68439
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1420,
+      "p": {
+        "parent": {
+          "__i": 1418
+        },
+        "position": {
+          "x": 748.01433,
+          "y": 674.40907
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 43.27078
+      },
+      "s": {
+        "text": "GSM",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "bold 16px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1421,
+      "p": {
+        "parent": {
+          "__i": 1368
+        },
+        "position": {
+          "x": 1018.55686,
+          "y": 572.30119
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1422,
+      "p": {
+        "parent": {
+          "__i": 1421
+        },
+        "position": {
+          "x": 1020.35487,
+          "y": 516.90871
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1423,
+      "p": {
+        "displayName": "yun",
+        "parent": {
+          "__i": 1422
+        },
+        "image": "assets/junminronghe/yun.png",
+        "position": {
+          "x": 1020.35489,
+          "y": 514.63794
+        },
+        "width": 128.95984,
+        "height": 71.64436
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1424,
+      "p": {
+        "parent": {
+          "__i": 1422
+        },
+        "position": {
+          "x": 1144.04245,
+          "y": 522.78092
+        },
+        "anchor": {
+          "x": 1.85437,
+          "y": 0.40517
+        },
+        "width": 93.17551,
+        "height": 54.16795
+      },
+      "s": {
+        "text": "云端监管平台",
+        "text.color": "rgb(252,252,252)",
+        "text.font": "14px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1425,
+      "p": {
+        "displayName": "shouji",
+        "parent": {
+          "__i": 1421
+        },
+        "image": "assets/junminronghe/shouji.png",
+        "position": {
+          "x": 932.23876,
+          "y": 635.71987
+        },
+        "width": 85.90513,
+        "height": 60.13359
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1426,
+      "p": {
+        "displayName": "diannao",
+        "parent": {
+          "__i": 1421
+        },
+        "image": "assets/junminronghe/diannao.png",
+        "position": {
+          "x": 1013.61014,
+          "y": 635.42001
+        },
+        "width": 85.04838,
+        "height": 59.53387
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1427,
+      "p": {
+        "displayName": "bijiben",
+        "parent": {
+          "__i": 1421
+        },
+        "image": "assets/junminronghe/bijiben.png",
+        "position": {
+          "x": 1104.92825,
+          "y": 635.68258
+        },
+        "width": 85.7986,
+        "height": 60.05902
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1428,
+      "p": {
+        "displayName": "wifi",
+        "parent": {
+          "__i": 1421
+        },
+        "image": "assets/junminronghe/wifi.png",
+        "position": {
+          "x": 932.23876,
+          "y": 592.56146
+        },
+        "width": 28.84359,
+        "height": 20.19052
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1429,
+      "p": {
+        "displayName": "wifi",
+        "parent": {
+          "__i": 1421
+        },
+        "image": "assets/junminronghe/wifi.png",
+        "position": {
+          "x": 1013.23876,
+          "y": 592.56146
+        },
+        "width": 28.84359,
+        "height": 20.19052
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1430,
+      "p": {
+        "displayName": "wifi",
+        "parent": {
+          "__i": 1421
+        },
+        "image": "assets/junminronghe/wifi.png",
+        "position": {
+          "x": 1106.23876,
+          "y": 592.56146
+        },
+        "width": 28.84359,
+        "height": 20.19052
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1431,
+      "p": {
+        "displayName": "jiuhuche",
+        "parent": {
+          "__i": 1368
+        },
+        "image": "assets/junminronghe/jiuhuche.png",
+        "position": {
+          "x": 749.73369,
+          "y": 470.742
+        },
+        "width": 246,
+        "height": 180
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1432,
+      "p": {
+        "displayName": "lianwang",
+        "parent": {
+          "__i": 1368
+        },
+        "image": "assets/junminronghe/lianwang.png",
+        "position": {
+          "x": 1232.71385,
+          "y": 441.23389
+        },
+        "width": 180.09227,
+        "height": 180.09227
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 648,
       "p": {
         "displayName": "返回",
         "position": {
@@ -5168,11 +5193,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2010,
+      "i": 649,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 2009
+          "__i": 648
         },
         "image": "assets/junminronghe/jinru.png",
         "position": {
@@ -5192,10 +5217,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2011,
+      "i": 650,
       "p": {
         "parent": {
-          "__i": 2009
+          "__i": 648
         },
         "position": {
           "x": -416.77302,
@@ -5215,7 +5240,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 2012,
+      "i": 651,
       "p": {
         "displayName": "tk",
         "tag": "tk",
@@ -5236,7 +5261,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 2013,
+      "i": 652,
       "p": {
         "position": {
           "x": -434.65128,
@@ -5260,7 +5285,7 @@
       }
     }
   ],
-  "modified": "Wed Dec 30 2020 11:52:01 GMT+0800 (中国标准时间)",
+  "modified": "Thu Dec 31 2020 10:12:00 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -565.45464,
     "y": -365.60496,
