@@ -40,6 +40,7 @@
 
                     //iconScaleAnimation(dataModel)
                     lightEarth(dataModel);
+                    gsAni(dataModel);
                 });
             }
             
@@ -175,6 +176,74 @@
                 earthLine.s("flow.element.shadow.visible", false);
                 earthLine.s("flow.element.image", "light");
                 earthLine.s("flow.element.autorotate", true);
+            }
+
+            // 光束动画
+            function gsAni(dm) {
+                var gs = dm.getDataByTag('gs');
+                var gh1 = dm.getDataByTag('gh1');
+                var gh2 = dm.getDataByTag('gh2');
+                gs.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.2,
+                        duration: 2000,
+                        next: 'opa'
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.2,
+                        to: 1,
+                        duration: 2000,
+                        next: 'show'
+                    },
+                    start: ['show']
+                });
+                gh1.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        duration: 3000,
+                        repeat: true
+                    },
+                    large: {
+                        from: 1,
+                        to: 1.15,
+                        duration: 3000,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            this.setScale(value,value);
+                        }
+                    },
+                    start: ["show","large"]
+                })
+                gh2.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        duration: 3000,
+                        delay:500,
+                        repeat: true
+                    },
+                    large: {
+                        from: 1,
+                        to: 1.15,
+                        duration: 3000,
+                        delay:500,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            this.setScale(value,value);
+                        }
+                    },
+                    start: ["show","large"]
+                })
             }
         </script>
     </head>
