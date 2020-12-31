@@ -1,287 +1,348 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>血浆云</title>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="custom/images/favicon.ico?v=2" />
-        <style>
-            html, body {
-                padding: 0px;
-                margin: 0px;
+<head>
+    <title>血浆云</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="custom/images/favicon.ico?v=2"/>
+    <style>
+        html, body {
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+
+    <script src='libs/core/ht.js'></script>
+    <script src='libs/plugin/ht-edgetype.js'></script>
+    <script src='libs/plugin/ht-obj.js'></script>
+    <script src='libs/core/ht-ui.js'></script>
+    <script src='libs/plugin/ht-vector.js'></script>
+    <script src="libs/plugin/ht-animation.js"></script>
+    <script src="libs/plugin/ht-flow.js"></script>
+
+    <script>
+        ht.Default.setImage("yousanjiao", "img/yousanjiao.png");
+        ht.Default.setImage("zuosanjiao", "img/zuosanjiao.png");
+        function init() {
+            dataModel = new ht.DataModel();
+            graphView = new ht.graph.GraphView(dataModel);
+            graphView.addToDOM();
+            graphView.enableFlow();
+            dataModel.enableAnimation();
+            ht.Default.xhrLoad('displays/junminronghe/xuejiangyun.json', function (text) {
+                var json = ht.Default.parse(text);
+                if (json.title) document.title = json.title;
+                dataModel.deserialize(json);
+                graphView.fitContent(true);
+                videoPlay(dataModel)
+                zhibiaoAni(dataModel) // 指标逐渐显现动画执行一次
+                hexagonAni(dataModel) // 六边形动画
+                lineFlowAni(dataModel)
+            });
+        }
+
+        function videoPlay(dm) {
+            const video = dm.getDataByTag("video");
+            const bofang = dm.getDataByTag("bofang");
+            const shipin = dm.getDataByTag("xuejiangyun");
+            bofang.s('onClick', () => {
+                bofang.s('2d.visible', false);
+                shipin.s('2d.visible', false);
+                video.s('2d.visible', true);
+                video.a('src', 'video/xuejiangyun.m4v')
+                video.a('status', '2');
+            })
+            shipin.s('onClick', () => {
+                bofang.s('2d.visible', false);
+                shipin.s('2d.visible', false);
+                video.s('2d.visible', true);
+                video.a('src', 'video/xuejiangyun.m4v')
+                video.a('status', '2');
+            })
+        }
+
+        // 指标动画
+        const zhibiaoAni = (dm) => {
+            const zhibiao1_1 = dm.getDataByTag('zhibiao1_1')
+            const zhibiao1_2 = dm.getDataByTag('zhibiao1_2')
+            const zhibiao1_3 = dm.getDataByTag('zhibiao1_3')
+            const zhibiao1_4 = dm.getDataByTag('zhibiao1_4')
+            const zhibiao1_5 = dm.getDataByTag('zhibiao1_5')
+            const zhibiao1_6 = dm.getDataByTag('zhibiao1_6')
+
+            const textBox1_1 = dm.getDataByTag('textBox1_1')
+            const textBox1_2 = dm.getDataByTag('textBox1_2')
+            const textBox1_3 = dm.getDataByTag('textBox1_3')
+            const textBox1_4 = dm.getDataByTag('textBox1_4')
+            const textBox1_5 = dm.getDataByTag('textBox1_5')
+            const textBox1_6 = dm.getDataByTag('textBox1_6')
+
+            const zhibiaoArray = [zhibiao1_1, zhibiao1_2, zhibiao1_3, zhibiao1_4, zhibiao1_5, zhibiao1_6]
+            const textBoxArray = [textBox1_1, textBox1_2, textBox1_3, textBox1_4, textBox1_5, textBox1_6]
+
+            for (let i = 0; i < zhibiaoArray.length; i++) {
+                zhibiaoArray[i].s('opacity', 0)
             }
-        </style>
-
-        <script src='libs/core/ht.js'></script>
-        <script src='libs/plugin/ht-edgetype.js'></script>
-        <script src='libs/plugin/ht-obj.js'></script>
-        <script src='libs/core/ht-ui.js'></script>
-        <script src='libs/plugin/ht-vector.js'></script>
-        <script src="libs/plugin/ht-animation.js"></script>
-
-        <script>
-            function init() {
-                dataModel = new ht.DataModel();
-                graphView = new ht.graph.GraphView(dataModel);
-                graphView.addToDOM();
-                dataModel.enableAnimation();
-                ht.Default.xhrLoad('displays/junminronghe/xuejiangyun.json', function(text) {
-                    var json = ht.Default.parse(text);
-                    if(json.title) document.title = json.title;
-                    dataModel.deserialize(json);
-                    graphView.fitContent(true);
-                    videoPlay(dataModel)
-                    zhibiaoAni(dataModel) // 指标逐渐显现动画执行一次
-                    hexagonAni(dataModel) // 六边形动画
-                });
+            for (let j = 0; j < textBoxArray.length; j++) {
+                textBoxArray[j].s('opacity', 0)
             }
-            function videoPlay(dm) {
-                    const video = dm.getDataByTag("video");
-                    const bofang = dm.getDataByTag("bofang");
-                    const shipin = dm.getDataByTag("xuejiangyun");
-                    bofang.s('onClick',()=>{
-                        bofang.s('2d.visible',false);
-                        shipin.s('2d.visible',false);
-                        video.s('2d.visible',true);
-                        video.a('src','video/xuejiangyun.m4v')
-                        video.a('status','2');
-                    })
-                    shipin.s('onClick',()=>{
-                        bofang.s('2d.visible',false);
-                        shipin.s('2d.visible',false);
-                        video.s('2d.visible',true);
-                        video.a('src','video/xuejiangyun.m4v')
-                        video.a('status','2');
-                    })
-                }
-            
-                // 指标动画
-                const zhibiaoAni = (dm) => {
-                    const zhibiao1_1 = dm.getDataByTag('zhibiao1_1')
-                    const zhibiao1_2 = dm.getDataByTag('zhibiao1_2')
-                    const zhibiao1_3 = dm.getDataByTag('zhibiao1_3')
-                    const zhibiao1_4 = dm.getDataByTag('zhibiao1_4')
-                    const zhibiao1_5 = dm.getDataByTag('zhibiao1_5')
-                    const zhibiao1_6 = dm.getDataByTag('zhibiao1_6')
 
-                    const textBox1_1 = dm.getDataByTag('textBox1_1')
-                    const textBox1_2 = dm.getDataByTag('textBox1_2')
-                    const textBox1_3 = dm.getDataByTag('textBox1_3')
-                    const textBox1_4 = dm.getDataByTag('textBox1_4')
-                    const textBox1_5 = dm.getDataByTag('textBox1_5')
-                    const textBox1_6 = dm.getDataByTag('textBox1_6')
-
-                    const zhibiaoArray = [zhibiao1_1, zhibiao1_2, zhibiao1_3, zhibiao1_4, zhibiao1_5, zhibiao1_6]
-                    const textBoxArray = [textBox1_1, textBox1_2, textBox1_3, textBox1_4, textBox1_5, textBox1_6]
-
-                    for(let i = 0; i < zhibiaoArray.length; i++) {
-                        zhibiaoArray[i].s('opacity', 0)
+            const zhibiaoAni1 = function () {
+                let zhibiaoTimer1 = setInterval(() => {
+                    let zhibiaoValue1 = zhibiao1_1.s('opacity')
+                    if (zhibiaoValue1 >= 1) {
+                        clearInterval(zhibiaoTimer1)
+                        zhibiao1_1.s('opacity', 1)
+                        textBox1_1.s('opacity', 1)
+                        zhibiaoAni2()
+                    } else {
+                        zhibiao1_1.s('opacity', (zhibiaoValue1 + 0.03))
+                        textBox1_1.s('opacity', (zhibiaoValue1 + 0.03))
                     }
-                    for(let j = 0; j < textBoxArray.length; j++) {
-                        textBoxArray[j].s('opacity', 0)
-                    }
-
-                    const zhibiaoAni1 = function() {
-                        let zhibiaoTimer1 = setInterval(() => {
-                            let zhibiaoValue1 = zhibiao1_1.s('opacity')
-                            if(zhibiaoValue1 >= 1) {
-                                clearInterval(zhibiaoTimer1)
-                                zhibiao1_1.s('opacity', 1)
-                                textBox1_1.s('opacity', 1)
-                                zhibiaoAni2()
-                            }else {
-                                zhibiao1_1.s('opacity', (zhibiaoValue1 + 0.03))
-                                textBox1_1.s('opacity', (zhibiaoValue1 + 0.03))
-                            }
-                        }, 50);
-                    }
-
-                    const zhibiaoAni2 = function() {
-                        let zhibiaoTimer2 = setInterval(() => {
-                            let zhibiaoValue2 = zhibiao1_2.s('opacity')
-                            if(zhibiaoValue2 >= 1) {
-                                clearInterval(zhibiaoTimer2)
-                                zhibiao1_2.s('opacity', 1)
-                                textBox1_2.s('opacity', 1)
-                                zhibiaoAni3()
-                            }else {
-                                zhibiao1_2.s('opacity', (zhibiaoValue2 + 0.03))
-                                textBox1_2.s('opacity', (zhibiaoValue2 + 0.03))
-                            }
-                        }, 50);
-                    }
-
-                    const zhibiaoAni3 = function() {
-                        let zhibiaoTimer3 = setInterval(() => {
-                            let zhibiaoValue3 = zhibiao1_3.s('opacity')
-                            if(zhibiaoValue3 >= 1) {
-                                clearInterval(zhibiaoTimer3)
-                                zhibiao1_3.s('opacity', 1)
-                                textBox1_3.s('opacity', 1)
-                                zhibiaoAni4()
-                            }else {
-                                zhibiao1_3.s('opacity', (zhibiaoValue3 + 0.03))
-                                textBox1_3.s('opacity', (zhibiaoValue3 + 0.03))
-                            }
-                        }, 50);
-                    }
-
-                    const zhibiaoAni4 = function() {
-                        let zhibiaoTimer4 = setInterval(() => {
-                            let zhibiaoValue4 = zhibiao1_4.s('opacity')
-                            if(zhibiaoValue4 >= 1) {
-                                clearInterval(zhibiaoTimer4)
-                                zhibiao1_4.s('opacity', 1)
-                                textBox1_4.s('opacity', 1)
-                                zhibiaoAni5()
-                            }else {
-                                zhibiao1_4.s('opacity', (zhibiaoValue4 + 0.03))
-                                textBox1_4.s('opacity', (zhibiaoValue4 + 0.03))
-                            }
-                        }, 50);
-                    }
-
-                    const zhibiaoAni5 = function() {
-                        let zhibiaoTimer5 = setInterval(() => {
-                            let zhibiaoValue5 = zhibiao1_5.s('opacity')
-                            if(zhibiaoValue5 >= 1) {
-                                clearInterval(zhibiaoTimer5)
-                                zhibiao1_5.s('opacity', 1)
-                                textBox1_5.s('opacity', 1)
-                                zhibiaoAni6()
-                            }else {
-                                zhibiao1_5.s('opacity', (zhibiaoValue5 + 0.03))
-                                textBox1_5.s('opacity', (zhibiaoValue5 + 0.03))
-                            }
-                        }, 50);
-                    }
-
-                    const zhibiaoAni6 = function() {
-                        let zhibiaoTimer6 = setInterval(() => {
-                            let zhibiaoValue6 = zhibiao1_6.s('opacity')
-                            if(zhibiaoValue6 >= 1) {
-                                clearInterval(zhibiaoTimer6)
-                                zhibiao1_6.s('opacity', 1)
-                                textBox1_6.s('opacity', 1)
-                            }else {
-                                zhibiao1_6.s('opacity', (zhibiaoValue6 + 0.03))
-                                textBox1_6.s('opacity', (zhibiaoValue6 + 0.03))
-                            }
-                        }, 50);
-                    }
-                    zhibiaoAni1()
-                }
-            
-                // 六边形旋转动画
-            const hexagonAni = (dm) => {
-                const hexagon1 = dm.getDataByTag('hexagon1')
-                const hexagon2 = dm.getDataByTag('hexagon2')
-                const hexagon3 = dm.getDataByTag('hexagon3')
-                const hexagon4 = dm.getDataByTag('hexagon4')
-                const hexagon5 = dm.getDataByTag('hexagon5')
-                const hexagon6 = dm.getDataByTag('hexagon6')
-                const hexagon7 = dm.getDataByTag('hexagon7')
-                const hexagonArray = [hexagon1, hexagon2, hexagon3, hexagon4, hexagon5, hexagon6, hexagon7]
-
-                for(let i = 0; i < hexagonArray.length; i++) {
-                    hexagonArray[i].setRotation(0)
-                }
-                
-                const hexagonAni1 = function() {
-                    let hexagonTimer1 = setInterval(() => {
-                        let hexagonValue1 = hexagon1.getRotation()
-                        if (hexagonValue1 >= 6) {
-                            clearInterval(hexagonTimer1)
-                            hexagon1.setRotation(0)
-                            hexagonAni2()
-                        } else {
-                            hexagon1.setRotation(hexagonValue1 + 0.01)
-                        }
-                    }, 10)
-                }
-
-                const hexagonAni2 = function() {
-                    let hexagonTimer2 = setInterval(() => {
-                        let hexagonValue2 = hexagon2.getRotation()
-                        if (hexagonValue2 >= 6) {
-                            clearInterval(hexagonTimer2)
-                            hexagon2.setRotation(0)
-                            hexagonAni3()
-                        } else {
-                            hexagon2.setRotation(hexagonValue2 + 0.01)
-                        }
-                    }, 10)
-                }
-
-                const hexagonAni3 = function() {
-                    let hexagonTimer3 = setInterval(() => {
-                        let hexagonValue3 = hexagon3.getRotation()
-                        if (hexagonValue3 >= 6) {
-                            clearInterval(hexagonTimer3)
-                            hexagon3.setRotation(0)
-                            hexagonAni4()
-                        } else {
-                            hexagon3.setRotation(hexagonValue3 + 0.01)
-                        }
-                    }, 10)
-                }
-
-                const hexagonAni4 = function() {
-                    let hexagonTimer4 = setInterval(() => {
-                        let hexagonValue4 = hexagon4.getRotation()
-                        if (hexagonValue4 >= 6) {
-                            clearInterval(hexagonTimer4)
-                            hexagon4.setRotation(0)
-                            hexagonAni5()
-                        } else {
-                            hexagon4.setRotation(hexagonValue4 + 0.01)
-                        }
-                    }, 10)
-                }
-
-                const hexagonAni5 = function() {
-                    let hexagonTimer5 = setInterval(() => {
-                        let hexagonValue5 = hexagon5.getRotation()
-                        if (hexagonValue5 >= 6) {
-                            clearInterval(hexagonTimer5)
-                            hexagon5.setRotation(0)
-                            hexagonAni6()
-                        } else {
-                            hexagon5.setRotation(hexagonValue5 + 0.01)
-                        }
-                    }, 10)
-                }
-
-                const hexagonAni6 = function() {
-                    let hexagonTimer6 = setInterval(() => {
-                        let hexagonValue6 = hexagon6.getRotation()
-                        if (hexagonValue6 >= 6) {
-                            clearInterval(hexagonTimer6)
-                            hexagon6.setRotation(0)
-                            hexagonAni7()
-                        } else {
-                            hexagon6.setRotation(hexagonValue6 + 0.01)
-                        }
-                    }, 10)
-                }
-
-                const hexagonAni7 = function() {
-                    let hexagonTimer7 = setInterval(() => {
-                        let hexagonValue7 = hexagon7.getRotation()
-                        if (hexagonValue7 >= 6) {
-                            clearInterval(hexagonTimer7)
-                            hexagon7.setRotation(0)
-                            hexagonAni1()
-                        } else {
-                            hexagon7.setRotation(hexagonValue7 + 0.01)
-                        }
-                    }, 10)
-                }
-
-                hexagonAni1()
-
+                }, 50);
             }
-        </script>
-    </head>
-    <body onload='setTimeout(init, 300)'>
-    </body>
+
+            const zhibiaoAni2 = function () {
+                let zhibiaoTimer2 = setInterval(() => {
+                    let zhibiaoValue2 = zhibiao1_2.s('opacity')
+                    if (zhibiaoValue2 >= 1) {
+                        clearInterval(zhibiaoTimer2)
+                        zhibiao1_2.s('opacity', 1)
+                        textBox1_2.s('opacity', 1)
+                        zhibiaoAni3()
+                    } else {
+                        zhibiao1_2.s('opacity', (zhibiaoValue2 + 0.03))
+                        textBox1_2.s('opacity', (zhibiaoValue2 + 0.03))
+                    }
+                }, 50);
+            }
+
+            const zhibiaoAni3 = function () {
+                let zhibiaoTimer3 = setInterval(() => {
+                    let zhibiaoValue3 = zhibiao1_3.s('opacity')
+                    if (zhibiaoValue3 >= 1) {
+                        clearInterval(zhibiaoTimer3)
+                        zhibiao1_3.s('opacity', 1)
+                        textBox1_3.s('opacity', 1)
+                        zhibiaoAni4()
+                    } else {
+                        zhibiao1_3.s('opacity', (zhibiaoValue3 + 0.03))
+                        textBox1_3.s('opacity', (zhibiaoValue3 + 0.03))
+                    }
+                }, 50);
+            }
+
+            const zhibiaoAni4 = function () {
+                let zhibiaoTimer4 = setInterval(() => {
+                    let zhibiaoValue4 = zhibiao1_4.s('opacity')
+                    if (zhibiaoValue4 >= 1) {
+                        clearInterval(zhibiaoTimer4)
+                        zhibiao1_4.s('opacity', 1)
+                        textBox1_4.s('opacity', 1)
+                        zhibiaoAni5()
+                    } else {
+                        zhibiao1_4.s('opacity', (zhibiaoValue4 + 0.03))
+                        textBox1_4.s('opacity', (zhibiaoValue4 + 0.03))
+                    }
+                }, 50);
+            }
+
+            const zhibiaoAni5 = function () {
+                let zhibiaoTimer5 = setInterval(() => {
+                    let zhibiaoValue5 = zhibiao1_5.s('opacity')
+                    if (zhibiaoValue5 >= 1) {
+                        clearInterval(zhibiaoTimer5)
+                        zhibiao1_5.s('opacity', 1)
+                        textBox1_5.s('opacity', 1)
+                        zhibiaoAni6()
+                    } else {
+                        zhibiao1_5.s('opacity', (zhibiaoValue5 + 0.03))
+                        textBox1_5.s('opacity', (zhibiaoValue5 + 0.03))
+                    }
+                }, 50);
+            }
+
+            const zhibiaoAni6 = function () {
+                let zhibiaoTimer6 = setInterval(() => {
+                    let zhibiaoValue6 = zhibiao1_6.s('opacity')
+                    if (zhibiaoValue6 >= 1) {
+                        clearInterval(zhibiaoTimer6)
+                        zhibiao1_6.s('opacity', 1)
+                        textBox1_6.s('opacity', 1)
+                    } else {
+                        zhibiao1_6.s('opacity', (zhibiaoValue6 + 0.03))
+                        textBox1_6.s('opacity', (zhibiaoValue6 + 0.03))
+                    }
+                }, 50);
+            }
+            zhibiaoAni1()
+        }
+
+        // 六边形旋转动画
+        const hexagonAni = (dm) => {
+            const hexagon1 = dm.getDataByTag('hexagon1')
+            const hexagon2 = dm.getDataByTag('hexagon2')
+            const hexagon3 = dm.getDataByTag('hexagon3')
+            const hexagon4 = dm.getDataByTag('hexagon4')
+            const hexagon5 = dm.getDataByTag('hexagon5')
+            const hexagon6 = dm.getDataByTag('hexagon6')
+            const hexagon7 = dm.getDataByTag('hexagon7')
+            const hexagonArray = [hexagon1, hexagon2, hexagon3, hexagon4, hexagon5, hexagon6, hexagon7]
+
+            for (let i = 0; i < hexagonArray.length; i++) {
+                hexagonArray[i].setRotation(0)
+            }
+
+            const hexagonAni1 = function () {
+                let hexagonTimer1 = setInterval(() => {
+                    let hexagonValue1 = hexagon1.getRotation()
+                    if (hexagonValue1 >= 6) {
+                        clearInterval(hexagonTimer1)
+                        hexagon1.setRotation(0)
+                        hexagonAni2()
+                    } else {
+                        hexagon1.setRotation(hexagonValue1 + 0.01)
+                    }
+                }, 10)
+            }
+
+            const hexagonAni2 = function () {
+                let hexagonTimer2 = setInterval(() => {
+                    let hexagonValue2 = hexagon2.getRotation()
+                    if (hexagonValue2 >= 6) {
+                        clearInterval(hexagonTimer2)
+                        hexagon2.setRotation(0)
+                        hexagonAni3()
+                    } else {
+                        hexagon2.setRotation(hexagonValue2 + 0.01)
+                    }
+                }, 10)
+            }
+
+            const hexagonAni3 = function () {
+                let hexagonTimer3 = setInterval(() => {
+                    let hexagonValue3 = hexagon3.getRotation()
+                    if (hexagonValue3 >= 6) {
+                        clearInterval(hexagonTimer3)
+                        hexagon3.setRotation(0)
+                        hexagonAni4()
+                    } else {
+                        hexagon3.setRotation(hexagonValue3 + 0.01)
+                    }
+                }, 10)
+            }
+
+            const hexagonAni4 = function () {
+                let hexagonTimer4 = setInterval(() => {
+                    let hexagonValue4 = hexagon4.getRotation()
+                    if (hexagonValue4 >= 6) {
+                        clearInterval(hexagonTimer4)
+                        hexagon4.setRotation(0)
+                        hexagonAni5()
+                    } else {
+                        hexagon4.setRotation(hexagonValue4 + 0.01)
+                    }
+                }, 10)
+            }
+
+            const hexagonAni5 = function () {
+                let hexagonTimer5 = setInterval(() => {
+                    let hexagonValue5 = hexagon5.getRotation()
+                    if (hexagonValue5 >= 6) {
+                        clearInterval(hexagonTimer5)
+                        hexagon5.setRotation(0)
+                        hexagonAni6()
+                    } else {
+                        hexagon5.setRotation(hexagonValue5 + 0.01)
+                    }
+                }, 10)
+            }
+
+            const hexagonAni6 = function () {
+                let hexagonTimer6 = setInterval(() => {
+                    let hexagonValue6 = hexagon6.getRotation()
+                    if (hexagonValue6 >= 6) {
+                        clearInterval(hexagonTimer6)
+                        hexagon6.setRotation(0)
+                        hexagonAni7()
+                    } else {
+                        hexagon6.setRotation(hexagonValue6 + 0.01)
+                    }
+                }, 10)
+            }
+
+            const hexagonAni7 = function () {
+                let hexagonTimer7 = setInterval(() => {
+                    let hexagonValue7 = hexagon7.getRotation()
+                    if (hexagonValue7 >= 6) {
+                        clearInterval(hexagonTimer7)
+                        hexagon7.setRotation(0)
+                        hexagonAni1()
+                    } else {
+                        hexagon7.setRotation(hexagonValue7 + 0.01)
+                    }
+                }, 10)
+            }
+
+            hexagonAni1()
+
+        }
+
+        //流线动画
+        const lineFlowAni = (dm) => {
+            var greenLine = dm.getDataByTag('greenLine1');
+            greenLine.s("flow", true);
+            greenLine.s("flow.count", 10);
+            greenLine.s("flow.element.count", 1);
+            greenLine.s("flow.element.space", 50);
+            greenLine.s("flow.element.max", 15);
+            greenLine.s("flow.element.min", 15);
+            greenLine.s('flow.reverse',true);
+            greenLine.s("flow.element.image", "zuosanjiao");
+            greenLine.s("flow.element.shadow.visible", false);
+            greenLine.s("flow.element.autorotate", false);
+            greenLine.s('flow.step',2);
+
+            var greenLine2 = dm.getDataByTag('greenLine2');
+            greenLine2.s("flow", true);
+            greenLine2.s("flow.count", 3);
+            greenLine2.s("flow.element.count", 1);
+            greenLine2.s("flow.element.space", 50);
+            greenLine2.s("flow.element.max", 15);
+            greenLine2.s("flow.element.min", 15);
+            greenLine2.s('flow.reverse',false);
+            greenLine2.s("flow.element.image", "zuosanjiao");
+            greenLine2.s("flow.element.shadow.visible", false);
+            greenLine2.s("flow.element.autorotate", false);
+            greenLine2.s('flow.step',1);
+
+            var greenLine3 = dm.getDataByTag('greenLine3');
+            greenLine3.s("flow", true);
+            greenLine3.s("flow.count", 10);
+            greenLine3.s("flow.element.count", 1);
+            greenLine3.s("flow.element.space", 50);
+            greenLine3.s("flow.element.max", 15);
+            greenLine3.s("flow.element.min", 15);
+            greenLine3.s('flow.reverse',false);
+            greenLine3.s("flow.element.image", "yousanjiao");
+            greenLine3.s("flow.element.shadow.visible", false);
+            greenLine3.s("flow.element.autorotate", false);
+            greenLine3.s('flow.step',2);
+
+            var greenLine4 = dm.getDataByTag('greenLine4');
+            greenLine4.s("flow", true);
+            greenLine4.s("flow.count", 3);
+            greenLine4.s("flow.element.count", 1);
+            greenLine4.s("flow.element.space", 50);
+            greenLine4.s("flow.element.max", 15);
+            greenLine4.s("flow.element.min", 15);
+            greenLine4.s('flow.reverse',false);
+            greenLine4.s("flow.element.image", "zuosanjiao");
+            greenLine4.s("flow.element.shadow.visible", false);
+            greenLine4.s("flow.element.autorotate", false);
+            greenLine4.s('flow.step',1);
+        }
+    </script>
+</head>
+<body onload='setTimeout(init, 300)'>
+</body>
 </html>
