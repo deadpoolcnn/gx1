@@ -34,6 +34,7 @@
                 lineFlow(dataModel)
                 cloudAnimation(dataModel)
                 airshipAnimation(dataModel)
+                guangquan(dataModel) // 光圈动画
             });
         }
 
@@ -293,6 +294,101 @@
             //     },
             //     start: ["up"]
             // });
+        }
+
+        // 光圈动画
+        function guangquan(dm) {
+            const guangquan = dm.getDataByTag('guangquan')
+            const guangquan2 = dm.getDataByTag('guangquan2')
+            const guangquan3 = dm.getDataByTag('guangquan3')
+            const lizibj = dm.getDataByTag('lizibj')
+
+            guangquan.setAnimation({
+                show: {
+                    property: "opacity",
+                    accessType: "style",
+                    from: 1,
+                    to: 0,
+                    duration: 4000,
+                    repeat: true
+                },
+                large: {
+                    from: 1,
+                    to: 1.15,
+                    duration: 4000,
+                    repeat: true,
+                    onUpdate: function (value) {
+                        this.setScale(value,value);
+                    }
+                },
+                start: ["show","large"]
+            })
+
+            guangquan2.setAnimation({
+                show: {
+                    property: "opacity",
+                    accessType: "style",
+                    from: 1,
+                    to: 0,
+                    duration: 4000,
+                    delay:500,
+                    repeat: true
+                },
+                large: {
+                    from: 1,
+                    to: 1.15,
+                    duration: 4000,
+                    delay:500,
+                    repeat: true,
+                    onUpdate: function (value) {
+                        this.setScale(value,value);
+                    }
+                },
+                start: ["show","large"]
+            })
+
+            guangquan3.setAnimation({
+                show: {
+                    property: "opacity",
+                    accessType: "style",
+                    from: 1,
+                    to: 0,
+                    duration: 4000,
+                    repeat: true
+                },
+                large: {
+                    from: 1,
+                    to: 1.15,
+                    duration: 4000,
+                    repeat: true,
+                    onUpdate: function (value) {
+                        this.setScale(value,value);
+                    }
+                },
+                start: ["show","large"]
+            })
+
+            // lizibj.setAnimation({
+            //     small: {
+            //         from: 1.15,
+            //         to: 1,
+            //         duration: 2000,
+            //         next: 'large',
+            //         onUpdate: function (value) {
+            //             this.setScale(value,value);
+            //         }
+            //     },
+            //     large: {
+            //         from: 1,
+            //         to: 1.15,
+            //         duration: 2000,
+            //         next: 'small',
+            //         onUpdate: function (value) {
+            //             this.setScale(value,value);
+            //         }
+            //     },
+            //     start: ["large"]
+            // })
         }
     </script>
 </head>
