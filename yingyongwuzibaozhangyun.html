@@ -34,6 +34,8 @@
                     arrowAni(dataModel);
                     platformAni(dataModel);
                     blockAni(dataModel) //左右两边块交替亮暗动画
+                    dizuoAni(dataModel) // 底座发散动画
+                    zhuziAni(dataModel) // 线条动画
                 });
 
                 function arrowAni(dm) {
@@ -449,9 +451,194 @@
 
                 leftBlock1Ani()
                 rightBlock1Ani()
+            }
 
+            // 底座发散动画
+            function dizuoAni(dm) {
+                const wzdizuo1 = dm.getDataByTag('wzdizuo1')
+                const wzdizuo2 = dm.getDataByTag('wzdizuo2')
                 
+                wzdizuo1.setAnimation({
+                    large: {
+                        from: 1,
+                        to: 1.13,
+                        duration: 2500,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            this.setScale(value,value);
+                        }
+                     },
+                     show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        duration: 2500,
+                        repeat: true
+                    },
+                     start: ['large', 'show']
+                })
+                wzdizuo2.setAnimation({
+                    large: {
+                        from: 1,
+                        to: 1.13,
+                        duration: 2500,
+                        // delay: 500,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            this.setScale(value,value);
+                        }
+                     },
+                     show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        duration: 2500,
+                        // delay: 500,
+                        repeat: true
+                    },
+                     start: ['large', 'show']
+                })
+            }
 
+            // 线条流动动画
+            function zhuziAni(dm) {
+                const zhuzi1 = dm.getDataByTag('zhuzi1')
+                const zhuzi2 = dm.getDataByTag('zhuzi2')
+                const zhuzi3 = dm.getDataByTag('zhuzi3')
+                const zhuzi4 = dm.getDataByTag('zhuzi4')
+                const zhuzi5 = dm.getDataByTag('zhuzi5')
+                const zhuzi1StartY = zhuzi1.getPosition().y
+                const zhuzi2StartY = zhuzi2.getPosition().y
+                const zhuzi3StartY = zhuzi3.getPosition().y
+                const zhuzi4StartY = zhuzi4.getPosition().y
+                const zhuzi5StartY = zhuzi4.getPosition().y
+
+                zhuzi1.setAnimation({
+                    move: {
+                        from: 0,
+                        to:  1,
+                        frames: 400,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            if (value === 0) {
+                                this.setPosition({x: zhuzi1.getPosition().x, y: zhuzi1StartY})
+                            } else {
+                                this.setPosition({x: zhuzi1.getPosition().x, y: zhuzi1.getPosition().y - value})
+                            }
+                        }
+                    },
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.1,
+                        frames: 400,
+                        repeat: true
+                    },
+                    start: ['move', 'show']
+                })
+
+                zhuzi2.setAnimation({
+                    move: {
+                        from: 0,
+                        to:  1,
+                        frames: 400,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            if (value === 0) {
+                                this.setPosition({x: zhuzi2.getPosition().x, y: zhuzi2StartY})
+                            } else {
+                                this.setPosition({x: zhuzi2.getPosition().x, y: zhuzi2.getPosition().y - value})
+                            }
+                        }
+                    },
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.1,
+                        frames: 400,
+                        repeat: true
+                    },
+                    start: ['move', 'show']
+                })
+
+                zhuzi3.setAnimation({
+                    move: {
+                        from: 0,
+                        to:  1,
+                        frames: 400,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            if (value === 0) {
+                                this.setPosition({x: zhuzi3.getPosition().x, y: zhuzi3StartY})
+                            } else {
+                                this.setPosition({x: zhuzi3.getPosition().x, y: zhuzi3.getPosition().y - value})
+                            }
+                        }
+                    },
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.1,
+                        frames: 400,
+                        repeat: true
+                    },
+                    start: ['move', 'show']
+                })
+
+                zhuzi4.setAnimation({
+                    move: {
+                        from: 0,
+                        to: 1,
+                        frames: 400,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            if (value === 0) {
+                                this.setPosition({x: zhuzi4.getPosition().x, y: zhuzi4StartY})
+                            } else {
+                                this.setPosition({x: zhuzi4.getPosition().x, y: zhuzi4.getPosition().y - value})
+                            }
+                        }
+                    },
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.1,
+                        frames: 400,
+                        repeat: true
+                    },
+                    start: ['move', 'show']
+                })
+
+                zhuzi5.setAnimation({
+                    move: {
+                        from: 0,
+                        to:  1,
+                        frames: 400,
+                        repeat: true,
+                        onUpdate: function (value) {
+                            if (value === 0) {
+                                this.setPosition({x: zhuzi5.getPosition().x, y: zhuzi5StartY})
+                            } else {
+                                this.setPosition({x: zhuzi5.getPosition().x, y: zhuzi5.getPosition().y - value})
+                            }
+                        }
+                    },
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.1,
+                        frames: 400,
+                        repeat: true
+                    },
+                    start: ['move', 'show']
+                })
 
             }
         </script>
