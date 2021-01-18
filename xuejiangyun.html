@@ -22,6 +22,7 @@
     <script>
         ht.Default.setImage("yousanjiao", "img/yousanjiao.png");
         ht.Default.setImage("zuosanjiao", "img/zuosanjiao.png");
+        ht.Default.setImage("pointLight", "img/light.png");
         function init() {
             dataModel = new ht.DataModel();
             graphView = new ht.graph.GraphView(dataModel);
@@ -37,6 +38,7 @@
                 zhibiaoAni(dataModel) // 指标逐渐显现动画执行一次
                 hexagonAni(dataModel) // 六边形动画
                 lineFlowAni(dataModel)
+                showMenu(dataModel)
             });
         }
 
@@ -340,6 +342,39 @@
             greenLine4.s("flow.element.shadow.visible", false);
             greenLine4.s("flow.element.autorotate", false);
             greenLine4.s('flow.step',1);
+
+            var line = dm.getDataByTag('line');
+            line.s("flow", true);
+            line.s("flow.count", 1);
+            line.s("flow.element.count", 1);
+            line.s("flow.element.space", 5);
+            line.s("flow.element.max", 80);
+            line.s("flow.element.min", 80);
+            line.s("flow.element.image", "pointLight");
+            line.s("flow.element.shadow.visible", false);
+            line.s("flow.element.autorotate", true);
+            line.s('flow.step',4);
+        }
+        // 展示菜单
+        function showMenu(dm) {
+            const menu = dm.getDataByTag('menu');
+            const background = dm.getDataByTag('background');
+            var menuList = [];
+            for (var i=1; i< 10; i++) {
+                menuList.push(dm.getDataByTag('menu'+i));
+            }
+            menu.s('onEnter',()=>{
+                background.s('2d.visible',true);
+                menuList.map((item)=> {
+                    item.s('2d.visible',true);
+                })
+            })
+            menu.s('onClick',()=>{
+                background.s('2d.visible',false);
+                menuList.map((item)=> {
+                    item.s('2d.visible',false);
+                })
+            })
         }
     </script>
 </head>

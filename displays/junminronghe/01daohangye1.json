@@ -15,7 +15,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 397,
+      "i": 45045,
       "p": {
         "displayName": "bg01",
         "image": "assets/junminronghe/bg01.png",
@@ -36,12 +36,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 398,
+      "i": 45046,
       "p": {
         "displayName": "top_title",
         "image": "assets/junminronghe/top_title.png",
         "host": {
-          "__i": 397
+          "__i": 45045
         },
         "position": {
           "x": 960,
@@ -61,11 +61,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 399,
+      "i": 45047,
       "p": {
         "displayName": "title-rongheyun",
         "parent": {
-          "__i": 398
+          "__i": 45046
         },
         "image": "assets/junminronghe/title-rongheyun.png",
         "position": {
@@ -82,7 +82,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 400,
+      "i": 45048,
       "p": {
         "displayName": "di",
         "position": {
@@ -101,11 +101,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 401,
+      "i": 45049,
       "p": {
         "displayName": "4",
         "parent": {
-          "__i": 400
+          "__i": 45048
         },
         "image": "assets/jianhang/dizuo/4.png",
         "position": {
@@ -118,11 +118,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 402,
+      "i": 45050,
       "p": {
         "displayName": "3",
         "parent": {
-          "__i": 400
+          "__i": 45048
         },
         "image": "assets/jianhang/dizuo/3.png",
         "position": {
@@ -135,11 +135,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 403,
+      "i": 45051,
       "p": {
         "displayName": "中心",
         "parent": {
-          "__i": 400
+          "__i": 45048
         },
         "image": "assets/jianhang/dizuo/zhongxindeng.png",
         "position": {
@@ -152,11 +152,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 404,
+      "i": 45052,
       "p": {
         "displayName": "helo3",
         "parent": {
-          "__i": 400
+          "__i": 45048
         },
         "tag": "helo3",
         "image": "symbols/jianhang/helo3.json",
@@ -173,11 +173,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 405,
+      "i": 45053,
       "p": {
         "displayName": "helo2",
         "parent": {
-          "__i": 400
+          "__i": 45048
         },
         "tag": "helo2",
         "image": "symbols/jianhang/helo2.json",
@@ -194,11 +194,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 406,
+      "i": 45054,
       "p": {
         "displayName": "helo",
         "parent": {
-          "__i": 400
+          "__i": 45048
         },
         "tag": "helo",
         "image": "symbols/jianhang/hero.json",
@@ -215,7 +215,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 407,
+      "i": 45055,
       "p": {
         "displayName": "yuan",
         "position": {
@@ -234,11 +234,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 408,
+      "i": 45056,
       "p": {
         "displayName": "gd1",
         "parent": {
-          "__i": 407
+          "__i": 45055
         },
         "tag": "gd1",
         "image": "assets/junminronghe/gd1.png",
@@ -248,15 +248,18 @@
         },
         "width": 1566,
         "height": 584
+      },
+      "s": {
+        "opacity": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 409,
+      "i": 45057,
       "p": {
         "displayName": "gd2",
         "parent": {
-          "__i": 407
+          "__i": 45055
         },
         "tag": "gd2",
         "image": "assets/junminronghe/gd2.png",
@@ -266,15 +269,18 @@
         },
         "width": 962,
         "height": 380
+      },
+      "s": {
+        "opacity": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 410,
+      "i": 45058,
       "p": {
         "displayName": "gd3",
         "parent": {
-          "__i": 407
+          "__i": 45055
         },
         "tag": "gd3",
         "image": "assets/junminronghe/gd3.png",
@@ -288,12 +294,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 411,
+      "i": 45059,
       "p": {
         "displayName": "guangxiao",
         "parent": {
-          "__i": 407
+          "__i": 45055
         },
+        "tag": "guangxiao",
         "image": "assets/junminronghe/guangxiao.png",
         "position": {
           "x": 965.21629,
@@ -305,11 +312,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 412,
+      "i": 45060,
       "p": {
         "displayName": "guangshu",
         "parent": {
-          "__i": 407
+          "__i": 45055
         },
         "tag": "guangshu",
         "image": "assets/junminronghe/guangshu.png",
@@ -326,11 +333,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 413,
+      "i": 45061,
       "p": {
         "displayName": "center_cloud_block",
         "parent": {
-          "__i": 407
+          "__i": 45055
         },
         "tag": "center_cloud_block",
         "image": "assets/junminronghe/yun11.png",
@@ -347,7 +354,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 414,
+      "i": 45062,
       "p": {
         "displayName": "nav",
         "position": {
@@ -364,11 +371,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 415,
+      "i": 45063,
       "p": {
         "displayName": "cehuidilixinxi",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "cehuidilixinxi",
         "image": "symbols/junminronghe/nav.json",
@@ -396,11 +403,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 416,
+      "i": 45064,
       "p": {
         "displayName": "feiting",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "feiting",
         "image": "symbols/junminronghe/nav.json",
@@ -428,11 +435,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 417,
+      "i": 45065,
       "p": {
         "displayName": "gonggongfuwu",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "gonggongfuwu",
         "image": "symbols/junminronghe/nav.json",
@@ -460,11 +467,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 418,
+      "i": 45066,
       "p": {
         "displayName": "beidou",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "beidou",
         "image": "symbols/junminronghe/nav.json",
@@ -492,11 +499,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 419,
+      "i": 45067,
       "p": {
         "displayName": "yingjiwuzi",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "yingjiwuzi",
         "image": "symbols/junminronghe/nav.json",
@@ -524,11 +531,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 420,
+      "i": 45068,
       "p": {
         "displayName": "wurenjiguanli",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "wurenjiguanli",
         "image": "symbols/junminronghe/nav.json",
@@ -556,11 +563,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 421,
+      "i": 45069,
       "p": {
         "displayName": "yingjiliuyuan",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "yingjiliuyuan",
         "image": "symbols/junminronghe/nav.json",
@@ -588,11 +595,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 422,
+      "i": 45070,
       "p": {
         "displayName": "jiaotongzhanbei",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "jiaotongzhanbei",
         "image": "symbols/junminronghe/nav.json",
@@ -620,10 +627,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 423,
+      "i": 45071,
       "p": {
         "parent": {
-          "__i": 422
+          "__i": 45070
         },
         "position": {
           "x": 731.07338,
@@ -650,11 +657,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 424,
+      "i": 45072,
       "p": {
         "displayName": "xuejiangyun",
         "parent": {
-          "__i": 414
+          "__i": 45062
         },
         "tag": "xuejiangyun",
         "image": "symbols/junminronghe/nav.json",
@@ -683,13 +690,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 425,
+      "i": 45073,
       "p": {
         "parent": {
-          "__i": 424
+          "__i": 45072
         },
         "host": {
-          "__i": 424
+          "__i": 45072
         },
         "position": {
           "x": 1365.11413,
@@ -717,7 +724,7 @@
       }
     }
   ],
-  "modified": "Mon Jan 04 2021 10:30:24 GMT+0800 (China Standard Time)",
+  "modified": "Mon Jan 18 2021 15:31:40 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": 0,
     "y": 0,

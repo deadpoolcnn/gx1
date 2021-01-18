@@ -35,6 +35,7 @@
                 cloudAnimation(dataModel)
                 airshipAnimation(dataModel)
                 guangquan(dataModel) // 光圈动画
+                showMenu(dataModel)
             });
         }
 
@@ -347,7 +348,7 @@
                 start: ["show","large"]
             })
 
-            guangquan3.setAnimation({
+                guangquan3.setAnimation({
                 show: {
                     property: "opacity",
                     accessType: "style",
@@ -389,6 +390,28 @@
             //     },
             //     start: ["large"]
             // })
+        }
+
+        // 展示菜单
+        function showMenu(dm) {
+            const menu = dm.getDataByTag('menu');
+            const background = dm.getDataByTag('background');
+            var menuList = [];
+            for (var i=1; i< 10; i++) {
+                menuList.push(dm.getDataByTag('menu'+i));
+            }
+            menu.s('onEnter',()=>{
+                background.s('2d.visible',true);
+                menuList.map((item)=> {
+                    item.s('2d.visible',true);
+                })
+            })
+            menu.s('onClick',()=>{
+                background.s('2d.visible',false);
+                menuList.map((item)=> {
+                    item.s('2d.visible',false);
+                })
+            })
         }
     </script>
 </head>

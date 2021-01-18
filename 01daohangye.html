@@ -35,6 +35,7 @@
                     iconLinkAnimation(dataModel)
                     dibuAni(dataModel);
                     guangshuAni(dataModel);
+                    iconEvent(dataModel);
                 });
             }
             // 中心云朵动画
@@ -194,6 +195,7 @@
             // 光束,光环
             function guangshuAni(dm) {
                 var guangshu = dm.getDataByTag('guangshu');
+                var guangxiao = dm.getDataByTag('guangxiao');
                 var gd1 = dm.getDataByTag('gd1');
                 var gd2 = dm.getDataByTag('gd2');
                 var gd3 = dm.getDataByTag('gd3');
@@ -216,69 +218,80 @@
                     },
                     start: ["show"]
                 })
-                gd1.setAnimation({
-                    show: {
-                        property: "opacity",
-                        accessType: "style",
-                        from: 1,
-                        to: 0,
-                        duration: 3000,
-                        repeat: true
-                    },
-                    large: {
-                        from: 1,
-                        to: 1.05,
-                        duration: 3000,
-                        repeat: true,
-                        onUpdate: function (value) {
-                            this.setScale(value,value);
-                        }
-                    },
-                    start: ["show","large"]
-                });
-                gd2.setAnimation({
-                    show: {
-                        property: "opacity",
-                        accessType: "style",
-                        from: 1,
-                        to: 0,
-                        delay: 2000,
-                        duration: 3000,
-                        repeat: true
-                    },
-                    large: {
-                        from: 1,
-                        to: 1.1,
-                        delay:2000,
-                        duration: 3000,
-                        repeat: true,
-                        onUpdate: function (value) {
-                            this.setScale(value,value);
-                        }
-                    },
-                    start: ["show","large"]
-                });
+                setTimeout(()=>{
+                    gd2.setAnimation({
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            duration: 2000,
+                            repeat: true
+                        },
+                        large: {
+                            from: 1,
+                            to: 1.1,
+                            duration: 2000,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ["show","large"]
+                    });
+                },2000);
+                setTimeout(()=>{
+                    gd1.setAnimation({
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            duration: 2000,
+                            repeat: true
+                        },
+                        large: {
+                            from: 1,
+                            to: 1.05,
+                            duration: 2000,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ["show","large"]
+                    });
+                },4000);
                 gd3.setAnimation({
                     show: {
                         property: "opacity",
                         accessType: "style",
                         from: 1,
                         to: 0,
-                        delay:3000,
-                        duration: 3000,
+                        duration: 2000,
                         repeat: true
                     },
                     large: {
                         from: 1,
                         to: 1.15,
-                        duration: 3000,
-                        delay: 3000,
+                        duration: 2000,
                         repeat: true,
                         onUpdate: function (value) {
                             this.setScale(value,value);
-                        }
+                        },
                     },
                     start: ["show","large"]
+                })
+                guangxiao.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0,
+                        duration: 2000,
+                        repeat: true
+                    },
+                    start: ["show"]
                 })
             }
 
@@ -293,6 +306,60 @@
                     helo2.a('helo.rotation', helo2.a('helo.rotation') + Math.PI / 180 );
                     helo3.a('helo.rotation', helo3.a('helo.rotation') + Math.PI / 180 );
                 }, 50);
+            }
+
+            // 图标动画
+            function iconEvent(dm) {
+                const jiaotongzhanbei = dm.getDataByTag('jiaotongzhanbei');
+                const cehuidilixinxi = dm.getDataByTag('cehuidilixinxi');
+                const feiting = dm.getDataByTag('feiting');
+                const gonggongfuwu = dm.getDataByTag('gonggongfuwu');
+                const beidou = dm.getDataByTag('beidou');
+                const yingjiwuzi = dm.getDataByTag('yingjiwuzi');
+                const wurenjiguanli = dm.getDataByTag('wurenjiguanli');
+                const yingjiliuyuan = dm.getDataByTag('yingjiliuyuan');
+                const xuejiangyun = dm.getDataByTag('xuejiangyun');
+                largeAni(jiaotongzhanbei);
+                largeAni(cehuidilixinxi);
+                largeAni(feiting);
+                largeAni(gonggongfuwu);
+                largeAni(beidou);
+                largeAni(yingjiliuyuan);
+                largeAni(yingjiwuzi);
+                largeAni(wurenjiguanli);
+                largeAni(xuejiangyun);
+            }
+            // 变大
+            function largeAni(dm) {
+                dm.s('onEnter',()=>{
+                    console.log(dm);
+                    dm.setScale(1.1,1.1);
+                    /*dm.setAnimation({
+                        large: {
+                            from: 1,
+                            to: 1.1,
+                            duration: 500,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ['large']
+                    })*/
+                })
+                dm.s('onLeave',()=>{
+                    dm.setScale(1,1);
+                    /*dm.setAnimation({
+                        small: {
+                            from: 1.1,
+                            to: 1,
+                            duration: 500,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ['small']
+                    })*/
+                })
             }
         </script>
     </head>

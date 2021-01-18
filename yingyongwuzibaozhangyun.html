@@ -36,6 +36,7 @@
                     blockAni(dataModel) //左右两边块交替亮暗动画
                     dizuoAni(dataModel) // 底座发散动画
                     zhuziAni(dataModel) // 线条动画
+                    showMenu(dataModel)
                 });
 
                 function arrowAni(dm) {
@@ -334,19 +335,19 @@
                 const rightBlock3 = dm.getDataByTag('right_block_3')
                 const rightBlock4 = dm.getDataByTag('right_block_4')
 
-                const leftBlockArray = [leftBlock1, leftBlock2, leftBlock3, leftBlock4]
+                /*const leftBlockArray = [leftBlock1, leftBlock2, leftBlock3, leftBlock4]
                 const rightBlockArray = [rightBlock1, rightBlock2, rightBlock3, rightBlock4]
 
                 for(let i = 0; i < leftBlockArray.length; i++ ) {
-                    leftBlockArray[i].s('opacity', 0.7)
+                    leftBlockArray[i].s('opacity', 1)
                 }
 
                 for(let j = 0; j < rightBlockArray.length; j++) {
-                    rightBlockArray[j].s('opacity', 0.7)
+                    rightBlockArray[j].s('opacity',1)
                 }
 
                 const leftBlock1Ani = function() {
-                    let leftBlockTimer1 = setInterval(() => {
+                    /!*let leftBlockTimer1 = setInterval(() => {
                         const leftBlock1Value = leftBlock1.s('opacity')
                         if(leftBlock1Value >= 1) {
                             clearInterval(leftBlockTimer1)
@@ -355,7 +356,9 @@
                         } else {
                             leftBlock1.s('opacity', (leftBlock1Value + 0.01))
                         }
-                }, 50);
+                }, 50);*!/
+                    const leftBlock1 =
+
                 }
 
                 const leftBlock2Ani = function() {
@@ -447,10 +450,164 @@
                             rightBlock4.s('opacity', (rightBlock4Value + 0.01))
                         }
                     }, 50);
-                }
+                }*/
 
-                leftBlock1Ani()
-                rightBlock1Ani()
+                leftBlock1.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.5,
+                        duration: 2000,
+                        next: "opa"
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.5,
+                        to: 1,
+                        duration: 2000,
+                        next: "show"
+                    },
+                    start: ["show"]
+                })
+                leftBlock2.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.5,
+                        duration: 2000,
+                        next: "opa"
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.5,
+                        to: 1,
+                        duration: 2000,
+                        next: "show"
+                    },
+                    start: ["show"]
+                })
+                leftBlock3.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.5,
+                        duration: 2000,
+                        next: "opa"
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.5,
+                        to: 1,
+                        duration: 2000,
+                        next: "show"
+                    },
+                    start: ["show"]
+                })
+                leftBlock4.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.5,
+                        duration: 2000,
+                        next: "opa"
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.5,
+                        to: 1,
+                        duration: 2000,
+                        next: "show"
+                    },
+                    start: ["show"]
+                })
+
+                rightBlock1.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.5,
+                        to: 1,
+                        duration: 2000,
+                        next: "opa"
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.5,
+                        duration: 2000,
+                        next: "show"
+                    },
+                    start: ["show"]
+                })
+                rightBlock2.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.5,
+                        to: 1,
+                        duration: 2000,
+                        next: "opa"
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.5,
+                        duration: 2000,
+                        next: "show"
+                    },
+                    start: ["show"]
+                })
+                rightBlock3.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.5,
+                        to: 1,
+                        duration: 2000,
+                        next: "opa"
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.5,
+                        duration: 2000,
+                        next: "show"
+                    },
+                    start: ["show"]
+                })
+                rightBlock4.setAnimation({
+                    show: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 0.5,
+                        to: 1,
+                        duration: 2000,
+                        next: "opa"
+                    },
+                    opa: {
+                        property: "opacity",
+                        accessType: "style",
+                        from: 1,
+                        to: 0.5,
+                        duration: 2000,
+                        next: "show"
+                    },
+                    start: ["show"]
+                })
+
+                //leftBlock1Ani()
+                //rightBlock1Ani()
             }
 
             // 底座发散动画
@@ -518,15 +675,16 @@
                 zhuzi1.setAnimation({
                     move: {
                         from: 0,
-                        to:  1.6,
-                        frames: 200,
+                        to:  300,
+                        duration: 2000,
                         repeat: true,
                         onUpdate: function (value) {
-                            if (value === 0) {
+                            this.setPosition(this.getPosition().x,282.57053 - value)
+                           /* if (value === 0) {
                                 this.setPosition({x: zhuzi1.getPosition().x, y: zhuzi1StartY})
                             } else {
                                 this.setPosition({x: zhuzi1.getPosition().x, y: zhuzi1.getPosition().y - value})
-                            }
+                            }*/
                         }
                     },
                     show: {
@@ -534,7 +692,7 @@
                         accessType: "style",
                         from: 1,
                         to: 0.1,
-                        frames: 200,
+                        duration: 2000,
                         repeat: true
                     },
                     start: ['move', 'show']
@@ -543,15 +701,16 @@
                 zhuzi2.setAnimation({
                     move: {
                         from: 0,
-                        to:  1,
-                        frames: 600,
+                        to:  300,
+                        duration: 2000,
                         repeat: true,
                         onUpdate: function (value) {
-                            if (value === 0) {
+                            this.setPosition(this.getPosition().x,158.62885 - value);
+                            /*if (value === 0) {
                                 this.setPosition({x: zhuzi2.getPosition().x, y: zhuzi2StartY})
                             } else {
                                 this.setPosition({x: zhuzi2.getPosition().x, y: zhuzi2.getPosition().y - value})
-                            }
+                            }*/
                         }
                     },
                     show: {
@@ -559,7 +718,7 @@
                         accessType: "style",
                         from: 1,
                         to: 0.1,
-                        frames: 600,
+                        duration: 2000,
                         repeat: true
                     },
                     start: ['move', 'show']
@@ -568,15 +727,16 @@
                 zhuzi3.setAnimation({
                     move: {
                         from: 0,
-                        to:  0.6,
-                        frames: 600,
+                        to:  100,
+                        duration: 2000,
                         repeat: true,
                         onUpdate: function (value) {
-                            if (value === 0) {
+                            this.setPosition(this.getPosition().x,249.03643 - value);
+                           /* if (value === 0) {
                                 this.setPosition({x: zhuzi3.getPosition().x, y: zhuzi3StartY})
                             } else {
                                 this.setPosition({x: zhuzi3.getPosition().x, y: zhuzi3.getPosition().y - value})
-                            }
+                            }*/
                         }
                     },
                     show: {
@@ -584,7 +744,7 @@
                         accessType: "style",
                         from: 1,
                         to: 0.1,
-                        frames: 600,
+                        duration: 2000,
                         repeat: true
                     },
                     start: ['move']
@@ -593,15 +753,16 @@
                 zhuzi4.setAnimation({
                     move: {
                         from: 0,
-                        to: 0.6,
-                        frames: 600,
+                        to: 300,
+                        duration: 2000,
                         repeat: true,
                         onUpdate: function (value) {
-                            if (value === 0) {
+                            this.setPosition(this.getPosition().x,168.07054 - value);
+                            /*if (value === 0) {
                                 this.setPosition({x: zhuzi4.getPosition().x, y: zhuzi4StartY})
                             } else {
                                 this.setPosition({x: zhuzi4.getPosition().x, y: zhuzi4.getPosition().y - value})
-                            }
+                            }*/
                         }
                     },
                     show: {
@@ -618,15 +779,16 @@
                 zhuzi5.setAnimation({
                     move: {
                         from: 0,
-                        to:  1.2,
-                        frames: 400,
+                        to:  300,
+                        duration: 2000,
                         repeat: true,
                         onUpdate: function (value) {
-                            if (value === 0) {
+                            this.setPosition(this.getPosition().x,243.57054 - value);
+                            /*if (value === 0) {
                                 this.setPosition({x: zhuzi5.getPosition().x, y: zhuzi5StartY})
                             } else {
                                 this.setPosition({x: zhuzi5.getPosition().x, y: zhuzi5.getPosition().y - value})
-                            }
+                            }*/
                         }
                     },
                     show: {
@@ -640,6 +802,28 @@
                     start: ['move', 'show']
                 })
 
+            }
+
+            // 展示菜单
+            function showMenu(dm) {
+                const menu = dm.getDataByTag('menu');
+                const background = dm.getDataByTag('background');
+                var menuList = [];
+                for (var i=1; i< 10; i++) {
+                    menuList.push(dm.getDataByTag('menu'+i));
+                }
+                menu.s('onEnter',()=>{
+                    background.s('2d.visible',true);
+                    menuList.map((item)=> {
+                        item.s('2d.visible',true);
+                    })
+                })
+                menu.s('onClick',()=>{
+                    background.s('2d.visible',false);
+                    menuList.map((item)=> {
+                        item.s('2d.visible',false);
+                    })
+                })
             }
         </script>
     </head>

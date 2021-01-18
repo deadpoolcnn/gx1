@@ -1,0 +1,1962 @@
+{
+  "v": "7.0.9",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "zoomable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 25774,
+      "p": {
+        "displayName": "bg_ft",
+        "image": "assets/feitingyun/bg_ft.jpg",
+        "position": {
+          "x": 95.03563,
+          "y": 82.4056
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "fullscreen": "fill",
+        "fullscreen.lock": "h",
+        "fullscreen.gap": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25775,
+      "p": {
+        "displayName": "title-feiting",
+        "image": "assets/junminronghe/title-feiting.png",
+        "position": {
+          "x": 97.56379,
+          "y": -417.66005
+        }
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25776,
+      "p": {
+        "displayName": "进入云平台",
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": 935.36783,
+          "y": -417.16013
+        },
+        "width": 176.802,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right",
+        "select.color": "rgb(247,247,247)",
+        "select.width": 0,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\"\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25777,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 25776
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 990.76882,
+          "y": -417.16014
+        },
+        "width": 66,
+        "height": 26
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 25778,
+      "p": {
+        "parent": {
+          "__i": 25776
+        },
+        "position": {
+          "x": 896.9668,
+          "y": -417.16014
+        }
+      },
+      "s": {
+        "text": "进入云平台",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25779,
+      "p": {
+        "displayName": "介绍",
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": 626.77216,
+          "y": -119.574
+        },
+        "width": 640.38928,
+        "height": 324.76886
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "right",
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25780,
+      "p": {
+        "displayName": "ft_border1",
+        "parent": {
+          "__i": 25779
+        },
+        "image": "assets/feitingyun/ft_border1.png",
+        "position": {
+          "x": 626.77217,
+          "y": -119.574
+        },
+        "width": 640.38931,
+        "height": 324.76886
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25781,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 25779
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 630.01878,
+          "y": -108.02357
+        },
+        "width": 548,
+        "height": 228.02787
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.content": "飞艇应用云在边境地区部署长期滞空的飞艇，搭载各类侦查装备，至少提供光电侦查、通信基站、地理信息测绘、光电红外装备或小型雷达等4类应用。目标数据至少服务边防部队、公安、边海防、自然资源、农业、林业等9个部门。",
+        "ht.font": "24px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 40,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25782,
+      "p": {
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": 626.77214,
+          "y": 301.16874
+        },
+        "width": 640.38928,
+        "height": 383.09003
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "right",
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25783,
+      "p": {
+        "displayName": "srceen2",
+        "parent": {
+          "__i": 25782
+        },
+        "image": "assets/feitingyun/srceen2.jpg",
+        "position": {
+          "x": 625.24551,
+          "y": 297.51751
+        },
+        "width": 553.0522,
+        "height": 311.55274
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"http://lx1.gstar-info.com:8003/\"\n}",
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"default\";\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25784,
+      "p": {
+        "displayName": "ft_border2",
+        "parent": {
+          "__i": 25782
+        },
+        "image": "assets/feitingyun/ft_border2.png",
+        "position": {
+          "x": 626.77217,
+          "y": 301.16873
+        },
+        "width": 640.38928,
+        "height": 383.09002
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25785,
+      "p": {
+        "displayName": "中间",
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": -197.47757,
+          "y": 84.82296
+        },
+        "width": 725.73172,
+        "height": 579.42397
+      },
+      "s": {
+        "layout.h": "center",
+        "layout.v": "center",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25786,
+      "p": {
+        "displayName": "ft_roll",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "ft_roll",
+        "position": {
+          "x": -161.04142,
+          "y": 158.28495
+        },
+        "width": 652.85945,
+        "height": 399.5
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25787,
+      "p": {
+        "displayName": "lizibj",
+        "parent": {
+          "__i": 25786
+        },
+        "tag": "lizibj",
+        "image": "assets/junminronghe/lizibj.png",
+        "position": {
+          "x": -137.6117,
+          "y": 142.15578
+        },
+        "width": 606,
+        "height": 302
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25788,
+      "p": {
+        "displayName": "guangquan2",
+        "parent": {
+          "__i": 25786
+        },
+        "tag": "guangquan2",
+        "image": "assets/junminronghe/guangquan2.png",
+        "position": {
+          "x": -204.92897,
+          "y": 120.53495
+        },
+        "width": 523,
+        "height": 324
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25789,
+      "p": {
+        "displayName": "guangquan",
+        "parent": {
+          "__i": 25786
+        },
+        "tag": "guangquan",
+        "image": "assets/junminronghe/guangquan.png",
+        "position": {
+          "x": -204.67178,
+          "y": 122.53495
+        },
+        "width": 319,
+        "height": 200
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25790,
+      "p": {
+        "displayName": "guangquan3",
+        "parent": {
+          "__i": 25786
+        },
+        "tag": "guangquan3",
+        "image": "assets/junminronghe/guangquan3.png",
+        "position": {
+          "x": -209.47115,
+          "y": 194.53495
+        },
+        "width": 556,
+        "height": 327
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25791,
+      "p": {
+        "displayName": "ft_line_top",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "ft_line_top",
+        "image": "assets/feitingyun/ft_line_top.png",
+        "position": {
+          "x": -195.22927,
+          "y": -47.63265
+        },
+        "width": 458,
+        "height": 314.51275
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25792,
+      "p": {
+        "displayName": "ft_line_mid",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "ft_line_mid",
+        "image": "assets/feitingyun/ft_line_mid.png",
+        "position": {
+          "x": -64.03205,
+          "y": 36.10097
+        },
+        "width": 182,
+        "height": 90
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25793,
+      "p": {
+        "displayName": "ft_line_left",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "ft_line_left",
+        "image": "assets/feitingyun/ft_line_left.png",
+        "position": {
+          "x": -305.17178,
+          "y": 176.83548
+        },
+        "width": 226,
+        "height": 196
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25794,
+      "p": {
+        "displayName": "ft_line_right",
+        "parent": {
+          "__i": 25785
+        },
+        "image": "assets/feitingyun/ft_line_right.png",
+        "position": {
+          "x": -97.67178,
+          "y": 184.53495
+        },
+        "width": 205,
+        "height": 196
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 25795,
+      "p": {
+        "displayName": "mobile_line",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "mobile_line",
+        "position": {
+          "x": -48.63487,
+          "y": 215.93718
+        },
+        "width": 164.8112,
+        "height": 102.25197,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -131.04047,
+              "y": 164.8112
+            },
+            {
+              "x": -117.23429,
+              "y": 166.53697
+            },
+            {
+              "x": -103.42812,
+              "y": 169.98851
+            },
+            {
+              "x": -90.48483,
+              "y": 175.16583
+            },
+            {
+              "x": -79.69876,
+              "y": 182.06892
+            },
+            {
+              "x": -68.91269,
+              "y": 191.9921
+            },
+            {
+              "x": -60.28383,
+              "y": 203.20962
+            },
+            {
+              "x": -54.67507,
+              "y": 214.42713
+            },
+            {
+              "x": -45.61477,
+              "y": 227.37042
+            },
+            {
+              "x": -37.8488,
+              "y": 235.56784
+            },
+            {
+              "x": -28.78849,
+              "y": 243.76525
+            },
+            {
+              "x": -21.02252,
+              "y": 250.2369
+            },
+            {
+              "x": -11.96222,
+              "y": 254.55133
+            },
+            {
+              "x": -0.31326,
+              "y": 259.72864
+            },
+            {
+              "x": 10.04137,
+              "y": 263.61163
+            },
+            {
+              "x": 23.84754,
+              "y": 266.63173
+            },
+            {
+              "x": 33.77073,
+              "y": 267.06317
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.color": "rgb(24,120,217)",
+        "shape.gradient.color": null,
+        "shape.dash.pattern": [
+          12,
+          4
+        ],
+        "shape.dash.width": 4,
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 25796,
+      "p": {
+        "displayName": "application_terminal_line",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "application_terminal_line",
+        "position": {
+          "x": -343.69391,
+          "y": 202.82735
+        },
+        "scale": {
+          "x": -1,
+          "y": 1
+        },
+        "width": 176.05519,
+        "height": 111.26688,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -431.72151,
+              "y": 147.19391
+            },
+            {
+              "x": -416.97343,
+              "y": 149.07183
+            },
+            {
+              "x": -402.22535,
+              "y": 152.82768
+            },
+            {
+              "x": -388.39903,
+              "y": 158.46144
+            },
+            {
+              "x": -376.87709,
+              "y": 165.97313
+            },
+            {
+              "x": -365.35515,
+              "y": 176.77118
+            },
+            {
+              "x": -356.13761,
+              "y": 188.97767
+            },
+            {
+              "x": -350.1462,
+              "y": 201.18417
+            },
+            {
+              "x": -340.46777,
+              "y": 215.26858
+            },
+            {
+              "x": -332.17198,
+              "y": 224.18871
+            },
+            {
+              "x": -322.49355,
+              "y": 233.10884
+            },
+            {
+              "x": -314.19776,
+              "y": 240.15105
+            },
+            {
+              "x": -304.51933,
+              "y": 244.84585
+            },
+            {
+              "x": -292.07564,
+              "y": 250.47962
+            },
+            {
+              "x": -281.01458,
+              "y": 254.70494
+            },
+            {
+              "x": -266.2665,
+              "y": 257.99131
+            },
+            {
+              "x": -255.66632,
+              "y": 258.46079
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.color": "rgb(24,120,217)",
+        "shape.gradient.color": null,
+        "shape.dash.pattern": [
+          12,
+          4
+        ],
+        "shape.dash.width": 4,
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 25797,
+      "p": {
+        "displayName": "cloud_server_line",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "cloud_server_line",
+        "position": {
+          "x": -53.27491,
+          "y": 39.50761
+        },
+        "scale": {
+          "x": 1,
+          "y": -1
+        },
+        "width": 164.8112,
+        "height": 102.25197,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -135.68051,
+              "y": -11.61838
+            },
+            {
+              "x": -121.87434,
+              "y": -9.89261
+            },
+            {
+              "x": -108.06817,
+              "y": -6.44106
+            },
+            {
+              "x": -95.12488,
+              "y": -1.26375
+            },
+            {
+              "x": -84.33881,
+              "y": 5.63934
+            },
+            {
+              "x": -73.55273,
+              "y": 15.56253
+            },
+            {
+              "x": -64.92387,
+              "y": 26.78004
+            },
+            {
+              "x": -59.31512,
+              "y": 37.99756
+            },
+            {
+              "x": -50.25481,
+              "y": 50.94085
+            },
+            {
+              "x": -42.48884,
+              "y": 59.13826
+            },
+            {
+              "x": -33.42854,
+              "y": 67.33568
+            },
+            {
+              "x": -25.66257,
+              "y": 73.80732
+            },
+            {
+              "x": -16.60227,
+              "y": 78.12175
+            },
+            {
+              "x": -4.95331,
+              "y": 83.29907
+            },
+            {
+              "x": 5.40132,
+              "y": 87.18205
+            },
+            {
+              "x": 19.2075,
+              "y": 90.20215
+            },
+            {
+              "x": 29.13068,
+              "y": 90.6336
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash": true,
+        "shape.dash.color": "rgb(24,120,217)",
+        "shape.gradient.color": null,
+        "shape.dash.pattern": [
+          12,
+          4
+        ],
+        "shape.dash.width": 4,
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 25798,
+      "p": {
+        "displayName": "perception_cloud_line_right",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "perception_cloud_line_right",
+        "position": {
+          "x": -210.61575,
+          "y": -54.75482
+        },
+        "width": 459.59258,
+        "height": 52.26989,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -440.41204,
+              "y": -62.40408
+            },
+            {
+              "x": -434.6751,
+              "y": -57.30457
+            },
+            {
+              "x": -426.38841,
+              "y": -50.29276
+            },
+            {
+              "x": -416.82685,
+              "y": -44.55582
+            },
+            {
+              "x": -405.99041,
+              "y": -39.45632
+            },
+            {
+              "x": -395.7914,
+              "y": -36.26913
+            },
+            {
+              "x": -385.5924,
+              "y": -33.71938
+            },
+            {
+              "x": -372.20621,
+              "y": -30.53219
+            },
+            {
+              "x": -362.64464,
+              "y": -29.89475
+            },
+            {
+              "x": -349.89589,
+              "y": -28.61988
+            },
+            {
+              "x": -337.78457,
+              "y": -28.61988
+            },
+            {
+              "x": -325.03582,
+              "y": -28.61988
+            },
+            {
+              "x": -309.09988,
+              "y": -29.89475
+            },
+            {
+              "x": -297.626,
+              "y": -31.16963
+            },
+            {
+              "x": -287.42699,
+              "y": -31.80707
+            },
+            {
+              "x": -273.40337,
+              "y": -34.35682
+            },
+            {
+              "x": -262.56692,
+              "y": -36.26913
+            },
+            {
+              "x": -250.45561,
+              "y": -39.45632
+            },
+            {
+              "x": -237.70685,
+              "y": -42.00607
+            },
+            {
+              "x": -225.59554,
+              "y": -44.55582
+            },
+            {
+              "x": -213.48422,
+              "y": -47.10557
+            },
+            {
+              "x": -199.46059,
+              "y": -51.56763
+            },
+            {
+              "x": -187.34928,
+              "y": -54.75482
+            },
+            {
+              "x": -172.05077,
+              "y": -59.21689
+            },
+            {
+              "x": -160.57689,
+              "y": -62.40408
+            },
+            {
+              "x": -148.46558,
+              "y": -66.2287
+            },
+            {
+              "x": -135.07938,
+              "y": -69.41589
+            },
+            {
+              "x": -119.14344,
+              "y": -72.60308
+            },
+            {
+              "x": -102.57006,
+              "y": -75.79027
+            },
+            {
+              "x": -89.82131,
+              "y": -77.70258
+            },
+            {
+              "x": -74.5228,
+              "y": -80.25233
+            },
+            {
+              "x": -58.58686,
+              "y": -80.25233
+            },
+            {
+              "x": -44.56323,
+              "y": -80.88977
+            },
+            {
+              "x": -28.62729,
+              "y": -80.25233
+            },
+            {
+              "x": -10.77903,
+              "y": -76.4277
+            },
+            {
+              "x": 3.88203,
+              "y": -72.60308
+            },
+            {
+              "x": 19.18054,
+              "y": -64.95383
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash.color": "rgb(24,120,217)",
+        "shape.dash.width": 4,
+        "shape.dash.pattern": [
+          12,
+          4
+        ],
+        "shape.dash": true,
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 25799,
+      "p": {
+        "displayName": "perception_cloud_line_left",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "perception_cloud_line_left",
+        "position": {
+          "x": -205.61575,
+          "y": -79.75482
+        },
+        "width": 459.59258,
+        "height": 52.26989,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -435.41204,
+              "y": -87.40408
+            },
+            {
+              "x": -429.6751,
+              "y": -82.30457
+            },
+            {
+              "x": -421.38841,
+              "y": -75.29276
+            },
+            {
+              "x": -411.82685,
+              "y": -69.55582
+            },
+            {
+              "x": -400.99041,
+              "y": -64.45632
+            },
+            {
+              "x": -390.7914,
+              "y": -61.26913
+            },
+            {
+              "x": -380.5924,
+              "y": -58.71938
+            },
+            {
+              "x": -367.20621,
+              "y": -55.53219
+            },
+            {
+              "x": -357.64464,
+              "y": -54.89475
+            },
+            {
+              "x": -344.89589,
+              "y": -53.61988
+            },
+            {
+              "x": -332.78457,
+              "y": -53.61988
+            },
+            {
+              "x": -320.03582,
+              "y": -53.61988
+            },
+            {
+              "x": -304.09988,
+              "y": -54.89475
+            },
+            {
+              "x": -292.626,
+              "y": -56.16963
+            },
+            {
+              "x": -282.42699,
+              "y": -56.80707
+            },
+            {
+              "x": -268.40337,
+              "y": -59.35682
+            },
+            {
+              "x": -257.56692,
+              "y": -61.26913
+            },
+            {
+              "x": -245.45561,
+              "y": -64.45632
+            },
+            {
+              "x": -232.70685,
+              "y": -67.00607
+            },
+            {
+              "x": -220.59554,
+              "y": -69.55582
+            },
+            {
+              "x": -208.48422,
+              "y": -72.10557
+            },
+            {
+              "x": -194.46059,
+              "y": -76.56763
+            },
+            {
+              "x": -182.34928,
+              "y": -79.75482
+            },
+            {
+              "x": -167.05077,
+              "y": -84.21689
+            },
+            {
+              "x": -155.57689,
+              "y": -87.40408
+            },
+            {
+              "x": -143.46558,
+              "y": -91.2287
+            },
+            {
+              "x": -130.07938,
+              "y": -94.41589
+            },
+            {
+              "x": -114.14344,
+              "y": -97.60308
+            },
+            {
+              "x": -97.57006,
+              "y": -100.79027
+            },
+            {
+              "x": -84.82131,
+              "y": -102.70258
+            },
+            {
+              "x": -69.5228,
+              "y": -105.25233
+            },
+            {
+              "x": -53.58686,
+              "y": -105.25233
+            },
+            {
+              "x": -39.56323,
+              "y": -105.88977
+            },
+            {
+              "x": -23.62729,
+              "y": -105.25233
+            },
+            {
+              "x": -5.77903,
+              "y": -101.4277
+            },
+            {
+              "x": 8.88203,
+              "y": -97.60308
+            },
+            {
+              "x": 24.18054,
+              "y": -89.95383
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash.color": "rgb(24,120,217)",
+        "shape.dash.width": 4,
+        "shape.dash.pattern": [
+          12,
+          4
+        ],
+        "shape.dash": true,
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 25800,
+      "p": {
+        "displayName": "edge",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "edge_1",
+        "position": {
+          "x": -61.905,
+          "y": 44.17647
+        },
+        "width": 147.55102,
+        "height": 76.45825,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 11.87051,
+              "y": 5.94735
+            },
+            {
+              "x": 11.87051,
+              "y": 5.94735
+            },
+            {
+              "x": -2.88459,
+              "y": 36.79892
+            },
+            {
+              "x": -14.95695,
+              "y": 36.79892
+            },
+            {
+              "x": -27.0293,
+              "y": 36.79892
+            },
+            {
+              "x": -14.28626,
+              "y": 9.30078
+            },
+            {
+              "x": -44.46715,
+              "y": 20.70245
+            },
+            {
+              "x": -74.64804,
+              "y": 32.10412
+            },
+            {
+              "x": -135.68051,
+              "y": 82.4056
+            },
+            {
+              "x": -135.68051,
+              "y": 82.4056
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": null,
+        "shape.border.width": 1,
+        "shape.dash.color": "rgb(21,174,230)",
+        "shape.dash": true,
+        "shape.dash.3d.color": null,
+        "shape.border.3d": true,
+        "shape.foreground": null,
+        "shape.gradient.color": null,
+        "interactive": true,
+        "opacity": 0,
+        "shape.dash.width": 0,
+        "select.color": null,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25801,
+      "p": {
+        "displayName": "ft-ico",
+        "parent": {
+          "__i": 25785
+        },
+        "image": "symbols/junminronghe/ft-ico.json",
+        "position": {
+          "x": -507.46073,
+          "y": -85.74587
+        },
+        "anchor": {
+          "x": 0.29379,
+          "y": 0.43177
+        },
+        "width": 180,
+        "height": 180
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25802,
+      "p": {
+        "displayName": "ft-ico",
+        "parent": {
+          "__i": 25785
+        },
+        "image": "symbols/junminronghe/ft-ico.json",
+        "position": {
+          "x": -456.42897,
+          "y": 284.53495
+        },
+        "width": 180,
+        "height": 180
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "image": "assets/feitingyun/ft_ico3.png",
+        "name": "应用终端"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25803,
+      "p": {
+        "displayName": "ft-ico",
+        "parent": {
+          "__i": 25785
+        },
+        "image": "symbols/junminronghe/ft-ico.json",
+        "position": {
+          "x": 65.12266,
+          "y": 284.53495
+        },
+        "width": 180,
+        "height": 180
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "image": "assets/feitingyun/ft_ico4.png",
+        "name": "移动上网设备"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25804,
+      "p": {
+        "displayName": "ft-ico",
+        "parent": {
+          "__i": 25785
+        },
+        "image": "symbols/junminronghe/ft-ico.json",
+        "position": {
+          "x": 41.36513,
+          "y": -57.53039
+        },
+        "width": 180,
+        "height": 180
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "image": "assets/feitingyun/ft_ico2.png",
+        "name": "云服务器"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25805,
+      "p": {
+        "displayName": "ft_cloud_block",
+        "parent": {
+          "__i": 25785
+        },
+        "tag": "ft_cloud_block",
+        "image": "assets/feitingyun/ft_cloud.png",
+        "position": {
+          "x": -204.67178,
+          "y": 108.84468
+        },
+        "width": 201,
+        "height": 195
+      },
+      "s": {
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25806,
+      "p": {
+        "displayName": "airship_block",
+        "tag": "airship_block",
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": -537.88983,
+          "y": -243.07302
+        },
+        "width": 396.59657,
+        "height": 173.30814
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25807,
+      "p": {
+        "displayName": "feiting_fig_first",
+        "parent": {
+          "__i": 25806
+        },
+        "tag": "feiting_fig_first",
+        "image": "assets/feitingyun/feiting_fig.png",
+        "position": {
+          "x": -509.96437,
+          "y": -236.5944
+        },
+        "width": 340.74565,
+        "height": 160.35089
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25808,
+      "p": {
+        "displayName": "feiting_fig_second",
+        "parent": {
+          "__i": 25806
+        },
+        "tag": "feiting_fig_second",
+        "image": "assets/feitingyun/feiting_fig.png",
+        "position": {
+          "x": -633.50763,
+          "y": -281.40687
+        },
+        "width": 205.36094,
+        "height": 96.64044
+      },
+      "s": {
+        "opacity": 0.7,
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25809,
+      "p": {
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": 827.28258,
+          "y": 548.77099
+        },
+        "width": 230,
+        "height": 70
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "bottom",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 25810,
+      "p": {
+        "host": {
+          "__i": 25784
+        },
+        "position": {
+          "x": 626.77219,
+          "y": 531.08864
+        },
+        "width": 160.27921
+      },
+      "s": {
+        "text": "云平台界面",
+        "text.color": "#FFFFFF",
+        "text.font": "22px sans-serif, Arial",
+        "text.align": "center",
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25811,
+      "p": {
+        "displayName": "返回",
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": -749.84798,
+          "y": -417.16013
+        },
+        "width": 173.45129,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面开发中..')\nwindow.location.href = \"01daohangye.html\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25812,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 25811
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "position": {
+          "x": -803.57365,
+          "y": -418.16015
+        },
+        "width": 66,
+        "height": 26
+      },
+      "s": {
+        "opacity": 0.1
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 25813,
+      "p": {
+        "parent": {
+          "__i": 25811
+        },
+        "position": {
+          "x": -749.84798,
+          "y": -417.16014
+        },
+        "width": 173.45128
+      },
+      "s": {
+        "text": "返回",
+        "text.color": "rgb(5,19,33)",
+        "text.font": "bold 27px Microsoft YaHei",
+        "opacity": 0.1,
+        "select.color": "",
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25814,
+      "p": {
+        "displayName": "tk",
+        "tag": "tk",
+        "image": "symbols/junminronghe/tk.json",
+        "position": {
+          "x": 27.19249,
+          "y": -101.50964
+        }
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "opacity": 0,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 79622,
+      "p": {
+        "displayName": "qiehuancaidan",
+        "image": "symbols/junminronghe/qiehuancaidan.json",
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": -795.28171,
+          "y": -417.66005
+        },
+        "width": 140,
+        "height": 42
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 25815,
+      "p": {
+        "displayName": "caidan",
+        "host": {
+          "__i": 25774
+        },
+        "position": {
+          "x": -795.0434,
+          "y": 113.31389
+        },
+        "width": 140.47656,
+        "height": 1020
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left",
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 74814,
+      "p": {
+        "parent": {
+          "__i": 25815
+        },
+        "position": {
+          "x": -795.04341,
+          "y": 113.31389
+        },
+        "width": 140.47657,
+        "height": 1020
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#171f52",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72393,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": -356.81686
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "北斗应用云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72403,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": -295.81551
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "地理信息云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72404,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": -234.81417
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "飞艇应用云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72405,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": -173.81282
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "航空服务云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72406,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": -112.81147
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "公共服务云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72407,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": -51.81013
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "无人机运控"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72408,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": 9.19122
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "血浆云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72409,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": 70.19256
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "物资保障云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72410,
+      "p": {
+        "displayName": "caidan",
+        "parent": {
+          "__i": 25815
+        },
+        "image": "symbols/junminronghe/caidan.json",
+        "position": {
+          "x": -794.80513,
+          "y": 131.19391
+        },
+        "width": 140,
+        "height": 42
+      },
+      "a": {
+        "name": "交通云"
+      }
+    }
+  ],
+  "modified": "Mon Jan 18 2021 10:59:42 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -865.28171,
+    "y": -457.5944,
+    "width": 1920.31734,
+    "height": 1080
+  }
+}

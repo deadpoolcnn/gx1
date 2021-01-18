@@ -34,6 +34,7 @@
                     dibiaoAni(dataModel);
                     imgAni(dataModel);
                     kuangAni(dataModel);
+                    showMenu(dataModel);
                 });
 
                 function mapAni(dm) {
@@ -341,7 +342,44 @@
                                 this.setPosition(this.getPosition().x,value);
                             }
                         },
-                        start: ['up']
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0.5,
+                            duration: 1500,
+                            next: "opa"
+                        },
+                        opa: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 0.5,
+                            to: 1,
+                            duration: 1500,
+                            next: "show"
+                        },
+                        start: ['show']
+                    })
+                }
+                // 展示菜单
+                function showMenu(dm) {
+                    const menu = dm.getDataByTag('menu');
+                    const background = dm.getDataByTag('background');
+                    var menuList = [];
+                    for (var i=1; i< 10; i++) {
+                        menuList.push(dm.getDataByTag('menu'+i));
+                    }
+                    menu.s('onEnter',()=>{
+                        background.s('2d.visible',true);
+                        menuList.map((item)=> {
+                            item.s('2d.visible',true);
+                        })
+                    })
+                    menu.s('onClick',()=>{
+                        background.s('2d.visible',false);
+                        menuList.map((item)=> {
+                            item.s('2d.visible',false);
+                        })
                     })
                 }
 
