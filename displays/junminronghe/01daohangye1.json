@@ -401,7 +401,8 @@
       "a": {
         "ico_img": "assets/junminronghe/icon-cehuidili.png",
         "name1": "军民一体测绘地理",
-        "name2": "信息应用云"
+        "name2": "信息应用云",
+        "name": "军民一体测绘地理信息云"
       }
     },
     {
@@ -434,7 +435,8 @@
         "name1": "广西边境地区",
         "name2": "飞艇应用云",
         "ico_img": "assets/junminronghe/icon-feiting.png",
-        "state": "1"
+        "state": "1",
+        "name": "  广西边境地区  飞艇应用云"
       }
     },
     {
@@ -466,7 +468,8 @@
       "a": {
         "name2": "公共服务云",
         "ico_img": "assets/junminronghe/icon-gonggongfuwu.png",
-        "name1": "广西军民融合"
+        "name1": "广西军民融合",
+        "name": "   广西军民融合  公共服务云"
       }
     },
     {
@@ -498,7 +501,8 @@
       "a": {
         "name1": "广西军民一体化 ",
         "name2": "北斗应用云",
-        "ico_img": "assets/junminronghe/icon-beidou.png"
+        "ico_img": "assets/junminronghe/icon-beidou.png",
+        "name": "  广西军民一体化  北斗应用云"
       }
     },
     {
@@ -530,7 +534,8 @@
       "a": {
         "name1": "广西军民两用应急",
         "name2": "物资保障云 ",
-        "ico_img": "assets/junminronghe/icon-jiuyuanwuzi.png"
+        "ico_img": "assets/junminronghe/icon-jiuyuanwuzi.png",
+        "name": "广西军民两用应用物资保障云"
       }
     },
     {
@@ -562,7 +567,8 @@
       "a": {
         "name2": "管理及服务",
         "ico_img": "assets/junminronghe/icon-wurenji.png",
-        "name1": "广西无人机运控"
+        "name1": "广西无人机运控",
+        "name": "  广西无人机运控  管理及服务"
       }
     },
     {
@@ -594,7 +600,8 @@
       "a": {
         "name1": "广西军民一体化应急",
         "name2": "救援航空服务云",
-        "ico_img": "assets/junminronghe/icon-jiuyuanhangkong.png"
+        "ico_img": "assets/junminronghe/icon-jiuyuanhangkong.png",
+        "name": "广西军民一体化应急救援航空服务云"
       }
     },
     {
@@ -626,7 +633,8 @@
       "a": {
         "ico_img": "assets/junminronghe/icon-zhanbei.png",
         "name2": "交通云",
-        "name1": "广西军民融合"
+        "name1": "广西军民融合",
+        "name": "  广西军民融合  交通云"
       }
     },
     {
@@ -689,7 +697,8 @@
       "a": {
         "ico_img": "assets/junminronghe/icon-xuejiang.png",
         "name1": " ",
-        "name2": " "
+        "name2": " ",
+        "name": "血浆云"
       }
     },
     {
@@ -724,11 +733,12 @@
         "select.width": 0,
         "select.padding": 0,
         "layout.h": "left",
-        "layout.v": "top"
+        "layout.v": "top",
+        "2d.visible": false
       }
     }
   ],
-  "modified": "Tue Jan 19 2021 10:56:01 GMT+0800 (China Standard Time)",
+  "modified": "Tue Jan 19 2021 14:30:29 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": 0,
     "y": 0,
