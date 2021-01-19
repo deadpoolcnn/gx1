@@ -218,29 +218,102 @@
                     },
                     start: ["show"]
                 })
+                var num = 1;
+                setInterval(()=>{
+                    switch (num) {
+                        case 1: {
+                            console.log(num);
+                            gd3.setAnimation({
+                                show: {
+                                    property: "opacity",
+                                    accessType: "style",
+                                    from: 1,
+                                    to: 0,
+                                    duration: 1000,
+                                    //repeat: true
+                                },
+                                large: {
+                                    from: 1,
+                                    to: 1.15,
+                                    duration: 1000,
+                                    //repeat: true,
+                                    onUpdate: function (value) {
+                                        this.setScale(value,value);
+                                    },
+                                },
+                                start: ["show","large"]
+                            })
+                            break;
+                        }
+                        case 2: {
+                            console.log(num);
+                            gd2.setAnimation({
+                                show: {
+                                    property: "opacity",
+                                    accessType: "style",
+                                    from: 1,
+                                    to: 0,
+                                    duration: 1000,
+                                    //repeat: true
+                                },
+                                large: {
+                                    from: 1,
+                                    to: 1.2,
+                                    duration: 1000,
+                                    //repeat: true,
+                                    onUpdate: function (value) {
+                                        this.setScale(value,value);
+                                    }
+                                },
+                                start: ["show","large"]
+                            });
+                            break;
+                        }
+                        case 3: {
+                            console.log(num);
+                            gd1.setAnimation({
+                                show: {
+                                    property: "opacity",
+                                    accessType: "style",
+                                    from: 1,
+                                    to: 0,
+                                    duration: 1000,
+                                    //repeat: true
+                                },
+                                large: {
+                                    from: 1,
+                                    to: 1.05,
+                                    duration: 1000,
+                                    //repeat: true,
+                                    onUpdate: function (value) {
+                                        this.setScale(value,value);
+                                    }
+                                },
+                                start: ["show","large"]
+                            });
+                            guangxiao.setAnimation({
+                                show: {
+                                    property: "opacity",
+                                    accessType: "style",
+                                    from: 1,
+                                    to: 0,
+                                    duration: 2000,
+                                },
+                                start: ["show"]
+                            })
+                            break;
+                        }
+                    }
+                    num++;
+                    if (num > 3) {
+                        num = 1;
+                    }
+                },1000)
 
 
-                setTimeout(()=>{
-                    gd3.setAnimation({
-                        show: {
-                            property: "opacity",
-                            accessType: "style",
-                            from: 1,
-                            to: 0,
-                            duration: 2000,
-                            repeat: true
-                        },
-                        large: {
-                            from: 1,
-                            to: 1.15,
-                            duration: 2000,
-                            repeat: true,
-                            onUpdate: function (value) {
-                                this.setScale(value,value);
-                            },
-                        },
-                        start: ["show","large"]
-                    })
+
+               /* setTimeout(()=>{
+
                     setTimeout(()=>{
                         gd2.setAnimation({
                             show: {
@@ -296,7 +369,7 @@
                             start: ["show"]
                         })
                     },3000);
-                },500)
+                },500)*/
 
 
             }
