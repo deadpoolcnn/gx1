@@ -19,6 +19,7 @@
         <script src="libs/plugin/ht-animation.js"></script>
 
         <script>
+            var flag = 1;
             function init() {
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
@@ -215,20 +216,30 @@
                     const menu = dm.getDataByTag('menu');
                     const background = dm.getDataByTag('background');
                     var menuList = [];
-                    for (var i=1; i< 10; i++) {
+                    for (var i=1; i< 11; i++) {
                         menuList.push(dm.getDataByTag('menu'+i));
                     }
-                    menu.s('onEnter',()=>{
+                    /*menu.s('onEnter',()=>{
                         background.s('2d.visible',true);
                         menuList.map((item)=> {
                             item.s('2d.visible',true);
                         })
-                    })
+                    })*/
                     menu.s('onClick',()=>{
-                        background.s('2d.visible',false);
-                        menuList.map((item)=> {
-                            item.s('2d.visible',false);
-                        })
+                        if(flag === 0) {
+                            background.s('2d.visible',false);
+                            menuList.map((item)=> {
+                                item.s('2d.visible',false);
+                            })
+                            flag = 1;
+                        }
+                        else if (flag === 1) {
+                            background.s('2d.visible',true);
+                            menuList.map((item)=> {
+                                item.s('2d.visible',true);
+                            })
+                            flag = 0;
+                        }
                     })
                 }
             }

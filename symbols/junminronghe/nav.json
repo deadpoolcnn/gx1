@@ -1,5 +1,5 @@
 {
-  "modified": "Tue Dec 08 2020 13:16:58 GMT+0800 (中国标准时间)",
+  "modified": "Tue Jan 19 2021 09:57:34 GMT+0800 (中国标准时间)",
   "dataBindings": [
     {
       "attr": "ico_img",
@@ -7,14 +7,14 @@
       "name": "图标icon"
     },
     {
-      "attr": "name1",
+      "attr": "name",
       "valueType": "String",
-      "name": "一行名称"
+      "name": "名称"
     },
     {
-      "attr": "name2",
+      "attr": "state",
       "valueType": "String",
-      "name": "二行名称"
+      "name": "状态"
     }
   ],
   "width": 226,
@@ -35,44 +35,6 @@
       ]
     },
     {
-      "type": "text",
-      "text": {
-        "func": "attr@name1",
-        "value": "广西交通战备云"
-      },
-      "align": "center",
-      "color": "rgb(255,255,255)",
-      "font": "22px sans-serif, Arial",
-      "shadow": true,
-      "shadowColor": "rgba(17,173,194,0.80)",
-      "shadowOffsetX": 2,
-      "rect": [
-        0,
-        11.68525,
-        226,
-        52.17055
-      ]
-    },
-    {
-      "type": "text",
-      "text": {
-        "func": "attr@name2",
-        "value": "广西交通战备云"
-      },
-      "align": "center",
-      "color": "rgb(255,255,255)",
-      "font": "22px sans-serif, Arial",
-      "shadow": true,
-      "shadowColor": "rgba(17,173,194,0.80)",
-      "shadowOffsetX": 2,
-      "rect": [
-        0,
-        40.77053,
-        226,
-        52.17055
-      ]
-    },
-    {
       "type": "image",
       "name": "assets/junminronghe/navbg.png",
       "displayName": "navbg",
@@ -82,6 +44,31 @@
         226,
         234
       ]
+    },
+    {
+      "type": "components/ht/text/textBox.json",
+      "shadow": true,
+      "shadowColor": "rgba(17,173,194,0.80)",
+      "shadowOffsetX": 2,
+      "displayName": "textBox",
+      "rect": [
+        16,
+        5.64309,
+        194,
+        95.80881
+      ],
+      "content": {
+        "func": "attr@name",
+        "value": "广西军民一体化应急救援航空服务云"
+      },
+      "autoScale": false,
+      "font": "bold 24px sans-serif, Arial",
+      "textAlign": "center",
+      "color": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\r\nvar state = \"rgb(255,255,255)\";\r\nif(type == '1'){\r\n    state = \"rgb(255,255,255)\";\r\n}\r\nif(type == '2'){\r\n    state = \"rgb(10,223,248)\";\r\n}\r\nreturn state;\n}",
+        "value": "rgb(255,255,255)"
+      },
+      "lineHeight": 30
     }
   ]
 }

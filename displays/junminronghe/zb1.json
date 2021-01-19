@@ -14,7 +14,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 60979,
+      "i": 7999,
       "p": {
         "displayName": "zb1",
         "image": "assets/junminronghe/zb1.png",
@@ -35,7 +35,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 60980,
+      "i": 8000,
       "p": {
         "displayName": "arrow",
         "image": "symbols/junminronghe/arrow.json",
@@ -60,7 +60,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 60981,
+      "i": 8001,
       "p": {
         "displayName": "arrow",
         "image": "symbols/junminronghe/arrow.json",
@@ -78,7 +78,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 60982,
+      "i": 8002,
       "p": {
         "position": {
           "x": 90.50657,
@@ -104,17 +104,17 @@
     },
     {
       "c": "ht.Block",
-      "i": 60983,
+      "i": 8003,
       "p": {
         "host": {
-          "__i": 60979
+          "__i": 7999
         },
         "position": {
           "x": 91.02283,
-          "y": 277.5202
+          "y": 299.02765
         },
         "width": 140.96745,
-        "height": 522.93848
+        "height": 565.95337
       },
       "s": {
         "layout.v": "top",
@@ -124,18 +124,18 @@
     },
     {
       "c": "ht.Node",
-      "i": 60984,
+      "i": 8004,
       "p": {
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "background",
         "position": {
           "x": 91.26828,
-          "y": 298.71141
+          "y": 320.21885
         },
         "width": 140.47657,
-        "height": 480.55609
+        "height": 523.57096
       },
       "s": {
         "shape": "rect",
@@ -146,11 +146,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 60985,
+      "i": 8005,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu",
         "position": {
@@ -171,10 +171,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 60986,
+      "i": 8006,
       "p": {
         "parent": {
-          "__i": 60985
+          "__i": 8005
         },
         "position": {
           "x": 89.11261,
@@ -234,10 +234,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 60987,
+      "i": 8007,
       "p": {
         "parent": {
-          "__i": 60985
+          "__i": 8005
         },
         "position": {
           "x": 89.08383,
@@ -289,10 +289,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 60988,
+      "i": 8008,
       "p": {
         "parent": {
-          "__i": 60985
+          "__i": 8005
         },
         "position": {
           "x": 110.13826,
@@ -307,11 +307,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 60989,
+      "i": 8009,
       "p": {
         "displayName": "caidan",
         "parent": {
-          "__i": 60985
+          "__i": 8005
         },
         "image": "assets/junminronghe/caidan.png",
         "position": {
@@ -324,11 +324,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 60990,
+      "i": 8010,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu1",
         "position": {
@@ -354,10 +354,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 60991,
+      "i": 8011,
       "p": {
         "parent": {
-          "__i": 60990
+          "__i": 8010
         },
         "position": {
           "x": 89.00723,
@@ -417,10 +417,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 60992,
+      "i": 8012,
       "p": {
         "parent": {
-          "__i": 60990
+          "__i": 8010
         },
         "position": {
           "x": 88.97845,
@@ -472,10 +472,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 60993,
+      "i": 8013,
       "p": {
         "parent": {
-          "__i": 60990
+          "__i": 8010
         },
         "position": {
           "x": 96.40774,
@@ -491,11 +491,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 60994,
+      "i": 8014,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu2",
         "position": {
@@ -521,10 +521,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 60995,
+      "i": 8015,
       "p": {
         "parent": {
-          "__i": 60994
+          "__i": 8014
         },
         "position": {
           "x": 89.00723,
@@ -584,10 +584,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 60996,
+      "i": 8016,
       "p": {
         "parent": {
-          "__i": 60994
+          "__i": 8014
         },
         "position": {
           "x": 88.97845,
@@ -639,10 +639,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 60997,
+      "i": 8017,
       "p": {
         "parent": {
-          "__i": 60994
+          "__i": 8014
         },
         "position": {
           "x": 96.40774,
@@ -658,11 +658,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 60998,
+      "i": 8018,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu3",
         "position": {
@@ -688,10 +688,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 60999,
+      "i": 8019,
       "p": {
         "parent": {
-          "__i": 60998
+          "__i": 8018
         },
         "position": {
           "x": 89.00721,
@@ -751,10 +751,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61000,
+      "i": 8020,
       "p": {
         "parent": {
-          "__i": 60998
+          "__i": 8018
         },
         "position": {
           "x": 88.97843,
@@ -806,10 +806,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 61001,
+      "i": 8021,
       "p": {
         "parent": {
-          "__i": 60998
+          "__i": 8018
         },
         "position": {
           "x": 96.40772,
@@ -825,11 +825,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 61002,
+      "i": 8022,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu4",
         "position": {
@@ -855,10 +855,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61003,
+      "i": 8023,
       "p": {
         "parent": {
-          "__i": 61002
+          "__i": 8022
         },
         "position": {
           "x": 89.00719,
@@ -918,10 +918,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61004,
+      "i": 8024,
       "p": {
         "parent": {
-          "__i": 61002
+          "__i": 8022
         },
         "position": {
           "x": 88.97841,
@@ -973,10 +973,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 61005,
+      "i": 8025,
       "p": {
         "parent": {
-          "__i": 61002
+          "__i": 8022
         },
         "position": {
           "x": 96.4077,
@@ -992,11 +992,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 61006,
+      "i": 8026,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu5",
         "position": {
@@ -1026,10 +1026,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61007,
+      "i": 8027,
       "p": {
         "parent": {
-          "__i": 61006
+          "__i": 8026
         },
         "position": {
           "x": 89.00717,
@@ -1089,10 +1089,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61008,
+      "i": 8028,
       "p": {
         "parent": {
-          "__i": 61006
+          "__i": 8026
         },
         "position": {
           "x": 88.97839,
@@ -1144,10 +1144,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 61009,
+      "i": 8029,
       "p": {
         "parent": {
-          "__i": 61006
+          "__i": 8026
         },
         "position": {
           "x": 96.40768,
@@ -1163,11 +1163,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 61010,
+      "i": 8030,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu6",
         "position": {
@@ -1197,10 +1197,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61011,
+      "i": 8031,
       "p": {
         "parent": {
-          "__i": 61010
+          "__i": 8030
         },
         "position": {
           "x": 89.0072,
@@ -1260,10 +1260,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61012,
+      "i": 8032,
       "p": {
         "parent": {
-          "__i": 61010
+          "__i": 8030
         },
         "position": {
           "x": 88.97842,
@@ -1315,10 +1315,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 61013,
+      "i": 8033,
       "p": {
         "parent": {
-          "__i": 61010
+          "__i": 8030
         },
         "position": {
           "x": 96.40771,
@@ -1334,11 +1334,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 61014,
+      "i": 8034,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu7",
         "position": {
@@ -1368,10 +1368,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61015,
+      "i": 8035,
       "p": {
         "parent": {
-          "__i": 61014
+          "__i": 8034
         },
         "position": {
           "x": 89.00717,
@@ -1431,10 +1431,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61016,
+      "i": 8036,
       "p": {
         "parent": {
-          "__i": 61014
+          "__i": 8034
         },
         "position": {
           "x": 88.97839,
@@ -1486,10 +1486,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 61017,
+      "i": 8037,
       "p": {
         "parent": {
-          "__i": 61014
+          "__i": 8034
         },
         "position": {
           "x": 96.40768,
@@ -1505,11 +1505,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 61018,
+      "i": 8038,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu8",
         "position": {
@@ -1539,10 +1539,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61019,
+      "i": 8039,
       "p": {
         "parent": {
-          "__i": 61018
+          "__i": 8038
         },
         "position": {
           "x": 89.00722,
@@ -1602,10 +1602,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61020,
+      "i": 8040,
       "p": {
         "parent": {
-          "__i": 61018
+          "__i": 8038
         },
         "position": {
           "x": 88.97844,
@@ -1657,10 +1657,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 61021,
+      "i": 8041,
       "p": {
         "parent": {
-          "__i": 61018
+          "__i": 8038
         },
         "position": {
           "x": 96.40773,
@@ -1676,11 +1676,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 61022,
+      "i": 8042,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 60983
+          "__i": 8003
         },
         "tag": "menu9",
         "position": {
@@ -1710,10 +1710,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61023,
+      "i": 8043,
       "p": {
         "parent": {
-          "__i": 61022
+          "__i": 8042
         },
         "position": {
           "x": 88.7769,
@@ -1773,10 +1773,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 61024,
+      "i": 8044,
       "p": {
         "parent": {
-          "__i": 61022
+          "__i": 8042
         },
         "position": {
           "x": 88.74812,
@@ -1828,10 +1828,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 61025,
+      "i": 8045,
       "p": {
         "parent": {
-          "__i": 61022
+          "__i": 8042
         },
         "position": {
           "x": 96.17741,
@@ -1844,9 +1844,180 @@
         "text.color": "rgb(51,153,255)",
         "text.font": "bold 18px sans-serif, Arial"
       }
+    },
+    {
+      "c": "ht.Block",
+      "i": 8079,
+      "p": {
+        "displayName": "切换菜单",
+        "parent": {
+          "__i": 8003
+        },
+        "tag": "menu10",
+        "position": {
+          "x": 91.87484,
+          "y": 579.66055
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 1.18364
+        },
+        "width": 139.26344,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left",
+        "2d.visible": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"./01daohangye.html\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 8080,
+      "p": {
+        "parent": {
+          "__i": 8079
+        },
+        "position": {
+          "x": 90.48091,
+          "y": 541.79013
+        },
+        "width": 136.16524,
+        "height": 36,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 22.39829,
+              "y": 523.79013
+            },
+            {
+              "x": 48.155,
+              "y": 523.79013
+            },
+            {
+              "x": 145.60316,
+              "y": 523.79013
+            },
+            {
+              "x": 145.60316,
+              "y": 523.79013
+            },
+            {
+              "x": 158.56353,
+              "y": 540.20189
+            },
+            {
+              "x": 146.03517,
+              "y": 559.79013
+            },
+            {
+              "x": 22.39829,
+              "y": 559.79013
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "shape.background": "#001839",
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.border.width": 1,
+        "opacity": 1
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 8081,
+      "p": {
+        "parent": {
+          "__i": 8079
+        },
+        "position": {
+          "x": 90.45213,
+          "y": 544.86094
+        },
+        "width": 136.41802,
+        "height": 36,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 22.24312,
+              "y": 526.86094
+            },
+            {
+              "x": 145.70078,
+              "y": 526.86094
+            },
+            {
+              "x": 158.66114,
+              "y": 543.27271
+            },
+            {
+              "x": 146.13279,
+              "y": 562.86094
+            },
+            {
+              "x": 22.24312,
+              "y": 562.86094
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "#6BAFFC",
+        "shape.border.width": 1,
+        "opacity": 0.6
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 8082,
+      "p": {
+        "parent": {
+          "__i": 8079
+        },
+        "position": {
+          "x": 97.88142,
+          "y": 545.47854
+        },
+        "width": 127.25028
+      },
+      "s": {
+        "text": "导航栏",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 18px sans-serif, Arial"
+      }
     }
   ],
-  "modified": "Mon Jan 18 2021 15:53:08 GMT+0800 (China Standard Time)",
+  "modified": "Tue Jan 19 2021 09:57:32 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": 0,
     "y": 0,

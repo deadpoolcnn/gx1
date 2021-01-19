@@ -239,9 +239,42 @@
                         },
                         start: ["show","large"]
                     });
-                },2000);
+                },3000);
                 setTimeout(()=>{
                     gd1.setAnimation({
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            duration: 3000,
+                            repeat: true
+                        },
+                        large: {
+                            from: 1,
+                            to: 1.05,
+                            duration: 3000,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ["show","large"]
+                    });
+                    guangxiao.setAnimation({
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            duration: 3000,
+                            repeat: true
+                        },
+                        start: ["show"]
+                    })
+                },7000);
+                setTimeout(()=>{
+                    gd3.setAnimation({
                         show: {
                             property: "opacity",
                             accessType: "style",
@@ -252,47 +285,18 @@
                         },
                         large: {
                             from: 1,
-                            to: 1.05,
+                            to: 1.15,
                             duration: 2000,
                             repeat: true,
                             onUpdate: function (value) {
                                 this.setScale(value,value);
-                            }
+                            },
                         },
                         start: ["show","large"]
-                    });
-                },4000);
-                gd3.setAnimation({
-                    show: {
-                        property: "opacity",
-                        accessType: "style",
-                        from: 1,
-                        to: 0,
-                        duration: 2000,
-                        repeat: true
-                    },
-                    large: {
-                        from: 1,
-                        to: 1.15,
-                        duration: 2000,
-                        repeat: true,
-                        onUpdate: function (value) {
-                            this.setScale(value,value);
-                        },
-                    },
-                    start: ["show","large"]
-                })
-                guangxiao.setAnimation({
-                    show: {
-                        property: "opacity",
-                        accessType: "style",
-                        from: 1,
-                        to: 0,
-                        duration: 2000,
-                        repeat: true
-                    },
-                    start: ["show"]
-                })
+                    })
+                },500)
+
+
             }
 
             // 底部动画
@@ -334,6 +338,7 @@
                 dm.s('onEnter',()=>{
                     console.log(dm);
                     dm.setScale(1.1,1.1);
+                    dm.a('state',2);
                     /*dm.setAnimation({
                         large: {
                             from: 1,
@@ -348,6 +353,7 @@
                 })
                 dm.s('onLeave',()=>{
                     dm.setScale(1,1);
+                    dm.a('state',1);
                     /*dm.setAnimation({
                         small: {
                             from: 1.1,
