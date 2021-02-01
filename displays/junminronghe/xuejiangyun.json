@@ -11,7 +11,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 2194,
+      "i": 10574,
       "p": {
         "displayName": "bj-xuejiangyun",
         "image": "assets/junminronghe/bj-xuejiangyun.png",
@@ -35,7 +35,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2195,
+      "i": 10575,
       "p": {
         "displayName": "greenLine",
         "tag": "greenLine",
@@ -90,7 +90,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2196,
+      "i": 10576,
       "p": {
         "displayName": "greenLine1",
         "tag": "greenLine1",
@@ -135,7 +135,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2197,
+      "i": 10577,
       "p": {
         "displayName": "greenLine2",
         "tag": "greenLine2",
@@ -174,7 +174,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2198,
+      "i": 10578,
       "p": {
         "displayName": "greenLine3",
         "tag": "greenLine3",
@@ -219,7 +219,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2199,
+      "i": 10579,
       "p": {
         "displayName": "greenLine4",
         "tag": "greenLine4",
@@ -258,11 +258,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2200,
+      "i": 10580,
       "p": {
         "displayName": "进入云平台",
         "host": {
-          "__i": 2194
+          "__i": 10574
         },
         "position": {
           "x": 1278.32653,
@@ -281,16 +281,17 @@
         "select.width": 0,
         "select.color": "",
         "select.padding": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2201,
+      "i": 10581,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 2200
+          "__i": 10580
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -309,10 +310,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2202,
+      "i": 10582,
       "p": {
         "parent": {
-          "__i": 2200
+          "__i": 10580
         },
         "position": {
           "x": 1239.92549,
@@ -330,7 +331,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 2203,
+      "i": 10583,
       "p": {
         "displayName": "寻找康复血液",
         "position": {
@@ -352,10 +353,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2204,
+      "i": 10584,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -31.97969,
@@ -375,10 +376,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2205,
+      "i": 10585,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -45.82646,
@@ -429,10 +430,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2206,
+      "i": 10586,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -45.82646,
@@ -453,11 +454,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2207,
+      "i": 10587,
       "p": {
         "displayName": "块",
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -558.67062,
@@ -480,10 +481,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2208,
+      "i": 10588,
       "p": {
         "parent": {
-          "__i": 2207
+          "__i": 10587
         },
         "position": {
           "x": -242.55719,
@@ -513,11 +514,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2209,
+      "i": 10589,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2207
+          "__i": 10587
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -545,10 +546,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2210,
+      "i": 10590,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -25.1285,
@@ -567,10 +568,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2211,
+      "i": 10591,
       "p": {
         "parent": {
-          "__i": 2210
+          "__i": 10590
         },
         "position": {
           "x": -25.1285,
@@ -600,11 +601,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2212,
+      "i": 10592,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2210
+          "__i": 10590
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -632,10 +633,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2213,
+      "i": 10593,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": 165.8715,
@@ -654,10 +655,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2214,
+      "i": 10594,
       "p": {
         "parent": {
-          "__i": 2213
+          "__i": 10593
         },
         "position": {
           "x": 165.8715,
@@ -687,11 +688,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2215,
+      "i": 10595,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2213
+          "__i": 10593
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -719,10 +720,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2216,
+      "i": 10596,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -239.92099,
@@ -740,11 +741,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2217,
+      "i": 10597,
       "p": {
         "displayName": "hexagon1",
         "parent": {
-          "__i": 2216
+          "__i": 10596
         },
         "tag": "hexagon1",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -764,11 +765,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2218,
+      "i": 10598,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2216
+          "__i": 10596
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -794,10 +795,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2219,
+      "i": 10599,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -38.79436,
@@ -815,11 +816,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2220,
+      "i": 10600,
       "p": {
         "displayName": "hexagon2",
         "parent": {
-          "__i": 2219
+          "__i": 10599
         },
         "tag": "hexagon2",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -839,11 +840,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2221,
+      "i": 10601,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2219
+          "__i": 10599
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -869,10 +870,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2222,
+      "i": 10602,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": 162.15626,
@@ -890,11 +891,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2223,
+      "i": 10603,
       "p": {
         "displayName": "hexagon3",
         "parent": {
-          "__i": 2222
+          "__i": 10602
         },
         "tag": "hexagon3",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -914,11 +915,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2224,
+      "i": 10604,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2222
+          "__i": 10602
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -944,10 +945,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2225,
+      "i": 10605,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -138.58388,
@@ -965,11 +966,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2226,
+      "i": 10606,
       "p": {
         "displayName": "hexagon6",
         "parent": {
-          "__i": 2225
+          "__i": 10605
         },
         "tag": "hexagon6",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -989,11 +990,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2227,
+      "i": 10607,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2225
+          "__i": 10605
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1019,10 +1020,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2228,
+      "i": 10608,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": 61.54846,
@@ -1040,11 +1041,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2229,
+      "i": 10609,
       "p": {
         "displayName": "hexagon5",
         "parent": {
-          "__i": 2228
+          "__i": 10608
         },
         "tag": "hexagon5",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -1064,11 +1065,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2230,
+      "i": 10610,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2228
+          "__i": 10608
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1094,10 +1095,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2231,
+      "i": 10611,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": 261.50481,
@@ -1115,11 +1116,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2232,
+      "i": 10612,
       "p": {
         "displayName": "hexagon4",
         "parent": {
-          "__i": 2231
+          "__i": 10611
         },
         "tag": "hexagon4",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -1139,11 +1140,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2233,
+      "i": 10613,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2231
+          "__i": 10611
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1169,10 +1170,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2234,
+      "i": 10614,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -338.71623,
@@ -1190,11 +1191,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2235,
+      "i": 10615,
       "p": {
         "displayName": "hexagon7",
         "parent": {
-          "__i": 2234
+          "__i": 10614
         },
         "tag": "hexagon7",
         "image": "assets/xiaoimg/icon-ds.png",
@@ -1214,11 +1215,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2236,
+      "i": 10616,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2234
+          "__i": 10614
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1244,10 +1245,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2237,
+      "i": 10617,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": 171.00566,
@@ -1265,10 +1266,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2238,
+      "i": 10618,
       "p": {
         "parent": {
-          "__i": 2237
+          "__i": 10617
         },
         "position": {
           "x": 171.00567,
@@ -1296,10 +1297,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2239,
+      "i": 10619,
       "p": {
         "parent": {
-          "__i": 2237
+          "__i": 10617
         },
         "position": {
           "x": 99.13844,
@@ -1324,11 +1325,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2240,
+      "i": 10620,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2237
+          "__i": 10617
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1354,10 +1355,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2241,
+      "i": 10621,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -31.97969,
@@ -1375,10 +1376,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2242,
+      "i": 10622,
       "p": {
         "parent": {
-          "__i": 2241
+          "__i": 10621
         },
         "position": {
           "x": -31.97969,
@@ -1406,10 +1407,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2243,
+      "i": 10623,
       "p": {
         "parent": {
-          "__i": 2241
+          "__i": 10621
         },
         "position": {
           "x": -103.91331,
@@ -1434,11 +1435,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2244,
+      "i": 10624,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2241
+          "__i": 10621
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1464,10 +1465,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2245,
+      "i": 10625,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -557.15246,
@@ -1489,10 +1490,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2246,
+      "i": 10626,
       "p": {
         "parent": {
-          "__i": 2245
+          "__i": 10625
         },
         "position": {
           "x": -241.03886,
@@ -1520,10 +1521,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2247,
+      "i": 10627,
       "p": {
         "parent": {
-          "__i": 2245
+          "__i": 10625
         },
         "position": {
           "x": -312.97247,
@@ -1548,11 +1549,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2248,
+      "i": 10628,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2245
+          "__i": 10625
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -1578,10 +1579,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2249,
+      "i": 10629,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -37.62849,
@@ -1600,10 +1601,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2250,
+      "i": 10630,
       "p": {
         "parent": {
-          "__i": 2249
+          "__i": 10629
         },
         "position": {
           "x": 165.8715,
@@ -1647,10 +1648,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2251,
+      "i": 10631,
       "p": {
         "parent": {
-          "__i": 2249
+          "__i": 10629
         },
         "position": {
           "x": -241.1285,
@@ -1694,10 +1695,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2252,
+      "i": 10632,
       "p": {
         "parent": {
-          "__i": 2249
+          "__i": 10629
         },
         "position": {
           "x": -241.1285,
@@ -1741,10 +1742,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2253,
+      "i": 10633,
       "p": {
         "parent": {
-          "__i": 2249
+          "__i": 10629
         },
         "position": {
           "x": -25.1285,
@@ -1788,10 +1789,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2254,
+      "i": 10634,
       "p": {
         "parent": {
-          "__i": 2249
+          "__i": 10629
         },
         "position": {
           "x": -36.93521,
@@ -1831,10 +1832,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2255,
+      "i": 10635,
       "p": {
         "parent": {
-          "__i": 2249
+          "__i": 10629
         },
         "rotation": 1.5708,
         "position": {
@@ -1873,10 +1874,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2256,
+      "i": 10636,
       "p": {
         "parent": {
-          "__i": 2249
+          "__i": 10629
         },
         "rotation": 1.5708,
         "position": {
@@ -1915,10 +1916,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2257,
+      "i": 10637,
       "p": {
         "parent": {
-          "__i": 2249
+          "__i": 10629
         },
         "rotation": 1.5708,
         "position": {
@@ -1967,10 +1968,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2258,
+      "i": 10638,
       "p": {
         "parent": {
-          "__i": 2203
+          "__i": 10583
         },
         "position": {
           "x": -41.09458,
@@ -1989,10 +1990,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2259,
+      "i": 10639,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "position": {
           "x": 316.90551,
@@ -2040,10 +2041,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2260,
+      "i": 10640,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "position": {
           "x": 161.48276,
@@ -2081,10 +2082,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2261,
+      "i": 10641,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "position": {
           "x": -38.51724,
@@ -2122,10 +2123,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2262,
+      "i": 10642,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "position": {
           "x": -238.51724,
@@ -2163,10 +2164,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2263,
+      "i": 10643,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "rotation": 3.14159,
         "position": {
@@ -2219,10 +2220,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2264,
+      "i": 10644,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "position": {
           "x": -138.51724,
@@ -2260,10 +2261,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2265,
+      "i": 10645,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "position": {
           "x": 59.48276,
@@ -2301,10 +2302,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2266,
+      "i": 10646,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "rotation": -0.43633,
         "position": {
@@ -2329,10 +2330,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2267,
+      "i": 10647,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "rotation": 1.5708,
         "position": {
@@ -2357,10 +2358,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2268,
+      "i": 10648,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "rotation": 1.5708,
         "position": {
@@ -2385,10 +2386,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2269,
+      "i": 10649,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "rotation": 1.5708,
         "position": {
@@ -2413,10 +2414,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2270,
+      "i": 10650,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "rotation": 0.43633,
         "position": {
@@ -2437,10 +2438,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2271,
+      "i": 10651,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "rotation": -1.5708,
         "position": {
@@ -2465,10 +2466,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2272,
+      "i": 10652,
       "p": {
         "parent": {
-          "__i": 2258
+          "__i": 10638
         },
         "rotation": -1.5708,
         "position": {
@@ -2493,7 +2494,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 2273,
+      "i": 10653,
       "p": {
         "displayName": "血浆云视频",
         "position": {
@@ -2515,11 +2516,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2274,
+      "i": 10654,
       "p": {
         "displayName": "video",
         "parent": {
-          "__i": 2273
+          "__i": 10653
         },
         "tag": "video",
         "image": "symbols/smartPolitics/video.json",
@@ -2540,10 +2541,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2275,
+      "i": 10655,
       "p": {
         "parent": {
-          "__i": 2273
+          "__i": 10653
         },
         "position": {
           "x": 873.48031,
@@ -2563,11 +2564,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2276,
+      "i": 10656,
       "p": {
         "displayName": "shipinkuang",
         "parent": {
-          "__i": 2273
+          "__i": 10653
         },
         "image": "assets/junminronghe/shipinkuang.png",
         "position": {
@@ -2586,11 +2587,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2277,
+      "i": 10657,
       "p": {
         "displayName": "xuejiangyun",
         "parent": {
-          "__i": 2273
+          "__i": 10653
         },
         "tag": "xuejiangyun",
         "image": "assets/junminronghe/xuejiangyun.png",
@@ -2614,11 +2615,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2278,
+      "i": 10658,
       "p": {
         "displayName": "bofang",
         "parent": {
-          "__i": 2273
+          "__i": 10653
         },
         "tag": "bofang",
         "image": "assets/junminronghe/bofang.png",
@@ -2646,7 +2647,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 2279,
+      "i": 10659,
       "p": {
         "displayName": "冷链监控",
         "position": {
@@ -2668,10 +2669,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2280,
+      "i": 10660,
       "p": {
         "parent": {
-          "__i": 2279
+          "__i": 10659
         },
         "position": {
           "x": 906.85976,
@@ -2692,11 +2693,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2281,
+      "i": 10661,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 2279
+          "__i": 10659
         },
         "image": "symbols/junminronghe/titleline.json",
         "position": {
@@ -2713,11 +2714,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2282,
+      "i": 10662,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 2279
+          "__i": 10659
         },
         "image": "symbols/junminronghe/titleline.json",
         "rotation": 3.14159,
@@ -2735,7 +2736,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 2283,
+      "i": 10663,
       "p": {
         "displayName": "介绍",
         "position": {
@@ -2751,16 +2752,17 @@
         "2d.movable": false,
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2284,
+      "i": 10664,
       "p": {
         "displayName": "kuang4",
         "parent": {
-          "__i": 2283
+          "__i": 10663
         },
         "image": "assets/junminronghe/kuang4.png",
         "position": {
@@ -2773,16 +2775,18 @@
       "s": {
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2285,
+      "i": 10665,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2283
+          "__i": 10663
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -2795,7 +2799,9 @@
       "s": {
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false,
+        "2d.movable": false
       },
       "a": {
         "ht.content": "“中生·穿越智慧浆云+血浆医药”项目是在广西贺州市政府的大力推动下，按照广西壮族自治区“以资源换产业发展血液制品行业”的原则和贺州东融先行示范区的发展战略，作为广西未来生物制药产业升级的重点项目来投入建设的。项目由国资委引导出资并整合国内相关行业领先技术研发企业成立广西智慧浆云生物技术公司，与中生集团进行战略合作，围绕未来剩余血浆业务管理需求定向建设智慧型生物产业园区。",
@@ -2807,7 +2813,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 2286,
+      "i": 10666,
       "p": {
         "displayName": "相关指标",
         "position": {
@@ -2829,10 +2835,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2287,
+      "i": 10667,
       "p": {
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "position": {
           "x": -33.72108,
@@ -2852,11 +2858,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2288,
+      "i": 10668,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "image": "symbols/junminronghe/titleline.json",
         "position": {
@@ -2872,11 +2878,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2289,
+      "i": 10669,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "image": "symbols/junminronghe/titleline.json",
         "rotation": 3.14159,
@@ -2893,11 +2899,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2290,
+      "i": 10670,
       "p": {
         "displayName": "zhibiao4",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "tag": "zhibiao4",
         "position": {
@@ -2916,16 +2922,17 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2291,
+      "i": 10671,
       "p": {
         "displayName": "zhibiao1_4",
         "parent": {
-          "__i": 2290
+          "__i": 10670
         },
         "tag": "zhibiao1_4",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -2948,11 +2955,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2292,
+      "i": 10672,
       "p": {
         "displayName": "textBox1_4",
         "parent": {
-          "__i": 2290
+          "__i": 10670
         },
         "tag": "textBox1_4",
         "image": "symbols/ht/text/textBox.json",
@@ -2979,11 +2986,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2293,
+      "i": 10673,
       "p": {
         "displayName": "zhibiao5",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "tag": "zhibiao5",
         "position": {
@@ -3006,16 +3013,17 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2294,
+      "i": 10674,
       "p": {
         "displayName": "zhibiao1_5",
         "parent": {
-          "__i": 2293
+          "__i": 10673
         },
         "tag": "zhibiao1_5",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -3038,11 +3046,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2295,
+      "i": 10675,
       "p": {
         "displayName": "textBox1_5",
         "parent": {
-          "__i": 2293
+          "__i": 10673
         },
         "tag": "textBox1_5",
         "image": "symbols/ht/text/textBox.json",
@@ -3069,11 +3077,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2296,
+      "i": 10676,
       "p": {
         "displayName": "zhibiao6",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "tag": "zhibiao6",
         "position": {
@@ -3096,16 +3104,17 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2297,
+      "i": 10677,
       "p": {
         "displayName": "zhibiao1_6",
         "parent": {
-          "__i": 2296
+          "__i": 10676
         },
         "tag": "zhibiao1_6",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -3128,11 +3137,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2298,
+      "i": 10678,
       "p": {
         "displayName": "textBox1_6",
         "parent": {
-          "__i": 2296
+          "__i": 10676
         },
         "tag": "textBox1_6",
         "image": "symbols/ht/text/textBox.json",
@@ -3159,11 +3168,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2299,
+      "i": 10679,
       "p": {
         "displayName": "zhibiao1",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "tag": "zhibiao1",
         "position": {
@@ -3182,16 +3191,17 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2300,
+      "i": 10680,
       "p": {
         "displayName": "zhibiao1_1",
         "parent": {
-          "__i": 2299
+          "__i": 10679
         },
         "tag": "zhibiao1_1",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -3214,11 +3224,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2301,
+      "i": 10681,
       "p": {
         "displayName": "textBox1_1",
         "parent": {
-          "__i": 2299
+          "__i": 10679
         },
         "tag": "textBox1_1",
         "image": "symbols/ht/text/textBox.json",
@@ -3245,11 +3255,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2302,
+      "i": 10682,
       "p": {
         "displayName": "zhibiao2",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "tag": "zhibiao2",
         "position": {
@@ -3272,16 +3282,17 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2303,
+      "i": 10683,
       "p": {
         "displayName": "zhibiao1_2",
         "parent": {
-          "__i": 2302
+          "__i": 10682
         },
         "tag": "zhibiao1_2",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -3304,11 +3315,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2304,
+      "i": 10684,
       "p": {
         "displayName": "textBox1_2",
         "parent": {
-          "__i": 2302
+          "__i": 10682
         },
         "tag": "textBox1_2",
         "image": "symbols/ht/text/textBox.json",
@@ -3335,11 +3346,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2305,
+      "i": 10685,
       "p": {
         "displayName": "zhibiao3",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "tag": "zhibiao3",
         "position": {
@@ -3362,16 +3373,17 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2306,
+      "i": 10686,
       "p": {
         "displayName": "zhibiao1_3",
         "parent": {
-          "__i": 2305
+          "__i": 10685
         },
         "tag": "zhibiao1_3",
         "image": "symbols/junminronghe/zhibiao.json",
@@ -3394,11 +3406,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2307,
+      "i": 10687,
       "p": {
         "displayName": "textBox1_3",
         "parent": {
-          "__i": 2305
+          "__i": 10685
         },
         "tag": "textBox1_3",
         "image": "symbols/ht/text/textBox.json",
@@ -3425,11 +3437,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2308,
+      "i": 10688,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "image": "symbols/junminronghe/titleline.json",
         "position": {
@@ -3446,11 +3458,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2309,
+      "i": 10689,
       "p": {
         "displayName": "titleline",
         "parent": {
-          "__i": 2286
+          "__i": 10666
         },
         "image": "symbols/junminronghe/titleline.json",
         "rotation": 3.14159,
@@ -3468,7 +3480,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 2310,
+      "i": 10690,
       "p": {
         "displayName": "title",
         "position": {
@@ -3483,16 +3495,17 @@
         "2d.selectable": false,
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2311,
+      "i": 10691,
       "p": {
         "displayName": "title",
         "parent": {
-          "__i": 2310
+          "__i": 10690
         },
         "image": "assets/junminronghe/title.png",
         "position": {
@@ -3513,11 +3526,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2312,
+      "i": 10692,
       "p": {
         "displayName": "logo",
         "parent": {
-          "__i": 2310
+          "__i": 10690
         },
         "image": "assets/junminronghe/logo.png",
         "position": {
@@ -3536,10 +3549,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2313,
+      "i": 10693,
       "p": {
         "parent": {
-          "__i": 2310
+          "__i": 10690
         },
         "position": {
           "x": 423.76001,
@@ -3559,10 +3572,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2314,
+      "i": 10694,
       "p": {
         "host": {
-          "__i": 2194
+          "__i": 10574
         },
         "position": {
           "x": 952.862,
@@ -3580,10 +3593,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2315,
+      "i": 10695,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 932.00075,
@@ -3601,10 +3614,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2316,
+      "i": 10696,
       "p": {
         "parent": {
-          "__i": 2315
+          "__i": 10695
         },
         "position": {
           "x": 674.42758,
@@ -3621,10 +3634,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2317,
+      "i": 10697,
       "p": {
         "parent": {
-          "__i": 2316
+          "__i": 10696
         },
         "rotation": -0.7854,
         "position": {
@@ -3669,10 +3682,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2318,
+      "i": 10698,
       "p": {
         "parent": {
-          "__i": 2316
+          "__i": 10696
         },
         "rotation": -0.7854,
         "position": {
@@ -3701,10 +3714,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2319,
+      "i": 10699,
       "p": {
         "parent": {
-          "__i": 2315
+          "__i": 10695
         },
         "position": {
           "x": 828.51444,
@@ -3721,10 +3734,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2320,
+      "i": 10700,
       "p": {
         "parent": {
-          "__i": 2319
+          "__i": 10699
         },
         "rotation": 0.5236,
         "position": {
@@ -3769,10 +3782,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2321,
+      "i": 10701,
       "p": {
         "parent": {
-          "__i": 2319
+          "__i": 10699
         },
         "rotation": 0.5236,
         "position": {
@@ -3801,10 +3814,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2322,
+      "i": 10702,
       "p": {
         "parent": {
-          "__i": 2315
+          "__i": 10695
         },
         "rotation": 1.0472,
         "position": {
@@ -3822,10 +3835,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2323,
+      "i": 10703,
       "p": {
         "parent": {
-          "__i": 2322
+          "__i": 10702
         },
         "rotation": 1.0472,
         "position": {
@@ -3870,10 +3883,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2324,
+      "i": 10704,
       "p": {
         "parent": {
-          "__i": 2322
+          "__i": 10702
         },
         "rotation": 1.0472,
         "position": {
@@ -3898,10 +3911,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2325,
+      "i": 10705,
       "p": {
         "parent": {
-          "__i": 2315
+          "__i": 10695
         },
         "rotation": -1.58825,
         "position": {
@@ -3919,10 +3932,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2326,
+      "i": 10706,
       "p": {
         "parent": {
-          "__i": 2325
+          "__i": 10705
         },
         "rotation": -1.58825,
         "position": {
@@ -3967,10 +3980,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2327,
+      "i": 10707,
       "p": {
         "parent": {
-          "__i": 2325
+          "__i": 10705
         },
         "rotation": 1.5708,
         "position": {
@@ -3995,10 +4008,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2328,
+      "i": 10708,
       "p": {
         "parent": {
-          "__i": 2315
+          "__i": 10695
         },
         "position": {
           "x": 654.0057,
@@ -4015,10 +4028,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2329,
+      "i": 10709,
       "p": {
         "parent": {
-          "__i": 2328
+          "__i": 10708
         },
         "rotation": 0.5236,
         "position": {
@@ -4063,10 +4076,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2330,
+      "i": 10710,
       "p": {
         "parent": {
-          "__i": 2328
+          "__i": 10708
         },
         "rotation": 0.5236,
         "position": {
@@ -4095,10 +4108,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2331,
+      "i": 10711,
       "p": {
         "parent": {
-          "__i": 2315
+          "__i": 10695
         },
         "position": {
           "x": 822.13776,
@@ -4115,10 +4128,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2332,
+      "i": 10712,
       "p": {
         "parent": {
-          "__i": 2331
+          "__i": 10711
         },
         "rotation": 1.5708,
         "position": {
@@ -4163,10 +4176,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2333,
+      "i": 10713,
       "p": {
         "parent": {
-          "__i": 2331
+          "__i": 10711
         },
         "rotation": 1.5708,
         "position": {
@@ -4195,10 +4208,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2334,
+      "i": 10714,
       "p": {
         "parent": {
-          "__i": 2331
+          "__i": 10711
         },
         "rotation": 1.5708,
         "position": {
@@ -4223,10 +4236,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2335,
+      "i": 10715,
       "p": {
         "parent": {
-          "__i": 2315
+          "__i": 10695
         },
         "rotation": 1.5708,
         "position": {
@@ -4244,10 +4257,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2336,
+      "i": 10716,
       "p": {
         "parent": {
-          "__i": 2335
+          "__i": 10715
         },
         "rotation": 3.14159,
         "position": {
@@ -4292,10 +4305,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2337,
+      "i": 10717,
       "p": {
         "parent": {
-          "__i": 2335
+          "__i": 10715
         },
         "rotation": 1.5708,
         "position": {
@@ -4340,10 +4353,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2338,
+      "i": 10718,
       "p": {
         "parent": {
-          "__i": 2335
+          "__i": 10715
         },
         "rotation": 1.5708,
         "position": {
@@ -4372,10 +4385,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2339,
+      "i": 10719,
       "p": {
         "parent": {
-          "__i": 2335
+          "__i": 10715
         },
         "position": {
           "x": 1228.51795,
@@ -4399,10 +4412,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2340,
+      "i": 10720,
       "p": {
         "parent": {
-          "__i": 2315
+          "__i": 10695
         },
         "rotation": -1.58825,
         "position": {
@@ -4420,10 +4433,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2341,
+      "i": 10721,
       "p": {
         "parent": {
-          "__i": 2340
+          "__i": 10720
         },
         "rotation": -1.58825,
         "position": {
@@ -4468,10 +4481,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2342,
+      "i": 10722,
       "p": {
         "parent": {
-          "__i": 2340
+          "__i": 10720
         },
         "rotation": 1.5708,
         "position": {
@@ -4500,10 +4513,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2343,
+      "i": 10723,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 627.68903,
@@ -4521,11 +4534,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2344,
+      "i": 10724,
       "p": {
         "displayName": "weizhi",
         "parent": {
-          "__i": 2343
+          "__i": 10723
         },
         "image": "assets/junminronghe/weizhi.png",
         "position": {
@@ -4543,10 +4556,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2345,
+      "i": 10725,
       "p": {
         "parent": {
-          "__i": 2343
+          "__i": 10723
         },
         "position": {
           "x": 717.44974,
@@ -4570,10 +4583,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2346,
+      "i": 10726,
       "p": {
         "parent": {
-          "__i": 2343
+          "__i": 10723
         },
         "position": {
           "x": 665.44062,
@@ -4597,10 +4610,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2347,
+      "i": 10727,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 738.07259,
@@ -4618,11 +4631,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2348,
+      "i": 10728,
       "p": {
         "displayName": "wang",
         "parent": {
-          "__i": 2347
+          "__i": 10727
         },
         "image": "assets/junminronghe/wang.png",
         "position": {
@@ -4640,10 +4653,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2349,
+      "i": 10729,
       "p": {
         "parent": {
-          "__i": 2347
+          "__i": 10727
         },
         "position": {
           "x": 824.86977,
@@ -4666,10 +4679,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2350,
+      "i": 10730,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 849.18562,
@@ -4687,11 +4700,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2351,
+      "i": 10731,
       "p": {
         "displayName": "wendu",
         "parent": {
-          "__i": 2350
+          "__i": 10730
         },
         "image": "assets/junminronghe/wendu.png",
         "position": {
@@ -4709,10 +4722,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2352,
+      "i": 10732,
       "p": {
         "parent": {
-          "__i": 2350
+          "__i": 10730
         },
         "position": {
           "x": 965.12784,
@@ -4735,10 +4748,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2353,
+      "i": 10733,
       "p": {
         "parent": {
-          "__i": 2350
+          "__i": 10730
         },
         "position": {
           "x": 909.94818,
@@ -4762,10 +4775,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2354,
+      "i": 10734,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 1308.31078,
@@ -4787,11 +4800,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2355,
+      "i": 10735,
       "p": {
         "displayName": "guangmin",
         "parent": {
-          "__i": 2354
+          "__i": 10734
         },
         "image": "assets/junminronghe/guangmin.png",
         "position": {
@@ -4809,10 +4822,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2356,
+      "i": 10736,
       "p": {
         "parent": {
-          "__i": 2354
+          "__i": 10734
         },
         "position": {
           "x": 1024.50307,
@@ -4836,10 +4849,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2357,
+      "i": 10737,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 1077.92744,
@@ -4857,11 +4870,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2358,
+      "i": 10738,
       "p": {
         "displayName": "shidu",
         "parent": {
-          "__i": 2357
+          "__i": 10737
         },
         "image": "assets/junminronghe/shidu.png",
         "position": {
@@ -4879,10 +4892,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2359,
+      "i": 10739,
       "p": {
         "parent": {
-          "__i": 2357
+          "__i": 10737
         },
         "position": {
           "x": 1169.7281,
@@ -4906,10 +4919,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2360,
+      "i": 10740,
       "p": {
         "parent": {
-          "__i": 2357
+          "__i": 10737
         },
         "position": {
           "x": 1139.69,
@@ -4933,10 +4946,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2361,
+      "i": 10741,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 602.2948,
@@ -4958,11 +4971,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2362,
+      "i": 10742,
       "p": {
         "displayName": "xinhao",
         "parent": {
-          "__i": 2361
+          "__i": 10741
         },
         "image": "assets/junminronghe/xinhao.png",
         "position": {
@@ -4980,10 +4993,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2363,
+      "i": 10743,
       "p": {
         "parent": {
-          "__i": 2361
+          "__i": 10741
         },
         "position": {
           "x": 665.77494,
@@ -5006,10 +5019,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2364,
+      "i": 10744,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 701.29445,
@@ -5031,11 +5044,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2365,
+      "i": 10745,
       "p": {
         "displayName": "xinhao",
         "parent": {
-          "__i": 2364
+          "__i": 10744
         },
         "image": "assets/junminronghe/xinhao.png",
         "position": {
@@ -5057,10 +5070,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2366,
+      "i": 10746,
       "p": {
         "parent": {
-          "__i": 2364
+          "__i": 10744
         },
         "position": {
           "x": 748.01433,
@@ -5083,10 +5096,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2367,
+      "i": 10747,
       "p": {
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "position": {
           "x": 1018.55686,
@@ -5103,10 +5116,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2368,
+      "i": 10748,
       "p": {
         "parent": {
-          "__i": 2367
+          "__i": 10747
         },
         "position": {
           "x": 1020.35487,
@@ -5123,11 +5136,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2369,
+      "i": 10749,
       "p": {
         "displayName": "yun",
         "parent": {
-          "__i": 2368
+          "__i": 10748
         },
         "image": "assets/junminronghe/yun.png",
         "position": {
@@ -5145,10 +5158,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2370,
+      "i": 10750,
       "p": {
         "parent": {
-          "__i": 2368
+          "__i": 10748
         },
         "position": {
           "x": 1144.04245,
@@ -5172,11 +5185,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2371,
+      "i": 10751,
       "p": {
         "displayName": "shouji",
         "parent": {
-          "__i": 2367
+          "__i": 10747
         },
         "image": "assets/junminronghe/shouji.png",
         "position": {
@@ -5194,11 +5207,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2372,
+      "i": 10752,
       "p": {
         "displayName": "diannao",
         "parent": {
-          "__i": 2367
+          "__i": 10747
         },
         "image": "assets/junminronghe/diannao.png",
         "position": {
@@ -5216,11 +5229,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2373,
+      "i": 10753,
       "p": {
         "displayName": "bijiben",
         "parent": {
-          "__i": 2367
+          "__i": 10747
         },
         "image": "assets/junminronghe/bijiben.png",
         "position": {
@@ -5238,11 +5251,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2374,
+      "i": 10754,
       "p": {
         "displayName": "wifi",
         "parent": {
-          "__i": 2367
+          "__i": 10747
         },
         "image": "assets/junminronghe/wifi.png",
         "position": {
@@ -5260,11 +5273,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2375,
+      "i": 10755,
       "p": {
         "displayName": "wifi",
         "parent": {
-          "__i": 2367
+          "__i": 10747
         },
         "image": "assets/junminronghe/wifi.png",
         "position": {
@@ -5282,11 +5295,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2376,
+      "i": 10756,
       "p": {
         "displayName": "wifi",
         "parent": {
-          "__i": 2367
+          "__i": 10747
         },
         "image": "assets/junminronghe/wifi.png",
         "position": {
@@ -5304,11 +5317,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2377,
+      "i": 10757,
       "p": {
         "displayName": "jiuhuche",
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "image": "assets/junminronghe/jiuhuche.png",
         "position": {
@@ -5324,11 +5337,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2378,
+      "i": 10758,
       "p": {
         "displayName": "lianwang",
         "parent": {
-          "__i": 2314
+          "__i": 10694
         },
         "image": "assets/junminronghe/lianwang.png",
         "position": {
@@ -5346,82 +5359,8 @@
       }
     },
     {
-      "c": "ht.Block",
-      "i": 2379,
-      "p": {
-        "displayName": "返回",
-        "position": {
-          "x": -416.77301,
-          "y": -325.60495
-        },
-        "width": 189.97441,
-        "height": 50
-      },
-      "s": {
-        "layout.v": "top",
-        "layout.h": "right",
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//alert('页面开发中..')\nwindow.location.href = \"01daohangye.html\"\n}",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false,
-        "2d.visible": false
-      }
-    },
-    {
       "c": "ht.Node",
-      "i": 2380,
-      "p": {
-        "displayName": "jinru",
-        "parent": {
-          "__i": 2379
-        },
-        "image": "assets/junminronghe/jinru.png",
-        "position": {
-          "x": -462.23713,
-          "y": -326.60497
-        },
-        "width": 66,
-        "height": 26
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "opacity": 0.1,
-        "2d.visible": false
-      }
-    },
-    {
-      "c": "ht.Text",
-      "i": 2381,
-      "p": {
-        "parent": {
-          "__i": 2379
-        },
-        "position": {
-          "x": -416.77302,
-          "y": -325.60496
-        },
-        "width": 189.97441
-      },
-      "s": {
-        "text": "返回",
-        "text.color": "rgb(3,22,41)",
-        "text.font": "bold 20px Microsoft YaHei",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "opacity": 0.1
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 2382,
+      "i": 10762,
       "p": {
         "displayName": "tk",
         "tag": "tk",
@@ -5437,41 +5376,16 @@
         "select.padding": 0,
         "opacity": 0,
         "interactive": true,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 2383,
-      "p": {
-        "position": {
-          "x": -434.65128,
-          "y": -330.16728
-        },
-        "width": 181.01315,
-        "height": 69.12465
-      },
-      "s": {
-        "shape": "rect",
-        "shape.background": "rgba(4,25,46,0.5)",
-        "shape.border.color": "#979797",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"01daohangye.html\"\n}",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.visible": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 2384,
+      "i": 10764,
       "p": {
         "host": {
-          "__i": 2194
+          "__i": 10574
         },
         "position": {
           "x": -437.07665,
@@ -5489,10 +5403,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2385,
+      "i": 10765,
       "p": {
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "background",
         "position": {
@@ -5511,11 +5425,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2386,
+      "i": 10766,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu",
         "position": {
@@ -5537,10 +5451,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2387,
+      "i": 10767,
       "p": {
         "parent": {
-          "__i": 2386
+          "__i": 10766
         },
         "position": {
           "x": -438.98687,
@@ -5600,10 +5514,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2388,
+      "i": 10768,
       "p": {
         "parent": {
-          "__i": 2386
+          "__i": 10766
         },
         "position": {
           "x": -439.01565,
@@ -5655,10 +5569,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2389,
+      "i": 10769,
       "p": {
         "parent": {
-          "__i": 2386
+          "__i": 10766
         },
         "position": {
           "x": -417.96122,
@@ -5673,11 +5587,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2390,
+      "i": 10770,
       "p": {
         "displayName": "caidan",
         "parent": {
-          "__i": 2386
+          "__i": 10766
         },
         "image": "assets/junminronghe/caidan.png",
         "position": {
@@ -5690,11 +5604,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2391,
+      "i": 10771,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu1",
         "position": {
@@ -5720,10 +5634,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2392,
+      "i": 10772,
       "p": {
         "parent": {
-          "__i": 2391
+          "__i": 10771
         },
         "position": {
           "x": -439.09225,
@@ -5783,10 +5697,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2393,
+      "i": 10773,
       "p": {
         "parent": {
-          "__i": 2391
+          "__i": 10771
         },
         "position": {
           "x": -439.12103,
@@ -5838,10 +5752,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2394,
+      "i": 10774,
       "p": {
         "parent": {
-          "__i": 2391
+          "__i": 10771
         },
         "position": {
           "x": -431.69174,
@@ -5857,11 +5771,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2395,
+      "i": 10775,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu2",
         "position": {
@@ -5887,10 +5801,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2396,
+      "i": 10776,
       "p": {
         "parent": {
-          "__i": 2395
+          "__i": 10775
         },
         "position": {
           "x": -439.09225,
@@ -5950,10 +5864,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2397,
+      "i": 10777,
       "p": {
         "parent": {
-          "__i": 2395
+          "__i": 10775
         },
         "position": {
           "x": -439.12103,
@@ -6005,10 +5919,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2398,
+      "i": 10778,
       "p": {
         "parent": {
-          "__i": 2395
+          "__i": 10775
         },
         "position": {
           "x": -431.69174,
@@ -6024,11 +5938,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2399,
+      "i": 10779,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu3",
         "position": {
@@ -6054,10 +5968,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2400,
+      "i": 10780,
       "p": {
         "parent": {
-          "__i": 2399
+          "__i": 10779
         },
         "position": {
           "x": -439.09227,
@@ -6117,10 +6031,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2401,
+      "i": 10781,
       "p": {
         "parent": {
-          "__i": 2399
+          "__i": 10779
         },
         "position": {
           "x": -439.12105,
@@ -6172,10 +6086,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2402,
+      "i": 10782,
       "p": {
         "parent": {
-          "__i": 2399
+          "__i": 10779
         },
         "position": {
           "x": -431.69176,
@@ -6191,11 +6105,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2403,
+      "i": 10783,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu4",
         "position": {
@@ -6221,10 +6135,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2404,
+      "i": 10784,
       "p": {
         "parent": {
-          "__i": 2403
+          "__i": 10783
         },
         "position": {
           "x": -439.09229,
@@ -6284,10 +6198,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2405,
+      "i": 10785,
       "p": {
         "parent": {
-          "__i": 2403
+          "__i": 10783
         },
         "position": {
           "x": -439.12107,
@@ -6339,10 +6253,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2406,
+      "i": 10786,
       "p": {
         "parent": {
-          "__i": 2403
+          "__i": 10783
         },
         "position": {
           "x": -431.69178,
@@ -6358,11 +6272,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2407,
+      "i": 10787,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu5",
         "position": {
@@ -6392,10 +6306,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2408,
+      "i": 10788,
       "p": {
         "parent": {
-          "__i": 2407
+          "__i": 10787
         },
         "position": {
           "x": -439.09231,
@@ -6455,10 +6369,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2409,
+      "i": 10789,
       "p": {
         "parent": {
-          "__i": 2407
+          "__i": 10787
         },
         "position": {
           "x": -439.12109,
@@ -6510,10 +6424,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2410,
+      "i": 10790,
       "p": {
         "parent": {
-          "__i": 2407
+          "__i": 10787
         },
         "position": {
           "x": -431.6918,
@@ -6529,11 +6443,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2411,
+      "i": 10791,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu6",
         "position": {
@@ -6563,10 +6477,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2412,
+      "i": 10792,
       "p": {
         "parent": {
-          "__i": 2411
+          "__i": 10791
         },
         "position": {
           "x": -439.09228,
@@ -6626,10 +6540,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2413,
+      "i": 10793,
       "p": {
         "parent": {
-          "__i": 2411
+          "__i": 10791
         },
         "position": {
           "x": -439.12106,
@@ -6681,10 +6595,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2414,
+      "i": 10794,
       "p": {
         "parent": {
-          "__i": 2411
+          "__i": 10791
         },
         "position": {
           "x": -431.69177,
@@ -6700,11 +6614,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2415,
+      "i": 10795,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu7",
         "position": {
@@ -6734,10 +6648,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2416,
+      "i": 10796,
       "p": {
         "parent": {
-          "__i": 2415
+          "__i": 10795
         },
         "position": {
           "x": -439.09231,
@@ -6797,10 +6711,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2417,
+      "i": 10797,
       "p": {
         "parent": {
-          "__i": 2415
+          "__i": 10795
         },
         "position": {
           "x": -439.12109,
@@ -6852,10 +6766,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2418,
+      "i": 10798,
       "p": {
         "parent": {
-          "__i": 2415
+          "__i": 10795
         },
         "position": {
           "x": -431.6918,
@@ -6871,11 +6785,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2419,
+      "i": 10799,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu8",
         "position": {
@@ -6905,10 +6819,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2420,
+      "i": 10800,
       "p": {
         "parent": {
-          "__i": 2419
+          "__i": 10799
         },
         "position": {
           "x": -439.09226,
@@ -6968,10 +6882,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2421,
+      "i": 10801,
       "p": {
         "parent": {
-          "__i": 2419
+          "__i": 10799
         },
         "position": {
           "x": -439.12104,
@@ -7023,10 +6937,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2422,
+      "i": 10802,
       "p": {
         "parent": {
-          "__i": 2419
+          "__i": 10799
         },
         "position": {
           "x": -431.69175,
@@ -7042,11 +6956,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2423,
+      "i": 10803,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu9",
         "position": {
@@ -7076,10 +6990,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2424,
+      "i": 10804,
       "p": {
         "parent": {
-          "__i": 2423
+          "__i": 10803
         },
         "position": {
           "x": -439.32258,
@@ -7139,10 +7053,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2425,
+      "i": 10805,
       "p": {
         "parent": {
-          "__i": 2423
+          "__i": 10803
         },
         "position": {
           "x": -439.35136,
@@ -7194,10 +7108,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2426,
+      "i": 10806,
       "p": {
         "parent": {
-          "__i": 2423
+          "__i": 10803
         },
         "position": {
           "x": -431.92207,
@@ -7213,11 +7127,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2427,
+      "i": 10807,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2384
+          "__i": 10764
         },
         "tag": "menu10",
         "position": {
@@ -7247,10 +7161,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2428,
+      "i": 10808,
       "p": {
         "parent": {
-          "__i": 2427
+          "__i": 10807
         },
         "position": {
           "x": -439.16742,
@@ -7310,10 +7224,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2429,
+      "i": 10809,
       "p": {
         "parent": {
-          "__i": 2427
+          "__i": 10807
         },
         "position": {
           "x": -439.1962,
@@ -7365,10 +7279,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2430,
+      "i": 10810,
       "p": {
         "parent": {
-          "__i": 2427
+          "__i": 10807
         },
         "position": {
           "x": -431.76691,
@@ -7384,7 +7298,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2431,
+      "i": 10811,
       "p": {
         "tag": "line",
         "position": {
@@ -7435,11 +7349,13 @@
       "s": {
         "shape.background": null,
         "shape.border.color": "rgba(150,150,150,0)",
-        "shape.border.width": 1
+        "shape.border.width": 1,
+        "2d.selectable": false,
+        "2d.movable": false
       }
     }
   ],
-  "modified": "Fri Jan 22 2021 09:40:58 GMT+0800 (China Standard Time)",
+  "modified": "Mon Feb 01 2021 15:06:27 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -565.45464,
     "y": -365.60496,
