@@ -2856,7 +2856,6 @@
         "shape.background": "#171f52",
         "shape.border.color": "#979797",
         "2d.visible": false,
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -2883,8 +2882,7 @@
         "interactive": true,
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0,
-        "2d.selectable": false
+        "select.padding": 0
       }
     },
     {
@@ -3078,7 +3076,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -3253,7 +3250,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -3428,7 +3424,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -3603,7 +3598,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -3782,7 +3776,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -3961,7 +3954,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -4140,7 +4132,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -4319,7 +4310,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -4498,7 +4488,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -4677,7 +4666,6 @@
         "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
         "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
-        "2d.selectable": false,
         "2d.movable": false
       }
     },
@@ -4825,7 +4813,7 @@
       }
     }
   ],
-  "modified": "Tue Feb 02 2021 09:57:17 GMT+0800 (中国标准时间)",
+  "modified": "Tue Feb 02 2021 10:18:56 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
