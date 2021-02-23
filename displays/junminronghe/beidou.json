@@ -12,7 +12,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 779,
+      "i": 418,
       "p": {
         "displayName": "bj",
         "image": "assets/junminronghe/bj.png",
@@ -35,7 +35,7 @@
     },
     {
       "c": "ht.Shape",
-      "i": 780,
+      "i": 419,
       "p": {
         "displayName": "earthline",
         "tag": "earthLine",
@@ -121,12 +121,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 781,
+      "i": 420,
       "p": {
         "displayName": "bg_2",
         "image": "assets/beidouyun/bg_2.png",
         "host": {
-          "__i": 779
+          "__i": 418
         },
         "position": {
           "x": 22.36189,
@@ -143,12 +143,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 782,
+      "i": 421,
       "p": {
         "displayName": "earth_bg",
         "image": "assets/beidouyun/earth_bg.png",
         "host": {
-          "__i": 779
+          "__i": 418
         },
         "position": {
           "x": 20.36189,
@@ -165,12 +165,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 783,
+      "i": 422,
       "p": {
         "displayName": "title",
         "image": "assets/junminronghe/title.png",
         "host": {
-          "__i": 779
+          "__i": 418
         },
         "position": {
           "x": 20.36189,
@@ -191,7 +191,7 @@
     },
     {
       "c": "ht.Data",
-      "i": 784,
+      "i": 423,
       "p": {
         "displayName": "系统展示"
       },
@@ -205,11 +205,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 785,
+      "i": 424,
       "p": {
         "displayName": "底",
         "parent": {
-          "__i": 784
+          "__i": 423
         },
         "position": {
           "x": 13.53775,
@@ -228,11 +228,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 786,
+      "i": 425,
       "p": {
         "displayName": "gh2",
         "parent": {
-          "__i": 785
+          "__i": 424
         },
         "tag": "gh2",
         "image": "assets/junminronghe/gh2.png",
@@ -250,11 +250,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 787,
+      "i": 426,
       "p": {
         "displayName": "gh1",
         "parent": {
-          "__i": 785
+          "__i": 424
         },
         "tag": "gh1",
         "image": "assets/junminronghe/gh1.png",
@@ -272,11 +272,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 788,
+      "i": 427,
       "p": {
         "displayName": "gs",
         "parent": {
-          "__i": 785
+          "__i": 424
         },
         "tag": "gs",
         "image": "assets/junminronghe/gs.png",
@@ -294,7 +294,7 @@
     },
     {
       "c": "ht.Data",
-      "i": 789,
+      "i": 428,
       "p": {
         "displayName": "中间"
       },
@@ -308,15 +308,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 790,
+      "i": 429,
       "p": {
         "displayName": "center_ball",
         "parent": {
-          "__i": 789
+          "__i": 428
         },
         "image": "assets/beidouyun/center_ball.png",
         "host": {
-          "__i": 779
+          "__i": 418
         },
         "position": {
           "x": 19.36189,
@@ -333,15 +333,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 791,
+      "i": 430,
       "p": {
         "displayName": "roll_line",
         "parent": {
-          "__i": 789
+          "__i": 428
         },
         "image": "assets/beidouyun/roll_line.png",
         "host": {
-          "__i": 790
+          "__i": 429
         },
         "position": {
           "x": 1.03775,
@@ -358,7 +358,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 792,
+      "i": 431,
       "p": {
         "displayName": "border",
         "image": "assets/beidouyun/border.png",
@@ -377,7 +377,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 793,
+      "i": 432,
       "p": {
         "displayName": "system_screen",
         "image": "assets/beidouyun/system_screen.png",
@@ -398,12 +398,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 794,
+      "i": 433,
       "p": {
         "displayName": "text_bg",
         "image": "assets/beidouyun/text_bg.png",
         "host": {
-          "__i": 803
+          "__i": 442
         },
         "position": {
           "x": -648.40503,
@@ -423,12 +423,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 795,
+      "i": 434,
       "p": {
         "displayName": "textBox",
         "image": "symbols/ht/text/textBox.json",
         "host": {
-          "__i": 803
+          "__i": 442
         },
         "position": {
           "x": -648.40503,
@@ -455,7 +455,7 @@
     },
     {
       "c": "ht.Data",
-      "i": 796,
+      "i": 435,
       "s": {
         "editor.folder": true,
         "select.color": "",
@@ -466,13 +466,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 797,
+      "i": 436,
       "p": {
         "parent": {
-          "__i": 796
+          "__i": 435
         },
         "host": {
-          "__i": 803
+          "__i": 442
         },
         "position": {
           "x": -774.77357,
@@ -494,13 +494,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 798,
+      "i": 437,
       "p": {
         "parent": {
-          "__i": 796
+          "__i": 435
         },
         "host": {
-          "__i": 803
+          "__i": 442
         },
         "position": {
           "x": -778.77357,
@@ -522,13 +522,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 799,
+      "i": 438,
       "p": {
         "parent": {
-          "__i": 796
+          "__i": 435
         },
         "host": {
-          "__i": 803
+          "__i": 442
         },
         "position": {
           "x": 585.81755,
@@ -550,13 +550,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 800,
+      "i": 439,
       "p": {
         "parent": {
-          "__i": 796
+          "__i": 435
         },
         "host": {
-          "__i": 803
+          "__i": 442
         },
         "position": {
           "x": 585.81755,
@@ -578,7 +578,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 801,
+      "i": 440,
       "p": {
         "displayName": "title_beidou",
         "image": "assets/beidouyun/title_beidou.png",
@@ -597,7 +597,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 802,
+      "i": 441,
       "p": {
         "displayName": "beidou_text",
         "image": "assets/beidouyun/beidou_text.png",
@@ -616,12 +616,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 803,
+      "i": 442,
       "p": {
         "displayName": "outborder",
         "image": "assets/beidouyun/outborder.png",
         "host": {
-          "__i": 779
+          "__i": 418
         },
         "position": {
           "x": 19.77588,
@@ -641,11 +641,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 804,
+      "i": 443,
       "p": {
         "displayName": "进入云平台",
         "host": {
-          "__i": 779
+          "__i": 418
         },
         "position": {
           "x": 862.53578,
@@ -665,17 +665,16 @@
         "select.color": "",
         "select.width": 0,
         "select.padding": 0,
-        "2d.movable": false,
-        "2d.selectable": false
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 805,
+      "i": 444,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 804
+          "__i": 443
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -689,15 +688,16 @@
       "s": {
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Text",
-      "i": 806,
+      "i": 445,
       "p": {
         "parent": {
-          "__i": 804
+          "__i": 443
         },
         "position": {
           "x": 824.13474,
@@ -710,15 +710,1126 @@
         "text.font": "bold 20px Microsoft YaHei",
         "select.color": "",
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 808,
+      "i": 493,
       "p": {
+        "position": {
+          "x": 16.97794,
+          "y": -56.76422
+        },
+        "width": 673.46444,
+        "height": 447.52844
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 494,
+      "p": {
+        "displayName": "roll_ball2",
+        "parent": {
+          "__i": 493
+        },
+        "tag": "agricultureSystem",
+        "image": "symbols/junminronghe/roll_ball2.json",
         "host": {
-          "__i": 779
+          "__i": 429
+        },
+        "position": {
+          "x": -240.02206,
+          "y": -104.79577
+        },
+        "width": 159.46443,
+        "height": 159.46443
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "name": "智慧农业系统",
+        "": "发士大夫",
+        "image": "assets/beidouyun/icon_arg.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 495,
+      "p": {
+        "displayName": "roll_ball2",
+        "parent": {
+          "__i": 493
+        },
+        "tag": "carSupervise",
+        "image": "symbols/junminronghe/roll_ball2.json",
+        "host": {
+          "__i": 429
+        },
+        "position": {
+          "x": 258.83804,
+          "y": -202.76739
+        },
+        "width": 155.52209,
+        "height": 155.52209
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "name": "中国-东盟跨境交通",
+        "": "发士大夫",
+        "image": "assets/beidouyun/icon_truck.png",
+        "text2": "运输车辆安全监管平台"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 496,
+      "p": {
+        "displayName": "roll_ball2",
+        "parent": {
+          "__i": 493
+        },
+        "tag": "refinementManagement",
+        "image": "symbols/junminronghe/roll_ball2.json",
+        "host": {
+          "__i": 429
+        },
+        "position": {
+          "x": -2.22412,
+          "y": 58.99754
+        },
+        "width": 216.00492,
+        "height": 216.00492
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "image": "assets/beidouyun/icon_city.png",
+        "name": "城市精细化管理系统"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 497,
+      "p": {
+        "displayName": "roll_ball2",
+        "parent": {
+          "__i": 493
+        },
+        "tag": "shipsManagement",
+        "image": "symbols/junminronghe/roll_ball2.json",
+        "host": {
+          "__i": 429
+        },
+        "position": {
+          "x": 253.71016,
+          "y": -32.25383
+        },
+        "width": 200,
+        "height": 200
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true,
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "image": "assets/beidouyun/icon_ship.png",
+        "name": "西江船舶北斗智能",
+        "text2": "通航管理与服务平台"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 498,
+      "p": {
+        "displayName": "roll_ball2",
+        "parent": {
+          "__i": 493
+        },
+        "tag": "sugarIndustrySystem",
+        "image": "symbols/junminronghe/roll_ball2.json",
+        "host": {
+          "__i": 429
+        },
+        "position": {
+          "x": -230.99043,
+          "y": 60.99754
+        },
+        "width": 177.52769,
+        "height": 177.52769
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "image": "assets/beidouyun/icon_sugar.png",
+        "name": "智慧糖业系统"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 499,
+      "p": {
+        "position": {
+          "x": -660.80759,
+          "y": 145.02817
+        },
+        "width": 501.24493,
+        "height": 699.94366
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 500,
+      "p": {
+        "displayName": "sys_ico2",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico2.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -775.93003,
+          "y": -40.64788
+        },
+        "width": 271,
+        "height": 261
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "文本": "大数据快报",
+        "name": "大数据快报"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 501,
+      "p": {
+        "displayName": "sys_ico2",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico2.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -545.68509,
+          "y": -74.44366
+        },
+        "width": 271,
+        "height": 261
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "应用态势图"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 502,
+      "p": {
+        "displayName": "sys_ico2",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico2.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -775.93003,
+          "y": 87.85212
+        },
+        "width": 271,
+        "height": 261
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "终端管理系统"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 503,
+      "p": {
+        "displayName": "sys_ico2",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico2.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -545.68509,
+          "y": 63.35212
+        },
+        "width": 271,
+        "height": 261
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "南宁城市",
+        "name2": "配送平台"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 504,
+      "p": {
+        "displayName": "sys_ico3",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico3.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -756.62496,
+          "y": 306.35212
+        },
+        "width": 200,
+        "height": 72
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "智慧糖业"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 505,
+      "p": {
+        "displayName": "sys_ico3",
+        "parent": {
+          "__i": 499
+        },
+        "dataBindings": {
+          "a": {}
+        },
+        "image": "symbols/junminronghe/sys_ico3.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -534.36822,
+          "y": 304.857
+        },
+        "width": 200,
+        "height": 72
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "智慧农业",
+        "icon": "assets/beidouyun/icon_arg.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 506,
+      "p": {
+        "displayName": "sys_ico3",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico3.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -756.62496,
+          "y": 381.68094
+        },
+        "width": 200,
+        "height": 72
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "城市交通",
+        "icon": "assets/beidouyun/ico-2-3.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 507,
+      "p": {
+        "displayName": "sys_ico3",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico3.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -534.36822,
+          "y": 380.18582
+        },
+        "width": 200,
+        "height": 72
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "西江水云",
+        "icon": "assets/beidouyun/icon_ship.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 508,
+      "p": {
+        "displayName": "sys_ico3",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico3.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -756.62496,
+          "y": 459
+        },
+        "width": 200,
+        "height": 72
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "跨境运输",
+        "icon": "assets/beidouyun/icon_truck.png"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 509,
+      "p": {
+        "displayName": "sys_ico3",
+        "parent": {
+          "__i": 499
+        },
+        "image": "symbols/junminronghe/sys_ico3.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": -534.36822,
+          "y": 458.50488
+        },
+        "width": 200,
+        "height": 72
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "形变监测系统",
+        "icon": "assets/beidouyun/ico-2-6.png"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 510,
+      "p": {
+        "position": {
+          "x": 700.38998,
+          "y": 274.52669
+        },
+        "width": 432.47565,
+        "height": 508.3085
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 511,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 584.15216,
+          "y": 85.37244
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 512,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 816.62778,
+          "y": 85.37244
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "AIO综合营运服务"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 513,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 586.13509,
+          "y": 187.35212
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "分布式云资源管理服务"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 514,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 816.62778,
+          "y": 187.35212
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "应用测评"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 515,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 584.15216,
+          "y": 285
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "高精度地理信息服务"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 516,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 816.62778,
+          "y": 285
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "统一通讯服务"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 517,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 584.15216,
+          "y": 383
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "CORS精准位置服务"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 518,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 815.44543,
+          "y": 383
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "物联云接入服务"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 519,
+      "p": {
+        "displayName": "list1",
+        "parent": {
+          "__i": 510
+        },
+        "image": "symbols/junminronghe/list1.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 699.15216,
+          "y": 463.68094
+        },
+        "width": 200,
+        "height": 130
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "CORS精准位置服务后台"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 520,
+      "p": {
+        "position": {
+          "x": 700.24326,
+          "y": -200.87867
+        },
+        "width": 436.0284,
+        "height": 306.87701
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 521,
+      "p": {
+        "displayName": "serve",
+        "parent": {
+          "__i": 520
+        },
+        "image": "symbols/junminronghe/serve.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 590.13509,
+          "y": -303.66742
+        },
+        "width": 215.81203,
+        "height": 101.29952
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 522,
+      "p": {
+        "displayName": "serve",
+        "parent": {
+          "__i": 520
+        },
+        "image": "symbols/junminronghe/serve.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 810.35145,
+          "y": -303.06205
+        },
+        "width": 215.81203,
+        "height": 101.29952
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "交通云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 523,
+      "p": {
+        "displayName": "serve",
+        "parent": {
+          "__i": 520
+        },
+        "image": "symbols/junminronghe/serve.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 590.13509,
+          "y": -235.93514
+        },
+        "width": 215.81203,
+        "height": 101.29952
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "商贸云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 524,
+      "p": {
+        "displayName": "serve",
+        "parent": {
+          "__i": 520
+        },
+        "image": "symbols/junminronghe/serve.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 810.35145,
+          "y": -235.32978
+        },
+        "width": 215.81203,
+        "height": 101.29952
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "勤务云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 525,
+      "p": {
+        "displayName": "serve",
+        "parent": {
+          "__i": 520
+        },
+        "image": "symbols/junminronghe/serve.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 590.13509,
+          "y": -170.08007
+        },
+        "width": 215.81203,
+        "height": 101.29952
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "联盟云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 526,
+      "p": {
+        "displayName": "serve",
+        "parent": {
+          "__i": 520
+        },
+        "image": "symbols/junminronghe/serve.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 810.35145,
+          "y": -169.4747
+        },
+        "width": 215.81203,
+        "height": 101.29952
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "name": "工业云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 527,
+      "p": {
+        "displayName": "servLong",
+        "parent": {
+          "__i": 520
+        },
+        "image": "symbols/junminronghe/servLong.json",
+        "host": {
+          "__i": 442
+        },
+        "position": {
+          "x": 699.92765,
+          "y": -98.08993
+        },
+        "width": 407.40026,
+        "height": 101.29952
+      },
+      "s": {
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
+        "layout.h": "right",
+        "layout.v": "top",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 446,
+      "p": {
+        "displayName": "菜单",
+        "host": {
+          "__i": 418
         },
         "position": {
           "x": -857.74477,
@@ -736,10 +1847,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 809,
+      "i": 447,
       "p": {
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "background",
         "position": {
@@ -758,11 +1869,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 810,
+      "i": 448,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu",
         "position": {
@@ -783,10 +1894,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 811,
+      "i": 449,
       "p": {
         "parent": {
-          "__i": 810
+          "__i": 448
         },
         "position": {
           "x": -858.01887,
@@ -841,15 +1952,17 @@
         "shape.background": "#001839",
         "shape.border.color": "rgb(51,153,255)",
         "shape.border.width": 1,
-        "opacity": 1
+        "opacity": 1,
+        "select.color": "",
+        "select.width": 0
       }
     },
     {
       "c": "ht.Shape",
-      "i": 812,
+      "i": 450,
       "p": {
         "parent": {
-          "__i": 810
+          "__i": 448
         },
         "position": {
           "x": -858.04765,
@@ -896,15 +2009,17 @@
         "shape.background": null,
         "shape.border.color": "#6BAFFC",
         "shape.border.width": 1,
-        "opacity": 0.6
+        "opacity": 0.6,
+        "select.color": "",
+        "select.width": 0
       }
     },
     {
       "c": "ht.Text",
-      "i": 813,
+      "i": 451,
       "p": {
         "parent": {
-          "__i": 810
+          "__i": 448
         },
         "position": {
           "x": -836.99322,
@@ -914,16 +2029,19 @@
       "s": {
         "text": "切换菜单",
         "text.color": "rgb(51,153,255)",
-        "text.font": "bold 18px sans-serif, Arial"
+        "text.font": "bold 18px sans-serif, Arial",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 814,
+      "i": 452,
       "p": {
         "displayName": "caidan",
         "parent": {
-          "__i": 810
+          "__i": 448
         },
         "image": "assets/junminronghe/caidan.png",
         "position": {
@@ -932,15 +2050,20 @@
         },
         "width": 18,
         "height": 16
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Block",
-      "i": 815,
+      "i": 453,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu1",
         "position": {
@@ -966,10 +2089,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 816,
+      "i": 454,
       "p": {
         "parent": {
-          "__i": 815
+          "__i": 453
         },
         "position": {
           "x": -858.12425,
@@ -1024,15 +2147,16 @@
         "shape.background": "#001839",
         "shape.border.color": "rgb(51,153,255)",
         "shape.border.width": 1,
-        "opacity": 1
+        "opacity": 1,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Shape",
-      "i": 817,
+      "i": 455,
       "p": {
         "parent": {
-          "__i": 815
+          "__i": 453
         },
         "position": {
           "x": -858.15303,
@@ -1084,10 +2208,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 818,
+      "i": 456,
       "p": {
         "parent": {
-          "__i": 815
+          "__i": 453
         },
         "position": {
           "x": -850.72374,
@@ -1103,11 +2227,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 819,
+      "i": 457,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu2",
         "position": {
@@ -1133,10 +2257,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 820,
+      "i": 458,
       "p": {
         "parent": {
-          "__i": 819
+          "__i": 457
         },
         "position": {
           "x": -858.12425,
@@ -1196,10 +2320,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 821,
+      "i": 459,
       "p": {
         "parent": {
-          "__i": 819
+          "__i": 457
         },
         "position": {
           "x": -858.15303,
@@ -1251,10 +2375,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 822,
+      "i": 460,
       "p": {
         "parent": {
-          "__i": 819
+          "__i": 457
         },
         "position": {
           "x": -850.72374,
@@ -1270,11 +2394,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 823,
+      "i": 461,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu3",
         "position": {
@@ -1300,10 +2424,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 824,
+      "i": 462,
       "p": {
         "parent": {
-          "__i": 823
+          "__i": 461
         },
         "position": {
           "x": -858.12427,
@@ -1363,10 +2487,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 825,
+      "i": 463,
       "p": {
         "parent": {
-          "__i": 823
+          "__i": 461
         },
         "position": {
           "x": -858.15305,
@@ -1418,10 +2542,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 826,
+      "i": 464,
       "p": {
         "parent": {
-          "__i": 823
+          "__i": 461
         },
         "position": {
           "x": -850.72376,
@@ -1437,11 +2561,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 827,
+      "i": 465,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu4",
         "position": {
@@ -1467,10 +2591,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 828,
+      "i": 466,
       "p": {
         "parent": {
-          "__i": 827
+          "__i": 465
         },
         "position": {
           "x": -858.12429,
@@ -1530,10 +2654,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 829,
+      "i": 467,
       "p": {
         "parent": {
-          "__i": 827
+          "__i": 465
         },
         "position": {
           "x": -858.15307,
@@ -1585,10 +2709,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 830,
+      "i": 468,
       "p": {
         "parent": {
-          "__i": 827
+          "__i": 465
         },
         "position": {
           "x": -850.72378,
@@ -1604,11 +2728,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 831,
+      "i": 469,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu5",
         "position": {
@@ -1638,10 +2762,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 832,
+      "i": 470,
       "p": {
         "parent": {
-          "__i": 831
+          "__i": 469
         },
         "position": {
           "x": -858.12431,
@@ -1701,10 +2825,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 833,
+      "i": 471,
       "p": {
         "parent": {
-          "__i": 831
+          "__i": 469
         },
         "position": {
           "x": -858.15309,
@@ -1756,10 +2880,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 834,
+      "i": 472,
       "p": {
         "parent": {
-          "__i": 831
+          "__i": 469
         },
         "position": {
           "x": -850.7238,
@@ -1775,11 +2899,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 835,
+      "i": 473,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu6",
         "position": {
@@ -1809,10 +2933,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 836,
+      "i": 474,
       "p": {
         "parent": {
-          "__i": 835
+          "__i": 473
         },
         "position": {
           "x": -858.12428,
@@ -1872,10 +2996,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 837,
+      "i": 475,
       "p": {
         "parent": {
-          "__i": 835
+          "__i": 473
         },
         "position": {
           "x": -858.15306,
@@ -1927,10 +3051,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 838,
+      "i": 476,
       "p": {
         "parent": {
-          "__i": 835
+          "__i": 473
         },
         "position": {
           "x": -850.72377,
@@ -1946,11 +3070,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 839,
+      "i": 477,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu7",
         "position": {
@@ -1980,10 +3104,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 840,
+      "i": 478,
       "p": {
         "parent": {
-          "__i": 839
+          "__i": 477
         },
         "position": {
           "x": -858.12431,
@@ -2043,10 +3167,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 841,
+      "i": 479,
       "p": {
         "parent": {
-          "__i": 839
+          "__i": 477
         },
         "position": {
           "x": -858.15309,
@@ -2098,10 +3222,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 842,
+      "i": 480,
       "p": {
         "parent": {
-          "__i": 839
+          "__i": 477
         },
         "position": {
           "x": -850.7238,
@@ -2117,11 +3241,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 843,
+      "i": 481,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu8",
         "position": {
@@ -2151,10 +3275,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 844,
+      "i": 482,
       "p": {
         "parent": {
-          "__i": 843
+          "__i": 481
         },
         "position": {
           "x": -858.12426,
@@ -2214,10 +3338,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 845,
+      "i": 483,
       "p": {
         "parent": {
-          "__i": 843
+          "__i": 481
         },
         "position": {
           "x": -858.15304,
@@ -2269,10 +3393,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 846,
+      "i": 484,
       "p": {
         "parent": {
-          "__i": 843
+          "__i": 481
         },
         "position": {
           "x": -850.72375,
@@ -2288,11 +3412,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 847,
+      "i": 485,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu9",
         "position": {
@@ -2322,10 +3446,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 848,
+      "i": 486,
       "p": {
         "parent": {
-          "__i": 847
+          "__i": 485
         },
         "position": {
           "x": -856.20004,
@@ -2385,10 +3509,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 849,
+      "i": 487,
       "p": {
         "parent": {
-          "__i": 847
+          "__i": 485
         },
         "position": {
           "x": -856.22882,
@@ -2440,10 +3564,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 850,
+      "i": 488,
       "p": {
         "parent": {
-          "__i": 847
+          "__i": 485
         },
         "position": {
           "x": -848.79953,
@@ -2459,11 +3583,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 851,
+      "i": 489,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 808
+          "__i": 446
         },
         "tag": "menu10",
         "position": {
@@ -2493,10 +3617,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 852,
+      "i": 490,
       "p": {
         "parent": {
-          "__i": 851
+          "__i": 489
         },
         "position": {
           "x": -857.20004,
@@ -2556,10 +3680,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 853,
+      "i": 491,
       "p": {
         "parent": {
-          "__i": 851
+          "__i": 489
         },
         "position": {
           "x": -857.22882,
@@ -2611,10 +3735,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 854,
+      "i": 492,
       "p": {
         "parent": {
-          "__i": 851
+          "__i": 489
         },
         "position": {
           "x": -849.79953,
@@ -2629,1117 +3753,8 @@
       }
     },
     {
-      "c": "ht.Block",
-      "i": 855,
-      "p": {
-        "position": {
-          "x": 16.97794,
-          "y": -56.76422
-        },
-        "width": 673.46444,
-        "height": 447.52844
-      },
-      "s": {
-        "2d.selectable": false,
-        "2d.movable": false
-      }
-    },
-    {
       "c": "ht.Node",
-      "i": 856,
-      "p": {
-        "displayName": "roll_ball2",
-        "parent": {
-          "__i": 855
-        },
-        "tag": "agricultureSystem",
-        "image": "symbols/junminronghe/roll_ball2.json",
-        "host": {
-          "__i": 790
-        },
-        "position": {
-          "x": -240.02206,
-          "y": -104.79577
-        },
-        "width": 159.46443,
-        "height": 159.46443
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false,
-        "2d.selectable": false
-      },
-      "a": {
-        "name": "智慧农业系统",
-        "": "发士大夫",
-        "image": "assets/beidouyun/icon_arg.png"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 857,
-      "p": {
-        "displayName": "roll_ball2",
-        "parent": {
-          "__i": 855
-        },
-        "tag": "carSupervise",
-        "image": "symbols/junminronghe/roll_ball2.json",
-        "host": {
-          "__i": 790
-        },
-        "position": {
-          "x": 258.83804,
-          "y": -202.76739
-        },
-        "width": 155.52209,
-        "height": 155.52209
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false,
-        "2d.selectable": false
-      },
-      "a": {
-        "name": "中国-东盟跨境交通",
-        "": "发士大夫",
-        "image": "assets/beidouyun/icon_truck.png",
-        "text2": "运输车辆安全监管平台"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 858,
-      "p": {
-        "displayName": "roll_ball2",
-        "parent": {
-          "__i": 855
-        },
-        "tag": "refinementManagement",
-        "image": "symbols/junminronghe/roll_ball2.json",
-        "host": {
-          "__i": 790
-        },
-        "position": {
-          "x": -2.22412,
-          "y": 58.99754
-        },
-        "width": 216.00492,
-        "height": 216.00492
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false,
-        "2d.selectable": false
-      },
-      "a": {
-        "image": "assets/beidouyun/icon_city.png",
-        "name": "城市精细化管理系统"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 859,
-      "p": {
-        "displayName": "roll_ball2",
-        "parent": {
-          "__i": 855
-        },
-        "tag": "shipsManagement",
-        "image": "symbols/junminronghe/roll_ball2.json",
-        "host": {
-          "__i": 790
-        },
-        "position": {
-          "x": 253.71016,
-          "y": -32.25383
-        },
-        "width": 200,
-        "height": 200
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "interactive": true,
-        "2d.movable": false,
-        "2d.selectable": false
-      },
-      "a": {
-        "image": "assets/beidouyun/icon_ship.png",
-        "name": "西江船舶北斗智能",
-        "text2": "通航管理与服务平台"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 860,
-      "p": {
-        "displayName": "roll_ball2",
-        "parent": {
-          "__i": 855
-        },
-        "tag": "sugarIndustrySystem",
-        "image": "symbols/junminronghe/roll_ball2.json",
-        "host": {
-          "__i": 790
-        },
-        "position": {
-          "x": -230.99043,
-          "y": 60.99754
-        },
-        "width": 177.52769,
-        "height": 177.52769
-      },
-      "s": {
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false,
-        "2d.selectable": false
-      },
-      "a": {
-        "image": "assets/beidouyun/icon_sugar.png",
-        "name": "智慧糖业系统"
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 861,
-      "p": {
-        "position": {
-          "x": -660.80759,
-          "y": 145.02817
-        },
-        "width": 501.24493,
-        "height": 699.94366
-      },
-      "s": {
-        "2d.selectable": false,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 862,
-      "p": {
-        "displayName": "sys_ico2",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico2.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -775.93003,
-          "y": -40.64788
-        },
-        "width": 271,
-        "height": 261
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "文本": "大数据快报",
-        "name": "大数据快报"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 863,
-      "p": {
-        "displayName": "sys_ico2",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico2.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -545.68509,
-          "y": -74.44366
-        },
-        "width": 271,
-        "height": 261
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "应用态势图"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 864,
-      "p": {
-        "displayName": "sys_ico2",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico2.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -775.93003,
-          "y": 87.85212
-        },
-        "width": 271,
-        "height": 261
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "终端管理系统"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 865,
-      "p": {
-        "displayName": "sys_ico2",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico2.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -545.68509,
-          "y": 63.35212
-        },
-        "width": 271,
-        "height": 261
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "南宁城市",
-        "name2": "配送平台"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 866,
-      "p": {
-        "displayName": "sys_ico3",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico3.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -756.62496,
-          "y": 306.35212
-        },
-        "width": 200,
-        "height": 72
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "智慧糖业"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 867,
-      "p": {
-        "displayName": "sys_ico3",
-        "parent": {
-          "__i": 861
-        },
-        "dataBindings": {
-          "a": {}
-        },
-        "image": "symbols/junminronghe/sys_ico3.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -534.36822,
-          "y": 304.857
-        },
-        "width": 200,
-        "height": 72
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "智慧农业",
-        "icon": "assets/beidouyun/icon_arg.png"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 868,
-      "p": {
-        "displayName": "sys_ico3",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico3.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -756.62496,
-          "y": 381.68094
-        },
-        "width": 200,
-        "height": 72
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "城市交通",
-        "icon": "assets/beidouyun/ico-2-3.png"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 869,
-      "p": {
-        "displayName": "sys_ico3",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico3.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -534.36822,
-          "y": 380.18582
-        },
-        "width": 200,
-        "height": 72
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "西江水云",
-        "icon": "assets/beidouyun/icon_ship.png"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 870,
-      "p": {
-        "displayName": "sys_ico3",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico3.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -756.62496,
-          "y": 459
-        },
-        "width": 200,
-        "height": 72
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "跨境运输",
-        "icon": "assets/beidouyun/icon_truck.png"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 871,
-      "p": {
-        "displayName": "sys_ico3",
-        "parent": {
-          "__i": 861
-        },
-        "image": "symbols/junminronghe/sys_ico3.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": -534.36822,
-          "y": 458.50488
-        },
-        "width": 200,
-        "height": 72
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "left",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "形变监测系统",
-        "icon": "assets/beidouyun/ico-2-6.png"
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 872,
-      "p": {
-        "position": {
-          "x": 700.38998,
-          "y": 274.52669
-        },
-        "width": 432.47565,
-        "height": 508.3085
-      },
-      "s": {
-        "2d.selectable": false,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 873,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 584.15216,
-          "y": 85.37244
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 874,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 816.62778,
-          "y": 85.37244
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "AIO综合营运服务"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 875,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 586.13509,
-          "y": 187.35212
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "分布式云资源管理服务"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 876,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 816.62778,
-          "y": 187.35212
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "应用测评"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 877,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 584.15216,
-          "y": 285
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "高精度地理信息服务"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 878,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 816.62778,
-          "y": 285
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "统一通讯服务"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 879,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 584.15216,
-          "y": 383
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "CORS精准位置服务"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 880,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 815.44543,
-          "y": 383
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "物联云接入服务"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 881,
-      "p": {
-        "displayName": "list1",
-        "parent": {
-          "__i": 872
-        },
-        "image": "symbols/junminronghe/list1.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 699.15216,
-          "y": 463.68094
-        },
-        "width": 200,
-        "height": 130
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "CORS精准位置服务后台"
-      }
-    },
-    {
-      "c": "ht.Block",
-      "i": 882,
-      "p": {
-        "position": {
-          "x": 700.24326,
-          "y": -200.87867
-        },
-        "width": 436.0284,
-        "height": 306.87701
-      },
-      "s": {
-        "2d.movable": false,
-        "2d.selectable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 883,
-      "p": {
-        "displayName": "serve",
-        "parent": {
-          "__i": 882
-        },
-        "image": "symbols/junminronghe/serve.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 590.13509,
-          "y": -303.66742
-        },
-        "width": 215.81203,
-        "height": 101.29952
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 884,
-      "p": {
-        "displayName": "serve",
-        "parent": {
-          "__i": 882
-        },
-        "image": "symbols/junminronghe/serve.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 810.35145,
-          "y": -303.06205
-        },
-        "width": 215.81203,
-        "height": 101.29952
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "交通云"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 885,
-      "p": {
-        "displayName": "serve",
-        "parent": {
-          "__i": 882
-        },
-        "image": "symbols/junminronghe/serve.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 590.13509,
-          "y": -235.93514
-        },
-        "width": 215.81203,
-        "height": 101.29952
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "商贸云"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 886,
-      "p": {
-        "displayName": "serve",
-        "parent": {
-          "__i": 882
-        },
-        "image": "symbols/junminronghe/serve.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 810.35145,
-          "y": -235.32978
-        },
-        "width": 215.81203,
-        "height": 101.29952
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "勤务云"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 887,
-      "p": {
-        "displayName": "serve",
-        "parent": {
-          "__i": 882
-        },
-        "image": "symbols/junminronghe/serve.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 590.13509,
-          "y": -170.08007
-        },
-        "width": 215.81203,
-        "height": 101.29952
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "联盟云"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 888,
-      "p": {
-        "displayName": "serve",
-        "parent": {
-          "__i": 882
-        },
-        "image": "symbols/junminronghe/serve.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 810.35145,
-          "y": -169.4747
-        },
-        "width": 215.81203,
-        "height": 101.29952
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      },
-      "a": {
-        "name": "工业云"
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 889,
-      "p": {
-        "displayName": "servLong",
-        "parent": {
-          "__i": 882
-        },
-        "image": "symbols/junminronghe/servLong.json",
-        "host": {
-          "__i": 803
-        },
-        "position": {
-          "x": 699.92765,
-          "y": -98.08993
-        },
-        "width": 407.40026,
-        "height": 101.29952
-      },
-      "s": {
-        "interactive": true,
-        "onClick": "__ht__function(event, data, view) {\n//window.location.href = \"newTab.html\"\n//alert('页面开发中...')\nvar dataModel = view.dm();\nvar tk = dataModel.getDataByTag('tk');\ntk.setAnimation({\n    show: {\n        property: \"opacity\",\n        accessType: \"style\", \n        from: 0, \n        to: 1,\n        duration: 300,\n\n    },\n    start: [\"show\"]\n})\n}",
-        "layout.h": "right",
-        "layout.v": "top",
-        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
-        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
-        "select.color": "",
-        "select.width": 0,
-        "select.padding": 0,
-        "2d.movable": false
-      }
-    },
-    {
-      "c": "ht.Node",
-      "i": 807,
+      "i": 528,
       "p": {
         "displayName": "tk",
         "tag": "tk",
@@ -3759,7 +3774,7 @@
       }
     }
   ],
-  "modified": "Mon Feb 22 2021 09:51:59 GMT+0800 (China Standard Time)",
+  "modified": "Tue Feb 23 2021 09:44:57 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -940.22412,
     "y": -526.42887,
