@@ -213,6 +213,7 @@
             // 展示菜单
             function showMenu(dm) {
                 const menu = dm.getDataByTag('menu');
+                const bj = dm.getDataByTag('bj');
                 const background = dm.getDataByTag('background');
                 var menuList = [];
                 for (var i=1; i< 11; i++) {
@@ -239,6 +240,13 @@
                         })
                         flag = 0;
                     }
+                })
+                bj.s('onClick',()=>{
+                    background.s('2d.visible',false);
+                    menuList.map((item)=> {
+                        item.s('2d.visible',false);
+                    })
+                    flag = 1;
                 })
             }
         </script>

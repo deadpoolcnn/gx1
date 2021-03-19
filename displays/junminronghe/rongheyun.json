@@ -1,5 +1,5 @@
 {
-  "v": "7.0.9",
+  "v": "7.2.2",
   "p": {
     "autoAdjustIndex": true,
     "hierarchicalRendering": true
@@ -11,9 +11,10 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 2491,
+      "i": 12587,
       "p": {
         "displayName": "bj",
+        "tag": "bj",
         "image": "assets/junminronghe/bj.png",
         "position": {
           "x": 20.36189,
@@ -27,17 +28,22 @@
         "fullscreen": "fill",
         "fullscreen.gap": 0,
         "fullscreen.lock": "v",
-        "2d.selectable": false
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true
       }
     },
     {
       "c": "ht.Node",
-      "i": 2492,
+      "i": 12588,
       "p": {
         "displayName": "bgrh",
         "image": "assets/junminronghe/bgrh.png",
         "host": {
-          "__i": 2491
+          "__i": 12587
         },
         "position": {
           "x": 23.77719,
@@ -57,13 +63,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 2493,
+      "i": 12589,
       "p": {
         "displayName": "zhutibg",
         "tag": "zhuti_block",
         "image": "assets/junminronghe/zhutibg.png",
         "host": {
-          "__i": 2492
+          "__i": 12588
         },
         "position": {
           "x": 23.77719,
@@ -80,7 +86,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 2494,
+      "i": 12590,
       "p": {
         "displayName": "zhuti-box2",
         "image": "assets/junminronghe/zhuti-box2.png",
@@ -96,7 +102,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 2495,
+      "i": 12591,
       "p": {
         "displayName": "zhuti-box3",
         "image": "assets/junminronghe/zhuti-box3.png",
@@ -116,7 +122,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 2496,
+      "i": 12592,
       "p": {
         "displayName": "zhuti-box1",
         "image": "assets/junminronghe/zhuti-box1.png",
@@ -132,13 +138,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 2497,
+      "i": 12593,
       "p": {
         "displayName": "cloud_left",
         "tag": "cloud_left",
         "image": "assets/junminronghe/yun1.png",
         "host": {
-          "__i": 2492
+          "__i": 12588
         },
         "position": {
           "x": 94.62855,
@@ -159,13 +165,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 2498,
+      "i": 12594,
       "p": {
         "displayName": "cloud_right",
         "tag": "cloud_right",
         "image": "assets/junminronghe/yun1.png",
         "host": {
-          "__i": 2492
+          "__i": 12588
         },
         "position": {
           "x": 17.88291,
@@ -186,11 +192,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2499,
+      "i": 12595,
       "p": {
         "displayName": "title",
         "host": {
-          "__i": 2491
+          "__i": 12587
         },
         "position": {
           "x": 20.36189,
@@ -211,14 +217,14 @@
     },
     {
       "c": "ht.Block",
-      "i": 2500,
+      "i": 12596,
       "p": {
         "displayName": "进入云平台",
         "parent": {
-          "__i": 2499
+          "__i": 12595
         },
         "host": {
-          "__i": 2492
+          "__i": 12588
         },
         "position": {
           "x": 855.70518,
@@ -243,11 +249,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2501,
+      "i": 12597,
       "p": {
         "displayName": "jinru",
         "parent": {
-          "__i": 2500
+          "__i": 12596
         },
         "image": "assets/junminronghe/jinru.png",
         "rotation": 3.14159,
@@ -261,10 +267,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2502,
+      "i": 12598,
       "p": {
         "parent": {
-          "__i": 2500
+          "__i": 12596
         },
         "position": {
           "x": 817.30414,
@@ -279,10 +285,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2503,
+      "i": 12599,
       "p": {
         "parent": {
-          "__i": 2499
+          "__i": 12595
         },
         "position": {
           "x": 27.19249,
@@ -301,15 +307,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 2504,
+      "i": 12600,
       "p": {
         "displayName": "title",
         "parent": {
-          "__i": 2499
+          "__i": 12595
         },
         "image": "assets/junminronghe/title.png",
         "host": {
-          "__i": 2491
+          "__i": 12587
         },
         "position": {
           "x": 20.36189,
@@ -327,11 +333,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2505,
+      "i": 12601,
       "p": {
         "displayName": "介绍",
         "host": {
-          "__i": 2491
+          "__i": 12587
         },
         "position": {
           "x": 35.41874,
@@ -352,11 +358,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2506,
+      "i": 12602,
       "p": {
         "displayName": "kuang4",
         "parent": {
-          "__i": 2505
+          "__i": 12601
         },
         "image": "assets/junminronghe/kuang4.png",
         "position": {
@@ -373,11 +379,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2507,
+      "i": 12603,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 2505
+          "__i": 12601
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
@@ -402,10 +408,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2508,
+      "i": 12604,
       "p": {
         "host": {
-          "__i": 2492
+          "__i": 12588
         },
         "position": {
           "x": 79.34076,
@@ -428,13 +434,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 2509,
+      "i": 12605,
       "p": {
         "parent": {
-          "__i": 2508
+          "__i": 12604
         },
         "host": {
-          "__i": 2508
+          "__i": 12604
         },
         "position": {
           "x": 78.95563,
@@ -457,10 +463,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2510,
+      "i": 12606,
       "p": {
         "host": {
-          "__i": 2491
+          "__i": 12587
         },
         "position": {
           "x": 59.55017,
@@ -478,10 +484,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2511,
+      "i": 12607,
       "p": {
         "parent": {
-          "__i": 2510
+          "__i": 12606
         },
         "position": {
           "x": 20.74702,
@@ -504,10 +510,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2512,
+      "i": 12608,
       "p": {
         "parent": {
-          "__i": 2510
+          "__i": 12606
         },
         "position": {
           "x": 20.74702,
@@ -531,11 +537,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2513,
+      "i": 12609,
       "p": {
         "displayName": "line_left_second",
         "parent": {
-          "__i": 2510
+          "__i": 12606
         },
         "tag": "line_left_second",
         "position": {
@@ -558,11 +564,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2514,
+      "i": 12610,
       "p": {
         "displayName": "line_left_first",
         "parent": {
-          "__i": 2510
+          "__i": 12606
         },
         "tag": "line_left_first",
         "position": {
@@ -587,11 +593,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2515,
+      "i": 12611,
       "p": {
         "displayName": "line_right_first",
         "parent": {
-          "__i": 2510
+          "__i": 12606
         },
         "tag": "line_right_first",
         "position": {
@@ -615,11 +621,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2516,
+      "i": 12612,
       "p": {
         "displayName": "line_right_second",
         "parent": {
-          "__i": 2510
+          "__i": 12606
         },
         "tag": "line_right_second",
         "position": {
@@ -643,13 +649,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 2517,
+      "i": 12613,
       "p": {
         "displayName": "tk",
         "tag": "tk",
         "image": "symbols/junminronghe/tk.json",
         "host": {
-          "__i": 2491
+          "__i": 12587
         },
         "position": {
           "x": 59.55017,
@@ -667,10 +673,10 @@
     },
     {
       "c": "ht.Block",
-      "i": 2518,
+      "i": 12614,
       "p": {
         "host": {
-          "__i": 2491
+          "__i": 12587
         },
         "position": {
           "x": -846.69282,
@@ -688,10 +694,10 @@
     },
     {
       "c": "ht.Node",
-      "i": 2519,
+      "i": 12615,
       "p": {
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "background",
         "position": {
@@ -713,11 +719,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2520,
+      "i": 12616,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu",
         "position": {
@@ -738,10 +744,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2521,
+      "i": 12617,
       "p": {
         "parent": {
-          "__i": 2520
+          "__i": 12616
         },
         "position": {
           "x": -848.52544,
@@ -801,10 +807,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2522,
+      "i": 12618,
       "p": {
         "parent": {
-          "__i": 2520
+          "__i": 12616
         },
         "position": {
           "x": -848.55422,
@@ -856,10 +862,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2523,
+      "i": 12619,
       "p": {
         "parent": {
-          "__i": 2520
+          "__i": 12616
         },
         "position": {
           "x": -827.49979,
@@ -874,11 +880,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 2524,
+      "i": 12620,
       "p": {
         "displayName": "caidan",
         "parent": {
-          "__i": 2520
+          "__i": 12616
         },
         "image": "assets/junminronghe/caidan.png",
         "position": {
@@ -891,11 +897,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2525,
+      "i": 12621,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu1",
         "position": {
@@ -921,10 +927,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2526,
+      "i": 12622,
       "p": {
         "parent": {
-          "__i": 2525
+          "__i": 12621
         },
         "position": {
           "x": -848.63082,
@@ -984,10 +990,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2527,
+      "i": 12623,
       "p": {
         "parent": {
-          "__i": 2525
+          "__i": 12621
         },
         "position": {
           "x": -848.6596,
@@ -1039,10 +1045,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2528,
+      "i": 12624,
       "p": {
         "parent": {
-          "__i": 2525
+          "__i": 12621
         },
         "position": {
           "x": -841.23031,
@@ -1058,11 +1064,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2529,
+      "i": 12625,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu2",
         "position": {
@@ -1088,10 +1094,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2530,
+      "i": 12626,
       "p": {
         "parent": {
-          "__i": 2529
+          "__i": 12625
         },
         "position": {
           "x": -848.63082,
@@ -1151,10 +1157,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2531,
+      "i": 12627,
       "p": {
         "parent": {
-          "__i": 2529
+          "__i": 12625
         },
         "position": {
           "x": -848.6596,
@@ -1206,10 +1212,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2532,
+      "i": 12628,
       "p": {
         "parent": {
-          "__i": 2529
+          "__i": 12625
         },
         "position": {
           "x": -841.23031,
@@ -1225,11 +1231,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2533,
+      "i": 12629,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu3",
         "position": {
@@ -1255,10 +1261,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2534,
+      "i": 12630,
       "p": {
         "parent": {
-          "__i": 2533
+          "__i": 12629
         },
         "position": {
           "x": -848.63084,
@@ -1318,10 +1324,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2535,
+      "i": 12631,
       "p": {
         "parent": {
-          "__i": 2533
+          "__i": 12629
         },
         "position": {
           "x": -848.65962,
@@ -1373,10 +1379,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2536,
+      "i": 12632,
       "p": {
         "parent": {
-          "__i": 2533
+          "__i": 12629
         },
         "position": {
           "x": -841.23033,
@@ -1392,11 +1398,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2537,
+      "i": 12633,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu4",
         "position": {
@@ -1422,10 +1428,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2538,
+      "i": 12634,
       "p": {
         "parent": {
-          "__i": 2537
+          "__i": 12633
         },
         "position": {
           "x": -848.63086,
@@ -1485,10 +1491,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2539,
+      "i": 12635,
       "p": {
         "parent": {
-          "__i": 2537
+          "__i": 12633
         },
         "position": {
           "x": -848.65964,
@@ -1540,10 +1546,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2540,
+      "i": 12636,
       "p": {
         "parent": {
-          "__i": 2537
+          "__i": 12633
         },
         "position": {
           "x": -841.23035,
@@ -1559,11 +1565,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2541,
+      "i": 12637,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu5",
         "position": {
@@ -1593,10 +1599,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2542,
+      "i": 12638,
       "p": {
         "parent": {
-          "__i": 2541
+          "__i": 12637
         },
         "position": {
           "x": -848.63088,
@@ -1656,10 +1662,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2543,
+      "i": 12639,
       "p": {
         "parent": {
-          "__i": 2541
+          "__i": 12637
         },
         "position": {
           "x": -848.65966,
@@ -1711,10 +1717,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2544,
+      "i": 12640,
       "p": {
         "parent": {
-          "__i": 2541
+          "__i": 12637
         },
         "position": {
           "x": -841.23037,
@@ -1730,11 +1736,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2545,
+      "i": 12641,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu6",
         "position": {
@@ -1764,10 +1770,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2546,
+      "i": 12642,
       "p": {
         "parent": {
-          "__i": 2545
+          "__i": 12641
         },
         "position": {
           "x": -848.63085,
@@ -1827,10 +1833,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2547,
+      "i": 12643,
       "p": {
         "parent": {
-          "__i": 2545
+          "__i": 12641
         },
         "position": {
           "x": -848.65963,
@@ -1882,10 +1888,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2548,
+      "i": 12644,
       "p": {
         "parent": {
-          "__i": 2545
+          "__i": 12641
         },
         "position": {
           "x": -841.23034,
@@ -1901,11 +1907,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2549,
+      "i": 12645,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu7",
         "position": {
@@ -1935,10 +1941,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2550,
+      "i": 12646,
       "p": {
         "parent": {
-          "__i": 2549
+          "__i": 12645
         },
         "position": {
           "x": -848.63088,
@@ -1998,10 +2004,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2551,
+      "i": 12647,
       "p": {
         "parent": {
-          "__i": 2549
+          "__i": 12645
         },
         "position": {
           "x": -848.65966,
@@ -2053,10 +2059,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2552,
+      "i": 12648,
       "p": {
         "parent": {
-          "__i": 2549
+          "__i": 12645
         },
         "position": {
           "x": -841.23037,
@@ -2072,11 +2078,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2553,
+      "i": 12649,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu8",
         "position": {
@@ -2106,10 +2112,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2554,
+      "i": 12650,
       "p": {
         "parent": {
-          "__i": 2553
+          "__i": 12649
         },
         "position": {
           "x": -848.63083,
@@ -2169,10 +2175,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2555,
+      "i": 12651,
       "p": {
         "parent": {
-          "__i": 2553
+          "__i": 12649
         },
         "position": {
           "x": -848.65961,
@@ -2224,10 +2230,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2556,
+      "i": 12652,
       "p": {
         "parent": {
-          "__i": 2553
+          "__i": 12649
         },
         "position": {
           "x": -841.23032,
@@ -2243,11 +2249,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2557,
+      "i": 12653,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu9",
         "position": {
@@ -2277,10 +2283,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2558,
+      "i": 12654,
       "p": {
         "parent": {
-          "__i": 2557
+          "__i": 12653
         },
         "position": {
           "x": -848.86115,
@@ -2340,10 +2346,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2559,
+      "i": 12655,
       "p": {
         "parent": {
-          "__i": 2557
+          "__i": 12653
         },
         "position": {
           "x": -848.88993,
@@ -2395,10 +2401,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2560,
+      "i": 12656,
       "p": {
         "parent": {
-          "__i": 2557
+          "__i": 12653
         },
         "position": {
           "x": -841.46064,
@@ -2414,11 +2420,11 @@
     },
     {
       "c": "ht.Block",
-      "i": 2561,
+      "i": 12657,
       "p": {
         "displayName": "切换菜单",
         "parent": {
-          "__i": 2518
+          "__i": 12614
         },
         "tag": "menu10",
         "position": {
@@ -2448,10 +2454,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2562,
+      "i": 12658,
       "p": {
         "parent": {
-          "__i": 2561
+          "__i": 12657
         },
         "position": {
           "x": -847.86115,
@@ -2511,10 +2517,10 @@
     },
     {
       "c": "ht.Shape",
-      "i": 2563,
+      "i": 12659,
       "p": {
         "parent": {
-          "__i": 2561
+          "__i": 12657
         },
         "position": {
           "x": -847.88993,
@@ -2566,10 +2572,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 2564,
+      "i": 12660,
       "p": {
         "parent": {
-          "__i": 2561
+          "__i": 12657
         },
         "position": {
           "x": -840.46064,
@@ -2584,7 +2590,7 @@
       }
     }
   ],
-  "modified": "Tue Feb 23 2021 09:40:16 GMT+0800 (China Standard Time)",
+  "modified": "Fri Mar 19 2021 10:27:33 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -939.63811,
     "y": -515.56574,
