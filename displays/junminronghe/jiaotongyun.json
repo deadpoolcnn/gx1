@@ -1,0 +1,487 @@
+{
+  "v": "7.2.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 424,
+      "p": {
+        "displayName": "jiaotongyun-bj",
+        "image": "assets/junminronghe/jiaotongyun-bj.png",
+        "position": {
+          "x": 219,
+          "y": 238
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "2d.movable": false,
+        "fullscreen": "fill",
+        "fullscreen.lock": "v",
+        "fullscreen.gap": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 425,
+      "p": {
+        "position": {
+          "x": 219,
+          "y": -261
+        },
+        "width": 1920,
+        "height": 80
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 426,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 425
+        },
+        "image": "assets/junminronghe/title.png",
+        "position": {
+          "x": 219,
+          "y": -261
+        },
+        "width": 1920,
+        "height": 80
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 427,
+      "p": {
+        "displayName": "title-jiaotongyun",
+        "parent": {
+          "__i": 425
+        },
+        "image": "assets/junminronghe/title-jiaotongyun.png",
+        "position": {
+          "x": 219,
+          "y": -261
+        },
+        "width": 411,
+        "height": 44
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 428,
+      "p": {
+        "displayName": "left",
+        "host": {
+          "__i": 424
+        },
+        "position": {
+          "x": -464.62037,
+          "y": 238
+        },
+        "anchor": {
+          "x": 0.46082,
+          "y": 0.45081
+        },
+        "width": 465,
+        "height": 915
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left",
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 429,
+      "p": {
+        "displayName": "jiaotongyun-left",
+        "parent": {
+          "__i": 428
+        },
+        "image": "assets/junminronghe/jiaotongyun-left.png",
+        "position": {
+          "x": -446.40313,
+          "y": 283.01039
+        },
+        "width": 465,
+        "height": 915
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 430,
+      "p": {
+        "displayName": "yingyong-2",
+        "parent": {
+          "__i": 428
+        },
+        "image": "symbols/junminronghe/yingyong-2.json",
+        "position": {
+          "x": -460.62037,
+          "y": 581.10027
+        },
+        "width": 170,
+        "height": 60
+      },
+      "s": {
+        "layout.v": "bottom",
+        "layout.h": "left",
+        "2d.movable": false,
+        "interactive": true,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "onClick": "__ht__function(event, data, view) {\nwindow.open(\"https://59.211.9.66:8001/homePage.html\")\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "name": "点击进入"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 431,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 428
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -457.62037,
+          "y": -19.01145
+        },
+        "width": 303.71323,
+        "height": 127.6064
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "交通运输综合运行协调与应急指挥系统",
+        "ht.color": "#1f9fff",
+        "ht.font": "bold 32px sans-serif, Arial",
+        "ht.lineHeight": 48,
+        "ht.autoScalue": false,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 432,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 428
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -436.08347,
+          "y": 260.92046
+        },
+        "width": 326,
+        "height": 346.35963
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "系统集中展示公路、水路、铁路、民航、邮政、重点城市公共交通领域运行情况，同时实现对综合交通运输数据的汇聚分析、行业发展态势的综合研判，为政府和社会公众提供权威、及时、丰富的信息服务。",
+        "ht.color": "rgb(255,255,255)",
+        "ht.font": "24px sans-serif, Arial",
+        "ht.lineHeight": 48,
+        "ht.autoScalue": false,
+        "ht.textAlign": "left"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 433,
+      "p": {
+        "displayName": "jiantou",
+        "parent": {
+          "__i": 428
+        },
+        "image": "assets/junminronghe/jiantou.png",
+        "position": {
+          "x": -465.24661,
+          "y": 58.51128
+        },
+        "width": 33.74752,
+        "height": 32.37007
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 434,
+      "p": {
+        "displayName": "right",
+        "host": {
+          "__i": 424
+        },
+        "position": {
+          "x": 897.77534,
+          "y": 238
+        },
+        "anchor": {
+          "x": 0.53204,
+          "y": 0.45081
+        },
+        "width": 465,
+        "height": 915
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right",
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 435,
+      "p": {
+        "displayName": "jiaotongyun-right",
+        "parent": {
+          "__i": 434
+        },
+        "image": "assets/junminronghe/jiaotongyun-right.png",
+        "position": {
+          "x": 882.87792,
+          "y": 283.01039
+        },
+        "width": 465,
+        "height": 915
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 436,
+      "p": {
+        "displayName": "yingyong-2",
+        "parent": {
+          "__i": 434
+        },
+        "image": "symbols/junminronghe/yingyong-2.json",
+        "position": {
+          "x": 890.77534,
+          "y": 581.10027
+        },
+        "width": 170,
+        "height": 60
+      },
+      "s": {
+        "layout.h": "right",
+        "layout.v": "bottom",
+        "2d.movable": false,
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "onClick": "__ht__function(event, data, view) {\nwindow.open(\"http://59.211.9.68:8081/#/cloud_screen/comprehensiveMonitoring/list\")\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "name": "点击进入"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 437,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 434
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 882.87792,
+          "y": -19.01145
+        },
+        "width": 271.70981,
+        "height": 127.6064
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "公路水路安全畅通与应急指挥系统",
+        "ht.color": "#1f9fff",
+        "ht.font": "bold 32px sans-serif, Arial",
+        "ht.lineHeight": 48,
+        "ht.autoScalue": false,
+        "ht.textAlign": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 438,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 434
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 883.93035,
+          "y": 306.42046
+        },
+        "width": 334.17465,
+        "height": 437.35963
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "系统涵盖全区公路、水路、货\n运、重点城市公共交通等领\n域，通过信息技术支撑手段，实现全区公路水路运行情况的实时掌握以及交通突发事件的及时发现、有效处置，尽可能降低因事故灾难造成的经济损失和人员伤亡，保障经济社会的平稳、快速发展。",
+        "ht.color": "rgb(255,255,255)",
+        "ht.font": "24px sans-serif, Arial",
+        "ht.lineHeight": 48,
+        "ht.autoScalue": false,
+        "ht.textAlign": "left",
+        "ht.wordBreak": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 439,
+      "p": {
+        "displayName": "jiantou",
+        "parent": {
+          "__i": 434
+        },
+        "image": "assets/junminronghe/jiantou.png",
+        "position": {
+          "x": 875.40711,
+          "y": 58.51128
+        },
+        "width": 34.05839,
+        "height": 32.37007
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 440,
+      "p": {
+        "position": {
+          "x": 214.43292,
+          "y": -16.78196
+        },
+        "anchor": {
+          "x": 0.50213,
+          "y": 0.49846
+        },
+        "width": 673.57054,
+        "height": 331.41529
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 441,
+      "p": {
+        "displayName": "ft_border1",
+        "parent": {
+          "__i": 440
+        },
+        "image": "assets/feitingyun/ft_border1.png",
+        "position": {
+          "x": 213,
+          "y": -16.27159
+        },
+        "width": 673.57054,
+        "height": 331.41529
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 442,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 440
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 214.43292,
+          "y": -9.78196
+        },
+        "width": 586.42048,
+        "height": 310.43604
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      },
+      "a": {
+        "ht.content": "广西交通云系统汇集了公路水路安全畅通与应急指挥系统和综合运行协调与应急指挥系统的功能和特点，实现行业设施装备运行动态的实时掌握，完善安全畅通与应急处置数据资源体系的同时，加快形成综合交通运行监测、宏观决策、信息服务于应急指挥能力，实现综合通信调度能力，实现信息资源的共享。",
+        "ht.color": "#32d3eb",
+        "ht.font": "24px sans-serif, Arial",
+        "ht.lineHeight": 46,
+        "ht.autoScalue": false,
+        "ht.textAlign": "left"
+      }
+    }
+  ],
+  "modified": "Mon May 10 2021 10:32:38 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": -741,
+    "y": -302,
+    "width": 1920,
+    "height": 1080
+  }
+}
