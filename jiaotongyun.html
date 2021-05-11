@@ -24,6 +24,7 @@
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
+                dataModel.enableAnimation();
 
                 ht.Default.xhrLoad('displays/junminronghe/jiaotongyun.json', function(text) {
                     var json = ht.Default.parse(text);
@@ -32,6 +33,9 @@
                     graphView.fitContent(true);
 
                     showMenu(dataModel)
+                    ArrowAni(dataModel)
+                    huanAni(dataModel)
+                    centerAni(dataModel)
                 });
                 // 展示菜单
                 function showMenu(dm) {
@@ -70,6 +74,96 @@
                             item.s('2d.visible',false);
                         })
                         flag = 1;
+                    })
+                }
+                // 箭头动画
+                function ArrowAni(dm) {
+                    const leftArr = dataModel.getDataByTag('leftArr');
+                    const rightArr = dataModel.getDataByTag('rightArr');
+                    leftArr.setAnimation({
+                        hide: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0.4,
+                            duration: 1000,
+                            next: "show"
+                        },
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 0.4,
+                            to: 1,
+                            duration: 1000,
+                            next: "hide"
+                        },
+                        start: ['hide']
+                    })
+                    rightArr.setAnimation({
+                        hide: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0.4,
+                            duration: 2000,
+                            next: "show"
+                        },
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 0.4,
+                            to: 1,
+                            duration: 2000,
+                            next: "hide"
+                        },
+                        start: ['hide']
+                    })
+                }
+                // 圆环动画
+                function huanAni(dm) {
+                    const huan = dm.getDataByTag('huan');
+                    huan.setAnimation({
+                        large: {
+                            from: 1,
+                            to: 1.5,
+                            duration: 3000,
+                            repeat: true,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0.8,
+                            duration: 3000,
+                            repeat: true
+                        },
+                        start: ["show","large"]
+                    })
+                }
+                // 中间建筑动画
+                function centerAni(dm) {
+                    const center = dm.getDataByTag('center');
+                    center.setAnimation({
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0.7,
+                            next: 'opa',
+                            duration: 2000,
+                        },
+                        opa: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 0.7,
+                            to: 1,
+                            next: 'show',
+                            duration: 2000,
+                        },
+                        start: ['show']
                     })
                 }
             }
