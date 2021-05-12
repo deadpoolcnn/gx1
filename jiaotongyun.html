@@ -180,7 +180,25 @@
                             next: 'show',
                             duration: 2000,
                         },
-                        start: ['show']
+                        up: {
+                            from: 218,
+                            to: 240,
+                            duration: 2000,
+                            next: 'down',
+                            onUpdate: function (value) {
+                                this.setPosition(this.getPosition().x,value);
+                            }
+                        },
+                        down: {
+                            from: 240,
+                            to: 218,
+                            duration: 2000,
+                            next: 'up',
+                            onUpdate: function (value) {
+                                this.setPosition(this.getPosition().x,value);
+                            }
+                        },
+                        start: ['show','up']
                     })
                 }
                 // 流光动画
