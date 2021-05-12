@@ -843,39 +843,36 @@
     },
     {
       "c": "ht.Block",
-      "i": 435,
+      "i": 5621,
       "p": {
         "position": {
-          "x": 214.43292,
-          "y": -16.78196
+          "x": 248.64048,
+          "y": 5.34791
         },
         "anchor": {
-          "x": 0.50213,
-          "y": 0.49846
-        },
-        "width": 673.57054,
-        "height": 331.41529
+          "x": 0.59061,
+          "y": 0.49718
+        }
       },
       "s": {
-        "2d.movable": false,
         "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 436,
+      "i": 5622,
       "p": {
         "displayName": "ft_border1",
         "parent": {
-          "__i": 435
+          "__i": 5621
         },
         "image": "assets/feitingyun/ft_border1.png",
         "position": {
-          "x": 213,
-          "y": -16.27159
+          "x": 197.93734,
+          "y": 6.10365
         },
-        "width": 673.57054,
-        "height": 331.41529
+        "width": 559.57767,
+        "height": 268.06725
       },
       "s": {
         "2d.movable": false,
@@ -884,29 +881,28 @@
     },
     {
       "c": "ht.Node",
-      "i": 437,
+      "i": 5623,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 435
+          "__i": 5621
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 214.43292,
-          "y": -9.78196
+          "x": 197.93734,
+          "y": 11.10365
         },
-        "width": 586.42048,
-        "height": 310.43604
+        "width": 509.80444,
+        "height": 203.21527
       },
       "s": {
-        "2d.selectable": false,
-        "2d.movable": false
+        "2d.selectable": false
       },
       "a": {
         "ht.content": "广西交通云系统汇集了公路水路安全畅通与应急指挥系统和综合运行协调与应急指挥系统的功能和特点，实现行业设施装备运行动态的实时掌握，完善安全畅通与应急处置数据资源体系的同时，加快形成综合交通运行监测、宏观决策、信息服务于应急指挥能力，实现综合通信调度能力，实现信息资源的共享。",
-        "ht.color": "#32d3eb",
-        "ht.font": "24px sans-serif, Arial",
-        "ht.lineHeight": 46,
+        "ht.color": "#32D3EB",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.lineHeight": 40,
         "ht.autoScalue": false,
         "ht.textAlign": "left"
       }
@@ -968,6 +964,9 @@
           "__i": 438
         },
         "tag": "menu",
+        "host": {
+          "__i": 416
+        },
         "position": {
           "x": -661.72411,
           "y": -269.80362
@@ -2851,10 +2850,10 @@
         "displayName": "line1",
         "tag": "line1",
         "position": {
-          "x": 197.15098,
+          "x": 198.51557,
           "y": 627
         },
-        "width": 1104.49316,
+        "width": 1101.76397,
         "height": 176.94539,
         "segments": {
           "__a": [
@@ -2876,16 +2875,16 @@
               "y": 547.10449
             },
             {
-              "x": -355.0956,
-              "y": 668.84694
+              "x": -352.36641,
+              "y": 646.45535
             },
             {
               "x": -78.91013,
               "y": 691.14763
             },
             {
-              "x": 19.5916,
-              "y": 699.10118
+              "x": -3.85961,
+              "y": 703.4135
             },
             {
               "x": 120.40417,
@@ -2924,7 +2923,7 @@
       },
       "s": {
         "shape.background": null,
-        "shape.border.color": "rgba(150,150,150,0)",
+        "shape.border.color": "rgba(212,0,0,0)",
         "shape.border.width": 1
       }
     },
@@ -3162,7 +3161,7 @@
       }
     }
   ],
-  "modified": "Wed May 12 2021 17:32:27 GMT+0800 (China Standard Time)",
+  "modified": "Wed May 12 2021 18:10:46 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": -741,
     "y": -302,
