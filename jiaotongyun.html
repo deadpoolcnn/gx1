@@ -17,14 +17,20 @@
         <script src='libs/core/ht-ui.js'></script>
         <script src='libs/plugin/ht-vector.js'></script>
         <script src="libs/plugin/ht-animation.js"></script>
+        <script src="libs/plugin/ht-flow.js"></script>
 
         <script>
             var flag = 1;
+            var img = ht.Default.setImage(
+                "light",
+                "img/light.png"
+            );
             function init() {
                 dataModel = new ht.DataModel();
                 graphView = new ht.graph.GraphView(dataModel);
                 graphView.addToDOM();
                 dataModel.enableAnimation();
+                graphView.enableFlow();
 
                 ht.Default.xhrLoad('displays/junminronghe/jiaotongyun.json', function(text) {
                     var json = ht.Default.parse(text);
@@ -34,8 +40,10 @@
 
                     showMenu(dataModel)
                     ArrowAni(dataModel)
-                    huanAni(dataModel)
+                    //huanAni(dataModel)
                     centerAni(dataModel)
+                    lineAni(dataModel)
+                    chartAni(dataModel)
                 });
                 // 展示菜单
                 function showMenu(dm) {
@@ -127,7 +135,16 @@
                             from: 1,
                             to: 1.5,
                             duration: 3000,
-                            repeat: true,
+                            next: 'small',
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        small: {
+                            from: 1.5,
+                            to: 1,
+                            duration: 3000,
+                            next: 'large',
                             onUpdate: function (value) {
                                 this.setScale(value,value);
                             }
@@ -151,19 +168,185 @@
                             property: "opacity",
                             accessType: "style",
                             from: 1,
-                            to: 0.7,
+                            to: 0.5,
                             next: 'opa',
                             duration: 2000,
                         },
                         opa: {
                             property: "opacity",
                             accessType: "style",
-                            from: 0.7,
+                            from: 0.5,
                             to: 1,
                             next: 'show',
                             duration: 2000,
                         },
                         start: ['show']
+                    })
+                }
+                // 流光动画
+                function lineAni(dm) {
+                    const line1 = dm.getDataByTag('line1');
+                    const line2 = dm.getDataByTag('line2');
+                    const line = dm.getDataByTag('line');
+                    line1.s('flow',true);
+                    line1.s("flow.element.count", 1);
+                    line1.s("flow.element.space", 30);
+                    line1.s("flow.step",8);
+                    line1.s("flow.element.max", 100);
+                    line1.s("flow.element.min", 100);
+                    line1.s("flow.element.image", "light");
+                    line1.s("flow.element.shadow.visible", false);
+                    line1.s("flow.element.image", "light");
+                    line1.s("flow.element.autorotate", true);
+
+                    line2.s('flow',true);
+                    line2.s('flow.reverse',true);
+                    line2.s("flow.element.count", 1);
+                    line2.s("flow.element.space", 30);
+                    line2.s("flow.step",6);
+                    line2.s("flow.element.max", 100);
+                    line2.s("flow.element.min", 100);
+                    line2.s("flow.element.image", "light");
+                    line2.s("flow.element.shadow.visible", false);
+                    line2.s("flow.element.image", "light");
+                    line2.s("flow.element.autorotate", true);
+
+                    line.s('flow',true);
+                }
+                // 高度动画
+                function chartAni(dm) {
+                    var chart = [];
+                    for (var i=1; i<6; i++) {
+                        chart.push(dm.getDataByTag('chart'+i));
+                    }
+                    /*chart.map(item=>{
+                        console.log(item);
+                        item.setAnimation({
+                            long: {
+                                from: 1,
+                                to: 1.5,
+                                duration: 2000,
+                                next: 'small',
+                                onUpdate: function (value) {
+                                    this.setScaleY(value)
+                                }
+                            },
+                            small: {
+                                from: 1.5,
+                                to: 1,
+                                duration: 2000,
+                                next: 'long',
+                                onUpdate: function (value) {
+                                    this.setScaleY(value)
+                                }
+                            },
+                            start: ['long']
+                        })
+                    })*/
+                    chart[0].setAnimation({
+                        long: {
+                            from: 1,
+                            to: 1.5,
+                            duration: 2000,
+                            next: 'small',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        small: {
+                            from: 1.5,
+                            to: 1,
+                            duration: 2000,
+                            next: 'long',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        start: ['long']
+                    })
+                    chart[1].setAnimation({
+                        long: {
+                            from: 0.6,
+                            to: 1.1,
+                            duration: 2000,
+                            next: 'small',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        small: {
+                            from: 1.1,
+                            to: 0.6,
+                            duration: 2000,
+                            next: 'long',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        start: ['long']
+                    })
+                    chart[2].setAnimation({
+                        long: {
+                            from: 0.5,
+                            to: 1.2,
+                            duration: 2000,
+                            next: 'small',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        small: {
+                            from: 1.2,
+                            to: 0.5,
+                            duration: 2000,
+                            next: 'long',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        start: ['long']
+                    })
+                    chart[3].setAnimation({
+                        long: {
+                            from: 1,
+                            to: 1.8,
+                            duration: 2000,
+                            next: 'small',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        small: {
+                            from: 1.8,
+                            to: 1,
+                            duration: 2000,
+                            next: 'long',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        start: ['long']
+                    })
+                    chart[4].setAnimation({
+                        long: {
+                            from: 0.7,
+                            to: 1.5,
+                            duration: 2000,
+                            next: 'small',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        small: {
+                            from: 1.5,
+                            to: 0.7,
+                            duration: 2000,
+                            next: 'long',
+                            onUpdate: function (value) {
+                                this.setScaleY(value)
+                            }
+                        },
+                        start: ['long']
                     })
                 }
             }
