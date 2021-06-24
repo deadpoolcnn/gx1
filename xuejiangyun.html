@@ -41,20 +41,35 @@
                 videoPlay(dataModel)
                 // zhibiaoAni(dataModel) // 指标逐渐显现动画执行一次
                 hexagonAni(dataModel) // 六边形动画
-                lineFlowAni(dataModel)
+                // lineFlowAni(dataModel)
                 showMenu(dataModel)
                 tabChange(dataModel);
                 moreInfo(dataModel);
+                moreVideo(dataModel);
             });
         }
 
         function videoPlay(dm) {
             const video = dm.getDataByTag("video");
+            const video1 = dm.getDataByTag("video1");
+            const video2 = dm.getDataByTag("video2");
+            const video3 = dm.getDataByTag("video3");
+            const video4 = dm.getDataByTag("video4");
             const bofang = dm.getDataByTag("bofang");
+            const bofang1 = dm.getDataByTag("bofang1");
+            const bofang2 = dm.getDataByTag("bofang2");
+            const bofang3 = dm.getDataByTag("bofang3");
+            const bofang4 = dm.getDataByTag("bofang4");
             const shipin = dm.getDataByTag("xuejiangyun");
+            const page1 = dm.getDataByTag('page1');
+            const page2 = dm.getDataByTag('page2');
+            const page3 = dm.getDataByTag('page3');
+            const page4 = dm.getDataByTag('page4');
+            const shipinkuang = dm.getDataByTag('shipinkuang');
             bofang.s('onClick', () => {
                 bofang.s('2d.visible', false);
                 shipin.s('2d.visible', false);
+                shipinkuang.s('2d.visible',false);
                 video.s('2d.visible', true);
                 video.a('src', 'video/xuejiangyun.m4v')
                 video.a('status', '2');
@@ -62,9 +77,42 @@
             shipin.s('onClick', () => {
                 bofang.s('2d.visible', false);
                 shipin.s('2d.visible', false);
+                shipinkuang.s('2d.visible',false);
                 video.s('2d.visible', true);
                 video.a('src', 'video/xuejiangyun.m4v')
                 video.a('status', '2');
+            })
+            bofang1.s('onClick', () => {
+                bofang1.s('2d.visible', false);
+                page1.s('2d.visible', false);
+                //shipinkuang.s('2d.visible',false);
+                video1.s('2d.visible', true);
+                video1.a('src', 'video/xuejiangyun01.mp4')
+                video1.a('status', '2');
+            })
+            bofang2.s('onClick', () => {
+                bofang2.s('2d.visible', false);
+                page2.s('2d.visible', false);
+                // shipinkuang.s('2d.visible',false);
+                video2.s('2d.visible', true);
+                video2.a('src', 'video/xuejiangyun02.mp4')
+                video2.a('status', '2');
+            })
+            bofang3.s('onClick', () => {
+                bofang3.s('2d.visible', false);
+                page3.s('2d.visible', false);
+                // shipinkuang.s('2d.visible',false);
+                video3.s('2d.visible', true);
+                video3.a('src', 'video/xuejiangyun03.mp4')
+                video3.a('status', '2');
+            })
+            bofang4.s('onClick', () => {
+                bofang4.s('2d.visible', false);
+                page4.s('2d.visible', false);
+                // shipinkuang.s('2d.visible',false);
+                video4.s('2d.visible', true);
+                video4.a('src', 'video/xuejiangyun04.mp4')
+                video4.a('status', '2');
             })
         }
 
@@ -486,10 +534,57 @@
                 modelBtn.s('2d.visible',false);
             })
         }
+        // 更多视频
+        function moreVideo(dm) {
+            const gengduo = dm.getDataByTag('gengduo');
+            const shipintc = dm.getDataByTag('shipintc');
+            const videoBtn = dm.getDataByTag('videoBtn');
+            const video = dm.getDataByTag("video");
+            const video1 = dm.getDataByTag("video1");
+            const video2 = dm.getDataByTag("video2");
+            const video3 = dm.getDataByTag("video3");
+            const video4 = dm.getDataByTag("video4");
+            const bofang1 = dm.getDataByTag("bofang1");
+            const bofang2 = dm.getDataByTag("bofang2");
+            const bofang3 = dm.getDataByTag("bofang3");
+            const bofang4 = dm.getDataByTag("bofang4");
+            const page1 = dm.getDataByTag('page1');
+            const page2 = dm.getDataByTag('page2');
+            const page3 = dm.getDataByTag('page3');
+            const page4 = dm.getDataByTag('page4');
+            gengduo.s('onClick',()=>{
+                shipintc.s('2d.visible',true);
+                videoBtn.s('2d.visible',true);
+                bofang1.s('2d.visible',true);
+                bofang2.s('2d.visible',true);
+                bofang3.s('2d.visible',true);
+                bofang4.s('2d.visible',true);
+                video.s('2d.visible',false);
+                page1.s('2d.visible',true);
+                page2.s('2d.visible',true);
+                page3.s('2d.visible',true);
+                page4.s('2d.visible',true);
+
+            })
+            videoBtn.s('onClick',()=>{
+                video1.a('status','1');
+                video2.a('status','1');
+                video3.a('status','1');
+                video4.a('status','1');
+                video2.a('src', '')
+                shipintc.s('2d.visible',false);
+                videoBtn.s('2d.visible',false);
+                video.s('2d.visible',true);
+                video1.s('2d.visible',false);
+                video2.s('2d.visible',false);
+                video3.s('2d.visible',false);
+                video4.s('2d.visible',false);
+            })
+        }
     </script>
 </head>
 <body onload='setTimeout(init, 300)'>
-    <div id="certify">
+<!--    <div id="certify">
         <div class="swiper-container">
 
             <div class="swiper-wrapper">
@@ -521,7 +616,7 @@
          */
         let videos = document.getElementsByTagName('video');
         function pauseAll(){
-            for (var j = videos.length - 1; j >= 0; j--) {
+            for (var j = videos.length - 1; j >= 0; j&#45;&#45;) {
                 videos[j].pause();
             }
         };
@@ -585,6 +680,6 @@
             }
 
         })
-    </script>
+    </script>-->
 </body>
 </html>
