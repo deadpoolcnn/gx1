@@ -1,0 +1,58 @@
+{
+  "modified": "Tue Jun 22 2021 09:48:14 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    },
+    {
+      "attr": "state",
+      "valueType": "String",
+      "name": "状态"
+    }
+  ],
+  "width": 180,
+  "height": 64,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"symbols/junminronghe/table_n2.json\";\nif(type == '1'){\n    state = \"symbols/junminronghe/table_n2.json\";\n}\nif(type == '2'){\n    state = \"symbols/junminronghe/table_h2.json\";\n}\n\nreturn state;\n}",
+        "value": "symbols/junminronghe/table_n2.json"
+      },
+      "pixelPerfect": true,
+      "displayName": "bgtable_n",
+      "rect": [
+        0,
+        0.37685,
+        180,
+        64
+      ]
+    },
+    {
+      "type": "components/ht/text/textBox.json",
+      "shadowColor": "rgba(17,173,194,0.80)",
+      "shadowOffsetX": 2,
+      "displayName": "textBox",
+      "rect": [
+        7.16725,
+        2.21358,
+        163.89359,
+        59.85679
+      ],
+      "content": {
+        "func": "attr@name",
+        "value": "全自动化的血浆集中和智能存取"
+      },
+      "autoScale": false,
+      "font": "16px sans-serif, Arial",
+      "textAlign": "center",
+      "color": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\r\nvar state = \"rgb(49,210,235)\";\r\nif(type == '1'){\r\n    state = \"rgb(49,210,235)\";\r\n}\r\nif(type == '2'){\r\n    state = \"rgb(255,255,255)\";\r\n}\r\nreturn state;\n}",
+        "value": "#32d3eb"
+      },
+      "lineHeight": 24
+    }
+  ]
+}

@@ -33,7 +33,7 @@
                 dataModel.enableAnimation();
                 graphView.enableFlow();
 
-                ht.Default.xhrLoad('displays/junminronghe/beidou.json', function(text) {
+                ht.Default.xhrLoad('displays/junminronghe/beidouxin.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
@@ -43,6 +43,8 @@
                     lightEarth(dataModel);
                     gsAni(dataModel);
                     showMenu(dataModel);
+                    moreInfo(dataModel);
+                    itemInfo(dataModel);
                 });
             }
             
@@ -287,6 +289,93 @@
                     flag = 1;
                 })
             }
+            // 更多信息
+            function moreInfo(dm) {
+                const moreBtn = dm.getDataByTag('moreBtn');
+                const jieshaotc = dm.getDataByTag('jieshaotc');
+                const jieshaotcBtn = dm.getDataByTag('jieshaotcBtn');
+                moreBtn.s('onClick',()=>{
+                    jieshaotc.s('2d.visible',true);
+                    jieshaotcBtn.s('2d.visible',true);
+                })
+                jieshaotcBtn.s('onClick',()=>{
+                    jieshaotc.s('2d.visible',false);
+                    jieshaotcBtn.s('2d.visible',false);
+                })
+            }
+            // 中间详情
+            function itemInfo(dm) {
+                const refinementManagement = dm.getDataByTag('refinementManagement');
+                const shipsManagement = dm.getDataByTag('shipsManagement');
+                const carSupervise = dm.getDataByTag('carSupervise');
+                const agricultureSystem = dm.getDataByTag('agricultureSystem');
+                const sugarIndustrySystem = dm.getDataByTag('sugarIndustrySystem');
+
+                const xitongjieshaotc = dm.getDataByTag('xitongjieshaotc');
+                const itemBtn = dm.getDataByTag('itemBtn');
+                const chengshi = dm.getDataByTag('chengshi');
+                const xijiang = dm.getDataByTag('xijiang');
+                const dongmeng = dm.getDataByTag('dongmeng');
+                const nongji = dm.getDataByTag('nongji');
+                const tangye = dm.getDataByTag('tangye');
+
+                refinementManagement.s('onClick',()=>{
+                    // 显示弹框
+                    xitongjieshaotc.s('2d.visible',true);
+                    itemBtn.s('2d.visible',true);
+                    chengshi.s('2d.visible',true);
+                    xijiang.s('2d.visible',false);
+                    dongmeng.s('2d.visible',false);
+                    nongji.s('2d.visible',false);
+                    tangye.s('2d.visible',false);
+                })
+                shipsManagement.s('onClick',()=>{
+                    xitongjieshaotc.s('2d.visible',true);
+                    itemBtn.s('2d.visible',true);
+                    chengshi.s('2d.visible',false);
+                    xijiang.s('2d.visible',true);
+                    dongmeng.s('2d.visible',false);
+                    nongji.s('2d.visible',false);
+                    tangye.s('2d.visible',false);
+                })
+                carSupervise.s('onClick',()=>{
+                    xitongjieshaotc.s('2d.visible',true);
+                    itemBtn.s('2d.visible',true);
+                    chengshi.s('2d.visible',false);
+                    xijiang.s('2d.visible',false);
+                    dongmeng.s('2d.visible',true);
+                    nongji.s('2d.visible',false);
+                    tangye.s('2d.visible',false);
+                })
+                agricultureSystem.s('onClick',()=>{
+                    xitongjieshaotc.s('2d.visible',true);
+                    itemBtn.s('2d.visible',true);
+                    chengshi.s('2d.visible',false);
+                    xijiang.s('2d.visible',false);
+                    dongmeng.s('2d.visible',false);
+                    nongji.s('2d.visible',true);
+                    tangye.s('2d.visible',false);
+                })
+                sugarIndustrySystem.s('onClick',()=>{
+                    xitongjieshaotc.s('2d.visible',true);
+                    itemBtn.s('2d.visible',true);
+                    chengshi.s('2d.visible',false);
+                    xijiang.s('2d.visible',false);
+                    dongmeng.s('2d.visible',false);
+                    nongji.s('2d.visible',false);
+                    tangye.s('2d.visible',true);
+                })
+                itemBtn.s('onClick',()=>{
+                    xitongjieshaotc.s('2d.visible',false);
+                    itemBtn.s('2d.visible',false);
+                    chengshi.s('2d.visible',false);
+                    xijiang.s('2d.visible',false);
+                    dongmeng.s('2d.visible',false);
+                    nongji.s('2d.visible',false);
+                    tangye.s('2d.visible',false);
+                })
+            }
+
         </script>
     </head>
     <body onload='setTimeout(init, 300)'>

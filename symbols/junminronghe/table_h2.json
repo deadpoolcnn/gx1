@@ -1,0 +1,79 @@
+{
+  "modified": "Mon Jun 21 2021 16:00:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    }
+  ],
+  "width": 180,
+  "height": 64,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/shangzhuang/bgtable_n.png",
+      "pixelPerfect": true,
+      "displayName": "bgtable_n",
+      "rect": [
+        0,
+        0,
+        180,
+        63.50734
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(9,29,158,0.6)",
+      "borderColor": "rgb(5,252,248)",
+      "gradientColor": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('state');\nvar state = \"rgb(84,255,198)\";\nif(type == '4'){\n    state = \"rgb(255,0,77)\";\n}\nif(type == '3'){\n    state = \"rgb(107,218,255)\";\n}\nif(type == '2'){\n    state = \"rgb(247,247,22)\";\n}\nif(type == '1'){\n    state = \"rgb(84,255,198)\";\n}\nreturn state;\n}",
+        "value": null
+      },
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        6.79437,
+        2.21358,
+        3.34612,
+        3.71019,
+        3.34612,
+        12.92229,
+        5.23732,
+        14.4538,
+        5.23732,
+        49.44181,
+        3.34612,
+        52.15737,
+        3.34612,
+        59.94266,
+        6.79437,
+        62.07037,
+        45.29578,
+        62.07037,
+        49.82536,
+        60.57571,
+        132.26037,
+        60.57571,
+        137.4145,
+        62.07037,
+        173.22611,
+        62.07037,
+        177.1912,
+        59.94266,
+        177.1912,
+        52.15737,
+        174.87389,
+        50.64979,
+        174.87389,
+        14.4538,
+        177.1912,
+        12.15433,
+        177.1912,
+        4.21569,
+        173.22611,
+        2.21358
+      ]
+    }
+  ]
+}

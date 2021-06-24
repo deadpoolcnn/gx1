@@ -1,0 +1,128 @@
+{
+  "modified": "Wed Jun 23 2021 16:52:03 GMT+0800 (China Standard Time)",
+  "dataBindings": [
+    {
+      "attr": "ht.dataSource",
+      "valueType": "Object",
+      "name": "UIDataSource"
+    },
+    {
+      "attr": "ht.minScale",
+      "valueType": "Percentage",
+      "name": "UIMinScale"
+    },
+    {
+      "attr": "ht.minOpacity",
+      "valueType": "Opacity",
+      "name": "UIMinOpacity"
+    },
+    {
+      "attr": "ht.vertical",
+      "valueType": "Boolean",
+      "name": "editor.vertical"
+    },
+    {
+      "attr": "ht.itemWidth",
+      "valueType": "Number",
+      "name": "UIItemWidth"
+    },
+    {
+      "attr": "ht.itemHeight",
+      "valueType": "Number",
+      "name": "UIItemHeigth"
+    },
+    {
+      "attr": "ht.index",
+      "valueType": "PositiveNumber",
+      "name": "UISelectIndex"
+    },
+    {
+      "attr": "ht.drawItem",
+      "valueType": "Function",
+      "name": "UIDrawItem",
+      "extraInfo": {
+        "arguments": [
+          "g",
+          "item",
+          "rect",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "ht.onClickItem",
+      "valueType": "Function",
+      "name": "UIOnClick",
+      "extraInfo": {
+        "arguments": [
+          "item",
+          "index",
+          "data",
+          "view"
+        ]
+      }
+    }
+  ],
+  "width": 138,
+  "height": 200,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "components/ht/ui/carousel.json",
+      "displayName": "carousel",
+      "rect": [
+        0,
+        0,
+        138,
+        200
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onDown.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onLeave.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onScroll.apply(this, arguments);\n}",
+      "dataSource": {
+        "func": "attr@ht.dataSource",
+        "value": [
+          "HT for Web",
+          "Hightopo",
+          "HT Vector",
+          "HT 2D Editor"
+        ]
+      },
+      "minScale": {
+        "func": "attr@ht.minScale",
+        "value": 0.7
+      },
+      "minOpacity": {
+        "func": "attr@ht.minOpacity",
+        "value": 0.5
+      },
+      "vertical": {
+        "func": "attr@ht.vertical",
+        "value": true
+      },
+      "itemWidth": {
+        "func": "attr@ht.itemWidth",
+        "value": 100
+      },
+      "itemHeight": {
+        "func": "attr@ht.itemHeight",
+        "value": 30
+      },
+      "index": {
+        "func": "attr@ht.index",
+        "value": 0
+      },
+      "drawItem": {
+        "func": "attr@ht.drawItem"
+      },
+      "onClickItem": {
+        "func": "attr@ht.onClickItem"
+      }
+    }
+  ]
+}

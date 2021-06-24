@@ -1,0 +1,1169 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "zoomable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 7604,
+      "p": {
+        "displayName": "bj",
+        "tag": "bj",
+        "image": "assets/junminronghe/bj.png",
+        "position": {
+          "x": 27.19249,
+          "y": 35.06205
+        },
+        "width": 1922.57458,
+        "height": 1113.08898
+      },
+      "s": {
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "fullscreen.lock": "v",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7605,
+      "p": {
+        "displayName": "title",
+        "image": "assets/junminronghe/title.png",
+        "host": {
+          "__i": 7604
+        },
+        "position": {
+          "x": 27.19249,
+          "y": -481.48244
+        },
+        "width": 1920,
+        "height": 80
+      },
+      "s": {
+        "2d.movable": false,
+        "fullscreen.gap": 0,
+        "2d.selectable": false,
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 7606,
+      "p": {
+        "displayName": "系统展示"
+      },
+      "s": {
+        "editor.folder": true,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7607,
+      "p": {
+        "displayName": "底",
+        "parent": {
+          "__i": 7606
+        },
+        "position": {
+          "x": 13.53775,
+          "y": 388.75
+        },
+        "width": 832,
+        "height": 288.5
+      },
+      "s": {
+        "2d.movable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7608,
+      "p": {
+        "displayName": "gh2",
+        "parent": {
+          "__i": 7607
+        },
+        "tag": "gh2",
+        "image": "assets/junminronghe/gh2.png",
+        "position": {
+          "x": 13.53775,
+          "y": 426.5
+        },
+        "width": 832,
+        "height": 213
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7609,
+      "p": {
+        "displayName": "gh1",
+        "parent": {
+          "__i": 7607
+        },
+        "tag": "gh1",
+        "image": "assets/junminronghe/gh1.png",
+        "position": {
+          "x": 13.53775,
+          "y": 426.5
+        },
+        "width": 696,
+        "height": 159
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7610,
+      "p": {
+        "displayName": "gs",
+        "parent": {
+          "__i": 7607
+        },
+        "tag": "gs",
+        "image": "assets/junminronghe/gs.png",
+        "position": {
+          "x": 3.53775,
+          "y": 364
+        },
+        "width": 654,
+        "height": 239
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 7611,
+      "p": {
+        "displayName": "中间"
+      },
+      "s": {
+        "editor.folder": true,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7612,
+      "p": {
+        "displayName": "border",
+        "image": "assets/beidouyun/border.png",
+        "position": {
+          "x": 15.02154,
+          "y": 278.18094
+        }
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7613,
+      "p": {
+        "displayName": "system_screen",
+        "image": "assets/beidouyun/system_screen.png",
+        "position": {
+          "x": 23.13554,
+          "y": 285.02141
+        },
+        "width": 330.88318,
+        "height": 204.68094
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7614,
+      "p": {
+        "displayName": "title_beidou",
+        "image": "assets/beidouyun/title_beidou.png",
+        "position": {
+          "x": 15.02154,
+          "y": -474.98244
+        }
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7615,
+      "p": {
+        "displayName": "进入云平台",
+        "host": {
+          "__i": 7604
+        },
+        "position": {
+          "x": 870.65367,
+          "y": -480.48243
+        },
+        "width": 176.80204,
+        "height": 50
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\n//alert('页面开发中..')\n// var dataModel = view.dm();\n// var tk = dataModel.getDataByTag('tk');\n// console.log(tk);\n// tk.setAnimation({\n//     show: {\n//         property: \"opacity\",\n//         accessType: \"style\", \n//         from: 0, \n//         to: 1,\n//         duration: 300,\n\n//     },\n//     start: [\"show\"]\n// })\nwindow.open(\"http://10.10.1.48:8080/stateapp/index.html\")\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7616,
+      "p": {
+        "displayName": "jinru",
+        "parent": {
+          "__i": 7615
+        },
+        "image": "assets/junminronghe/jinru.png",
+        "rotation": 3.14159,
+        "position": {
+          "x": 926.05465,
+          "y": -480.48244
+        },
+        "width": 66,
+        "height": 26
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 7617,
+      "p": {
+        "parent": {
+          "__i": 7615
+        },
+        "position": {
+          "x": 832.25263,
+          "y": -480.48244
+        }
+      },
+      "s": {
+        "text": "进入云平台",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "bold 20px Microsoft YaHei",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7618,
+      "p": {
+        "displayName": "zhongjianguang",
+        "image": "assets/junminronghe/zhongjianguang.png",
+        "position": {
+          "x": 23.13554,
+          "y": -101.91404
+        }
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7619,
+      "p": {
+        "displayName": "介绍",
+        "position": {
+          "x": 28.53775,
+          "y": -374.31035
+        },
+        "anchor": {
+          "x": 0.50278,
+          "y": 0.3901
+        },
+        "width": 1890.67674,
+        "height": 173.62897
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7620,
+      "p": {
+        "displayName": "kuang-dili",
+        "parent": {
+          "__i": 7619
+        },
+        "image": "assets/junminronghe/kuang-dili.png",
+        "position": {
+          "x": 23.27937,
+          "y": -352.11219
+        },
+        "width": 1890.67674,
+        "height": 167.39631
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7621,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 7619
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 32.42912,
+          "y": -342.98899
+        },
+        "width": 1787.25105,
+        "height": 149.1499
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      },
+      "a": {
+        "ht.content": "广西北斗综合位置服务平台以\"北斗赋能、平台加力\"为发展理念，以时间、空间关系数据应用为基础，集成云计算、大数据、物联网、地理信息技术，支撑多种行业信息化应用场景，提供\"北斗+\"行业应用综合服务，发展行业\n终端新用户，推动原有GPS用户开展基于北斗兼容终端改造或替换，支持百万套级别北斗终端接入；同时，通过\"北斗+\"在智慧城市、精细农业、边境管控等领域的示范工程建设与示范成果推广、北斗位置服务数据共享、北斗典型应用案例展览展示和教育培训、北斗东盟行等，立足广西，构建广西北斗应用生态圈，带动广西行业的产业化升级，助力北斗加快走出国门，辐射东盟，服务于\"一带一路\"建设和\"数字广西\"建设。平台提供多种服务能力，为各行业赋能。",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7622,
+      "p": {
+        "displayName": "sanjiao",
+        "parent": {
+          "__i": 7619
+        },
+        "image": "assets/junminronghe/sanjiao.png",
+        "position": {
+          "x": -896.78703,
+          "y": -428.48244
+        },
+        "width": 50.54394,
+        "height": 27.12114
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7623,
+      "p": {
+        "displayName": "fanhui",
+        "host": {
+          "__i": 7604
+        },
+        "position": {
+          "x": -869.96216,
+          "y": -480.48243
+        },
+        "anchor": {
+          "x": 0.20349,
+          "y": 0.5
+        },
+        "width": 172.00018,
+        "height": 69.12484
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = './beidou.html'\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\"\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\"\n}"
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7624,
+      "p": {
+        "displayName": "arrow",
+        "parent": {
+          "__i": 7623
+        },
+        "image": "symbols/junminronghe/arrow.json",
+        "rotation": 3.14159,
+        "position": {
+          "x": -869.96216,
+          "y": -480.48243
+        },
+        "width": 70,
+        "height": 69.12465
+      },
+      "s": {
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href = \"zb2.html\"\n}",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 7625,
+      "p": {
+        "parent": {
+          "__i": 7623
+        },
+        "position": {
+          "x": -782.96207,
+          "y": -480.48244
+        }
+      },
+      "s": {
+        "text": "返回",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "20px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7626,
+      "p": {
+        "displayName": "gaojingdu",
+        "position": {
+          "x": -668.96225,
+          "y": -130.81833
+        },
+        "width": 500,
+        "height": 244
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7627,
+      "p": {
+        "displayName": "kuang1",
+        "parent": {
+          "__i": 7626
+        },
+        "image": "assets/junminronghe/kuang1.png",
+        "position": {
+          "x": -668.96225,
+          "y": -130.81833
+        },
+        "width": 500,
+        "height": 244
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7628,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 7626
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -667.89222,
+          "y": -106.68713
+        },
+        "width": 457.78962,
+        "height": 149.1499
+      },
+      "s": {
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7629,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 7626
+        },
+        "image": "symbols/junminronghe/title.json",
+        "position": {
+          "x": -668.96225,
+          "y": -203.42515
+        },
+        "width": 444,
+        "height": 25
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7630,
+      "p": {
+        "displayName": "gaojingdu",
+        "parent": {
+          "__i": 7626
+        },
+        "image": "assets/junminronghe/gaojingdu.png",
+        "position": {
+          "x": -804.96225,
+          "y": -221.11502
+        },
+        "width": 160,
+        "height": 48
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7631,
+      "p": {
+        "displayName": "dilixinxi",
+        "position": {
+          "x": -668.96225,
+          "y": 143.18167
+        },
+        "width": 500,
+        "height": 290
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7632,
+      "p": {
+        "displayName": "jskuang2",
+        "parent": {
+          "__i": 7631
+        },
+        "image": "assets/junminronghe/jskuang2.png",
+        "position": {
+          "x": -668.96225,
+          "y": 143.18167
+        },
+        "width": 500,
+        "height": 290
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7633,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 7631
+        },
+        "image": "symbols/junminronghe/title.json",
+        "position": {
+          "x": -668.96225,
+          "y": 48.89172
+        },
+        "width": 444,
+        "height": 25
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7634,
+      "p": {
+        "displayName": "dili",
+        "parent": {
+          "__i": 7631
+        },
+        "image": "assets/junminronghe/dili.png",
+        "position": {
+          "x": -808.89222,
+          "y": 37.39172
+        },
+        "width": 160,
+        "height": 48
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7635,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 7631
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -672.40965,
+          "y": 169.78633
+        },
+        "width": 450.89481,
+        "height": 216.78922
+      },
+      "s": {
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "基于云存储与云计算技术的全功能交通地理信息服务系统。平台配备高性能GIS服务引擎，可以根据客户需求为其扩展出完整的交通地理信息服务应用。平台以云服务方式提供，可以在任何时间，任何地点使用浏览器或移动客户端接入。通过这些方便易用的特性，平台广泛服务于交通行业各类政府、企业用户。",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7636,
+      "p": {
+        "displayName": "wulianyun",
+        "position": {
+          "x": -668.96225,
+          "y": 417.02141
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.48939
+        },
+        "width": 500,
+        "height": 255.42083
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7637,
+      "p": {
+        "displayName": "jskuang3",
+        "parent": {
+          "__i": 7636
+        },
+        "image": "assets/junminronghe/jskuang3.png",
+        "position": {
+          "x": -668.96225,
+          "y": 417.02141
+        },
+        "width": 500,
+        "height": 250
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7638,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 7636
+        },
+        "image": "symbols/junminronghe/title.json",
+        "position": {
+          "x": -682.96225,
+          "y": 341.81534
+        },
+        "width": 444,
+        "height": 25
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7639,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 7636
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": -666.70354,
+          "y": 440.75944
+        },
+        "width": 455.41224,
+        "height": 213.3656
+      },
+      "s": {
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "物联云服务是一个开放的公共物联网接入平台，目的是为行业应用解决海量物联网设备统一介入及数据共享。使行业应用中的物联网传感器数据的接入、存储和数据展现变得轻松简单，让行业开发者能够快速开发出专业的物联网应用系统。",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7640,
+      "p": {
+        "displayName": "wulianyun",
+        "parent": {
+          "__i": 7636
+        },
+        "image": "assets/junminronghe/wulianyun.png",
+        "position": {
+          "x": -818.96216,
+          "y": 326.31534
+        },
+        "width": 160,
+        "height": 48
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7641,
+      "p": {
+        "displayName": "yunjisuan",
+        "position": {
+          "x": 723.61774,
+          "y": -70.86486
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.49018
+        },
+        "width": 500,
+        "height": 372.31013
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7642,
+      "p": {
+        "displayName": "jskuang4",
+        "parent": {
+          "__i": 7641
+        },
+        "image": "assets/junminronghe/jskuang4.png",
+        "position": {
+          "x": 723.61774,
+          "y": -70.86486
+        },
+        "width": 500,
+        "height": 365
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7643,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 7641
+        },
+        "image": "symbols/junminronghe/title.json",
+        "position": {
+          "x": 717.91162,
+          "y": -209.04359
+        },
+        "width": 444,
+        "height": 25
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7644,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 7641
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 723.61774,
+          "y": -45.04916
+        },
+        "width": 457.43694,
+        "height": 327.98886
+      },
+      "s": {
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "平台为行业应用提供一种弹性可伸缩、性能卓越、稳定可靠、弹性扩展的应用程序运行环境。免去了企业采购IT硬件的巨大投资，让企业像使用水、电等公共资源一样便捷高效地使用服务器计算资源，解决多种业务需求，助力企业业务发展，提升企业内部信息化运维效率，使得企业可将更多的专注投入与自身的业务创新中。除采用平台云设施以外，企业还可以通过平台帮助自建私有云形成混合云环境，既能解决企业对自身数据掌控的担忧，又能获取平台统一运维服务、数据交换服务的支撑。",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7645,
+      "p": {
+        "displayName": "yunjisuan",
+        "parent": {
+          "__i": 7641
+        },
+        "image": "assets/junminronghe/yunjisuan.png",
+        "position": {
+          "x": 575.91162,
+          "y": -220.54359
+        },
+        "width": 160,
+        "height": 48
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7646,
+      "p": {
+        "displayName": "dashujv",
+        "position": {
+          "x": 723.61774,
+          "y": 219.9441
+        },
+        "width": 500,
+        "height": 208.60431
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7647,
+      "p": {
+        "displayName": "jskuang3",
+        "parent": {
+          "__i": 7646
+        },
+        "image": "assets/junminronghe/jskuang3.png",
+        "position": {
+          "x": 723.61774,
+          "y": 219.9441
+        },
+        "width": 500,
+        "height": 208.60431
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7648,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 7646
+        },
+        "image": "symbols/junminronghe/title.json",
+        "position": {
+          "x": 722.91162,
+          "y": 163.57076
+        },
+        "width": 444,
+        "height": 25
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7649,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 7646
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 728.61774,
+          "y": 229.19312
+        },
+        "width": 457.43694,
+        "height": 146.24443
+      },
+      "s": {
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "平台大数据服务是为行业应用提供面向大数据处理、分析和应用领域的平台服务，帮助企业快速建立对行业应用业务数据处理、分析、展现等大数据应用开发能力。",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7650,
+      "p": {
+        "displayName": "dashujv",
+        "parent": {
+          "__i": 7646
+        },
+        "image": "assets/junminronghe/dashujv.png",
+        "position": {
+          "x": 583.91162,
+          "y": 152.07076
+        },
+        "width": 160,
+        "height": 48
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7651,
+      "p": {
+        "displayName": "tongyiyunwei",
+        "position": {
+          "x": 723.61774,
+          "y": 433.61749
+        },
+        "width": 500,
+        "height": 208.60431
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7652,
+      "p": {
+        "displayName": "jskuang3",
+        "parent": {
+          "__i": 7651
+        },
+        "image": "assets/junminronghe/jskuang3.png",
+        "position": {
+          "x": 723.61774,
+          "y": 433.61749
+        },
+        "width": 500,
+        "height": 208.60431
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7653,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 7651
+        },
+        "image": "symbols/junminronghe/title.json",
+        "position": {
+          "x": 722.91162,
+          "y": 377.31534
+        },
+        "width": 444,
+        "height": 25
+      },
+      "a": {
+        "ht.content": "基于北斗空间位置服务范围内，为工程测绘、精细农业、智能驾考、无人机、通用航空、车联网、自动驾驶等作业终端硬件RTK设备提供精准、稳定、实时、高精度定位整体应用服务解决方案。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7654,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 7651
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 728.61774,
+          "y": 459.87779
+        },
+        "width": 457.43694,
+        "height": 146.24443
+      },
+      "s": {
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "从云计算环境底层硬件的运行日志采集到行业应用程序运行性能跟踪，平台建立一套完善的运行状态监控采集、分析运维服务体系。帮助企业减轻复杂IT系统专业运维人员的投入成本。",
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "#32D3EB",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7655,
+      "p": {
+        "displayName": "tongyi",
+        "parent": {
+          "__i": 7651
+        },
+        "image": "assets/junminronghe/tongyi.png",
+        "position": {
+          "x": 583.91162,
+          "y": 365.81534
+        },
+        "width": 160,
+        "height": 48
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 7656,
+      "p": {
+        "position": {
+          "x": 13.53775,
+          "y": -208.0871
+        },
+        "width": 572.67076,
+        "height": 72.91299
+      },
+      "s": {
+        "text": "云计算基础设施建设情况",
+        "text.color": "rgb(255,255,255)",
+        "2d.gray": true,
+        "text.font": "bold 28px sans-serif, Arial",
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7657,
+      "p": {
+        "displayName": "tiao",
+        "image": "assets/junminronghe/tiao.png",
+        "position": {
+          "x": 23.13554,
+          "y": -169.6306
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7658,
+      "p": {
+        "displayName": "textBox",
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 27.61607,
+          "y": -16.01097
+        },
+        "width": 763.05885,
+        "height": 269.91452
+      },
+      "s": {
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.content": "目前，平台拥有南宁数据中心和桂林灾备中心，硬件设施包括31台计算节点，9台存储节点。其中分配15台计算节点用于构建平台应用资源池，保障平台各基础服务运行，剩余16台计算节点用于构建用户应用资源池。9台存储服务器分成3套3副本备份的分布式存储，可以提供180T比特存储空间。以10000台北斗车载终端，测算日活跃定位数据增长量。交通部标809协议日活跃原始上送数据5.2G比特，数据清洗后的定位数据3G比特。现有存储空间完全可以支持10万终端同时在线保存6个月以上定位数据。剩余存储空间分配用于视频采集、图片采集、高精度地图存储等业务。",
+        "ht.font": "20px sans-serif, Arial",
+        "ht.color": "rgb(255,255,255)",
+        "ht.lineHeight": 32,
+        "ht.autoScalue": false
+      }
+    }
+  ],
+  "modified": "Wed Jun 23 2021 11:20:29 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": -934.0948,
+    "y": -521.48244,
+    "width": 1922.57458,
+    "height": 1113.08898
+  }
+}

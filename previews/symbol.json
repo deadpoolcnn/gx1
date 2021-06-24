@@ -1,0 +1,1467 @@
+{
+  "modified": "Thu Mar 25 2021 19:27:50 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "number1",
+      "valueType": "String",
+      "name": "机柜列数"
+    },
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    },
+    {
+      "attr": "number2",
+      "valueType": "String",
+      "name": "设备数量"
+    },
+    {
+      "attr": "number3",
+      "valueType": "String",
+      "name": "系统数量"
+    },
+    {
+      "attr": "number4",
+      "valueType": "String",
+      "name": "机房编号"
+    }
+  ],
+  "width": 240,
+  "height": 370,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(79,141,227)",
+      "borderWidth": 1,
+      "borderColor": "#163B79",
+      "gradient": "linear.south",
+      "gradientColor": "rgba(28,67,166,0.2)",
+      "pixelPerfect": true,
+      "rect": [
+        7.47406,
+        1.82529,
+        224.00298,
+        358.17471
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar type = data.a('type');\r\nvar state = \"rgb(46,154,242)\";\r\nif(type == '2'){\r\n    state = \"rgb(255,0,115)\";\r\n}\r\nif(type == '1'){\r\n    state = \"rgb(46,154,242)\";\r\n}\r\nreturn state;\n}",
+        "value": "rgb(46,154,242)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": "rgba(87,215,250,0)",
+      "rotation": 3.14159,
+      "rect": [
+        8.00527,
+        2.08678,
+        222.49095,
+        42
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#e5e5e5",
+      "pixelPerfect": true,
+      "displayName": "不规则图形",
+      "points": [
+        9.99669,
+        0.10981,
+        7.01198,
+        0.10981,
+        6.01375,
+        0.10981,
+        6.01375,
+        1.09805,
+        6.01375,
+        4.0628,
+        7.01198,
+        4.0628,
+        7.01198,
+        1.09805,
+        9.99669,
+        1.09805,
+        9.99669,
+        0.10981,
+        9.99669,
+        0.10981
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#e5e5e5",
+      "pixelPerfect": true,
+      "points": [
+        6.01375,
+        357.17181,
+        6.01375,
+        360.13655,
+        6.01375,
+        361.1248,
+        7.002,
+        361.1248,
+        9.99669,
+        361.1248,
+        9.99669,
+        360.13655,
+        7.002,
+        360.13655,
+        7.002,
+        357.17181,
+        6.01375,
+        357.17181,
+        6.01375,
+        357.17181
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#e5e5e5",
+      "pixelPerfect": true,
+      "points": [
+        228.48557,
+        361.1248,
+        231.47028,
+        361.1248,
+        232.46851,
+        361.1248,
+        232.46851,
+        360.13656,
+        232.46851,
+        357.17181,
+        231.47028,
+        357.17181,
+        231.47028,
+        360.13656,
+        228.48557,
+        360.13656,
+        228.48557,
+        361.1248,
+        228.48557,
+        361.1248
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#e5e5e5",
+      "pixelPerfect": true,
+      "points": [
+        232.46851,
+        3.95299,
+        232.46851,
+        0.98825,
+        232.46851,
+        0,
+        231.47028,
+        0,
+        228.48557,
+        0,
+        228.48557,
+        0.98825,
+        231.47028,
+        0.98825,
+        231.47028,
+        3.95299,
+        232.46851,
+        3.95299,
+        232.46851,
+        3.95299
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "dash": true,
+      "dashPattern": [
+        0.59894,
+        1.99646
+      ],
+      "dashOffset": 0.99823,
+      "dashColor": "rgb(192,228,252)",
+      "dashWidth": 0.59894,
+      "pixelPerfect": true,
+      "opacity": 0.8,
+      "points": [
+        218.1132,
+        36.80007,
+        19.56208,
+        36.80007
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "二枢纽"
+      },
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "bold 18px sans-serif",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        26.0631,
+        9.41131,
+        75.86998,
+        21.85056
+      ]
+    },
+    {
+      "type": "text",
+      "text": "机柜列数",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "14px sans-serif",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        26.06823,
+        63.63311,
+        70.0783,
+        20
+      ]
+    },
+    {
+      "type": "text",
+      "text": "机房编号",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "14px sans-serif",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        26.06824,
+        41.22971,
+        70.0683,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number4",
+        "value": "13F"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "16px Arial",
+      "pixelPerfect": true,
+      "rect": [
+        137.35054,
+        41.24757,
+        79.03903,
+        20.14136
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "16px Arial",
+      "pixelPerfect": true,
+      "rect": [
+        151.98343,
+        65.22208,
+        68.39181,
+        16.82205
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "16px Arial",
+      "pixelPerfect": true,
+      "rect": [
+        131.82882,
+        65.22208,
+        68.39181,
+        16.82205
+      ]
+    },
+    {
+      "type": "shape",
+      "dash": true,
+      "dashPattern": [
+        0.59894,
+        1.99646
+      ],
+      "dashOffset": 0.99823,
+      "dashColor": "rgb(192,228,252)",
+      "dashWidth": 0.59894,
+      "pixelPerfect": true,
+      "opacity": 0.8,
+      "points": [
+        218.1132,
+        87,
+        19.56208,
+        87
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#162D69",
+      "borderColor": "#979797",
+      "rect": [
+        19.83846,
+        94.1576,
+        198.5511,
+        30
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(0,126,148,0.74)",
+      "pixelPerfect": true,
+      "points": [
+        218.1132,
+        148.62669,
+        19.56209,
+        148.62669
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(0,126,148,0.74)",
+      "pixelPerfect": true,
+      "points": [
+        218.38957,
+        174.98652,
+        19.83845,
+        174.98652
+      ]
+    },
+    {
+      "type": "text",
+      "text": "机柜位置",
+      "vAlign": "bottom",
+      "color": "rgb(167,191,232)",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.79718,
+        98.98839,
+        62.0548,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "设备数量",
+      "vAlign": "bottom",
+      "color": "rgb(167,191,232)",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        85.75249,
+        98.98839,
+        61.64934,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "系统数量",
+      "vAlign": "bottom",
+      "color": "rgb(167,191,232)",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        153.06669,
+        99.13973,
+        70.0683,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        126.13973,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        126.13973,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        126.13973,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        126.13973,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        126.13973,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        126.13973,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        151.65883,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        151.65883,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "2",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        151.65883,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        151.65883,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        151.65883,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        151.65883,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(0,126,148,0.74)",
+      "pixelPerfect": true,
+      "points": [
+        218.1132,
+        200.50561,
+        19.56209,
+        200.50561
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(0,126,148,0.74)",
+      "pixelPerfect": true,
+      "points": [
+        218.38957,
+        226.86544,
+        19.83845,
+        226.86544
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        178.01865,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        178.01865,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "3",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        178.01865,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        178.01865,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        178.01865,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        178.01865,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        203.53775,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        203.53775,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "4",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        203.53775,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        203.53775,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        203.53775,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        203.53775,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        230.89757,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        230.89757,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "5",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        230.89757,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        230.89757,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        230.89757,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        230.89757,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        256.41667,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        256.41667,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "6",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        256.41667,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        256.41667,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        256.41667,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        256.41667,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(0,126,148,0.74)",
+      "pixelPerfect": true,
+      "points": [
+        218.1132,
+        305.26345,
+        19.56209,
+        305.26345
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(0,126,148,0.74)",
+      "pixelPerfect": true,
+      "points": [
+        218.38957,
+        331.62328,
+        19.83845,
+        331.62328
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        282.77649,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        282.77649,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "7",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        282.77649,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        282.77649,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        282.77649,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        282.77649,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        308.29559,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        308.29559,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "8",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        308.29559,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        308.29559,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        308.29559,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        308.29559,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柜",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        58.80816,
+        336.65541,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "列",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        32.57049,
+        336.65541,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "9",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        47.74113,
+        336.65541,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number1",
+        "value": "3"
+      },
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        23.83602,
+        336.65541,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@number2",
+        "value": "9"
+      },
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        101.84986,
+        336.65541,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "align": "center",
+      "vAlign": "bottom",
+      "color": "#d8e6fe",
+      "font": "12px arial",
+      "pixelPerfect": true,
+      "scaleX": 0.99823,
+      "scaleY": 0.99823,
+      "rect": [
+        169.95069,
+        336.65541,
+        18.16622,
+        20.18707
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(0,126,148,0.74)",
+      "pixelPerfect": true,
+      "points": [
+        218.38957,
+        254.38453,
+        19.83845,
+        254.38453
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(0,126,148,0.74)",
+      "pixelPerfect": true,
+      "points": [
+        218.38957,
+        279.74436,
+        19.83845,
+        279.74436
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#39D4FD",
+      "borderColor": "#979797",
+      "rect": [
+        19.56208,
+        11.56929,
+        2,
+        17.5346
+      ]
+    }
+  ],
+  "title": "dljg 2"
+}

@@ -27,7 +27,7 @@
                 graphView.addToDOM();
                 dataModel.enableAnimation()
 
-                ht.Default.xhrLoad('displays/junminronghe/01daohangye1.json', function(text) {
+                ht.Default.xhrLoad('displays/junminronghe/01daohangye2.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
@@ -743,18 +743,29 @@
                 const wurenjiguanli = dm.getDataByTag('wurenjiguanli');
                 const yingjiliuyuan = dm.getDataByTag('yingjiliuyuan');
                 const xuejiangyun = dm.getDataByTag('xuejiangyun');
-                largeAni(jiaotongzhanbei);
-                largeAni(cehuidilixinxi);
-                largeAni(feiting);
-                largeAni(gonggongfuwu);
-                largeAni(beidou);
-                largeAni(yingjiliuyuan);
-                largeAni(yingjiwuzi);
-                largeAni(wurenjiguanli);
-                largeAni(xuejiangyun);
+
+                const jiuyuanPage = dm.getDataByTag('jiuyuanPage');
+                const jiaotongyunPage = dm.getDataByTag('jiaotongyunPage');
+                const cehuiPage = dm.getDataByTag('cehuiPage');
+                const feitingPage = dm.getDataByTag('feitingPage');
+                const gonggongPage = dm.getDataByTag('gonggongPage');
+                const beidouPage = dm.getDataByTag('gonggongPage');
+                const wuzibaozhangPage = dm.getDataByTag('wuzibaozhangPage');
+                const wurenjiPage = dm.getDataByTag('wurenjiPage');
+                const xuejiangPage = dm.getDataByTag('xuejiangPage');
+
+                largeAni(jiaotongzhanbei,jiaotongyunPage);
+                largeAni(cehuidilixinxi,cehuiPage);
+                largeAni(feiting,feitingPage);
+                largeAni(gonggongfuwu,gonggongPage);
+                largeAni(beidou,beidouPage);
+                largeAni(yingjiliuyuan,jiuyuanPage);
+                largeAni(yingjiwuzi,wuzibaozhangPage);
+                largeAni(wurenjiguanli,wurenjiPage);
+                largeAni(xuejiangyun,xuejiangPage);
             }
             // 变大
-            function largeAni(dm) {
+            function largeAni(dm,dm1) {
                 dm.s('onEnter',()=>{
                     console.log(dm);
                     dm.setScale(1.1,1.1);
@@ -770,6 +781,7 @@
                         },
                         start: ['large']
                     })*/
+                    dm1.s('2d.visible',true);
                 })
                 dm.s('onLeave',()=>{
                     dm.setScale(1,1);
@@ -785,6 +797,7 @@
                         },
                         start: ['small']
                     })*/
+                    dm1.s('2d.visible',false);
                 })
             }
         </script>

@@ -4,6 +4,8 @@
     <title>血浆云</title>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="custom/images/favicon.ico?v=2"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/certify.css">
     <style>
         html, body {
             padding: 0px;
@@ -18,6 +20,7 @@
     <script src='libs/plugin/ht-vector.js'></script>
     <script src="libs/plugin/ht-animation.js"></script>
     <script src="libs/plugin/ht-flow.js"></script>
+    <script src="libs/swiper.min.js"></script>
 
     <script>
         ht.Default.setImage("yousanjiao", "img/yousanjiao.png");
@@ -30,16 +33,18 @@
             graphView.addToDOM();
             graphView.enableFlow();
             dataModel.enableAnimation();
-            ht.Default.xhrLoad('displays/junminronghe/xuejiangyun.json', function (text) {
+            ht.Default.xhrLoad('displays/junminronghe/xuejiangyun 2.json', function (text) {
                 var json = ht.Default.parse(text);
                 if (json.title) document.title = json.title;
                 dataModel.deserialize(json);
                 graphView.fitContent(true);
                 videoPlay(dataModel)
-                zhibiaoAni(dataModel) // 指标逐渐显现动画执行一次
+                // zhibiaoAni(dataModel) // 指标逐渐显现动画执行一次
                 hexagonAni(dataModel) // 六边形动画
                 lineFlowAni(dataModel)
                 showMenu(dataModel)
+                tabChange(dataModel);
+                moreInfo(dataModel);
             });
         }
 
@@ -395,8 +400,191 @@
                 flag = 1;
             })
         }
+        // tab切换
+        function tabChange(dm) {
+            var tabs = [];
+            var pages = [];
+            for (var i=1; i<7; i++) {
+                console.log(dm.getDataByTag('table2_'+i));
+                tabs.push(dm.getDataByTag('table2_'+i));
+                pages.push(dm.getDataByTag('table'+i));
+            }
+            tabs[0].s('onClick',()=>{
+                tabs.map(item=>{
+                    item.a('state','1');
+                })
+                pages.map(item=>{
+                    item.s('2d.visible',false);
+                })
+                tabs[0].a('state','2');
+                pages[0].s('2d.visible',true);
+            })
+            tabs[1].s('onClick',()=>{
+                tabs.map(item=>{
+                    item.a('state','1');
+                })
+                pages.map(item=>{
+                    item.s('2d.visible',false);
+                })
+                tabs[1].a('state','2');
+                pages[1].s('2d.visible',true);
+            })
+            tabs[2].s('onClick',()=>{
+                tabs.map(item=>{
+                    item.a('state','1');
+                })
+                pages.map(item=>{
+                    item.s('2d.visible',false);
+                })
+                tabs[2].a('state','2');
+                pages[2].s('2d.visible',true);
+            })
+            tabs[3].s('onClick',()=>{
+                tabs.map(item=>{
+                    item.a('state','1');
+                })
+                pages.map(item=>{
+                    item.s('2d.visible',false);
+                })
+                tabs[3].a('state','2');
+                pages[3].s('2d.visible',true);
+            })
+            tabs[4].s('onClick',()=>{
+                tabs.map(item=>{
+                    item.a('state','1');
+                })
+                pages.map(item=>{
+                    item.s('2d.visible',false);
+                })
+                tabs[4].a('state','2');
+                pages[4].s('2d.visible',true);
+            })
+            tabs[5].s('onClick',()=>{
+                tabs.map(item=>{
+                    item.a('state','1');
+                })
+                pages.map(item=>{
+                    item.s('2d.visible',false);
+                })
+                tabs[5].a('state','2');
+                pages[5].s('2d.visible',true);
+            })
+
+
+        }
+        // 更多信息
+        function moreInfo(dm) {
+            const moreBtn = dm.getDataByTag('moreBtn');
+            const xitongjieshaotc = dm.getDataByTag('xitongjieshaotc');
+            const modelBtn = dm.getDataByTag('modelBtn');
+            moreBtn.s('onClick',()=>{
+                xitongjieshaotc.s('2d.visible',true);
+                modelBtn.s('2d.visible',true);
+            })
+            modelBtn.s('onClick',()=>{
+                xitongjieshaotc.s('2d.visible',false);
+                modelBtn.s('2d.visible',false);
+            })
+        }
     </script>
 </head>
 <body onload='setTimeout(init, 300)'>
+    <div id="certify">
+        <div class="swiper-container">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <video height="100%" controls="controls" poster="assets/junminronghe/xuejiangyun.png" onplay="beginPlay()" onpause="beginPause()">
+                        <source src=" https://hs-website.oss-cn-beijing.aliyuncs.com/video/index_video1.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="swiper-slide">
+                    <video controls="controls" poster="assets/junminronghe/xuejiangyun.png" onplay="beginPlay()" onpause="beginPause()">
+                        <source src="https://hs-website.oss-cn-beijing.aliyuncs.com/video/index_video2.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="swiper-slide">
+                    <video controls="controls" poster="assets/junminronghe/xuejiangyun.png" onplay="beginPlay()" onpause="beginPause()">
+                        <source src="https://hs-website.oss-cn-beijing.aliyuncs.com/video/index_video2.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev" onclick="pauseAll()"></div>
+        <div class="swiper-button-next" onclick="pauseAll()"></div>
+    </div>
+    <script type="text/javascript">
+        /**
+         * 视频swiper滑动，暂停播放所有
+         */
+        let videos = document.getElementsByTagName('video');
+        function pauseAll(){
+            for (var j = videos.length - 1; j >= 0; j--) {
+                videos[j].pause();
+            }
+        };
+        // 当开始播放视频时，轮播结束
+        function beginPlay() {
+            certifySwiper.autoplay.stop();
+        }
+        // 当视频播放暂停时，轮播开始
+        function beginPause() {
+            certifySwiper.autoplay.start();
+        }
+        certifySwiper = new Swiper('#certify .swiper-container', {
+            watchSlidesProgress: true,
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            loop: true,
+            loopedSlides: 3,
+            autoplay: {
+                delay: 5000,//1秒切换一次
+                pauseOnMouseEnter: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable :true,
+            },
+            on: {
+                progress: function() {
+                    for (i = 0; i < this.slides.length; i++) {
+                        var slide = this.slides.eq(i);
+                        var slideProgress = this.slides[i].progress;
+                        modify = 1;
+                        if (Math.abs(slideProgress) > 1) {
+                            modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+                        }
+                        translate = slideProgress * modify * 300 + 'px';
+                        scale = 1 - Math.abs(slideProgress) / 4;
+                        zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+                        slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+                        slide.css('zIndex', zIndex);
+                        slide.css('opacity', 1);
+                        if (Math.abs(slideProgress) > 3) {
+                            slide.css('opacity', 0);
+                        }
+                    }
+                },
+                setTransition: function(transition) {
+                    for (var i = 0; i < this.slides.length; i++) {
+                        var slide = this.slides.eq(i)
+                        slide.transition(transition);
+                    }
+
+                },
+                //当video swiper滑动时，停止播放所有视频
+                touchMove: function () {
+                    pauseAll();
+                }
+            }
+
+        })
+    </script>
 </body>
 </html>

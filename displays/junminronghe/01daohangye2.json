@@ -1,0 +1,1471 @@
+{
+  "v": "7.2.4",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "width": 1920,
+    "height": 1080,
+    "rectSelectable": true,
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 502,
+      "p": {
+        "displayName": "bj-rongheyun",
+        "image": "assets/junminronghe/bj-rongheyun.png",
+        "position": {
+          "x": 959.97675,
+          "y": 541
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "fullscreen.lock": "v",
+        "2d.movable": false
+      },
+      "a": {
+        "ht.content": "HT Vector"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 503,
+      "p": {
+        "displayName": "top_title",
+        "image": "assets/junminronghe/top_title.png",
+        "position": {
+          "x": 960,
+          "y": 60.5
+        },
+        "width": 1112,
+        "height": 121
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "center",
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 504,
+      "p": {
+        "displayName": "title-rongheyun",
+        "parent": {
+          "__i": 503
+        },
+        "image": "assets/junminronghe/title-rongheyun.png",
+        "position": {
+          "x": 960,
+          "y": 60.5
+        }
+      },
+      "s": {
+        "2d.movable": false,
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 505,
+      "p": {
+        "displayName": "di",
+        "position": {
+          "x": 944.97675,
+          "y": 922.19486
+        },
+        "width": 810.27478,
+        "height": 244.48042
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 506,
+      "p": {
+        "displayName": "4",
+        "parent": {
+          "__i": 505
+        },
+        "image": "assets/jianhang/dizuo/4.png",
+        "position": {
+          "x": 944.97675,
+          "y": 943.35783
+        },
+        "width": 757.50518,
+        "height": 202.15444
+      },
+      "s": {
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 507,
+      "p": {
+        "displayName": "3",
+        "parent": {
+          "__i": 505
+        },
+        "image": "assets/jianhang/dizuo/3.png",
+        "position": {
+          "x": 944.97675,
+          "y": 932.92374
+        },
+        "width": 810.27478,
+        "height": 189.83488
+      },
+      "s": {
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 508,
+      "p": {
+        "displayName": "中心",
+        "parent": {
+          "__i": 505
+        },
+        "image": "assets/jianhang/dizuo/zhongxindeng.png",
+        "position": {
+          "x": 944.97675,
+          "y": 929.50096
+        },
+        "width": 400,
+        "height": 111
+      },
+      "s": {
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 509,
+      "p": {
+        "displayName": "helo3",
+        "parent": {
+          "__i": 505
+        },
+        "tag": "helo3",
+        "image": "symbols/jianhang/helo3.json",
+        "position": {
+          "x": 944.97675,
+          "y": 912.00096
+        },
+        "width": 768.75564,
+        "height": 190.61334
+      },
+      "s": {
+        "2d.movable": false
+      },
+      "a": {
+        "helo.rotation": 10
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 510,
+      "p": {
+        "displayName": "helo2",
+        "parent": {
+          "__i": 505
+        },
+        "tag": "helo2",
+        "image": "symbols/jianhang/helo2.json",
+        "position": {
+          "x": 944.97675,
+          "y": 912.00096
+        },
+        "width": 768.78535,
+        "height": 188.37295
+      },
+      "s": {
+        "2d.movable": false
+      },
+      "a": {
+        "helo.rotation": 23
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 511,
+      "p": {
+        "displayName": "helo",
+        "parent": {
+          "__i": 505
+        },
+        "tag": "helo",
+        "image": "symbols/jianhang/hero.json",
+        "position": {
+          "x": 944.97675,
+          "y": 894.20467
+        },
+        "width": 730.16545,
+        "height": 188.5
+      },
+      "s": {
+        "2d.movable": false
+      },
+      "a": {
+        "rotation": 104
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 512,
+      "p": {
+        "displayName": "yuan",
+        "position": {
+          "x": 959.67365,
+          "y": 561.5
+        },
+        "width": 1288.22095,
+        "height": 743,
+        "tall": 1
+      },
+      "s": {
+        "select.color": null,
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 513,
+      "p": {
+        "displayName": "gd1",
+        "parent": {
+          "__i": 512
+        },
+        "tag": "gd1",
+        "image": "assets/junminronghe/gd1.png",
+        "position": {
+          "x": 959.67365,
+          "y": 556.79619
+        },
+        "width": 1288.22099,
+        "height": 599.64231
+      },
+      "s": {
+        "opacity": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 514,
+      "p": {
+        "displayName": "gd2",
+        "parent": {
+          "__i": 512
+        },
+        "tag": "gd2",
+        "image": "assets/junminronghe/gd2.png",
+        "position": {
+          "x": 956.20525,
+          "y": 573.61765
+        },
+        "width": 791.35925,
+        "height": 390.17822
+      },
+      "s": {
+        "opacity": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 515,
+      "p": {
+        "displayName": "gd3",
+        "parent": {
+          "__i": 512
+        },
+        "tag": "gd3",
+        "image": "assets/junminronghe/gd3.png",
+        "position": {
+          "x": 956.20525,
+          "y": 577.55002
+        },
+        "width": 427.76176,
+        "height": 223.83908
+      },
+      "s": {
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 516,
+      "p": {
+        "displayName": "guangxiao",
+        "parent": {
+          "__i": 512
+        },
+        "tag": "guangxiao",
+        "image": "assets/junminronghe/guangxiao.png",
+        "position": {
+          "x": 952.21629,
+          "y": 298
+        },
+        "width": 718,
+        "height": 216
+      },
+      "s": {
+        "opacity": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 517,
+      "p": {
+        "displayName": "guangshu",
+        "parent": {
+          "__i": 512
+        },
+        "tag": "guangshu",
+        "image": "assets/junminronghe/guangshu.png",
+        "position": {
+          "x": 956.81415,
+          "y": 775
+        },
+        "width": 595,
+        "height": 316
+      },
+      "s": {
+        "opacity": 1,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 518,
+      "p": {
+        "displayName": "center_cloud_block",
+        "parent": {
+          "__i": 512
+        },
+        "tag": "center_cloud_block",
+        "image": "assets/junminronghe/yun11.png",
+        "position": {
+          "x": 966.21629,
+          "y": 609.85841
+        },
+        "width": 430.26908,
+        "height": 538.05723
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 519,
+      "p": {
+        "displayName": "nav",
+        "position": {
+          "x": 958.14626,
+          "y": 484.90459
+        },
+        "width": 1213.16623,
+        "height": 680.75211
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 520,
+      "p": {
+        "displayName": "cehuidilixinxi",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "cehuidilixinxi",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 517,
+          "y": 332.55002
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='dilixinxiyingyongyun.html'\n}",
+        "2d.movable": false,
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}"
+      },
+      "a": {
+        "ico_img": "assets/junminronghe/icon-cehuidili.png",
+        "name1": "军民一体测绘地理",
+        "name2": "信息应用云",
+        "name": "军民一体测绘地理信息云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 521,
+      "p": {
+        "displayName": "feiting",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "feiting",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1137.21629,
+          "y": 373.55002
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='feiting.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      },
+      "a": {
+        "name1": "广西边境地区",
+        "name2": "飞艇应用云",
+        "ico_img": "assets/junminronghe/icon-feiting.png",
+        "state": "1",
+        "name": "  广西边境地区  飞艇应用云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 522,
+      "p": {
+        "displayName": "gonggongfuwu",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "gonggongfuwu",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 464.56315,
+          "y": 607.97504
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='rongheyun.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      },
+      "a": {
+        "name2": "公共服务云",
+        "ico_img": "assets/junminronghe/icon-gonggongfuwu.png",
+        "name1": "广西军民融合",
+        "name": "   广西军民融合  公共服务云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 523,
+      "p": {
+        "displayName": "beidou",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "beidou",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 707.89403,
+          "y": 704.55002
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='beidou.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      },
+      "a": {
+        "name1": "广西军民一体化 ",
+        "name2": "北斗应用云",
+        "ico_img": "assets/junminronghe/icon-beidou.png",
+        "name": "  广西军民一体化  北斗应用云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 524,
+      "p": {
+        "displayName": "yingjiwuzi",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "yingjiwuzi",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 719.89403,
+          "y": 461.55002
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='yingyongwuzibaozhangyun.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      },
+      "a": {
+        "name1": "广西军民两用应急",
+        "name2": "物资保障云 ",
+        "ico_img": "assets/junminronghe/icon-jiuyuanwuzi.png",
+        "name": "广西军民两用应用物资保障云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 525,
+      "p": {
+        "displayName": "wurenjiguanli",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "wurenjiguanli",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1451.72934,
+          "y": 580.52854
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='wurenji.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      },
+      "a": {
+        "name2": "管理及服务",
+        "ico_img": "assets/junminronghe/icon-wurenji.png",
+        "name1": "广西无人机运控",
+        "name": "  广西无人机运控  管理及服务"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 526,
+      "p": {
+        "displayName": "yingjiliuyuan",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "yingjiliuyuan",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1226.21629,
+          "y": 708.28061
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='hangkongfuwu.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      },
+      "a": {
+        "name1": "广西军民一体化应急",
+        "name2": "救援航空服务云",
+        "ico_img": "assets/junminronghe/icon-jiuyuanhangkong.png",
+        "name": "广西军民一体化应急救援航空服务云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 527,
+      "p": {
+        "displayName": "jiaotongzhanbei",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "jiaotongzhanbei",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 896.32437,
+          "y": 261.52854
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='jiaotongyun.html'\n}",
+        "interactive": true,
+        "select.color": "rgba(250,250,250,0)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      },
+      "a": {
+        "ico_img": "assets/junminronghe/icon-zhanbei.png",
+        "name2": "交通云",
+        "name1": "广西军民融合",
+        "name": "  广西军民融合  交通云"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 528,
+      "p": {
+        "parent": {
+          "__i": 527
+        },
+        "position": {
+          "x": 731.07338,
+          "y": 237.91472
+        },
+        "width": 226,
+        "height": 52.17055
+      },
+      "s": {
+        "text": "广西交通战备云",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "22px sans-serif, Arial",
+        "text.shadow": true,
+        "text.shadow.color": "rgba(17,173,194,0.80)",
+        "text.shadow.offset.x": 2,
+        "opacity": 1,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 529,
+      "p": {
+        "displayName": "xuejiangyun",
+        "parent": {
+          "__i": 519
+        },
+        "tag": "xuejiangyun",
+        "image": "symbols/junminronghe/nav.json",
+        "position": {
+          "x": 1398.88487,
+          "y": 312.52854
+        },
+        "width": 226,
+        "height": 234
+      },
+      "s": {
+        "onClick": "__ht__function(event, data, view) {\nwindow.location.href='xuejiangyun.html'\n}",
+        "interactive": true,
+        "shape.foreground.gradient.color": "rgb(252,252,252)",
+        "select.color": "rgba(250,250,250,0.00)",
+        "onEnter": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onHover": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"pointer\";\n}",
+        "onLeave": "__ht__function(event, data, view) {\ndocument.body.style.cursor = \"auto\";\n}",
+        "2d.movable": false
+      },
+      "a": {
+        "ico_img": "assets/junminronghe/icon-xuejiang.png",
+        "name1": " ",
+        "name2": " ",
+        "name": "血浆云"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 530,
+      "p": {
+        "parent": {
+          "__i": 529
+        },
+        "host": {
+          "__i": 529
+        },
+        "position": {
+          "x": 1398.88487,
+          "y": 252.23082
+        },
+        "width": 226,
+        "height": 52.17055
+      },
+      "s": {
+        "text": "血浆云 ",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "22px sans-serif, Arial",
+        "text.shadow": true,
+        "text.shadow.color": "rgba(17,173,194,0.80)",
+        "text.shadow.offset.x": 2,
+        "opacity": 1,
+        "2d.selectable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0,
+        "layout.h": "left",
+        "layout.v": "top",
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1719,
+      "p": {
+        "displayName": "救援航空服务云",
+        "tag": "jiuyuanPage",
+        "position": {
+          "x": 1226.21629,
+          "y": 561.96956
+        },
+        "width": 654,
+        "height": 255
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 532,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 1719
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 1226.21629,
+          "y": 561.96956
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+          "scale": 0.19024
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+        "title1": "广西军民一体化应急救援航空服务云",
+        "ht.content": "HT Vector"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 533,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 1719
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 1229.21629,
+          "y": 576.35732
+        },
+        "width": 596.78366,
+        "height": 221.52474
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.content": "广西军民一体化应急救援航空服务云旨在以专业医疗构型的直升机作为运输载体，通过与全国院前急救单位及医院的全面合作，构建一个覆盖全国的、立体化的直升机航空医疗 救援网络，为社会大众提供“及时响应和常态化的”紧急医疗和应急救援服务。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 607,
+      "p": {
+        "displayName": "北斗应用云",
+        "tag": "beidouPage",
+        "position": {
+          "x": 707.89403,
+          "y": 570.02854
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 654,
+        "height": 255
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 535,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 607
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 707.89403,
+          "y": 570.02854
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化北斗应用云基础源自广西北斗综合位置服务平台，根据自治区党委军民融合办“党政军民一体、平战结合”的具体要求，平台将重新规划和设计，将重点强调“军民两用、明密一体、内外有别、数码融合、调度协同、陆海空天适应”等能力。基于上述要求，平台建设将依托国家北斗网格位置码标准，重点打造信息资源时空统一组织与共享的军民一体化的服务能力。",
+          "scale": 0.15658
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化北斗应用云基础源自广西北斗综合位置服务平台，根据自治区党委军民融合办“党政军民一体、平战结合”的具体要求，平台将重新规划和设计，将重点强调“军民两用、明密一体、内外有别、数码融合、调度协同、陆海空天适应”等能力。基于上述要求，平台建设将依托国家北斗网格位置码标准，重点打造信息资源时空统一组织与共享的军民一体化的服务能力。",
+        "title1": "广西军民一体化北斗应用云"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 536,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 607
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 716.65141,
+          "y": 594.38202
+        },
+        "width": 628.23015,
+        "height": 201.5933
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.content": "广西军民一体化北斗应用云基础源自广西北斗综合位置服务平台，根据自治区党委军民融合办“党政军民一体、平战结合”的具体要求，平台将重新规划和设计，将重点强调“军民两用、明密一体、内外有别、数码融合、调度协同、陆海空天适应”等能力。基于上述要求，平台建设将依托国家北斗网格位置码标准，重点打造信息资源时空统一组织与共享的军民一体化的服务能力。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 709,
+      "p": {
+        "displayName": "军民融合交通云",
+        "tag": "jiaotongyunPage",
+        "position": {
+          "x": 896.32437,
+          "y": 137.66322
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.43814
+        },
+        "width": 654,
+        "height": 291
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 538,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 709
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 896.32437,
+          "y": 137.66322
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+          "scale": 0.19024
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+        "title1": "广西军民融合交通云",
+        "ht.content": "HT Vector"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 539,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 709
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 896.32437,
+          "y": 164.7886
+        },
+        "width": 594.89879,
+        "height": 272.74923
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.content": "广西交通云系统汇集了公路水路安全畅通与应急指挥系统和综合运行协调与应急指挥系统的功能和特点，实现行业设施装备运行动态的实时掌握，完善安全畅通与应急处置数据资源体系的同时，加快形成综合交通运行监测、宏观决策、信息服务于应急指挥能力，实现综合通信调度能力，实现信息资源的共享。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 911,
+      "p": {
+        "displayName": "测绘地理信息云",
+        "tag": "cehuiPage",
+        "position": {
+          "x": 517,
+          "y": 204.34588
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "width": 654,
+        "height": 255
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 541,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 911
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 517,
+          "y": 204.34588
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+          "scale": 0.19024
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+        "title1": "军民一体测绘地理信息云",
+        "ht.content": "HT Vector"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 542,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 911
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 523.19474,
+          "y": 226.42294
+        },
+        "width": 611.39858,
+        "height": 210.84588
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.content": "军民一体测绘地理信息应用云（以下简称“测绘地信云”）在广西地理信息公共服务平台能力的基础上，依托壮美广西·军民融合云的整体支撑环境，实现军民两用地理信息数据的深度融合，军地共享的测绘地理信息服务保障 体系，以及适应军民融合信息化的平台功能扩展，最终形成满足军民两用需求的快速化、网络化和智能化的测绘地信服务体系。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1012,
+      "p": {
+        "displayName": "血浆云",
+        "tag": "xuejiangPage",
+        "position": {
+          "x": 1382.45632,
+          "y": 170.5
+        },
+        "width": 654,
+        "height": 255
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 544,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 1012
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 1382.45632,
+          "y": 170.5
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+          "scale": 0.19024
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+        "title1": "血浆云",
+        "ht.content": "广西交通云系统汇集了公路水路安全畅通与应急指挥系统和综合运行协调与应急指挥系统的功能和特点，实现行业设施装备运行动态的实时掌握，完善安全畅通与应急处置数据资源体系的同时，加快形成综合交通运行监测、宏观决策、信息服务于应急指挥能力，实现综合通信调度能力，实现信息资源的共享。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 545,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 1012
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 1385.45632,
+          "y": 197.31734
+        },
+        "width": 628.23015,
+        "height": 181.36532
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.content": "“中生·穿越智慧浆云+血浆医药”项目是在广西贺州市政府的大力推动下，按照广西壮族自治区“以资源换产业发展血液制品行业”的原则和贺州东融先行示范区的发展战略，作为广西未来生物制药产业升级的重点项目来投入建设的。项目由国资委引导出资并整合国内相关行业领先技术研发企业成立广西智慧浆云生物技术公司，与中生集团进行战略合作，围绕未来剩余血浆业务管理需求定向建设智慧型生物产业园区。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1214,
+      "p": {
+        "displayName": "无人机运控管理及服务",
+        "tag": "wurenjiPage",
+        "position": {
+          "x": 1438.72934,
+          "y": 437.02854
+        },
+        "width": 654,
+        "height": 255
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 547,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 1214
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 1438.72934,
+          "y": 437.02854
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+          "scale": 0.19024
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+        "title1": "广西无人机运控管理及服务"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 548,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 1214
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 1440.42794,
+          "y": 449.67311
+        },
+        "width": 596.64258,
+        "height": 224.24617
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 26,
+        "ht.autoScalue": false,
+        "ht.content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1415,
+      "p": {
+        "displayName": "边境地区飞艇应用云",
+        "tag": "feitingPage",
+        "position": {
+          "x": 1144.97675,
+          "y": 227.5
+        },
+        "width": 654,
+        "height": 255
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 550,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 1415
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 1144.97675,
+          "y": 227.5
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+          "scale": 0.19024
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+        "title1": "广西边境地区飞艇应用云",
+        "ht.content": "广西交通云系统汇集了公路水路安全畅通与应急指挥系统和综合运行协调与应急指挥系统的功能和特点，实现行业设施装备运行动态的实时掌握，完善安全畅通与应急处置数据资源体系的同时，加快形成综合交通运行监测、宏观决策、信息服务于应急指挥能力，实现综合通信调度能力，实现信息资源的共享。"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 551,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 1415
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 1146.82776,
+          "y": 250.19195
+        },
+        "width": 598.75829,
+        "height": 173.11455
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.content": "飞艇应用云在边境地区部署长期滞空的飞艇，搭载各类侦查装备，至少提供光电侦查、通信基站、地理信息测绘、光电红外装备或小型雷达等4类应用。目标数据至少服务边防部队、公安、边海防、自然资源、农业、林业等9个部门。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1717,
+      "p": {
+        "displayName": "公共服务云",
+        "tag": "gonggongPage",
+        "position": {
+          "x": 464.56315,
+          "y": 468.32979
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.49275
+        },
+        "width": 654,
+        "height": 258.75237
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 553,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 1717
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 464.56315,
+          "y": 468.32979
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+          "scale": 0.19024
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+        "title1": "广西军民融合公共服务云",
+        "ht.content": "HT Vector"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 554,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 1717
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 463.94184,
+          "y": 496.46577
+        },
+        "width": 603.65617,
+        "height": 206.23278
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.content": "广西军民融合公共服务云主要是为广西军民融合级权威的政府公共服务平台，主要是打造自治区及南部战区范围内有关部门、军队、军工单位和民口企业、院校、科研单位、金融机构沟通交流和购买服务产品的桥梁和纽带。重点围绕着军转民用、民企参军服务，及政府工作政策、军民融合理论、活动筹划宣传、新产品技术展示、及新产品技术买卖交易、创业孵化、财政金融流向等一个综合性的、指向标性的服务发布平台。"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1718,
+      "p": {
+        "displayName": "物资保障云",
+        "tag": "wuzibaozhangPage",
+        "position": {
+          "x": 722.32437,
+          "y": 325.52853
+        },
+        "width": 654,
+        "height": 255
+      },
+      "s": {
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 556,
+      "p": {
+        "displayName": "tk 2",
+        "parent": {
+          "__i": 1718
+        },
+        "image": "symbols/junminronghe/tk 2.json",
+        "position": {
+          "x": 722.32437,
+          "y": 325.52853
+        },
+        "width": 654,
+        "height": 255
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "619-114100px sans-serif, arial150",
+          "content": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+          "scale": 0.19024
+        },
+        "text": "对方对方的",
+        "title": "广西军民一体化无人机运控管理服务云是一套将工业级无人机与4G/5G移动通信网络相融合，以实现长时间、长距离空中作业，并利用AI人工智能技术，对实时回传的照片、视频等数据进行智能识别和分析的网联无人机智能应用解决方案。",
+        "title1": "广西军民两用应用物资保障云",
+        "ht.content": "HT Vector"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 557,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 1718
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 722.32437,
+          "y": 347.66451
+        },
+        "width": 594.89879,
+        "height": 206.23278
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "top",
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
+      },
+      "a": {
+        "ht.font": "18px sans-serif, Arial",
+        "ht.color": "rgba(255,255,255,0.8)",
+        "ht.lineHeight": 28,
+        "ht.autoScalue": false,
+        "ht.content": "项目主要规划“一库三平台”的建设内容，共同确保应急物资供应链保障服务平台的完整与正常运作。积极探索政府储备模式及“社会公众预约+企业代储+行业部门监管”的社会化储备新 模式，实现军民两用应急物资战时能应急，平时可流通的平站结合。。"
+      }
+    }
+  ],
+  "modified": "Wed Jun 23 2021 10:49:42 GMT+0800 (China Standard Time)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  }
+}

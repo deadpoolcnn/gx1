@@ -31,7 +31,7 @@
                 var line = [];
                 var fei = [];
 
-                ht.Default.xhrLoad('displays/junminronghe/dilixinxiyingyongyun.json', function(text) {
+                ht.Default.xhrLoad('displays/junminronghe/dilixinxiyingyongyun 2.json', function(text) {
                     var json = ht.Default.parse(text);
                     if(json.title) document.title = json.title;
                     dataModel.deserialize(json);
@@ -40,6 +40,7 @@
                     huanAni(dataModel)
                     videoPlay(dataModel)
                     showMenu(dataModel);
+                    showModel(dataModel);
 
                     for (var i=1; i<8;i++) {
                         line[i] = dataModel.getDataByTag('line'+i);
@@ -248,6 +249,20 @@
                             item.s('2d.visible',false);
                         })
                         flag = 1;
+                    })
+                }
+                // 弹框
+                function showModel(dm) {
+                    const more = dm.getDataByTag('more');
+                    const jieshaotc = dm.getDataByTag('jieshaotc');
+                    const cancel = dm.getDataByTag('cancel');
+                    more.s('onClick',()=>{
+                        jieshaotc.s('2d.visible',true);
+                        cancel.s('2d.visible',true);
+                    })
+                    cancel.s('onClick',()=>{
+                        jieshaotc.s('2d.visible',false);
+                        cancel.s('2d.visibel',false);
                     })
                 }
             }
