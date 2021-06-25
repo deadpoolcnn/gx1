@@ -87,7 +87,7 @@
                 page1.s('2d.visible', false);
                 //shipinkuang.s('2d.visible',false);
                 video1.s('2d.visible', true);
-                video1.a('src', 'video/xuejiangyun01.mp4')
+                video1.a('src', 'video/hezhou.mp4')
                 video1.a('status', '2');
             })
             bofang2.s('onClick', () => {
@@ -103,7 +103,7 @@
                 page3.s('2d.visible', false);
                 // shipinkuang.s('2d.visible',false);
                 video3.s('2d.visible', true);
-                video3.a('src', 'video/xuejiangyun03.mp4')
+                video3.a('src', 'video/chuanyue.mp4')
                 video3.a('status', '2');
             })
             bofang4.s('onClick', () => {
@@ -552,6 +552,9 @@
             const page2 = dm.getDataByTag('page2');
             const page3 = dm.getDataByTag('page3');
             const page4 = dm.getDataByTag('page4');
+            const shipinkuang = dm.getDataByTag('shipinkuang');
+            const xuejiangyun = dm.getDataByTag('xuejiangyun');
+            const bofang = dm.getDataByTag('bofang');
             gengduo.s('onClick',()=>{
                 shipintc.s('2d.visible',true);
                 videoBtn.s('2d.visible',true);
@@ -567,18 +570,20 @@
 
             })
             videoBtn.s('onClick',()=>{
-                video1.a('status','1');
+                video1.a('status', '1');
                 video2.a('status','1');
                 video3.a('status','1');
                 video4.a('status','1');
-                video2.a('src', '')
                 shipintc.s('2d.visible',false);
                 videoBtn.s('2d.visible',false);
-                video.s('2d.visible',true);
+                video.s('2d.visible',false);
                 video1.s('2d.visible',false);
                 video2.s('2d.visible',false);
                 video3.s('2d.visible',false);
                 video4.s('2d.visible',false);
+                shipinkuang.s('2d.visible',true);
+                xuejiangyun.s('2d.visible',true);
+                bofang.s('2d.visible',true);
             })
         }
     </script>

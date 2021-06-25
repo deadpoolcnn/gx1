@@ -45,6 +45,7 @@
                     showMenu(dataModel);
                     moreInfo(dataModel);
                     itemInfo(dataModel);
+                    iconEvent(dataModel);
                 });
             }
             
@@ -373,6 +374,55 @@
                     dongmeng.s('2d.visible',false);
                     nongji.s('2d.visible',false);
                     tangye.s('2d.visible',false);
+                })
+            }
+            // 图标动画
+            function iconEvent(dm) {
+                const refinementManagement = dm.getDataByTag('refinementManagement');
+                const shipsManagement = dm.getDataByTag('shipsManagement');
+                const carSupervise = dm.getDataByTag('carSupervise');
+                const agricultureSystem = dm.getDataByTag('agricultureSystem');
+                const sugarIndustrySystem  = dm.getDataByTag('sugarIndustrySystem');
+
+                largeAni(refinementManagement);
+                largeAni(shipsManagement);
+                largeAni(carSupervise);
+                largeAni(agricultureSystem);
+                largeAni(sugarIndustrySystem);
+            }
+            // 变大
+            function largeAni(dm) {
+                dm.s('onEnter',()=>{
+                    console.log(dm);
+                    dm.setScale(1.1,1.1);
+                    //dm.a('state',2);
+                    /*dm.setAnimation({
+                        large: {
+                            from: 1,
+                            to: 1.1,
+                            duration: 500,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ['large']
+                    })*/
+                })
+                dm.s('onLeave',()=>{
+                    dm.setScale(1,1);
+                    //dm.a('state',1);
+                    /*dm.setAnimation({
+                        small: {
+                            from: 1.1,
+                            to: 1,
+                            duration: 500,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ['small']
+                    })*/
+                    //dm1.s('2d.visible',false);
                 })
             }
 
