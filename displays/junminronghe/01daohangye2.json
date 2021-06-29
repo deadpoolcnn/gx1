@@ -15,7 +15,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 502,
+      "i": 3699,
       "p": {
         "displayName": "bj-rongheyun",
         "image": "assets/junminronghe/bj-rongheyun.png",
@@ -38,7 +38,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 503,
+      "i": 3700,
       "p": {
         "displayName": "top_title",
         "image": "assets/junminronghe/top_title.png",
@@ -60,11 +60,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 504,
+      "i": 3701,
       "p": {
         "displayName": "title-rongheyun",
         "parent": {
-          "__i": 503
+          "__i": 3700
         },
         "image": "assets/junminronghe/title-rongheyun.png",
         "position": {
@@ -81,7 +81,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 505,
+      "i": 3702,
       "p": {
         "displayName": "di",
         "position": {
@@ -94,16 +94,17 @@
       "s": {
         "select.color": null,
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 506,
+      "i": 3703,
       "p": {
         "displayName": "4",
         "parent": {
-          "__i": 505
+          "__i": 3702
         },
         "image": "assets/jianhang/dizuo/4.png",
         "position": {
@@ -114,16 +115,17 @@
         "height": 202.15444
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 507,
+      "i": 3704,
       "p": {
         "displayName": "3",
         "parent": {
-          "__i": 505
+          "__i": 3702
         },
         "image": "assets/jianhang/dizuo/3.png",
         "position": {
@@ -134,16 +136,17 @@
         "height": 189.83488
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 508,
+      "i": 3705,
       "p": {
         "displayName": "中心",
         "parent": {
-          "__i": 505
+          "__i": 3702
         },
         "image": "assets/jianhang/dizuo/zhongxindeng.png",
         "position": {
@@ -154,16 +157,17 @@
         "height": 111
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 509,
+      "i": 3706,
       "p": {
         "displayName": "helo3",
         "parent": {
-          "__i": 505
+          "__i": 3702
         },
         "tag": "helo3",
         "image": "symbols/jianhang/helo3.json",
@@ -175,7 +179,8 @@
         "height": 190.61334
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "helo.rotation": 10
@@ -183,11 +188,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 510,
+      "i": 3707,
       "p": {
         "displayName": "helo2",
         "parent": {
-          "__i": 505
+          "__i": 3702
         },
         "tag": "helo2",
         "image": "symbols/jianhang/helo2.json",
@@ -199,7 +204,8 @@
         "height": 188.37295
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "helo.rotation": 23
@@ -207,11 +213,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 511,
+      "i": 3708,
       "p": {
         "displayName": "helo",
         "parent": {
-          "__i": 505
+          "__i": 3702
         },
         "tag": "helo",
         "image": "symbols/jianhang/hero.json",
@@ -223,7 +229,8 @@
         "height": 188.5
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       },
       "a": {
         "rotation": 104
@@ -231,7 +238,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 512,
+      "i": 3709,
       "p": {
         "displayName": "yuan",
         "position": {
@@ -251,11 +258,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 513,
+      "i": 3710,
       "p": {
         "displayName": "gd1",
         "parent": {
-          "__i": 512
+          "__i": 3709
         },
         "tag": "gd1",
         "image": "assets/junminronghe/gd1.png",
@@ -268,16 +275,17 @@
       },
       "s": {
         "opacity": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 514,
+      "i": 3711,
       "p": {
         "displayName": "gd2",
         "parent": {
-          "__i": 512
+          "__i": 3709
         },
         "tag": "gd2",
         "image": "assets/junminronghe/gd2.png",
@@ -290,16 +298,17 @@
       },
       "s": {
         "opacity": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 515,
+      "i": 3712,
       "p": {
         "displayName": "gd3",
         "parent": {
-          "__i": 512
+          "__i": 3709
         },
         "tag": "gd3",
         "image": "assets/junminronghe/gd3.png",
@@ -311,16 +320,17 @@
         "height": 223.83908
       },
       "s": {
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 516,
+      "i": 3713,
       "p": {
         "displayName": "guangxiao",
         "parent": {
-          "__i": 512
+          "__i": 3709
         },
         "tag": "guangxiao",
         "image": "assets/junminronghe/guangxiao.png",
@@ -338,11 +348,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 517,
+      "i": 3714,
       "p": {
         "displayName": "guangshu",
         "parent": {
-          "__i": 512
+          "__i": 3709
         },
         "tag": "guangshu",
         "image": "assets/junminronghe/guangshu.png",
@@ -355,16 +365,17 @@
       },
       "s": {
         "opacity": 1,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 518,
+      "i": 3715,
       "p": {
         "displayName": "center_cloud_block",
         "parent": {
-          "__i": 512
+          "__i": 3709
         },
         "tag": "center_cloud_block",
         "image": "assets/junminronghe/yun11.png",
@@ -382,7 +393,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 519,
+      "i": 3716,
       "p": {
         "displayName": "nav",
         "position": {
@@ -399,11 +410,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 520,
+      "i": 3717,
       "p": {
         "displayName": "cehuidilixinxi",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "cehuidilixinxi",
         "image": "symbols/junminronghe/nav.json",
@@ -432,11 +443,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 521,
+      "i": 3718,
       "p": {
         "displayName": "feiting",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "feiting",
         "image": "symbols/junminronghe/nav.json",
@@ -466,11 +477,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 522,
+      "i": 3719,
       "p": {
         "displayName": "gonggongfuwu",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "gonggongfuwu",
         "image": "symbols/junminronghe/nav.json",
@@ -499,11 +510,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 523,
+      "i": 3720,
       "p": {
         "displayName": "beidou",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "beidou",
         "image": "symbols/junminronghe/nav.json",
@@ -532,11 +543,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 524,
+      "i": 3721,
       "p": {
         "displayName": "yingjiwuzi",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "yingjiwuzi",
         "image": "symbols/junminronghe/nav.json",
@@ -565,11 +576,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 525,
+      "i": 3722,
       "p": {
         "displayName": "wurenjiguanli",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "wurenjiguanli",
         "image": "symbols/junminronghe/nav.json",
@@ -598,11 +609,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 526,
+      "i": 3723,
       "p": {
         "displayName": "yingjiliuyuan",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "yingjiliuyuan",
         "image": "symbols/junminronghe/nav.json",
@@ -631,11 +642,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 527,
+      "i": 3724,
       "p": {
         "displayName": "jiaotongzhanbei",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "jiaotongzhanbei",
         "image": "symbols/junminronghe/nav.json",
@@ -664,10 +675,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 528,
+      "i": 3725,
       "p": {
         "parent": {
-          "__i": 527
+          "__i": 3724
         },
         "position": {
           "x": 731.07338,
@@ -694,11 +705,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 529,
+      "i": 3726,
       "p": {
         "displayName": "xuejiangyun",
         "parent": {
-          "__i": 519
+          "__i": 3716
         },
         "tag": "xuejiangyun",
         "image": "symbols/junminronghe/nav.json",
@@ -728,13 +739,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 530,
+      "i": 3727,
       "p": {
         "parent": {
-          "__i": 529
+          "__i": 3726
         },
         "host": {
-          "__i": 529
+          "__i": 3726
         },
         "position": {
           "x": 1398.88487,
@@ -764,13 +775,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 1719,
+      "i": 3728,
       "p": {
         "displayName": "救援航空服务云",
         "tag": "jiuyuanPage",
         "position": {
-          "x": 1226.21629,
-          "y": 561.96956
+          "x": 1189,
+          "y": 460.05002
         },
         "width": 654,
         "height": 255
@@ -781,16 +792,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 532,
+      "i": 3729,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 1719
+          "__i": 3728
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 1226.21629,
-          "y": 561.96956
+          "x": 1189,
+          "y": 460.05002
         },
         "width": 654,
         "height": 255
@@ -809,16 +820,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 533,
+      "i": 3730,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1719
+          "__i": 3728
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 1229.21629,
-          "y": 576.35732
+          "x": 1192,
+          "y": 474.43778
         },
         "width": 596.78366,
         "height": 221.52474
@@ -840,17 +851,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 607,
+      "i": 3731,
       "p": {
         "displayName": "北斗应用云",
         "tag": "beidouPage",
         "position": {
-          "x": 707.89403,
-          "y": 570.02854
-        },
-        "anchor": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 697.21629,
+          "y": 465.63048
         },
         "width": 654,
         "height": 255
@@ -861,16 +868,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 535,
+      "i": 3732,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 607
+          "__i": 3731
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 707.89403,
-          "y": 570.02854
+          "x": 697.21629,
+          "y": 465.63048
         },
         "width": 654,
         "height": 255
@@ -888,16 +895,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 536,
+      "i": 3733,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 607
+          "__i": 3731
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 716.65141,
-          "y": 594.38202
+          "x": 705.97367,
+          "y": 489.98396
         },
         "width": 628.23015,
         "height": 201.5933
@@ -919,13 +926,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 709,
+      "i": 3734,
       "p": {
         "displayName": "军民融合交通云",
         "tag": "jiaotongyunPage",
         "position": {
-          "x": 896.32437,
-          "y": 137.66322
+          "x": 456.32437,
+          "y": 169.04876
         },
         "anchor": {
           "x": 0.5,
@@ -940,16 +947,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 538,
+      "i": 3735,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 709
+          "__i": 3734
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 896.32437,
-          "y": 137.66322
+          "x": 456.32437,
+          "y": 169.04876
         },
         "width": 654,
         "height": 255
@@ -968,16 +975,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 539,
+      "i": 3736,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 709
+          "__i": 3734
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 896.32437,
-          "y": 164.7886
+          "x": 456.32437,
+          "y": 196.17414
         },
         "width": 594.89879,
         "height": 272.74923
@@ -999,17 +1006,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 911,
+      "i": 3737,
       "p": {
         "displayName": "测绘地理信息云",
         "tag": "cehuiPage",
         "position": {
-          "x": 517,
-          "y": 204.34588
-        },
-        "anchor": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 966.21629,
+          "y": 278.5
         },
         "width": 654,
         "height": 255
@@ -1020,16 +1023,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 541,
+      "i": 3738,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 911
+          "__i": 3737
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 517,
-          "y": 204.34588
+          "x": 966.21629,
+          "y": 278.5
         },
         "width": 654,
         "height": 255
@@ -1048,16 +1051,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 542,
+      "i": 3739,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 911
+          "__i": 3737
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 523.19474,
-          "y": 226.42294
+          "x": 972.41103,
+          "y": 300.57706
         },
         "width": 611.39858,
         "height": 210.84588
@@ -1079,13 +1082,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 1012,
+      "i": 3740,
       "p": {
         "displayName": "血浆云",
         "tag": "xuejiangPage",
         "position": {
-          "x": 1382.45632,
-          "y": 170.5
+          "x": 960,
+          "y": 195.52854
         },
         "width": 654,
         "height": 255
@@ -1096,16 +1099,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 544,
+      "i": 3741,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 1012
+          "__i": 3740
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 1382.45632,
-          "y": 170.5
+          "x": 960,
+          "y": 195.52854
         },
         "width": 654,
         "height": 255
@@ -1124,16 +1127,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 545,
+      "i": 3742,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1012
+          "__i": 3740
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 1385.45632,
-          "y": 197.31734
+          "x": 963,
+          "y": 222.34588
         },
         "width": 628.23015,
         "height": 181.36532
@@ -1155,13 +1158,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 1214,
+      "i": 3743,
       "p": {
         "displayName": "无人机运控管理及服务",
         "tag": "wurenjiPage",
         "position": {
-          "x": 1438.72934,
-          "y": 437.02854
+          "x": 1250.21629,
+          "y": 332.55002
         },
         "width": 654,
         "height": 255
@@ -1172,16 +1175,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 547,
+      "i": 3744,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 1214
+          "__i": 3743
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 1438.72934,
-          "y": 437.02854
+          "x": 1250.21629,
+          "y": 332.55002
         },
         "width": 654,
         "height": 255
@@ -1199,16 +1202,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 548,
+      "i": 3745,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1214
+          "__i": 3743
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 1440.42794,
-          "y": 449.67311
+          "x": 1251.91489,
+          "y": 345.19459
         },
         "width": 596.64258,
         "height": 224.24617
@@ -1230,13 +1233,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 1415,
+      "i": 3746,
       "p": {
         "displayName": "边境地区飞艇应用云",
         "tag": "feitingPage",
         "position": {
-          "x": 1144.97675,
-          "y": 227.5
+          "x": 697.21629,
+          "y": 246.05002
         },
         "width": 654,
         "height": 255
@@ -1247,16 +1250,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 550,
+      "i": 3747,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 1415
+          "__i": 3746
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 1144.97675,
-          "y": 227.5
+          "x": 697.21629,
+          "y": 246.05002
         },
         "width": 654,
         "height": 255
@@ -1275,16 +1278,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 551,
+      "i": 3748,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1415
+          "__i": 3746
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 1146.82776,
-          "y": 250.19195
+          "x": 699.0673,
+          "y": 268.74197
         },
         "width": 598.75829,
         "height": 173.11455
@@ -1306,13 +1309,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 1717,
+      "i": 3749,
       "p": {
         "displayName": "公共服务云",
         "tag": "gonggongPage",
         "position": {
-          "x": 464.56315,
-          "y": 468.32979
+          "x": 456.32437,
+          "y": 359.29788
         },
         "anchor": {
           "x": 0.5,
@@ -1327,16 +1330,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 553,
+      "i": 3750,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 1717
+          "__i": 3749
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 464.56315,
-          "y": 468.32979
+          "x": 456.32437,
+          "y": 359.29788
         },
         "width": 654,
         "height": 255
@@ -1355,16 +1358,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 554,
+      "i": 3751,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1717
+          "__i": 3749
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 463.94184,
-          "y": 496.46577
+          "x": 455.70306,
+          "y": 387.43386
         },
         "width": 603.65617,
         "height": 206.23278
@@ -1386,13 +1389,13 @@
     },
     {
       "c": "ht.Block",
-      "i": 1718,
+      "i": 3752,
       "p": {
         "displayName": "物资保障云",
         "tag": "wuzibaozhangPage",
         "position": {
-          "x": 722.32437,
-          "y": 325.52853
+          "x": 539.83936,
+          "y": 217.05002
         },
         "width": 654,
         "height": 255
@@ -1403,16 +1406,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 556,
+      "i": 3753,
       "p": {
         "displayName": "tk 2",
         "parent": {
-          "__i": 1718
+          "__i": 3752
         },
         "image": "symbols/junminronghe/tk 2.json",
         "position": {
-          "x": 722.32437,
-          "y": 325.52853
+          "x": 539.83936,
+          "y": 217.05002
         },
         "width": 654,
         "height": 255
@@ -1431,16 +1434,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 557,
+      "i": 3754,
       "p": {
         "displayName": "textBox",
         "parent": {
-          "__i": 1718
+          "__i": 3752
         },
         "image": "symbols/ht/text/textBox.json",
         "position": {
-          "x": 722.32437,
-          "y": 347.66451
+          "x": 539.83936,
+          "y": 239.186
         },
         "width": 594.89879,
         "height": 206.23278
@@ -1457,11 +1460,11 @@
         "ht.color": "rgba(255,255,255,0.8)",
         "ht.lineHeight": 28,
         "ht.autoScalue": false,
-        "ht.content": "项目主要规划“一库三平台”的建设内容，共同确保应急物资供应链保障服务平台的完整与正常运作。积极探索政府储备模式及“社会公众预约+企业代储+行业部门监管”的社会化储备新 模式，实现军民两用应急物资战时能应急，平时可流通的平站结合。。"
+        "ht.content": "项目主要规划“一库三平台”的建设内容，共同确保应急物资供应链保障服务平台的完整与正常运作。积极探索政府储备模式及“社会公众预约+企业代储+行业部门监管”的社会化储备新 模式，实现军民两用应急物资战时能应急，平时可流通的平站结合。"
       }
     }
   ],
-  "modified": "Wed Jun 23 2021 10:49:42 GMT+0800 (China Standard Time)",
+  "modified": "Mon Jun 28 2021 11:29:38 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": 0,
     "y": 0,

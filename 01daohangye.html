@@ -749,7 +749,7 @@
                 const cehuiPage = dm.getDataByTag('cehuiPage');
                 const feitingPage = dm.getDataByTag('feitingPage');
                 const gonggongPage = dm.getDataByTag('gonggongPage');
-                const beidouPage = dm.getDataByTag('gonggongPage');
+                const beidouPage = dm.getDataByTag('beidouPage');
                 const wuzibaozhangPage = dm.getDataByTag('wuzibaozhangPage');
                 const wurenjiPage = dm.getDataByTag('wurenjiPage');
                 const xuejiangPage = dm.getDataByTag('xuejiangPage');
@@ -767,7 +767,23 @@
             // 变大
             function largeAni(dm,dm1) {
                 dm.s('onEnter',()=>{
-                    console.log(dm);
+                    // console.log(dm);
+                    dm.setScale(1.1,1.1);
+                    dm.a('state',2);
+                    /*dm.setAnimation({
+                        large: {
+                            from: 1,
+                            to: 1.1,
+                            duration: 500,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ['large']
+                    })*/
+                    dm1.s('2d.visible',true);
+                })
+                dm.s('onHover',()=>{
                     dm.setScale(1.1,1.1);
                     dm.a('state',2);
                     /*dm.setAnimation({

@@ -1,5 +1,5 @@
 {
-  "v": "7.2.2",
+  "v": "7.2.4",
   "p": {
     "autoAdjustIndex": true,
     "hierarchicalRendering": true
@@ -15,7 +15,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 1811,
+      "i": 510,
       "p": {
         "displayName": "bj-rongheyun",
         "image": "assets/junminronghe/bj-rongheyun.png",
@@ -35,7 +35,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 1812,
+      "i": 511,
       "p": {
         "displayName": "top_title",
         "image": "assets/junminronghe/top_title.png",
@@ -57,11 +57,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1813,
+      "i": 512,
       "p": {
         "displayName": "title-rongheyun",
         "parent": {
-          "__i": 1812
+          "__i": 511
         },
         "image": "assets/junminronghe/title-rongheyun.png",
         "position": {
@@ -78,7 +78,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 1814,
+      "i": 513,
       "p": {
         "displayName": "di",
         "position": {
@@ -96,11 +96,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1815,
+      "i": 514,
       "p": {
         "displayName": "4",
         "parent": {
-          "__i": 1814
+          "__i": 513
         },
         "image": "assets/jianhang/dizuo/4.png",
         "position": {
@@ -116,11 +116,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1816,
+      "i": 515,
       "p": {
         "displayName": "3",
         "parent": {
-          "__i": 1814
+          "__i": 513
         },
         "image": "assets/jianhang/dizuo/3.png",
         "position": {
@@ -136,11 +136,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1817,
+      "i": 516,
       "p": {
         "displayName": "中心",
         "parent": {
-          "__i": 1814
+          "__i": 513
         },
         "image": "assets/jianhang/dizuo/zhongxindeng.png",
         "position": {
@@ -156,11 +156,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1818,
+      "i": 517,
       "p": {
         "displayName": "helo3",
         "parent": {
-          "__i": 1814
+          "__i": 513
         },
         "tag": "helo3",
         "image": "symbols/jianhang/helo3.json",
@@ -180,11 +180,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1819,
+      "i": 518,
       "p": {
         "displayName": "helo2",
         "parent": {
-          "__i": 1814
+          "__i": 513
         },
         "tag": "helo2",
         "image": "symbols/jianhang/helo2.json",
@@ -204,11 +204,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1820,
+      "i": 519,
       "p": {
         "displayName": "helo",
         "parent": {
-          "__i": 1814
+          "__i": 513
         },
         "tag": "helo",
         "image": "symbols/jianhang/hero.json",
@@ -228,7 +228,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 1821,
+      "i": 520,
       "p": {
         "displayName": "yuan",
         "position": {
@@ -242,16 +242,17 @@
       "s": {
         "select.color": null,
         "select.width": 0,
-        "select.padding": 0
+        "select.padding": 0,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 1822,
+      "i": 521,
       "p": {
         "displayName": "gd1",
         "parent": {
-          "__i": 1821
+          "__i": 520
         },
         "tag": "gd1",
         "image": "assets/junminronghe/gd1.png",
@@ -264,16 +265,19 @@
       },
       "s": {
         "opacity": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 1823,
+      "i": 522,
       "p": {
         "displayName": "gd2",
         "parent": {
-          "__i": 1821
+          "__i": 520
         },
         "tag": "gd2",
         "image": "assets/junminronghe/gd2.png",
@@ -286,16 +290,19 @@
       },
       "s": {
         "opacity": 0,
-        "2d.movable": false
+        "2d.movable": false,
+        "select.color": "",
+        "select.width": 0,
+        "select.padding": 0
       }
     },
     {
       "c": "ht.Node",
-      "i": 1824,
+      "i": 523,
       "p": {
         "displayName": "gd3",
         "parent": {
-          "__i": 1821
+          "__i": 520
         },
         "tag": "gd3",
         "image": "assets/junminronghe/gd3.png",
@@ -307,16 +314,18 @@
         "height": 223.83908
       },
       "s": {
-        "2d.movable": false
+        "2d.selectable": false,
+        "2d.editable": false,
+        "select.color": ""
       }
     },
     {
       "c": "ht.Node",
-      "i": 1825,
+      "i": 524,
       "p": {
         "displayName": "guangxiao",
         "parent": {
-          "__i": 1821
+          "__i": 520
         },
         "tag": "guangxiao",
         "image": "assets/junminronghe/guangxiao.png",
@@ -334,11 +343,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1826,
+      "i": 525,
       "p": {
         "displayName": "guangshu",
         "parent": {
-          "__i": 1821
+          "__i": 520
         },
         "tag": "guangshu",
         "image": "assets/junminronghe/guangshu.png",
@@ -351,16 +360,17 @@
       },
       "s": {
         "opacity": 1,
-        "2d.movable": false
+        "2d.movable": false,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 1827,
+      "i": 526,
       "p": {
         "displayName": "center_cloud_block",
         "parent": {
-          "__i": 1821
+          "__i": 520
         },
         "tag": "center_cloud_block",
         "image": "assets/junminronghe/yun11.png",
@@ -378,7 +388,7 @@
     },
     {
       "c": "ht.Block",
-      "i": 1828,
+      "i": 527,
       "p": {
         "displayName": "nav",
         "position": {
@@ -395,11 +405,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1829,
+      "i": 528,
       "p": {
         "displayName": "cehuidilixinxi",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "cehuidilixinxi",
         "image": "symbols/junminronghe/nav.json",
@@ -428,11 +438,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1830,
+      "i": 529,
       "p": {
         "displayName": "feiting",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "feiting",
         "image": "symbols/junminronghe/nav.json",
@@ -462,11 +472,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1831,
+      "i": 530,
       "p": {
         "displayName": "gonggongfuwu",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "gonggongfuwu",
         "image": "symbols/junminronghe/nav.json",
@@ -495,11 +505,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1832,
+      "i": 531,
       "p": {
         "displayName": "beidou",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "beidou",
         "image": "symbols/junminronghe/nav.json",
@@ -528,11 +538,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1833,
+      "i": 532,
       "p": {
         "displayName": "yingjiwuzi",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "yingjiwuzi",
         "image": "symbols/junminronghe/nav.json",
@@ -561,11 +571,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1834,
+      "i": 533,
       "p": {
         "displayName": "wurenjiguanli",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "wurenjiguanli",
         "image": "symbols/junminronghe/nav.json",
@@ -594,11 +604,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1835,
+      "i": 534,
       "p": {
         "displayName": "yingjiliuyuan",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "yingjiliuyuan",
         "image": "symbols/junminronghe/nav.json",
@@ -627,11 +637,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1836,
+      "i": 535,
       "p": {
         "displayName": "jiaotongzhanbei",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "jiaotongzhanbei",
         "image": "symbols/junminronghe/nav.json",
@@ -660,10 +670,10 @@
     },
     {
       "c": "ht.Text",
-      "i": 1837,
+      "i": 536,
       "p": {
         "parent": {
-          "__i": 1836
+          "__i": 535
         },
         "position": {
           "x": 731.07338,
@@ -690,11 +700,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 1838,
+      "i": 537,
       "p": {
         "displayName": "xuejiangyun",
         "parent": {
-          "__i": 1828
+          "__i": 527
         },
         "tag": "xuejiangyun",
         "image": "symbols/junminronghe/nav.json",
@@ -724,13 +734,13 @@
     },
     {
       "c": "ht.Text",
-      "i": 1839,
+      "i": 538,
       "p": {
         "parent": {
-          "__i": 1838
+          "__i": 537
         },
         "host": {
-          "__i": 1838
+          "__i": 537
         },
         "position": {
           "x": 1398.88487,
@@ -759,7 +769,7 @@
       }
     }
   ],
-  "modified": "Mon May 10 2021 14:31:33 GMT+0800 (China Standard Time)",
+  "modified": "Mon Jun 28 2021 11:19:32 GMT+0800 (China Standard Time)",
   "contentRect": {
     "x": 0,
     "y": 0,
