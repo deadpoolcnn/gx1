@@ -1,0 +1,62 @@
+{
+  "modified": "Tue Jun 29 2021 14:51:43 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "img",
+      "valueType": "Image",
+      "name": "图片"
+    },
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "名称"
+    }
+  ],
+  "width": 514,
+  "height": 330,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/junminronghe/kuang3.png",
+      "pixelPerfect": true,
+      "displayName": "kuang3",
+      "rect": [
+        0,
+        0,
+        513.29597,
+        267.74501
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@img",
+        "value": "assets/junminronghe/xuejiangyun/shishijiankong.png"
+      },
+      "displayName": "shishijiankong",
+      "rect": [
+        14.83916,
+        14.65906,
+        483.61765,
+        238.42688
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "广西全区单采浆站与采供血机构联网实时监控"
+      },
+      "align": "center",
+      "color": "#32d3eb",
+      "font": "20px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        29.16476,
+        277.2856,
+        454.96646,
+        50
+      ]
+    }
+  ]
+}

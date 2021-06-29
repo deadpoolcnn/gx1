@@ -27,6 +27,7 @@
         ht.Default.setImage("zuosanjiao", "img/zuosanjiao.png");
         ht.Default.setImage("pointLight", "img/light.png");
         var flag = 1;
+        var timer;
         function init() {
             dataModel = new ht.DataModel();
             graphView = new ht.graph.GraphView(dataModel);
@@ -466,6 +467,8 @@
                 })
                 tabs[0].a('state','2');
                 pages[0].s('2d.visible',true);
+                clearInterval(timer);
+                carouselShow(dm,'2');
             })
             tabs[1].s('onClick',()=>{
                 tabs.map(item=>{
@@ -476,6 +479,8 @@
                 })
                 tabs[1].a('state','2');
                 pages[1].s('2d.visible',true);
+                clearInterval(timer);
+                carouselShow(dm,'2');
             })
             tabs[2].s('onClick',()=>{
                 tabs.map(item=>{
@@ -486,6 +491,8 @@
                 })
                 tabs[2].a('state','2');
                 pages[2].s('2d.visible',true);
+                clearInterval(timer);
+                carouselShow(dm,'2');
             })
             tabs[3].s('onClick',()=>{
                 tabs.map(item=>{
@@ -496,6 +503,8 @@
                 })
                 tabs[3].a('state','2');
                 pages[3].s('2d.visible',true);
+                clearInterval(timer);
+                carouselShow(dm,'2');
             })
             tabs[4].s('onClick',()=>{
                 tabs.map(item=>{
@@ -506,6 +515,8 @@
                 })
                 tabs[4].a('state','2');
                 pages[4].s('2d.visible',true);
+                clearInterval(timer);
+                carouselShow(dm,'1');
             })
             tabs[5].s('onClick',()=>{
                 tabs.map(item=>{
@@ -516,6 +527,8 @@
                 })
                 tabs[5].a('state','2');
                 pages[5].s('2d.visible',true);
+                clearInterval(timer);
+                carouselShow(dm,'2');
             })
 
 
@@ -586,6 +599,27 @@
                 bofang.s('2d.visible',true);
             })
         }
+        // 轮播
+        function carouselShow (dm,flag) {
+            const carouselBar = dm.getDataByTag('carouselBar');
+            function carousel(){
+                var offset = carouselBar.a('ht.offset');
+                if (flag === '1') {
+                    ht.Default.startAnim({
+                        duration: 1000,
+                        easing: (t) => { return t * t; },
+                        finishFunc: () => {  },
+                        action: (v, t) => {
+                            carouselBar.a('ht.offset', offset - t * 534);
+                        }
+                    });
+                }else {
+                    dm.disableAnimation();
+                }
+            }
+            timer = setInterval(carousel,5000)
+        }
+
     </script>
 </head>
 <body onload='setTimeout(init, 300)'>
