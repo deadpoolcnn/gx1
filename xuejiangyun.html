@@ -85,35 +85,71 @@
             })
             bofang1.s('onClick', () => {
                 bofang1.s('2d.visible', false);
+                bofang2.s('2d.visible', true);
+                bofang3.s('2d.visible', true);
+                bofang4.s('2d.visible', true);
                 page1.s('2d.visible', false);
+                page2.s('2d.visible',true);
+                page3.s('2d.visible',true);
+                page4.s('2d.visible',true);
                 //shipinkuang.s('2d.visible',false);
                 video1.s('2d.visible', true);
                 video1.a('src', 'video/hezhou.mp4')
                 video1.a('status', '2');
+                video2.s('2d.visible', false);
+                video3.s('2d.visible', false);
+                video4.s('2d.visible', false);
             })
             bofang2.s('onClick', () => {
+                bofang1.s('2d.visible', true);
                 bofang2.s('2d.visible', false);
+                bofang3.s('2d.visible', true);
+                bofang4.s('2d.visible', true);
+                page1.s('2d.visible', true);
                 page2.s('2d.visible', false);
+                page3.s('2d.visible',true);
+                page4.s('2d.visible',true);
                 // shipinkuang.s('2d.visible',false);
                 video2.s('2d.visible', true);
                 video2.a('src', 'video/xuejiangyun02.mp4')
                 video2.a('status', '2');
+                video1.s('2d.visible', false);
+                video3.s('2d.visible', false);
+                video4.s('2d.visible', false);
             })
             bofang3.s('onClick', () => {
+                bofang1.s('2d.visible', true);
+                bofang2.s('2d.visible', true);
                 bofang3.s('2d.visible', false);
+                bofang4.s('2d.visible', true);
+                page1.s('2d.visible', true);
+                page2.s('2d.visible', true);
                 page3.s('2d.visible', false);
+                page4.s('2d.visible', true);
                 // shipinkuang.s('2d.visible',false);
                 video3.s('2d.visible', true);
                 video3.a('src', 'video/chuanyue.mp4')
                 video3.a('status', '2');
+                video1.s('2d.visible', false);
+                video2.s('2d.visible', false);
+                video4.s('2d.visible', false);
             })
             bofang4.s('onClick', () => {
+                bofang1.s('2d.visible', true);
+                bofang2.s('2d.visible', true);
+                bofang3.s('2d.visible', true);
                 bofang4.s('2d.visible', false);
+                page1.s('2d.visible', true);
+                page2.s('2d.visible', true);
+                page3.s('2d.visible', true);
                 page4.s('2d.visible', false);
                 // shipinkuang.s('2d.visible',false);
                 video4.s('2d.visible', true);
                 video4.a('src', 'video/xuejiangyun04.mp4')
                 video4.a('status', '2');
+                video1.s('2d.visible', false);
+                video2.s('2d.visible', false);
+                video3.s('2d.visible', false);
             })
         }
 
