@@ -1,5 +1,5 @@
 {
-  "modified": "Mon Jun 28 2021 10:11:16 GMT+0800 (China Standard Time)",
+  "modified": "Tue Aug 24 2021 15:12:41 GMT+0800 (China Standard Time)",
   "dataBindings": [
     {
       "attr": "width",
@@ -24,10 +24,15 @@
       "valueType": "String",
       "defaultValue": "1",
       "name": "自动播放"
+    },
+    {
+      "attr": "muted",
+      "valueType": "String",
+      "name": "静音"
     }
   ],
   "snapshotURL": "assets/beidouyun/border.png",
-  "renderHTML": "__ht__function(data, gv, cache) {const width = data.a('width');\nconst height = data.a('height');\nconst src = data.a('src');\nconst status = data.a('status');\n\nconsole.log(cache);\nif (!cache.htmlView) {\n    cache.htmlView = document.createElement('video');\n    cache.htmlView.style.width = '200%';\n    // console.log(width);\n    cache.htmlView.style.height = '100%';\n    cache.htmlView.setAttribute('id',\"my-video\");\n    cache.htmlView.setAttribute('class','video-js');\n    cache.htmlView.controls = true;\n    cache.htmlView.setAttribute('preload',\"auto\");\n    cache.childView = document.createElement('source');\n    cache.childView.setAttribute('src',src);\n    cache.childView.setAttribute('type','video/mp4');\n    cache.htmlView.appendChild(cache.childView);\n    if (status === '1') {\n        cache.htmlView.pause();\n        cache.htmlView.currentTime = 0;\n        cache.htmlView.muted=true;\n    }\n    else if (status === '2') {\n        cache.htmlView.play();\n        cache.htmlView.currentTime = 0;\n    }\n\n    cache.htmlView.layoutHTML = function() {\n        gv.layoutHTML(data, cache.htmlView, false);\n        //cache.htmlChart.resize();\n    };\n}else {\n    console.log('test');\n    if (status === '1') {\n        cache.htmlView.pause();\n        cache.htmlView.ended = true;\n        cache.htmlView.currentTime = 0;\n        cache.htmlView.muted=true;\n        console.log('test');\n    }\n    else if (status === '2') {\n        cache.htmlView.play();\n        cache.htmlView.currentTime = 0;\n         console.log('test1');\n    }\n    cache.htmlView.layoutHTML = function() {\n        gv.layoutHTML(data, cache.htmlView, false);\n    };\n}\nreturn cache.htmlView;}",
+  "renderHTML": "__ht__function(data, gv, cache) {const width = data.a('width');\nconst height = data.a('height');\nconst src = data.a('src');\nconst status = data.a('status');\nconst muted = data.a('muted');\n\nconsole.log(cache);\nif (!cache.htmlView) {\n    cache.htmlView = document.createElement('video');\n    cache.htmlView.style.width = '200%';\n    // console.log(width);\n    cache.htmlView.style.height = '100%';\n    cache.htmlView.setAttribute('id',\"my-video\");\n    cache.htmlView.setAttribute('class','video-js');\n    cache.htmlView.controls = true;\n    cache.htmlView.setAttribute('preload',\"auto\");\n    cache.childView = document.createElement('source');\n    cache.childView.setAttribute('src',src);\n    cache.childView.setAttribute('type','video/mp4');\n    cache.htmlView.appendChild(cache.childView);\n    var v = document.getElementById('my-video');\n    if (status == '1') {\n        cache.htmlView.pause();\n        cache.htmlView.currentTime = 0;\n        v.muted = true;\n    }\n    if (status == '2') {\n        cache.htmlView.play();\n        cache.htmlView.currentTime = 0;\n        cache.htmlView.muted=false;\n    }\n\n    cache.htmlView.layoutHTML = function() {\n        gv.layoutHTML(data, cache.htmlView, false);\n        //cache.htmlChart.resize();\n    };\n}else {\n    if (status == '1') {\n        cache.htmlView.pause();\n        cache.htmlView.ended = true;\n        cache.htmlView.currentTime = 0;\n        cache.htmlView.muted=true;\n        console.log('test');\n    }\n    else if (status == '2') {\n        cache.htmlView.play();\n        cache.htmlView.currentTime = 0;\n        cache.htmlView.muted=false;\n         console.log('test1');\n    }\n    cache.htmlView.layoutHTML = function() {\n        gv.layoutHTML(data, cache.htmlView, false);\n    };\n}\nreturn cache.htmlView;}",
   "width": 100,
   "height": 80,
   "interactive": true,
