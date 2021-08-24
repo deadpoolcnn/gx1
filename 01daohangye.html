@@ -651,7 +651,7 @@
                     },
                     large: {
                         from: 1,
-                        to: 1.15,
+                        to: 2,
                         duration: 3000,
                         //repeat: true,
                         onUpdate: function (value) {
@@ -663,50 +663,55 @@
                     },
                     start: ["show","large"]
                 })
-                gd2.setAnimation({
-                    show: {
-                        property: "opacity",
-                        accessType: "style",
-                        from: 1,
-                        to: 0,
-                        //delay: 800,
-                        duration: 3000,
-                        //repeat: true
-                    },
-                    large: {
-                        from: 1,
-                        to: 2.5,
-                        duration: 3500,
-                        //delay: 800,
-                        //repeat: true,
-                        onUpdate: function (value) {
-                            this.setScale(value,value);
-                        }
-                    },
-                    start: ["show","large"]
-                });
-                gd1.setAnimation({
-                    show: {
-                        property: "opacity",
-                        accessType: "style",
-                        from: 1,
-                        to: 0,
-                        //delay: 1500,
-                        duration: 4000,
-                        //repeat: true
-                    },
-                    large: {
-                        from: 1,
-                        to: 4.5,
-                        duration: 2500,
-                        //delay: 1500,
-                        //repeat: true,
-                        onUpdate: function (value) {
-                            this.setScale(value,value);
-                        }
-                    },
-                    start: ["show","large"]
-                });
+                setTimeout(()=>{
+                    gd2.setAnimation({
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            //delay: 800,
+                            duration: 3000,
+                            //repeat: true
+                        },
+                        large: {
+                            from: 1,
+                            to: 3.5,
+                            duration: 3500,
+                            //delay: 800,
+                            //repeat: true,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ["show","large"]
+                    });
+                },1000)
+                setTimeout(()=>{
+                    gd1.setAnimation({
+                        show: {
+                            property: "opacity",
+                            accessType: "style",
+                            from: 1,
+                            to: 0,
+                            //delay: 1500,
+                            duration:3500,
+                            //repeat: true
+                        },
+                        large: {
+                            from: 1,
+                            to: 5,
+                            duration: 3500,
+                            //delay: 1500,
+                            //repeat: true,
+                            onUpdate: function (value) {
+                                this.setScale(value,value);
+                            }
+                        },
+                        start: ["show","large"]
+                    });
+                },2000)
+
                 /*guangxiao.setAnimation({
                     show: {
                         property: "opacity",
