@@ -646,17 +646,20 @@
                         accessType: "style",
                         from: 1,
                         to: 0,
-                        duration: 4500,
+                        duration: 3000,
                         //repeat: true
                     },
                     large: {
                         from: 1,
                         to: 1.15,
-                        duration: 4500,
+                        duration: 3000,
                         //repeat: true,
                         onUpdate: function (value) {
                             this.setScale(value,value);
                         },
+                        onComplete: function () {
+
+                        }
                     },
                     start: ["show","large"]
                 })
@@ -666,15 +669,15 @@
                         accessType: "style",
                         from: 1,
                         to: 0,
-                        delay: 800,
-                        duration: 4500,
+                        //delay: 800,
+                        duration: 3000,
                         //repeat: true
                     },
                     large: {
                         from: 1,
-                        to: 1.1,
-                        duration: 4500,
-                        delay: 800,
+                        to: 2.5,
+                        duration: 3500,
+                        //delay: 800,
                         //repeat: true,
                         onUpdate: function (value) {
                             this.setScale(value,value);
@@ -688,15 +691,15 @@
                         accessType: "style",
                         from: 1,
                         to: 0,
-                        delay: 1500,
-                        duration: 4500,
+                        //delay: 1500,
+                        duration: 4000,
                         //repeat: true
                     },
                     large: {
                         from: 1,
-                        to: 1.05,
-                        duration: 4500,
-                        delay: 1500,
+                        to: 4.5,
+                        duration: 2500,
+                        //delay: 1500,
                         //repeat: true,
                         onUpdate: function (value) {
                             this.setScale(value,value);
